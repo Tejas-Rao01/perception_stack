@@ -1,0 +1,123 @@
+<<<<<<< HEAD
+# Install script for directory: /home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/catkin_ws/install")
+=======
+# Install script for directory: /home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/home/tejas/catkin_ws/install")
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+endif()
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(BUILD_TYPE)
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+  endif()
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")
+  else()
+    set(CMAKE_INSTALL_COMPONENT)
+  endif()
+endif()
+
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slam.pc")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slam.pc")
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_slam/cmake" TYPE FILE FILES
+<<<<<<< HEAD
+    "/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slamConfig.cmake"
+    "/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slamConfig-version.cmake"
+=======
+    "/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slamConfig.cmake"
+    "/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_slam/catkin_generated/installspace/turtlebot3_slamConfig-version.cmake"
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_slam" TYPE FILE FILES "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam/package.xml")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_slam" TYPE FILE FILES "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/package.xml")
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam/flat_world_imu_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam/flat_world_imu_node")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam/flat_world_imu_node"
+         RPATH "")
+  endif()
+<<<<<<< HEAD
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam" TYPE EXECUTABLE FILES "/home/stochlab/catkin_ws/devel/lib/turtlebot3_slam/flat_world_imu_node")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam" TYPE EXECUTABLE FILES "/home/tejas/catkin_ws/devel/lib/turtlebot3_slam/flat_world_imu_node")
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam/flat_world_imu_node" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam/flat_world_imu_node")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam/flat_world_imu_node"
+         OLD_RPATH "/opt/ros/noetic/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/turtlebot3_slam/flat_world_imu_node")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/turtlebot3_slam" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam/include/turtlebot3_slam/")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/turtlebot3_slam" TYPE DIRECTORY FILES "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/include/turtlebot3_slam/")
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_slam" TYPE DIRECTORY FILES
+<<<<<<< HEAD
+    "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam/bag"
+    "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam/config"
+    "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam/launch"
+    "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam/rviz"
+=======
+    "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/bag"
+    "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/config"
+    "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/launch"
+    "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/rviz"
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    )
+endif()
+

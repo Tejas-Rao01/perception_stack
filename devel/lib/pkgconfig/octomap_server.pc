@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+prefix=/home/stochlab/catkin_ws/devel
+=======
+prefix=/home/tejas/catkin_ws/devel
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+
+Name: octomap_server
+Description: Description of octomap_server
+Version: 0.6.7
+<<<<<<< HEAD
+Cflags: -I/home/stochlab/catkin_ws/devel/include -I/home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/include -I/opt/ros/noetic/include
+=======
+Cflags: -I/home/tejas/catkin_ws/devel/include -I/home/tejas/catkin_ws/src/octomap_mapping/octomap_server/include -I/opt/ros/noetic/include
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+Libs: -L${prefix}/lib -loctomap_server /opt/ros/noetic/lib/liboctomap.so /opt/ros/noetic/lib/liboctomath.so
+Requires: roscpp visualization_msgs sensor_msgs pcl_ros pcl_conversions nav_msgs std_msgs std_srvs octomap_ros octomap_msgs dynamic_reconfigure nodelet

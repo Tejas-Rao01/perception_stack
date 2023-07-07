@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+prefix=/home/stochlab/catkin_ws/devel
+=======
+prefix=/home/tejas/catkin_ws/devel
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+
+Name: kindr_msgs
+Description: Description of kindr_msgs
+Version: 0.3.14
+<<<<<<< HEAD
+Cflags: -I/home/stochlab/catkin_ws/devel/include
+=======
+Cflags: -I/home/tejas/catkin_ws/devel/include
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime std_msgs

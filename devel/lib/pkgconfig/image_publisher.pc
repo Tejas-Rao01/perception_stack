@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+prefix=/home/stochlab/catkin_ws/devel
+=======
+prefix=/home/tejas/catkin_ws/devel
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+
+Name: image_publisher
+Description: Description of image_publisher
+Version: 1.17.0
+<<<<<<< HEAD
+Cflags: -I/home/stochlab/catkin_ws/devel/include
+=======
+Cflags: -I/home/tejas/catkin_ws/devel/include
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+prefix=/home/stochlab/catkin_ws/devel
+=======
+prefix=/home/tejas/catkin_ws/devel
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+
+Name: camera_calibration
+Description: Description of camera_calibration
+Version: 1.17.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

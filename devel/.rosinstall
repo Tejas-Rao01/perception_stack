@@ -1,0 +1,6 @@
+- setup-file:
+<<<<<<< HEAD
+    local-name: /home/stochlab/catkin_ws/devel/setup.sh
+=======
+    local-name: /home/tejas/catkin_ws/devel/setup.sh
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702

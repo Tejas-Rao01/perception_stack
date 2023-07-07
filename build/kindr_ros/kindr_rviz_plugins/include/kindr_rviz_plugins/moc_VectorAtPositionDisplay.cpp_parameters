@@ -1,0 +1,13 @@
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="kindr_rviz_plugins"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-DQT_NO_KEYWORDS
+-o
+<<<<<<< HEAD
+/home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp
+/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
+=======
+/home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp
+/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
+>>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
