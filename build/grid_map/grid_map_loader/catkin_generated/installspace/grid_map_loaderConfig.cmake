@@ -67,14 +67,14 @@ set(grid_map_loader_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(grid_map_loader_SOURCE_PREFIX /home/stochlab/catkin_ws/src/grid_map/grid_map_loader)
-  set(grid_map_loader_DEVEL_PREFIX /home/stochlab/catkin_ws/devel)
+  set(grid_map_loader_SOURCE_PREFIX /home/stochlab/perception_stack/src/grid_map/grid_map_loader)
+  set(grid_map_loader_DEVEL_PREFIX /home/stochlab/perception_stack/devel)
   set(grid_map_loader_INSTALL_PREFIX "")
   set(grid_map_loader_PREFIX ${grid_map_loader_DEVEL_PREFIX})
 else()
   set(grid_map_loader_SOURCE_PREFIX "")
   set(grid_map_loader_DEVEL_PREFIX "")
-  set(grid_map_loader_INSTALL_PREFIX /home/stochlab/catkin_ws/install)
+  set(grid_map_loader_INSTALL_PREFIX /home/stochlab/perception_stack/install)
   set(grid_map_loader_PREFIX ${grid_map_loader_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/stochlab/catkin_ws/install/lib;/home/stochlab/test_ws/devel/lib;/home/stochlab/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/stochlab/perception_stack/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

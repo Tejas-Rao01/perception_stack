@@ -1,8 +1,8 @@
-# Install script for directory: /home/tejas/catkin_ws/src/formation_control
+# Install script for directory: /home/stochlab/perception_stack/src/formation_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tejas/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/perception_stack/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tejas/catkin_ws/build/formation_control/catkin_generated/installspace/formation_control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/perception_stack/build/formation_control/catkin_generated/installspace/formation_control.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/formation_control/cmake" TYPE FILE FILES
-    "/home/tejas/catkin_ws/build/formation_control/catkin_generated/installspace/formation_controlConfig.cmake"
-    "/home/tejas/catkin_ws/build/formation_control/catkin_generated/installspace/formation_controlConfig-version.cmake"
+    "/home/stochlab/perception_stack/build/formation_control/catkin_generated/installspace/formation_controlConfig.cmake"
+    "/home/stochlab/perception_stack/build/formation_control/catkin_generated/installspace/formation_controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/formation_control" TYPE FILE FILES "/home/tejas/catkin_ws/src/formation_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/formation_control" TYPE FILE FILES "/home/stochlab/perception_stack/src/formation_control/package.xml")
 endif()
 

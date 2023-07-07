@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for run_tests_kindr_gtest_runUnitTestsQuaternions.
 
@@ -61,11 +54,7 @@ CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
 include kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/progress.make
 
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr/test && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/stochlab/catkin_ws/build/test_results/kindr/gtest-runUnitTestsQuaternions.xml "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsQuaternions --gtest_output=xml:/home/stochlab/catkin_ws/build/test_results/kindr/gtest-runUnitTestsQuaternions.xml"
-=======
-	cd /home/tejas/catkin_ws/build/kindr/test && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/tejas/catkin_ws/build/test_results/kindr/gtest-runUnitTestsQuaternions.xml "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsQuaternions --gtest_output=xml:/home/tejas/catkin_ws/build/test_results/kindr/gtest-runUnitTestsQuaternions.xml"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build/kindr/test && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/stochlab/perception_stack/build/test_results/kindr/gtest-runUnitTestsQuaternions.xml "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsQuaternions --gtest_output=xml:/home/stochlab/perception_stack/build/test_results/kindr/gtest-runUnitTestsQuaternions.xml"
 
 run_tests_kindr_gtest_runUnitTestsQuaternions: kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions
 run_tests_kindr_gtest_runUnitTestsQuaternions: kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build.make
@@ -78,18 +67,10 @@ kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build: r
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build
 
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/cmake_clean.cmake
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/clean
 
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/kindr/test /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/kindr/test /home/stochlab/catkin_ws/build/kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/cmake_clean.cmake
-.PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/clean
-
-kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/kindr/test /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/kindr/test /home/tejas/catkin_ws/build/kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/kindr/test /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/kindr/test /home/stochlab/perception_stack/build/kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/depend
 

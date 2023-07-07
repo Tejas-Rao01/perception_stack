@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_core/grid_map_core-test"
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_core/grid_map_core-test.pdb"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_core/grid_map_core-test"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_core/grid_map_core-test.pdb"
   "CMakeFiles/grid_map_core-test.dir/test/CubicConvolutionInterpolationTest.cpp.o"
   "CMakeFiles/grid_map_core-test.dir/test/CubicInterpolationTest.cpp.o"
   "CMakeFiles/grid_map_core-test.dir/test/EigenPluginsTest.cpp.o"

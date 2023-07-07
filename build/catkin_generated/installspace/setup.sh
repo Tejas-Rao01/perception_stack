@@ -11,11 +11,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-<<<<<<< HEAD
-: ${_CATKIN_SETUP_DIR:=/home/stochlab/catkin_ws/install}
-=======
-: ${_CATKIN_SETUP_DIR:=/home/tejas/catkin_ws/install}
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+: ${_CATKIN_SETUP_DIR:=/home/stochlab/perception_stack/install}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPoseDiff"
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPoseDiff.pdb"
-=======
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPoseDiff"
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPoseDiff.pdb"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPoseDiff"
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPoseDiff.pdb"
   "CMakeFiles/runUnitTestsPoseDiff.dir/poses/PoseDiffTest.cpp.o"
   "CMakeFiles/runUnitTestsPoseDiff.dir/poses/PositionDiffTest.cpp.o"
   "CMakeFiles/runUnitTestsPoseDiff.dir/poses/TwistWithAngularVelocityTest.cpp.o"

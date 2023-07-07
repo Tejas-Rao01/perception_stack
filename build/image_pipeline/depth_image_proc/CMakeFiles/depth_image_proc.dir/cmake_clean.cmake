@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.pdb"
-  "/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so"
-=======
-  "/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.pdb"
-  "/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.pdb"
+  "/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so"
   "CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o"
   "CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o"
   "CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o"

@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/include/depth_image_proc/depth_conversions.h
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/include/depth_image_proc/depth_conversions.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/include/depth_image_proc/depth_conversions.h
 sensor_msgs/Image.h
 -
 sensor_msgs/point_cloud2_iterator.h
@@ -22,11 +18,7 @@ depth_image_proc/depth_traits.h
 limits
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/include/depth_image_proc/depth_traits.h
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/include/depth_image_proc/depth_traits.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/include/depth_image_proc/depth_traits.h
 algorithm
 -
 cmath
@@ -38,11 +30,7 @@ limits
 vector
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp
 ros/ros.h
 -
 nodelet/nodelet.h
@@ -56,11 +44,7 @@ boost/thread.hpp
 pluginlib/class_list_macros.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp
 nodelet/nodelet.h
 -
 image_transport/image_transport.h
@@ -74,11 +58,7 @@ opencv2/imgproc/imgproc.hpp
 pluginlib/class_list_macros.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp
 boost/version.hpp
 -
 boost/thread/lock_guard.hpp
@@ -104,11 +84,7 @@ depth_image_proc/depth_traits.h
 pluginlib/class_list_macros.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp
 ros/ros.h
 -
 nodelet/nodelet.h
@@ -128,11 +104,7 @@ sensor_msgs/point_cloud2_iterator.h
 pluginlib/class_list_macros.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp
 ros/ros.h
 -
 nodelet/nodelet.h
@@ -154,11 +126,7 @@ sensor_msgs/point_cloud2_iterator.h
 pluginlib/class_list_macros.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp
 boost/version.hpp
 -
 boost/thread/lock_guard.hpp
@@ -194,11 +162,7 @@ opencv2/imgproc/imgproc.hpp
 pluginlib/class_list_macros.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp
 ros/ros.h
 -
 nodelet/nodelet.h
@@ -228,11 +192,7 @@ sensor_msgs/point_cloud2_iterator.h
 pluginlib/class_list_macros.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp
 boost/version.hpp
 -
 boost/thread/lock_guard.hpp
@@ -270,11 +230,7 @@ opencv2/imgproc/imgproc.hpp
 pluginlib/class_list_macros.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp
 ros/ros.h
 -
 nodelet/nodelet.h
@@ -308,11 +264,7 @@ sensor_msgs/point_cloud2_iterator.h
 pluginlib/class_list_macros.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp
 ros/ros.h
 -
 nodelet/nodelet.h

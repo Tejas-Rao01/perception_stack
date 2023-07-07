@@ -67,23 +67,14 @@ set(turtlebot3_slam_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-<<<<<<< HEAD
-  set(turtlebot3_slam_SOURCE_PREFIX /home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam)
-  set(turtlebot3_slam_DEVEL_PREFIX /home/stochlab/catkin_ws/devel)
-=======
-  set(turtlebot3_slam_SOURCE_PREFIX /home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam)
-  set(turtlebot3_slam_DEVEL_PREFIX /home/tejas/catkin_ws/devel)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(turtlebot3_slam_SOURCE_PREFIX /home/stochlab/perception_stack/src/turtlebot3/turtlebot3_slam)
+  set(turtlebot3_slam_DEVEL_PREFIX /home/stochlab/perception_stack/devel)
   set(turtlebot3_slam_INSTALL_PREFIX "")
   set(turtlebot3_slam_PREFIX ${turtlebot3_slam_DEVEL_PREFIX})
 else()
   set(turtlebot3_slam_SOURCE_PREFIX "")
   set(turtlebot3_slam_DEVEL_PREFIX "")
-<<<<<<< HEAD
-  set(turtlebot3_slam_INSTALL_PREFIX /home/stochlab/catkin_ws/install)
-=======
-  set(turtlebot3_slam_INSTALL_PREFIX /home/tejas/catkin_ws/install)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(turtlebot3_slam_INSTALL_PREFIX /home/stochlab/perception_stack/install)
   set(turtlebot3_slam_PREFIX ${turtlebot3_slam_INSTALL_PREFIX})
 endif()
 
@@ -100,15 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(turtlebot3_slam_FOUND_CATKIN_PROJECT TRUE)
 
-<<<<<<< HEAD
-if(NOT "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam/include " STREQUAL " ")
+if(NOT "/home/stochlab/perception_stack/src/turtlebot3/turtlebot3_slam/include " STREQUAL " ")
   set(turtlebot3_slam_INCLUDE_DIRS "")
-  set(_include_dirs "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam/include")
-=======
-if(NOT "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/include " STREQUAL " ")
-  set(turtlebot3_slam_INCLUDE_DIRS "")
-  set(_include_dirs "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/include")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(_include_dirs "/home/stochlab/perception_stack/src/turtlebot3/turtlebot3_slam/include")
   if(NOT "https://github.com/ROBOTIS-GIT/turtlebot3/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ROBOTIS-GIT/turtlebot3/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/turtlebot3_slam " STREQUAL " ")
@@ -125,11 +110,7 @@ if(NOT "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/include " STREQUAL 
         message(FATAL_ERROR "Project 'turtlebot3_slam' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-<<<<<<< HEAD
-      message(FATAL_ERROR "Project 'turtlebot3_slam' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam/${idir}'.  ${_report}")
-=======
-      message(FATAL_ERROR "Project 'turtlebot3_slam' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/${idir}'.  ${_report}")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+      message(FATAL_ERROR "Project 'turtlebot3_slam' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/stochlab/perception_stack/src/turtlebot3/turtlebot3_slam/${idir}'.  ${_report}")
     endif()
     _list_append_unique(turtlebot3_slam_INCLUDE_DIRS ${include})
   endforeach()
@@ -173,11 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-<<<<<<< HEAD
-    foreach(path /home/stochlab/catkin_ws/devel/lib;/home/stochlab/test_ws/devel/lib;/home/stochlab/catkin_ws/devel/lib;/opt/ros/noetic/lib)
-=======
-    foreach(path /home/tejas/catkin_ws/devel/lib;/home/tejas/catkin_ws/devel/lib;/opt/ros/noetic/lib)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    foreach(path /home/stochlab/perception_stack/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/libimage_rotate.pdb"
-  "/home/stochlab/catkin_ws/devel/lib/libimage_rotate.so"
-=======
-  "/home/tejas/catkin_ws/devel/lib/libimage_rotate.pdb"
-  "/home/tejas/catkin_ws/devel/lib/libimage_rotate.so"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/libimage_rotate.pdb"
+  "/home/stochlab/perception_stack/devel/lib/libimage_rotate.so"
   "CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o"
 )
 

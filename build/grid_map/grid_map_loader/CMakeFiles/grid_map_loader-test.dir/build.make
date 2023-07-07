@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Include any dependencies generated for this target.
 include grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/depend.make
@@ -58,17 +58,17 @@ include grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/progress.ma
 include grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/flags.make
 
 grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.o: grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/flags.make
-grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.o: /home/stochlab/catkin_ws/src/grid_map/grid_map_loader/test/test_grid_map_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.o"
-	cd /home/stochlab/catkin_ws/build/grid_map/grid_map_loader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.o -c /home/stochlab/catkin_ws/src/grid_map/grid_map_loader/test/test_grid_map_loader.cpp
+grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.o: /home/stochlab/perception_stack/src/grid_map/grid_map_loader/test/test_grid_map_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.o"
+	cd /home/stochlab/perception_stack/build/grid_map/grid_map_loader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.o -c /home/stochlab/perception_stack/src/grid_map/grid_map_loader/test/test_grid_map_loader.cpp
 
 grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.i"
-	cd /home/stochlab/catkin_ws/build/grid_map/grid_map_loader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/grid_map/grid_map_loader/test/test_grid_map_loader.cpp > CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.i
+	cd /home/stochlab/perception_stack/build/grid_map/grid_map_loader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/grid_map/grid_map_loader/test/test_grid_map_loader.cpp > CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.i
 
 grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.s"
-	cd /home/stochlab/catkin_ws/build/grid_map/grid_map_loader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/grid_map/grid_map_loader/test/test_grid_map_loader.cpp -o CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.s
+	cd /home/stochlab/perception_stack/build/grid_map/grid_map_loader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/grid_map/grid_map_loader/test/test_grid_map_loader.cpp -o CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.s
 
 # Object files for target grid_map_loader-test
 grid_map_loader__test_OBJECTS = \
@@ -77,23 +77,23 @@ grid_map_loader__test_OBJECTS = \
 # External object files for target grid_map_loader-test
 grid_map_loader__test_EXTERNAL_OBJECTS =
 
-/home/stochlab/catkin_ws/devel/lib/grid_map_loader/grid_map_loader-test: grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.o
-/home/stochlab/catkin_ws/devel/lib/grid_map_loader/grid_map_loader-test: grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build.make
-/home/stochlab/catkin_ws/devel/lib/grid_map_loader/grid_map_loader-test: gtest/lib/libgtest.so
-/home/stochlab/catkin_ws/devel/lib/grid_map_loader/grid_map_loader-test: grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/stochlab/catkin_ws/devel/lib/grid_map_loader/grid_map_loader-test"
-	cd /home/stochlab/catkin_ws/build/grid_map/grid_map_loader && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/grid_map_loader-test.dir/link.txt --verbose=$(VERBOSE)
+/home/stochlab/perception_stack/devel/lib/grid_map_loader/grid_map_loader-test: grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.o
+/home/stochlab/perception_stack/devel/lib/grid_map_loader/grid_map_loader-test: grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build.make
+/home/stochlab/perception_stack/devel/lib/grid_map_loader/grid_map_loader-test: gtest/lib/libgtest.so
+/home/stochlab/perception_stack/devel/lib/grid_map_loader/grid_map_loader-test: grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/stochlab/perception_stack/devel/lib/grid_map_loader/grid_map_loader-test"
+	cd /home/stochlab/perception_stack/build/grid_map/grid_map_loader && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/grid_map_loader-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build: /home/stochlab/catkin_ws/devel/lib/grid_map_loader/grid_map_loader-test
+grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build: /home/stochlab/perception_stack/devel/lib/grid_map_loader/grid_map_loader-test
 
 .PHONY : grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build
 
 grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/clean:
-	cd /home/stochlab/catkin_ws/build/grid_map/grid_map_loader && $(CMAKE_COMMAND) -P CMakeFiles/grid_map_loader-test.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/grid_map/grid_map_loader && $(CMAKE_COMMAND) -P CMakeFiles/grid_map_loader-test.dir/cmake_clean.cmake
 .PHONY : grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/clean
 
 grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/grid_map/grid_map_loader /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/grid_map/grid_map_loader /home/stochlab/catkin_ws/build/grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/grid_map/grid_map_loader /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/grid_map/grid_map_loader /home/stochlab/perception_stack/build/grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/depend
 

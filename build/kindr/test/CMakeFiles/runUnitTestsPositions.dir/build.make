@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Include any dependencies generated for this target.
 include kindr/test/CMakeFiles/runUnitTestsPositions.dir/depend.make
@@ -65,31 +58,17 @@ include kindr/test/CMakeFiles/runUnitTestsPositions.dir/progress.make
 include kindr/test/CMakeFiles/runUnitTestsPositions.dir/flags.make
 
 kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o: kindr/test/CMakeFiles/runUnitTestsPositions.dir/flags.make
-<<<<<<< HEAD
-kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp
+kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o: /home/stochlab/perception_stack/src/kindr/test/test_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/test_main.cpp
 
 kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp > CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/test_main.cpp > CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp -o CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.s
-=======
-kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o: /home/tejas/catkin_ws/src/kindr/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/test_main.cpp
-
-kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/test_main.cpp > CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/test_main.cpp -o CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/test_main.cpp -o CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.s
 
 # Object files for target runUnitTestsPositions
 runUnitTestsPositions_OBJECTS = \
@@ -98,45 +77,24 @@ runUnitTestsPositions_OBJECTS = \
 # External object files for target runUnitTestsPositions
 runUnitTestsPositions_EXTERNAL_OBJECTS =
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPositions: kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPositions: kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPositions: gtest/lib/libgtest_main.so
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPositions: gtest/lib/libgtest.so
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPositions: kindr/test/CMakeFiles/runUnitTestsPositions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPositions"
-	cd /home/stochlab/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runUnitTestsPositions.dir/link.txt --verbose=$(VERBOSE)
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPositions: kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPositions: kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPositions: gtest/lib/libgtest_main.so
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPositions: gtest/lib/libgtest.so
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPositions: kindr/test/CMakeFiles/runUnitTestsPositions.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPositions"
+	cd /home/stochlab/perception_stack/build/kindr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runUnitTestsPositions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-kindr/test/CMakeFiles/runUnitTestsPositions.dir/build: /home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPositions
-=======
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPositions: kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPositions: kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPositions: gtest/lib/libgtest_main.so
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPositions: gtest/lib/libgtest.so
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPositions: kindr/test/CMakeFiles/runUnitTestsPositions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPositions"
-	cd /home/tejas/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runUnitTestsPositions.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-kindr/test/CMakeFiles/runUnitTestsPositions.dir/build: /home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPositions
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+kindr/test/CMakeFiles/runUnitTestsPositions.dir/build: /home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPositions
 
 .PHONY : kindr/test/CMakeFiles/runUnitTestsPositions.dir/build
 
 kindr/test/CMakeFiles/runUnitTestsPositions.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/runUnitTestsPositions.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/runUnitTestsPositions.dir/cmake_clean.cmake
 .PHONY : kindr/test/CMakeFiles/runUnitTestsPositions.dir/clean
 
 kindr/test/CMakeFiles/runUnitTestsPositions.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/kindr/test /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/kindr/test /home/stochlab/catkin_ws/build/kindr/test/CMakeFiles/runUnitTestsPositions.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/runUnitTestsPositions.dir/cmake_clean.cmake
-.PHONY : kindr/test/CMakeFiles/runUnitTestsPositions.dir/clean
-
-kindr/test/CMakeFiles/runUnitTestsPositions.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/kindr/test /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/kindr/test /home/tejas/catkin_ws/build/kindr/test/CMakeFiles/runUnitTestsPositions.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/kindr/test /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/kindr/test /home/stochlab/perception_stack/build/kindr/test/CMakeFiles/runUnitTestsPositions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kindr/test/CMakeFiles/runUnitTestsPositions.dir/depend
 

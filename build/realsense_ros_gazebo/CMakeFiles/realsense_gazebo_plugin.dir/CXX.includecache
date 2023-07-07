@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/realsense_ros_gazebo/include/realsense_gazebo_plugin/RealSensePlugin.h
-=======
-/home/tejas/catkin_ws/src/realsense_ros_gazebo/include/realsense_gazebo_plugin/RealSensePlugin.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/realsense_ros_gazebo/include/realsense_gazebo_plugin/RealSensePlugin.h
 gazebo/common/Plugin.hh
 -
 gazebo/common/common.hh
@@ -30,15 +26,9 @@ memory
 string
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/realsense_ros_gazebo/include/realsense_gazebo_plugin/gazebo_ros_realsense.h
+/home/stochlab/perception_stack/src/realsense_ros_gazebo/include/realsense_gazebo_plugin/gazebo_ros_realsense.h
 realsense_gazebo_plugin/RealSensePlugin.h
-/home/stochlab/catkin_ws/src/realsense_ros_gazebo/include/realsense_gazebo_plugin/realsense_gazebo_plugin/RealSensePlugin.h
-=======
-/home/tejas/catkin_ws/src/realsense_ros_gazebo/include/realsense_gazebo_plugin/gazebo_ros_realsense.h
-realsense_gazebo_plugin/RealSensePlugin.h
-/home/tejas/catkin_ws/src/realsense_ros_gazebo/include/realsense_gazebo_plugin/realsense_gazebo_plugin/RealSensePlugin.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/realsense_ros_gazebo/include/realsense_gazebo_plugin/realsense_gazebo_plugin/RealSensePlugin.h
 ros/ros.h
 -
 sensor_msgs/CameraInfo.h
@@ -58,15 +48,9 @@ memory
 string
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/realsense_ros_gazebo/src/RealSensePlugin.cpp
+/home/stochlab/perception_stack/src/realsense_ros_gazebo/src/RealSensePlugin.cpp
 realsense_gazebo_plugin/RealSensePlugin.h
-/home/stochlab/catkin_ws/src/realsense_ros_gazebo/src/realsense_gazebo_plugin/RealSensePlugin.h
-=======
-/home/tejas/catkin_ws/src/realsense_ros_gazebo/src/RealSensePlugin.cpp
-realsense_gazebo_plugin/RealSensePlugin.h
-/home/tejas/catkin_ws/src/realsense_ros_gazebo/src/realsense_gazebo_plugin/RealSensePlugin.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/realsense_ros_gazebo/src/realsense_gazebo_plugin/RealSensePlugin.h
 gazebo/physics/physics.hh
 -
 gazebo/rendering/DepthCamera.hh
@@ -74,15 +58,9 @@ gazebo/rendering/DepthCamera.hh
 gazebo/sensors/sensors.hh
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/realsense_ros_gazebo/src/gazebo_ros_realsense.cpp
+/home/stochlab/perception_stack/src/realsense_ros_gazebo/src/gazebo_ros_realsense.cpp
 realsense_gazebo_plugin/gazebo_ros_realsense.h
-/home/stochlab/catkin_ws/src/realsense_ros_gazebo/src/realsense_gazebo_plugin/gazebo_ros_realsense.h
-=======
-/home/tejas/catkin_ws/src/realsense_ros_gazebo/src/gazebo_ros_realsense.cpp
-realsense_gazebo_plugin/gazebo_ros_realsense.h
-/home/tejas/catkin_ws/src/realsense_ros_gazebo/src/realsense_gazebo_plugin/gazebo_ros_realsense.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/realsense_ros_gazebo/src/realsense_gazebo_plugin/gazebo_ros_realsense.h
 sensor_msgs/fill_image.h
 -
 sensor_msgs/point_cloud2_iterator.h

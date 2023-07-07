@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/kindr_ros/kindr_msgs/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/kindr_ros/kindr_msgs/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/kindr_ros/kindr_msgs/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ kindr_msgs_generate_messages_py: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gene
 
 # fast build rule for target.
 kindr_msgs_generate_messages_py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/build
 .PHONY : kindr_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ kindr_msgs_gennodejs: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/r
 
 # fast build rule for target.
 kindr_msgs_gennodejs/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gennodejs.dir/build
 .PHONY : kindr_msgs_gennodejs/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_nodejs.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_nodejs.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_nodejs.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_nodejs.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -258,20 +209,12 @@ kindr_msgs_generate_messages_nodejs: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_
 
 # fast build rule for target.
 kindr_msgs_generate_messages_nodejs/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_nodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_nodejs.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_nodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_nodejs.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_nodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_nodejs.dir/build
 .PHONY : kindr_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/rule
 
 # Convenience name for target.
@@ -281,20 +224,12 @@ kindr_msgs_genlisp: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/rule
 
 # fast build rule for target.
 kindr_msgs_genlisp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genlisp.dir/build
 .PHONY : kindr_msgs_genlisp/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/rule
 
 # Convenience name for target.
@@ -304,20 +239,12 @@ kindr_msgs_geneus: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/rule
 
 # fast build rule for target.
 kindr_msgs_geneus/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_geneus.dir/build
 .PHONY : kindr_msgs_geneus/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_eus.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_eus.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_eus.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_eus.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -327,20 +254,12 @@ kindr_msgs_generate_messages_eus: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gen
 
 # fast build rule for target.
 kindr_msgs_generate_messages_eus/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_eus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_eus.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_eus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_eus.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_eus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_eus.dir/build
 .PHONY : kindr_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/rule
 
 # Convenience name for target.
@@ -350,20 +269,12 @@ kindr_msgs_gencpp: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/rule
 
 # fast build rule for target.
 kindr_msgs_gencpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gencpp.dir/build
 .PHONY : kindr_msgs_gencpp/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -373,20 +284,12 @@ geometry_msgs_generate_messages_eus: kindr_ros/kindr_msgs/CMakeFiles/geometry_ms
 
 # fast build rule for target.
 geometry_msgs_generate_messages_eus/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -396,20 +299,12 @@ geometry_msgs_generate_messages_py: kindr_ros/kindr_msgs/CMakeFiles/geometry_msg
 
 # fast build rule for target.
 geometry_msgs_generate_messages_py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 .PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/rule
 
 # Convenience name for target.
@@ -419,20 +314,12 @@ kindr_msgs_genpy: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/rule
 
 # fast build rule for target.
 kindr_msgs_genpy/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/build
 .PHONY : kindr_msgs_genpy/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -442,20 +329,12 @@ geometry_msgs_generate_messages_cpp: kindr_ros/kindr_msgs/CMakeFiles/geometry_ms
 
 # fast build rule for target.
 geometry_msgs_generate_messages_cpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
 .PHONY : geometry_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_cpp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_cpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_cpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_cpp.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -465,20 +344,12 @@ kindr_msgs_generate_messages_cpp: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_gen
 
 # fast build rule for target.
 kindr_msgs_generate_messages_cpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_cpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_cpp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_cpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_cpp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_cpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_cpp.dir/build
 .PHONY : kindr_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -488,20 +359,12 @@ geometry_msgs_generate_messages_nodejs: kindr_ros/kindr_msgs/CMakeFiles/geometry
 
 # fast build rule for target.
 geometry_msgs_generate_messages_nodejs/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -511,20 +374,12 @@ std_msgs_generate_messages_cpp: kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generat
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -534,20 +389,12 @@ geometry_msgs_generate_messages_lisp: kindr_ros/kindr_msgs/CMakeFiles/geometry_m
 
 # fast build rule for target.
 geometry_msgs_generate_messages_lisp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 .PHONY : geometry_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -557,20 +404,12 @@ std_msgs_generate_messages_eus: kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generat
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -580,20 +419,12 @@ std_msgs_generate_messages_lisp: kindr_ros/kindr_msgs/CMakeFiles/std_msgs_genera
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -603,20 +434,12 @@ std_msgs_generate_messages_nodejs: kindr_ros/kindr_msgs/CMakeFiles/std_msgs_gene
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/_kindr_msgs_generate_messages_check_deps_VectorAtPosition.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/_kindr_msgs_generate_messages_check_deps_VectorAtPosition.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/_kindr_msgs_generate_messages_check_deps_VectorAtPosition.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/_kindr_msgs_generate_messages_check_deps_VectorAtPosition.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/_kindr_msgs_generate_messages_check_deps_VectorAtPosition.dir/rule
 
 # Convenience name for target.
@@ -626,20 +449,12 @@ _kindr_msgs_generate_messages_check_deps_VectorAtPosition: kindr_ros/kindr_msgs/
 
 # fast build rule for target.
 _kindr_msgs_generate_messages_check_deps_VectorAtPosition/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/_kindr_msgs_generate_messages_check_deps_VectorAtPosition.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/_kindr_msgs_generate_messages_check_deps_VectorAtPosition.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/_kindr_msgs_generate_messages_check_deps_VectorAtPosition.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/_kindr_msgs_generate_messages_check_deps_VectorAtPosition.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/_kindr_msgs_generate_messages_check_deps_VectorAtPosition.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/_kindr_msgs_generate_messages_check_deps_VectorAtPosition.dir/build
 .PHONY : _kindr_msgs_generate_messages_check_deps_VectorAtPosition/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -649,20 +464,12 @@ std_msgs_generate_messages_py: kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_lisp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_lisp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_lisp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_lisp.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -672,20 +479,12 @@ kindr_msgs_generate_messages_lisp: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_ge
 
 # fast build rule for target.
 kindr_msgs_generate_messages_lisp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_lisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_lisp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_lisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_lisp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_lisp.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_lisp.dir/build
 .PHONY : kindr_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages.dir/rule
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages.dir/rule
 
 # Convenience name for target.
@@ -695,11 +494,7 @@ kindr_msgs_generate_messages: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generat
 
 # fast build rule for target.
 kindr_msgs_generate_messages/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages.dir/build.make kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages.dir/build
 .PHONY : kindr_msgs_generate_messages/fast
 
 # Help Target
@@ -748,10 +543,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

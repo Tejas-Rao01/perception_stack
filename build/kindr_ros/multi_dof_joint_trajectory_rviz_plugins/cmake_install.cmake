@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-# Install script for directory: /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins
+# Install script for directory: /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/stochlab/catkin_ws/install")
-=======
-# Install script for directory: /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins
-
-# Set the install prefix
-if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tejas/catkin_ws/install")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/perception_stack/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,31 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/catkin_generated/installspace/multi_dof_joint_trajectory_rviz_plugins.pc")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/catkin_generated/installspace/multi_dof_joint_trajectory_rviz_plugins.pc")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/catkin_generated/installspace/multi_dof_joint_trajectory_rviz_plugins.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multi_dof_joint_trajectory_rviz_plugins/cmake" TYPE FILE FILES
-<<<<<<< HEAD
-    "/home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/catkin_generated/installspace/multi_dof_joint_trajectory_rviz_pluginsConfig.cmake"
-    "/home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/catkin_generated/installspace/multi_dof_joint_trajectory_rviz_pluginsConfig-version.cmake"
-=======
-    "/home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/catkin_generated/installspace/multi_dof_joint_trajectory_rviz_pluginsConfig.cmake"
-    "/home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/catkin_generated/installspace/multi_dof_joint_trajectory_rviz_pluginsConfig-version.cmake"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    "/home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/catkin_generated/installspace/multi_dof_joint_trajectory_rviz_pluginsConfig.cmake"
+    "/home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/catkin_generated/installspace/multi_dof_joint_trajectory_rviz_pluginsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multi_dof_joint_trajectory_rviz_plugins" TYPE FILE FILES "/home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/package.xml")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multi_dof_joint_trajectory_rviz_plugins" TYPE FILE FILES "/home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/package.xml")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multi_dof_joint_trajectory_rviz_plugins" TYPE FILE FILES "/home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -80,11 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmulti_dof_joint_trajectory_rviz_plugins.so"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmulti_dof_joint_trajectory_rviz_plugins.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmulti_dof_joint_trajectory_rviz_plugins.so")
     file(RPATH_CHANGE
@@ -101,18 +76,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multi_dof_joint_trajectory_rviz_plugins" TYPE FILE FILES "/home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/plugin_description.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multi_dof_joint_trajectory_rviz_plugins" TYPE FILE FILES "/home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/plugin_description.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multi_dof_joint_trajectory_rviz_plugins" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/icons")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multi_dof_joint_trajectory_rviz_plugins" TYPE FILE FILES "/home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/plugin_description.xml")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multi_dof_joint_trajectory_rviz_plugins" TYPE DIRECTORY FILES "/home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/icons")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/multi_dof_joint_trajectory_rviz_plugins" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/icons")
 endif()
 

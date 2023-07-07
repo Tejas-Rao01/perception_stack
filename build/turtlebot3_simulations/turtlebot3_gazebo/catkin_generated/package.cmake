@@ -1,9 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "turtlebot3_gazebo")
-<<<<<<< HEAD
 set(turtlebot3_gazebo_VERSION "1.3.2")
-=======
-set(turtlebot3_gazebo_VERSION "1.3.1")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 set(turtlebot3_gazebo_MAINTAINER "Will Son <willson@robotis.com>")
 set(turtlebot3_gazebo_PACKAGE_FORMAT "2")
 set(turtlebot3_gazebo_BUILD_DEPENDS "roscpp" "std_msgs" "sensor_msgs" "geometry_msgs" "nav_msgs" "tf" "gazebo_ros")

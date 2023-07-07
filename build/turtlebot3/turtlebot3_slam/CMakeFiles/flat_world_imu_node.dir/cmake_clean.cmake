@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/turtlebot3_slam/flat_world_imu_node"
-  "/home/stochlab/catkin_ws/devel/lib/turtlebot3_slam/flat_world_imu_node.pdb"
-=======
-  "/home/tejas/catkin_ws/devel/lib/turtlebot3_slam/flat_world_imu_node"
-  "/home/tejas/catkin_ws/devel/lib/turtlebot3_slam/flat_world_imu_node.pdb"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/turtlebot3_slam/flat_world_imu_node"
+  "/home/stochlab/perception_stack/devel/lib/turtlebot3_slam/flat_world_imu_node.pdb"
   "CMakeFiles/flat_world_imu_node.dir/src/flat_world_imu_node.cpp.o"
 )
 

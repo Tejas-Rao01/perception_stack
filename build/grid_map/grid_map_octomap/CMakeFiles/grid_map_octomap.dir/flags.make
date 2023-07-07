@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11  -pthread -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic
 
 CXX_DEFINES = -DEIGEN_DENSEBASE_PLUGIN=\"grid_map_core/eigen_plugins/DenseBasePlugin.hpp\" -DEIGEN_FUNCTORS_PLUGIN=\"grid_map_core/eigen_plugins/FunctorsPlugin.hpp\" -DROS_BUILD_SHARED_LIBS=1 -Dgrid_map_octomap_EXPORTS
 
-CXX_INCLUDES = -I/home/stochlab/catkin_ws/src/grid_map/grid_map_octomap/include -isystem /home/stochlab/catkin_ws/src/grid_map/grid_map_core/include -isystem /usr/include/eigen3 -isystem /opt/ros/noetic/include 
+CXX_INCLUDES = -I/home/stochlab/perception_stack/src/grid_map/grid_map_octomap/include -isystem /home/stochlab/perception_stack/src/grid_map/grid_map_core/include -isystem /usr/include/eigen3 -isystem /opt/ros/noetic/include 
 

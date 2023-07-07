@@ -2,11 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-<<<<<<< HEAD
-  set(CMAKE_INSTALL_PREFIX "/home/stochlab/catkin_ws/install")
-=======
-  set(CMAKE_INSTALL_PREFIX "/home/tejas/catkin_ws/install")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/perception_stack/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,11 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-<<<<<<< HEAD
-  include("/home/stochlab/catkin_ws/build/gtest/googletest/cmake_install.cmake")
-=======
-  include("/home/tejas/catkin_ws/build/gtest/googletest/cmake_install.cmake")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  include("/home/stochlab/perception_stack/build/gtest/googletest/cmake_install.cmake")
 
 endif()
 

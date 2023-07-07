@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/stochlab/catkin_ws/devel/include/grid_map_msgs/GridMap.h
+/home/stochlab/perception_stack/devel/include/grid_map_msgs/GridMap.h
 string
 -
 vector
@@ -26,7 +26,7 @@ grid_map_msgs/GridMapInfo.h
 std_msgs/Float32MultiArray.h
 -
 
-/home/stochlab/catkin_ws/devel/include/grid_map_msgs/GridMapInfo.h
+/home/stochlab/perception_stack/devel/include/grid_map_msgs/GridMapInfo.h
 string
 -
 vector
@@ -46,17 +46,17 @@ std_msgs/Header.h
 geometry_msgs/Pose.h
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/BufferRegion.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/BufferRegion.hpp
 grid_map_core/TypeDefs.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/GridMap.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/GridMap.hpp
 grid_map_core/BufferRegion.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/BufferRegion.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/BufferRegion.hpp
 grid_map_core/SubmapGeometry.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/SubmapGeometry.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/SubmapGeometry.hpp
 grid_map_core/TypeDefs.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
 unordered_map
 -
 vector
@@ -66,11 +66,11 @@ Eigen/Core
 Eigen/Geometry
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/GridMapMath.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/GridMapMath.hpp
 grid_map_core/TypeDefs.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
 grid_map_core/BufferRegion.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/BufferRegion.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/BufferRegion.hpp
 Eigen/Core
 -
 vector
@@ -78,7 +78,7 @@ vector
 map
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/Polygon.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/Polygon.hpp
 grid_map_core/TypeDefs.hpp
 -
 vector
@@ -86,89 +86,89 @@ vector
 Eigen/Core
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/SubmapGeometry.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/SubmapGeometry.hpp
 grid_map_core/GridMap.hpp
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/TypeDefs.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/TypeDefs.hpp
 Eigen/Core
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/eigen_plugins/Functors.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/eigen_plugins/Functors.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core.hpp
 grid_map_core/TypeDefs.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
 grid_map_core/GridMap.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/GridMap.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/GridMap.hpp
 grid_map_core/SubmapGeometry.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/SubmapGeometry.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/SubmapGeometry.hpp
 grid_map_core/GridMapMath.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/GridMapMath.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/GridMapMath.hpp
 grid_map_core/BufferRegion.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/BufferRegion.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/BufferRegion.hpp
 grid_map_core/Polygon.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/Polygon.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/Polygon.hpp
 grid_map_core/iterators/iterators.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/iterators/iterators.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/iterators/iterators.hpp
 grid_map_core/eigen_plugins/Functors.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/eigen_plugins/Functors.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/eigen_plugins/Functors.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/CircleIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/CircleIterator.hpp
 grid_map_core/GridMap.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
 grid_map_core/iterators/SubmapIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SubmapIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SubmapIterator.hpp
 Eigen/Core
 -
 memory
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/EllipseIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/EllipseIterator.hpp
 grid_map_core/GridMap.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
 grid_map_core/iterators/SubmapIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SubmapIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SubmapIterator.hpp
 Eigen/Core
 -
 memory
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/GridMapIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/GridMapIterator.hpp
 grid_map_core/GridMap.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
 Eigen/Core
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/LineIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/LineIterator.hpp
 grid_map_core/GridMap.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
 grid_map_core/iterators/SubmapIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SubmapIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SubmapIterator.hpp
 Eigen/Core
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/PolygonIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/PolygonIterator.hpp
 grid_map_core/GridMap.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
 grid_map_core/Polygon.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/Polygon.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/Polygon.hpp
 grid_map_core/iterators/SubmapIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SubmapIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SubmapIterator.hpp
 memory
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/SlidingWindowIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/SlidingWindowIterator.hpp
 grid_map_core/GridMap.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
 grid_map_core/iterators/GridMapIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/GridMapIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/GridMapIterator.hpp
 Eigen/Core
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/SpiralIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/SpiralIterator.hpp
 grid_map_core/GridMap.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
 Eigen/Core
 -
 memory
@@ -176,35 +176,35 @@ memory
 vector
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/SubmapIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/SubmapIterator.hpp
 grid_map_core/GridMap.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/GridMap.hpp
 grid_map_core/SubmapGeometry.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/SubmapGeometry.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/SubmapGeometry.hpp
 grid_map_core/BufferRegion.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/BufferRegion.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/BufferRegion.hpp
 Eigen/Core
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/iterators.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/iterators.hpp
 grid_map_core/iterators/GridMapIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/GridMapIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/GridMapIterator.hpp
 grid_map_core/iterators/SubmapIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SubmapIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SubmapIterator.hpp
 grid_map_core/iterators/CircleIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/CircleIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/CircleIterator.hpp
 grid_map_core/iterators/EllipseIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/EllipseIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/EllipseIterator.hpp
 grid_map_core/iterators/SpiralIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SpiralIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SpiralIterator.hpp
 grid_map_core/iterators/LineIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/LineIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/LineIterator.hpp
 grid_map_core/iterators/PolygonIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/PolygonIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/PolygonIterator.hpp
 grid_map_core/iterators/SlidingWindowIterator.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SlidingWindowIterator.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/iterators/grid_map_core/iterators/SlidingWindowIterator.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/include/grid_map_pcl/GridMapPclConverter.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/include/grid_map_pcl/GridMapPclConverter.hpp
 grid_map_core/grid_map_core.hpp
 -
 pcl/PolygonMesh.h
@@ -226,7 +226,7 @@ iostream
 vector
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/include/grid_map_pcl/GridMapPclLoader.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/include/grid_map_pcl/GridMapPclLoader.hpp
 array
 -
 memory
@@ -236,11 +236,11 @@ string
 grid_map_core/GridMap.hpp
 -
 grid_map_pcl/PclLoaderParameters.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/include/grid_map_pcl/grid_map_pcl/PclLoaderParameters.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/include/grid_map_pcl/grid_map_pcl/PclLoaderParameters.hpp
 grid_map_pcl/PointcloudProcessor.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/include/grid_map_pcl/grid_map_pcl/PointcloudProcessor.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/include/grid_map_pcl/grid_map_pcl/PointcloudProcessor.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/include/grid_map_pcl/PclLoaderParameters.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/include/grid_map_pcl/PclLoaderParameters.hpp
 yaml-cpp/yaml.h
 -
 Eigen/Dense
@@ -250,15 +250,15 @@ memory
 string
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/include/grid_map_pcl/PointcloudProcessor.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/include/grid_map_pcl/PointcloudProcessor.hpp
 string
 -
 grid_map_pcl/PclLoaderParameters.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/include/grid_map_pcl/grid_map_pcl/PclLoaderParameters.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/include/grid_map_pcl/grid_map_pcl/PclLoaderParameters.hpp
 grid_map_pcl/helpers.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/include/grid_map_pcl/grid_map_pcl/helpers.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/include/grid_map_pcl/grid_map_pcl/helpers.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/include/grid_map_pcl/helpers.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/include/grid_map_pcl/helpers.hpp
 pcl/common/common.h
 -
 ros/ros.h
@@ -268,11 +268,11 @@ chrono
 string
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/GridMapPclConverter.cpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/GridMapPclConverter.cpp
 grid_map_pcl/GridMapPclConverter.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/grid_map_pcl/GridMapPclConverter.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/grid_map_pcl/GridMapPclConverter.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/GridMapPclLoader.cpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/GridMapPclLoader.cpp
 chrono
 -
 omp.h
@@ -284,19 +284,19 @@ ros/console.h
 grid_map_core/GridMapMath.hpp
 -
 grid_map_pcl/GridMapPclLoader.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/grid_map_pcl/GridMapPclLoader.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/grid_map_pcl/GridMapPclLoader.hpp
 grid_map_pcl/helpers.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/grid_map_pcl/helpers.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/grid_map_pcl/helpers.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/PclLoaderParameters.cpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/PclLoaderParameters.cpp
 grid_map_pcl/PclLoaderParameters.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/grid_map_pcl/PclLoaderParameters.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/grid_map_pcl/PclLoaderParameters.hpp
 ros/console.h
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/PointcloudProcessor.cpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/PointcloudProcessor.cpp
 grid_map_pcl/PointcloudProcessor.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/grid_map_pcl/PointcloudProcessor.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/grid_map_pcl/PointcloudProcessor.hpp
 pcl/common/common.h
 -
 pcl/common/transforms.h
@@ -320,9 +320,9 @@ pcl/segmentation/extract_clusters.h
 ros/console.h
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/helpers.cpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/helpers.cpp
 grid_map_pcl/helpers.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/grid_map_pcl/helpers.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/grid_map_pcl/helpers.hpp
 grid_map_core/GridMap.hpp
 -
 grid_map_ros/GridMapRosConverter.hpp
@@ -346,9 +346,9 @@ ros/console.h
 ros/package.h
 -
 grid_map_pcl/GridMapPclLoader.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/grid_map_pcl/GridMapPclLoader.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/grid_map_pcl/GridMapPclLoader.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_ros/include/grid_map_ros/GridMapRosConverter.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_ros/include/grid_map_ros/GridMapRosConverter.hpp
 grid_map_core/grid_map_core.hpp
 -
 grid_map_sdf/SignedDistanceField.hpp
@@ -376,11 +376,11 @@ nav_msgs/GridCells.h
 cv_bridge/cv_bridge.h
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/include/grid_map_sdf/Gridmap3dLookup.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include/grid_map_sdf/Gridmap3dLookup.hpp
 grid_map_core/TypeDefs.hpp
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/include/grid_map_sdf/SignedDistanceField.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include/grid_map_sdf/SignedDistanceField.hpp
 vector
 -
 Eigen/Dense
@@ -390,7 +390,7 @@ grid_map_core/GridMap.hpp
 grid_map_core/TypeDefs.hpp
 -
 Gridmap3dLookup.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/include/grid_map_sdf/Gridmap3dLookup.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include/grid_map_sdf/Gridmap3dLookup.hpp
 
 /opt/ros/noetic/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h

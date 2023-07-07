@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/runUnitTestsVector.dir/test_main.cpp.o CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.o  -o /home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsVector   -L/home/stochlab/catkin_ws/build/gtest  -Wl,-rpath,/home/stochlab/catkin_ws/build/gtest:/home/stochlab/catkin_ws/build/gtest/lib ../../gtest/lib/libgtest_main.so ../../gtest/lib/libgtest.so -lpthread 
-=======
-/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/runUnitTestsVector.dir/test_main.cpp.o CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.o  -o /home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsVector   -L/home/tejas/catkin_ws/build/gtest  -Wl,-rpath,/home/tejas/catkin_ws/build/gtest:/home/tejas/catkin_ws/build/gtest/lib ../../gtest/lib/libgtest_main.so ../../gtest/lib/libgtest.so -lpthread 
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/runUnitTestsVector.dir/test_main.cpp.o CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.o  -o /home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsVector   -L/home/stochlab/perception_stack/build/gtest  -Wl,-rpath,/home/stochlab/perception_stack/build/gtest:/home/stochlab/perception_stack/build/gtest/lib ../../gtest/lib/libgtest_main.so ../../gtest/lib/libgtest.so -lpthread 

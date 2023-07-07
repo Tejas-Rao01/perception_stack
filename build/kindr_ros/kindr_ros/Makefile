@@ -48,22 +48,14 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-<<<<<<< HEAD
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -75,41 +67,6 @@ install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
-=======
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 
 # Special rule for the target test
 test:
@@ -122,21 +79,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-<<<<<<< HEAD
-=======
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -149,7 +91,6 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-<<<<<<< HEAD
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -184,8 +125,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-=======
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"dev\""
@@ -198,24 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/kindr_ros/kindr_ros/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/kindr_ros/kindr_ros/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/clean
 .PHONY : clean
 
 # The main clean target
@@ -225,31 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/rule
 .PHONY : kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/rule
 
 # Convenience name for target.
@@ -259,95 +179,12 @@ test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/rule
 
 # fast build rule for target.
 test_kindr_ros/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build
 .PHONY : test_kindr_ros/fast
 
 # Convenience name for target.
 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-.PHONY : depend
-
-# Convenience name for target.
-kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_cpp.dir/rule
-.PHONY : kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_cpp: kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_cpp.dir/rule
-
-.PHONY : tf_generate_messages_cpp
-
-# fast build rule for target.
-tf_generate_messages_cpp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_cpp.dir/build.make kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_cpp.dir/build
-.PHONY : tf_generate_messages_cpp/fast
-
-# Convenience name for target.
-kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_nodejs.dir/rule
-.PHONY : kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_nodejs: kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_nodejs.dir/rule
-
-.PHONY : tf_generate_messages_nodejs
-
-# fast build rule for target.
-tf_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_nodejs.dir/build.make kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_nodejs.dir/build
-.PHONY : tf_generate_messages_nodejs/fast
-
-# Convenience name for target.
-kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_eus.dir/rule
-.PHONY : kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_eus: kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_eus.dir/rule
-
-.PHONY : tf_generate_messages_eus
-
-# fast build rule for target.
-tf_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_eus.dir/build.make kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_eus.dir/build
-.PHONY : tf_generate_messages_eus/fast
-
-# Convenience name for target.
-kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_py.dir/rule
-.PHONY : kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_py.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_py: kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_py.dir/rule
-
-.PHONY : tf_generate_messages_py
-
-# fast build rule for target.
-tf_generate_messages_py/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_py.dir/build.make kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_py.dir/build
-.PHONY : tf_generate_messages_py/fast
-
-# Convenience name for target.
-kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_lisp.dir/rule
-.PHONY : kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_lisp: kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_lisp.dir/rule
-
-.PHONY : tf_generate_messages_lisp
-
-# fast build rule for target.
-tf_generate_messages_lisp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_lisp.dir/build.make kindr_ros/kindr_ros/CMakeFiles/tf_generate_messages_lisp.dir/build
-.PHONY : tf_generate_messages_lisp/fast
-
-# Convenience name for target.
-kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/rule
 .PHONY : kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/rule
 
 # Convenience name for target.
@@ -357,36 +194,12 @@ run_tests_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/rule
 
 # fast build rule for target.
 run_tests_kindr_ros/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/build
 .PHONY : run_tests_kindr_ros/fast
 
 # Convenience name for target.
 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros.dir/build
-.PHONY : run_tests_kindr_ros/fast
-
-# Convenience name for target.
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/rule
-.PHONY : kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/rule
-
-# Convenience name for target.
-test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/rule
-
-.PHONY : test_kindr_ros
-
-# fast build rule for target.
-test_kindr_ros/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build
-.PHONY : test_kindr_ros/fast
-
-# Convenience name for target.
-kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/rule
 .PHONY : kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/rule
 
 # Convenience name for target.
@@ -396,20 +209,12 @@ _run_tests_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/ru
 
 # fast build rule for target.
 _run_tests_kindr_ros/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros.dir/build
 .PHONY : _run_tests_kindr_ros/fast
 
 # Convenience name for target.
 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest.dir/rule
 .PHONY : kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest.dir/rule
 
 # Convenience name for target.
@@ -419,20 +224,12 @@ run_tests_kindr_ros_gtest: kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gt
 
 # fast build rule for target.
 run_tests_kindr_ros_gtest/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest.dir/build.make kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest.dir/build.make kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest.dir/build.make kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest.dir/build
 .PHONY : run_tests_kindr_ros_gtest/fast
 
 # Convenience name for target.
 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest.dir/rule
 .PHONY : kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest.dir/rule
 
 # Convenience name for target.
@@ -442,20 +239,12 @@ _run_tests_kindr_ros_gtest: kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_
 
 # fast build rule for target.
 _run_tests_kindr_ros_gtest/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest.dir/build.make kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest.dir/build.make kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest.dir/build.make kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest.dir/build
 .PHONY : _run_tests_kindr_ros_gtest/fast
 
 # Convenience name for target.
 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest_test_kindr_ros.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest_test_kindr_ros.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest_test_kindr_ros.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest_test_kindr_ros.dir/rule
 .PHONY : kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest_test_kindr_ros.dir/rule
 
 # Convenience name for target.
@@ -465,20 +254,12 @@ run_tests_kindr_ros_gtest_test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/run_tes
 
 # fast build rule for target.
 run_tests_kindr_ros_gtest_test_kindr_ros/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest_test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest_test_kindr_ros.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest_test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest_test_kindr_ros.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest_test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/run_tests_kindr_ros_gtest_test_kindr_ros.dir/build
 .PHONY : run_tests_kindr_ros_gtest_test_kindr_ros/fast
 
 # Convenience name for target.
 kindr_ros/kindr_ros/CMakeFiles/clean_test_results_kindr_ros.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/clean_test_results_kindr_ros.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/clean_test_results_kindr_ros.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/clean_test_results_kindr_ros.dir/rule
 .PHONY : kindr_ros/kindr_ros/CMakeFiles/clean_test_results_kindr_ros.dir/rule
 
 # Convenience name for target.
@@ -488,20 +269,12 @@ clean_test_results_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/clean_test_results_
 
 # fast build rule for target.
 clean_test_results_kindr_ros/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/clean_test_results_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/clean_test_results_kindr_ros.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/clean_test_results_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/clean_test_results_kindr_ros.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/clean_test_results_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/clean_test_results_kindr_ros.dir/build
 .PHONY : clean_test_results_kindr_ros/fast
 
 # Convenience name for target.
 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest_test_kindr_ros.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest_test_kindr_ros.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest_test_kindr_ros.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest_test_kindr_ros.dir/rule
 .PHONY : kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest_test_kindr_ros.dir/rule
 
 # Convenience name for target.
@@ -511,11 +284,7 @@ _run_tests_kindr_ros_gtest_test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/_run_t
 
 # fast build rule for target.
 _run_tests_kindr_ros_gtest_test_kindr_ros/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest_test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest_test_kindr_ros.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest_test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest_test_kindr_ros.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest_test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/_run_tests_kindr_ros_gtest_test_kindr_ros.dir/build
 .PHONY : _run_tests_kindr_ros_gtest_test_kindr_ros/fast
 
 test/RosGeometryMsgPhysicalQuantitiesTest.o: test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o
@@ -524,11 +293,7 @@ test/RosGeometryMsgPhysicalQuantitiesTest.o: test/RosGeometryMsgPhysicalQuantiti
 
 # target to build an object file
 test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o
 .PHONY : test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o
 
 test/RosGeometryMsgPhysicalQuantitiesTest.i: test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i
@@ -537,11 +302,7 @@ test/RosGeometryMsgPhysicalQuantitiesTest.i: test/RosGeometryMsgPhysicalQuantiti
 
 # target to preprocess a source file
 test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i
 .PHONY : test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i
 
 test/RosGeometryMsgPhysicalQuantitiesTest.s: test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s
@@ -550,11 +311,7 @@ test/RosGeometryMsgPhysicalQuantitiesTest.s: test/RosGeometryMsgPhysicalQuantiti
 
 # target to generate assembly for a file
 test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s
 .PHONY : test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s
 
 test/RosGeometryMsgPoseTest.o: test/RosGeometryMsgPoseTest.cpp.o
@@ -563,11 +320,7 @@ test/RosGeometryMsgPoseTest.o: test/RosGeometryMsgPoseTest.cpp.o
 
 # target to build an object file
 test/RosGeometryMsgPoseTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o
 .PHONY : test/RosGeometryMsgPoseTest.cpp.o
 
 test/RosGeometryMsgPoseTest.i: test/RosGeometryMsgPoseTest.cpp.i
@@ -576,11 +329,7 @@ test/RosGeometryMsgPoseTest.i: test/RosGeometryMsgPoseTest.cpp.i
 
 # target to preprocess a source file
 test/RosGeometryMsgPoseTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i
 .PHONY : test/RosGeometryMsgPoseTest.cpp.i
 
 test/RosGeometryMsgPoseTest.s: test/RosGeometryMsgPoseTest.cpp.s
@@ -589,11 +338,7 @@ test/RosGeometryMsgPoseTest.s: test/RosGeometryMsgPoseTest.cpp.s
 
 # target to generate assembly for a file
 test/RosGeometryMsgPoseTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s
 .PHONY : test/RosGeometryMsgPoseTest.cpp.s
 
 test/RosGeometryMsgRotationTest.o: test/RosGeometryMsgRotationTest.cpp.o
@@ -602,11 +347,7 @@ test/RosGeometryMsgRotationTest.o: test/RosGeometryMsgRotationTest.cpp.o
 
 # target to build an object file
 test/RosGeometryMsgRotationTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o
 .PHONY : test/RosGeometryMsgRotationTest.cpp.o
 
 test/RosGeometryMsgRotationTest.i: test/RosGeometryMsgRotationTest.cpp.i
@@ -615,11 +356,7 @@ test/RosGeometryMsgRotationTest.i: test/RosGeometryMsgRotationTest.cpp.i
 
 # target to preprocess a source file
 test/RosGeometryMsgRotationTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i
 .PHONY : test/RosGeometryMsgRotationTest.cpp.i
 
 test/RosGeometryMsgRotationTest.s: test/RosGeometryMsgRotationTest.cpp.s
@@ -628,11 +365,7 @@ test/RosGeometryMsgRotationTest.s: test/RosGeometryMsgRotationTest.cpp.s
 
 # target to generate assembly for a file
 test/RosGeometryMsgRotationTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s
 .PHONY : test/RosGeometryMsgRotationTest.cpp.s
 
 test/RosTfPoseTest.o: test/RosTfPoseTest.cpp.o
@@ -641,11 +374,7 @@ test/RosTfPoseTest.o: test/RosTfPoseTest.cpp.o
 
 # target to build an object file
 test/RosTfPoseTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o
 .PHONY : test/RosTfPoseTest.cpp.o
 
 test/RosTfPoseTest.i: test/RosTfPoseTest.cpp.i
@@ -654,11 +383,7 @@ test/RosTfPoseTest.i: test/RosTfPoseTest.cpp.i
 
 # target to preprocess a source file
 test/RosTfPoseTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i
 .PHONY : test/RosTfPoseTest.cpp.i
 
 test/RosTfPoseTest.s: test/RosTfPoseTest.cpp.s
@@ -667,11 +392,7 @@ test/RosTfPoseTest.s: test/RosTfPoseTest.cpp.s
 
 # target to generate assembly for a file
 test/RosTfPoseTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s
 .PHONY : test/RosTfPoseTest.cpp.s
 
 test/TfConventionTest.o: test/TfConventionTest.cpp.o
@@ -680,11 +401,7 @@ test/TfConventionTest.o: test/TfConventionTest.cpp.o
 
 # target to build an object file
 test/TfConventionTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o
 .PHONY : test/TfConventionTest.cpp.o
 
 test/TfConventionTest.i: test/TfConventionTest.cpp.i
@@ -693,11 +410,7 @@ test/TfConventionTest.i: test/TfConventionTest.cpp.i
 
 # target to preprocess a source file
 test/TfConventionTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i
 .PHONY : test/TfConventionTest.cpp.i
 
 test/TfConventionTest.s: test/TfConventionTest.cpp.s
@@ -706,11 +419,7 @@ test/TfConventionTest.s: test/TfConventionTest.cpp.s
 
 # target to generate assembly for a file
 test/TfConventionTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s
 .PHONY : test/TfConventionTest.cpp.s
 
 test/test_main.o: test/test_main.cpp.o
@@ -719,11 +428,7 @@ test/test_main.o: test/test_main.cpp.o
 
 # target to build an object file
 test/test_main.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o
 .PHONY : test/test_main.cpp.o
 
 test/test_main.i: test/test_main.cpp.i
@@ -732,11 +437,7 @@ test/test_main.i: test/test_main.cpp.i
 
 # target to preprocess a source file
 test/test_main.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i
 .PHONY : test/test_main.cpp.i
 
 test/test_main.s: test/test_main.cpp.s
@@ -745,11 +446,7 @@ test/test_main.s: test/test_main.cpp.s
 
 # target to generate assembly for a file
 test/test_main.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s
 .PHONY : test/test_main.cpp.s
 
 # Help Target
@@ -758,38 +455,19 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-<<<<<<< HEAD
 	@echo "... install/strip"
 	@echo "... test_kindr_ros"
 	@echo "... run_tests_kindr_ros"
 	@echo "... _run_tests_kindr_ros"
 	@echo "... test"
-=======
-	@echo "... install"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... tf_generate_messages_cpp"
-	@echo "... tf_generate_messages_nodejs"
-	@echo "... tf_generate_messages_eus"
-	@echo "... tf_generate_messages_py"
-	@echo "... tf_generate_messages_lisp"
-	@echo "... run_tests_kindr_ros"
-	@echo "... install/strip"
-	@echo "... test_kindr_ros"
-	@echo "... _run_tests_kindr_ros"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 	@echo "... run_tests_kindr_ros_gtest"
 	@echo "... install/local"
 	@echo "... _run_tests_kindr_ros_gtest"
 	@echo "... run_tests_kindr_ros_gtest_test_kindr_ros"
 	@echo "... clean_test_results_kindr_ros"
-<<<<<<< HEAD
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... install"
-=======
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 	@echo "... list_install_components"
 	@echo "... _run_tests_kindr_ros_gtest_test_kindr_ros"
 	@echo "... test/RosGeometryMsgPhysicalQuantitiesTest.o"
@@ -821,10 +499,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

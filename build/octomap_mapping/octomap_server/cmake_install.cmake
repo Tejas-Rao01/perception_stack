@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-# Install script for directory: /home/stochlab/catkin_ws/src/octomap_mapping/octomap_server
+# Install script for directory: /home/stochlab/perception_stack/src/octomap_mapping/octomap_server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/stochlab/catkin_ws/install")
-=======
-# Install script for directory: /home/tejas/catkin_ws/src/octomap_mapping/octomap_server
-
-# Set the install prefix
-if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tejas/catkin_ws/install")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/perception_stack/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,63 +38,34 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/octomap_server" TYPE FILE FILES "/home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/octomap_server" TYPE FILE FILES "/home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/octomap_server" TYPE FILE FILES "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/octomap_server/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/octomap_server" TYPE FILE FILES "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/octomap_server/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/octomap_server/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/octomap_server" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/octomap_server" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/octomap_server/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/catkin_ws/build/octomap_mapping/octomap_server/catkin_generated/installspace/octomap_server.pc")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/octomap_server" TYPE FILE FILES "/home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/octomap_server" TYPE FILE FILES "/home/tejas/catkin_ws/devel/lib/python3/dist-packages/octomap_server/__init__.py")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/tejas/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/octomap_server" TYPE DIRECTORY FILES "/home/tejas/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tejas/catkin_ws/build/octomap_mapping/octomap_server/catkin_generated/installspace/octomap_server.pc")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/perception_stack/build/octomap_mapping/octomap_server/catkin_generated/installspace/octomap_server.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_server/cmake" TYPE FILE FILES
-<<<<<<< HEAD
-    "/home/stochlab/catkin_ws/build/octomap_mapping/octomap_server/catkin_generated/installspace/octomap_serverConfig.cmake"
-    "/home/stochlab/catkin_ws/build/octomap_mapping/octomap_server/catkin_generated/installspace/octomap_serverConfig-version.cmake"
-=======
-    "/home/tejas/catkin_ws/build/octomap_mapping/octomap_server/catkin_generated/installspace/octomap_serverConfig.cmake"
-    "/home/tejas/catkin_ws/build/octomap_mapping/octomap_server/catkin_generated/installspace/octomap_serverConfig-version.cmake"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    "/home/stochlab/perception_stack/build/octomap_mapping/octomap_server/catkin_generated/installspace/octomap_serverConfig.cmake"
+    "/home/stochlab/perception_stack/build/octomap_mapping/octomap_server/catkin_generated/installspace/octomap_serverConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_server" TYPE FILE FILES "/home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/package.xml")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_server" TYPE FILE FILES "/home/tejas/catkin_ws/src/octomap_mapping/octomap_server/package.xml")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_server" TYPE FILE FILES "/home/stochlab/perception_stack/src/octomap_mapping/octomap_server/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -112,11 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_server.so"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/catkin_ws/devel/lib/liboctomap_server.so")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tejas/catkin_ws/devel/lib/liboctomap_server.so")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/perception_stack/devel/lib/liboctomap_server.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_server.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_server.so")
     file(RPATH_CHANGE
@@ -139,11 +98,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_server_color.so"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/catkin_ws/devel/lib/liboctomap_server_color.so")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tejas/catkin_ws/devel/lib/liboctomap_server_color.so")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/perception_stack/devel/lib/liboctomap_server_color.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_server_color.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_server_color.so")
     file(RPATH_CHANGE
@@ -166,20 +121,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_node"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/catkin_ws/devel/lib/octomap_server/octomap_server_node")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/tejas/catkin_ws/devel/lib/octomap_server/octomap_server_node")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/perception_stack/devel/lib/octomap_server/octomap_server_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_node"
-<<<<<<< HEAD
-         OLD_RPATH "/home/stochlab/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
-=======
-         OLD_RPATH "/home/tejas/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+         OLD_RPATH "/home/stochlab/perception_stack/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_node")
@@ -194,20 +141,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_color_server_node"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/catkin_ws/devel/lib/octomap_server/octomap_color_server_node")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/tejas/catkin_ws/devel/lib/octomap_server/octomap_color_server_node")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/perception_stack/devel/lib/octomap_server/octomap_color_server_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_color_server_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_color_server_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_color_server_node"
-<<<<<<< HEAD
-         OLD_RPATH "/home/stochlab/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
-=======
-         OLD_RPATH "/home/tejas/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+         OLD_RPATH "/home/stochlab/perception_stack/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_color_server_node")
@@ -222,20 +161,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_static"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/catkin_ws/devel/lib/octomap_server/octomap_server_static")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/tejas/catkin_ws/devel/lib/octomap_server/octomap_server_static")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/perception_stack/devel/lib/octomap_server/octomap_server_static")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_static" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_static")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_static"
-<<<<<<< HEAD
-         OLD_RPATH "/home/stochlab/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
-=======
-         OLD_RPATH "/home/tejas/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+         OLD_RPATH "/home/stochlab/perception_stack/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_static")
@@ -250,20 +181,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_multilayer"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/catkin_ws/devel/lib/octomap_server/octomap_server_multilayer")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/tejas/catkin_ws/devel/lib/octomap_server/octomap_server_multilayer")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/perception_stack/devel/lib/octomap_server/octomap_server_multilayer")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_multilayer" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_multilayer")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_multilayer"
-<<<<<<< HEAD
-         OLD_RPATH "/home/stochlab/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
-=======
-         OLD_RPATH "/home/tejas/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+         OLD_RPATH "/home/stochlab/perception_stack/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_server_multilayer")
@@ -278,20 +201,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_saver"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/catkin_ws/devel/lib/octomap_server/octomap_saver")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/tejas/catkin_ws/devel/lib/octomap_server/octomap_saver")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/perception_stack/devel/lib/octomap_server/octomap_saver")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_saver" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_saver")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_saver"
-<<<<<<< HEAD
-         OLD_RPATH "/home/stochlab/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
-=======
-         OLD_RPATH "/home/tejas/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+         OLD_RPATH "/home/stochlab/perception_stack/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_saver")
@@ -306,20 +221,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_tracking_server_node"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/catkin_ws/devel/lib/octomap_server/octomap_tracking_server_node")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/tejas/catkin_ws/devel/lib/octomap_server/octomap_tracking_server_node")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/octomap_server" TYPE EXECUTABLE FILES "/home/stochlab/perception_stack/devel/lib/octomap_server/octomap_tracking_server_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_tracking_server_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_tracking_server_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_tracking_server_node"
-<<<<<<< HEAD
-         OLD_RPATH "/home/stochlab/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
-=======
-         OLD_RPATH "/home/tejas/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+         OLD_RPATH "/home/stochlab/perception_stack/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/octomap_server/octomap_tracking_server_node")
@@ -334,20 +241,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_server_nodelet.so"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/catkin_ws/devel/lib/liboctomap_server_nodelet.so")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tejas/catkin_ws/devel/lib/liboctomap_server_nodelet.so")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/perception_stack/devel/lib/liboctomap_server_nodelet.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_server_nodelet.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_server_nodelet.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_server_nodelet.so"
-<<<<<<< HEAD
-         OLD_RPATH "/home/stochlab/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
-=======
-         OLD_RPATH "/home/tejas/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+         OLD_RPATH "/home/stochlab/perception_stack/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_server_nodelet.so")
@@ -365,20 +264,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_color_server_nodelet.so"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/catkin_ws/devel/lib/liboctomap_color_server_nodelet.so")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tejas/catkin_ws/devel/lib/liboctomap_color_server_nodelet.so")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/perception_stack/devel/lib/liboctomap_color_server_nodelet.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_color_server_nodelet.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_color_server_nodelet.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_color_server_nodelet.so"
-<<<<<<< HEAD
-         OLD_RPATH "/home/stochlab/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
-=======
-         OLD_RPATH "/home/tejas/catkin_ws/devel/lib:/opt/ros/noetic/lib:"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+         OLD_RPATH "/home/stochlab/perception_stack/devel/lib:/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap_color_server_nodelet.so")
@@ -390,30 +281,17 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/octomap_server" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/include/octomap_server/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/octomap_server" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/src/octomap_mapping/octomap_server/include/octomap_server/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_server/launch" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/launch/")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/octomap_server" TYPE DIRECTORY FILES "/home/tejas/catkin_ws/src/octomap_mapping/octomap_server/include/octomap_server/")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_server/launch" TYPE DIRECTORY FILES "/home/tejas/catkin_ws/src/octomap_mapping/octomap_server/launch/")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_server/launch" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/src/octomap_mapping/octomap_server/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_server" TYPE FILE FILES
-<<<<<<< HEAD
-    "/home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/nodelet_plugins.xml"
-    "/home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/color_nodelet_plugins.xml"
-=======
-    "/home/tejas/catkin_ws/src/octomap_mapping/octomap_server/nodelet_plugins.xml"
-    "/home/tejas/catkin_ws/src/octomap_mapping/octomap_server/color_nodelet_plugins.xml"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    "/home/stochlab/perception_stack/src/octomap_mapping/octomap_server/nodelet_plugins.xml"
+    "/home/stochlab/perception_stack/src/octomap_mapping/octomap_server/color_nodelet_plugins.xml"
     )
 endif()
 

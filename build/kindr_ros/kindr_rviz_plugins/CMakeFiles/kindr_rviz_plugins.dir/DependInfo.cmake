@@ -4,15 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp" "/home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o"
-  "/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionDisplay.cpp" "/home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.o"
-  "/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionVisual.cpp" "/home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.o"
-=======
-  "/home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp" "/home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o"
-  "/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionDisplay.cpp" "/home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.o"
-  "/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionVisual.cpp" "/home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.o"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/build/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp" "/home/stochlab/perception_stack/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o"
+  "/home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionDisplay.cpp" "/home/stochlab/perception_stack/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.o"
+  "/home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionVisual.cpp" "/home/stochlab/perception_stack/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,13 +25,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include"
-  "/home/stochlab/catkin_ws/devel/include"
-=======
-  "/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include"
-  "/home/tejas/catkin_ws/devel/include"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins/include"
+  "/home/stochlab/perception_stack/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

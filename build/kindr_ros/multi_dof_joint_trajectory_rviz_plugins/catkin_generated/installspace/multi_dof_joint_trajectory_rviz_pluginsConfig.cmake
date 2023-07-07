@@ -67,23 +67,14 @@ set(multi_dof_joint_trajectory_rviz_plugins_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-<<<<<<< HEAD
-  set(multi_dof_joint_trajectory_rviz_plugins_SOURCE_PREFIX /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins)
-  set(multi_dof_joint_trajectory_rviz_plugins_DEVEL_PREFIX /home/stochlab/catkin_ws/devel)
-=======
-  set(multi_dof_joint_trajectory_rviz_plugins_SOURCE_PREFIX /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins)
-  set(multi_dof_joint_trajectory_rviz_plugins_DEVEL_PREFIX /home/tejas/catkin_ws/devel)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(multi_dof_joint_trajectory_rviz_plugins_SOURCE_PREFIX /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins)
+  set(multi_dof_joint_trajectory_rviz_plugins_DEVEL_PREFIX /home/stochlab/perception_stack/devel)
   set(multi_dof_joint_trajectory_rviz_plugins_INSTALL_PREFIX "")
   set(multi_dof_joint_trajectory_rviz_plugins_PREFIX ${multi_dof_joint_trajectory_rviz_plugins_DEVEL_PREFIX})
 else()
   set(multi_dof_joint_trajectory_rviz_plugins_SOURCE_PREFIX "")
   set(multi_dof_joint_trajectory_rviz_plugins_DEVEL_PREFIX "")
-<<<<<<< HEAD
-  set(multi_dof_joint_trajectory_rviz_plugins_INSTALL_PREFIX /home/stochlab/catkin_ws/install)
-=======
-  set(multi_dof_joint_trajectory_rviz_plugins_INSTALL_PREFIX /home/tejas/catkin_ws/install)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(multi_dof_joint_trajectory_rviz_plugins_INSTALL_PREFIX /home/stochlab/perception_stack/install)
   set(multi_dof_joint_trajectory_rviz_plugins_PREFIX ${multi_dof_joint_trajectory_rviz_plugins_INSTALL_PREFIX})
 endif()
 
@@ -163,11 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-<<<<<<< HEAD
-    foreach(path /home/stochlab/catkin_ws/install/lib;/home/stochlab/test_ws/devel/lib;/home/stochlab/catkin_ws/devel/lib;/opt/ros/noetic/lib)
-=======
-    foreach(path /home/tejas/catkin_ws/install/lib;/home/tejas/catkin_ws/devel/lib;/opt/ros/noetic/lib)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    foreach(path /home/stochlab/perception_stack/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

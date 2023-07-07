@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/liboctomap_server_color.pdb"
-  "/home/stochlab/catkin_ws/devel/lib/liboctomap_server_color.so"
-=======
-  "/home/tejas/catkin_ws/devel/lib/liboctomap_server_color.pdb"
-  "/home/tejas/catkin_ws/devel/lib/liboctomap_server_color.so"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/liboctomap_server_color.pdb"
+  "/home/stochlab/perception_stack/devel/lib/liboctomap_server_color.so"
   "CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.o"
   "CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.o"
   "CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.o"

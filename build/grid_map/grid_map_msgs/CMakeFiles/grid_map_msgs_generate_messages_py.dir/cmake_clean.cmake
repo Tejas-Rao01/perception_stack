@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/grid_map_msgs/msg/_GridMap.py"
-  "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/grid_map_msgs/msg/_GridMapInfo.py"
-  "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/grid_map_msgs/msg/__init__.py"
-  "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/grid_map_msgs/srv/_GetGridMap.py"
-  "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py"
-  "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/grid_map_msgs/srv/_ProcessFile.py"
-  "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/grid_map_msgs/srv/_SetGridMap.py"
-  "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/grid_map_msgs/srv/__init__.py"
+  "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/grid_map_msgs/msg/_GridMap.py"
+  "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/grid_map_msgs/msg/_GridMapInfo.py"
+  "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/grid_map_msgs/msg/__init__.py"
+  "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/grid_map_msgs/srv/_GetGridMap.py"
+  "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/grid_map_msgs/srv/_GetGridMapInfo.py"
+  "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/grid_map_msgs/srv/_ProcessFile.py"
+  "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/grid_map_msgs/srv/_SetGridMap.py"
+  "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/grid_map_msgs/srv/__init__.py"
   "CMakeFiles/grid_map_msgs_generate_messages_py"
 )
 

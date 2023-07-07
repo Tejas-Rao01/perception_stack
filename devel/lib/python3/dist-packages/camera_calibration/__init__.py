@@ -6,11 +6,7 @@ from os import path as os_path
 from pkgutil import extend_path
 from sys import path as sys_path
 
-<<<<<<< HEAD
-__extended_path = '/home/stochlab/catkin_ws/src/image_pipeline/camera_calibration/src'.split(';')
-=======
-__extended_path = '/home/tejas/catkin_ws/src/image_pipeline/camera_calibration/src'.split(';')
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+__extended_path = '/home/stochlab/perception_stack/src/image_pipeline/camera_calibration/src'.split(';')
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

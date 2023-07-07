@@ -4,9 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "geometry_msgs;message_runtime;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "kindr_msgs"
-<<<<<<< HEAD
-PROJECT_SPACE_DIR = "/home/stochlab/catkin_ws/install"
-=======
-PROJECT_SPACE_DIR = "/home/tejas/catkin_ws/install"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+PROJECT_SPACE_DIR = "/home/stochlab/perception_stack/install"
 PROJECT_VERSION = "0.3.14"

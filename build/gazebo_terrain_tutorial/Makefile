@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/gazebo_terrain_tutorial/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/gazebo_terrain_tutorial/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/clean
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/preinstall
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/preinstall
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ trajectory_msgs_generate_messages_py: gazebo_terrain_tutorial/CMakeFiles/traject
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_py/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
 .PHONY : trajectory_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ trajectory_msgs_generate_messages_lisp: gazebo_terrain_tutorial/CMakeFiles/traje
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_lisp/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
 .PHONY : trajectory_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/gazebo_ros_gencfg.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_ros_gencfg.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_ros_gencfg.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/gazebo_ros_gencfg.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ gazebo_ros_gencfg: gazebo_terrain_tutorial/CMakeFiles/gazebo_ros_gencfg.dir/rule
 
 # fast build rule for target.
 gazebo_ros_gencfg/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_ros_gencfg.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_ros_gencfg.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_ros_gencfg.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_ros_gencfg.dir/build
 .PHONY : gazebo_ros_gencfg/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_cpp.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_cpp.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ tf_generate_messages_cpp: gazebo_terrain_tutorial/CMakeFiles/tf_generate_message
 
 # fast build rule for target.
 tf_generate_messages_cpp/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_cpp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_cpp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_cpp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_cpp.dir/build
 .PHONY : tf_generate_messages_cpp/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_lisp.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_lisp.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ tf_generate_messages_lisp: gazebo_terrain_tutorial/CMakeFiles/tf_generate_messag
 
 # fast build rule for target.
 tf_generate_messages_lisp/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_lisp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_lisp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_lisp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_lisp.dir/build
 .PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ gazebo_msgs_generate_messages_cpp: gazebo_terrain_tutorial/CMakeFiles/gazebo_msg
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_cpp/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
 .PHONY : gazebo_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ tf_generate_messages_nodejs: gazebo_terrain_tutorial/CMakeFiles/tf_generate_mess
 
 # fast build rule for target.
 tf_generate_messages_nodejs/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_nodejs.dir/build.make gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_nodejs.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_nodejs.dir/build.make gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_nodejs.dir/build
 .PHONY : tf_generate_messages_nodejs/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_eus.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_eus.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_eus.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ tf_generate_messages_eus: gazebo_terrain_tutorial/CMakeFiles/tf_generate_message
 
 # fast build rule for target.
 tf_generate_messages_eus/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_eus.dir/build.make gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_eus.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_eus.dir/build.make gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_eus.dir/build
 .PHONY : tf_generate_messages_eus/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_py.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_py.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_py.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ tf_generate_messages_py: gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages
 
 # fast build rule for target.
 tf_generate_messages_py/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_py.dir/build.make gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_py.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_py.dir/build.make gazebo_terrain_tutorial/CMakeFiles/tf_generate_messages_py.dir/build
 .PHONY : tf_generate_messages_py/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ trajectory_msgs_generate_messages_nodejs: gazebo_terrain_tutorial/CMakeFiles/tra
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_nodejs/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
 .PHONY : trajectory_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ gazebo_msgs_generate_messages_lisp: gazebo_terrain_tutorial/CMakeFiles/gazebo_ms
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_lisp/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
 .PHONY : gazebo_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ trajectory_msgs_generate_messages_cpp: gazebo_terrain_tutorial/CMakeFiles/trajec
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_cpp/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
 .PHONY : trajectory_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ gazebo_msgs_generate_messages_eus: gazebo_terrain_tutorial/CMakeFiles/gazebo_msg
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_eus/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
 .PHONY : gazebo_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ gazebo_msgs_generate_messages_nodejs: gazebo_terrain_tutorial/CMakeFiles/gazebo_
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_nodejs/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
 .PHONY : gazebo_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ gazebo_msgs_generate_messages_py: gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs
 
 # fast build rule for target.
 gazebo_msgs_generate_messages_py/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make gazebo_terrain_tutorial/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
 .PHONY : gazebo_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 .PHONY : gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -404,7 +404,7 @@ trajectory_msgs_generate_messages_eus: gazebo_terrain_tutorial/CMakeFiles/trajec
 
 # fast build rule for target.
 trajectory_msgs_generate_messages_eus/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make gazebo_terrain_tutorial/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
 .PHONY : trajectory_msgs_generate_messages_eus/fast
 
 # Help Target
@@ -447,6 +447,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/stochlab/catkin_ws/src/grid_map/grid_map_costmap_2d
+# Install script for directory: /home/stochlab/perception_stack/src/grid_map/grid_map_costmap_2d
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/stochlab/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/perception_stack/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/catkin_ws/build/grid_map/grid_map_costmap_2d/catkin_generated/installspace/grid_map_costmap_2d.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/perception_stack/build/grid_map/grid_map_costmap_2d/catkin_generated/installspace/grid_map_costmap_2d.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grid_map_costmap_2d/cmake" TYPE FILE FILES
-    "/home/stochlab/catkin_ws/build/grid_map/grid_map_costmap_2d/catkin_generated/installspace/grid_map_costmap_2dConfig.cmake"
-    "/home/stochlab/catkin_ws/build/grid_map/grid_map_costmap_2d/catkin_generated/installspace/grid_map_costmap_2dConfig-version.cmake"
+    "/home/stochlab/perception_stack/build/grid_map/grid_map_costmap_2d/catkin_generated/installspace/grid_map_costmap_2dConfig.cmake"
+    "/home/stochlab/perception_stack/build/grid_map/grid_map_costmap_2d/catkin_generated/installspace/grid_map_costmap_2dConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grid_map_costmap_2d" TYPE FILE FILES "/home/stochlab/catkin_ws/src/grid_map/grid_map_costmap_2d/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grid_map_costmap_2d" TYPE FILE FILES "/home/stochlab/perception_stack/src/grid_map/grid_map_costmap_2d/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/grid_map_costmap_2d" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/grid_map/grid_map_costmap_2d/include/grid_map_costmap_2d/" FILES_MATCHING REGEX "/[^/]*\\.hpp$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/grid_map_costmap_2d" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/src/grid_map/grid_map_costmap_2d/include/grid_map_costmap_2d/" FILES_MATCHING REGEX "/[^/]*\\.hpp$")
 endif()
 

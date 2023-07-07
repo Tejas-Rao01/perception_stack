@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_pcl.pdb"
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_pcl.so"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_pcl.pdb"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_pcl.so"
   "CMakeFiles/grid_map_pcl.dir/src/GridMapPclConverter.cpp.o"
   "CMakeFiles/grid_map_pcl.dir/src/GridMapPclLoader.cpp.o"
   "CMakeFiles/grid_map_pcl.dir/src/PclLoaderParameters.cpp.o"

@@ -7,11 +7,6 @@
 # new environment variables
 
 # modified environment variables
-<<<<<<< HEAD
-export PWD='/home/stochlab/catkin_ws/build'
-=======
-export LD_LIBRARY_PATH='/opt/ros/noetic/lib'
-export PKG_CONFIG_PATH='/opt/ros/noetic/lib/pkgconfig'
-export PWD='/home/tejas/catkin_ws/build'
-export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+export CMAKE_PREFIX_PATH="/home/stochlab/perception_stack/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/stochlab/perception_stack/build'
+export ROS_PACKAGE_PATH="/home/stochlab/perception_stack/src:$ROS_PACKAGE_PATH"

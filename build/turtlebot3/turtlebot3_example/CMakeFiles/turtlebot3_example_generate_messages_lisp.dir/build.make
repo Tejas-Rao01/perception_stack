@@ -43,176 +43,91 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for turtlebot3_example_generate_messages_lisp.
 
 # Include the progress variables for this target.
 include turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/progress.make
 
-<<<<<<< HEAD
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp
+turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp
 
 
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Action.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionGoal.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionFeedback.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionResult.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from turtlebot3_example/Turtlebot3Action.msg"
-	cd /home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Action.msg -Iturtlebot3_example:/home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Action.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3ActionFeedback.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3ActionGoal.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3ActionResult.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from turtlebot3_example/Turtlebot3Action.msg"
+	cd /home/stochlab/perception_stack/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Action.msg -Iturtlebot3_example:/home/stochlab/perception_stack/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg
 
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionGoal.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from turtlebot3_example/Turtlebot3ActionGoal.msg"
-	cd /home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionGoal.msg -Iturtlebot3_example:/home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3ActionGoal.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from turtlebot3_example/Turtlebot3ActionGoal.msg"
+	cd /home/stochlab/perception_stack/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3ActionGoal.msg -Iturtlebot3_example:/home/stochlab/perception_stack/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg
 
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionResult.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from turtlebot3_example/Turtlebot3ActionResult.msg"
-	cd /home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionResult.msg -Iturtlebot3_example:/home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3ActionResult.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from turtlebot3_example/Turtlebot3ActionResult.msg"
+	cd /home/stochlab/perception_stack/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3ActionResult.msg -Iturtlebot3_example:/home/stochlab/perception_stack/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg
 
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionFeedback.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from turtlebot3_example/Turtlebot3ActionFeedback.msg"
-	cd /home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionFeedback.msg -Iturtlebot3_example:/home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3ActionFeedback.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from turtlebot3_example/Turtlebot3ActionFeedback.msg"
+	cd /home/stochlab/perception_stack/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3ActionFeedback.msg -Iturtlebot3_example:/home/stochlab/perception_stack/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg
 
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from turtlebot3_example/Turtlebot3Goal.msg"
-	cd /home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg -Iturtlebot3_example:/home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from turtlebot3_example/Turtlebot3Goal.msg"
+	cd /home/stochlab/perception_stack/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg -Iturtlebot3_example:/home/stochlab/perception_stack/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg
 
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from turtlebot3_example/Turtlebot3Result.msg"
-	cd /home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg -Iturtlebot3_example:/home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from turtlebot3_example/Turtlebot3Result.msg"
+	cd /home/stochlab/perception_stack/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg -Iturtlebot3_example:/home/stochlab/perception_stack/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg
 
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp: /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from turtlebot3_example/Turtlebot3Feedback.msg"
-	cd /home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg -Iturtlebot3_example:/home/stochlab/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
-
-turtlebot3_example_generate_messages_lisp: turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp
-turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp
-turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp
-turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp
-turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp
-turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp
-turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp
-turtlebot3_example_generate_messages_lisp: /home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp
-=======
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp
-
-
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Action.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionFeedback.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionGoal.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionResult.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from turtlebot3_example/Turtlebot3Action.msg"
-	cd /home/tejas/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Action.msg -Iturtlebot3_example:/home/tejas/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
-
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionGoal.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from turtlebot3_example/Turtlebot3ActionGoal.msg"
-	cd /home/tejas/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionGoal.msg -Iturtlebot3_example:/home/tejas/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
-
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionResult.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from turtlebot3_example/Turtlebot3ActionResult.msg"
-	cd /home/tejas/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionResult.msg -Iturtlebot3_example:/home/tejas/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
-
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionFeedback.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from turtlebot3_example/Turtlebot3ActionFeedback.msg"
-	cd /home/tejas/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3ActionFeedback.msg -Iturtlebot3_example:/home/tejas/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
-
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from turtlebot3_example/Turtlebot3Goal.msg"
-	cd /home/tejas/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Goal.msg -Iturtlebot3_example:/home/tejas/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
-
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Lisp code from turtlebot3_example/Turtlebot3Result.msg"
-	cd /home/tejas/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Result.msg -Iturtlebot3_example:/home/tejas/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
-
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
-/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp: /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from turtlebot3_example/Turtlebot3Feedback.msg"
-	cd /home/tejas/catkin_ws/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/tejas/catkin_ws/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg -Iturtlebot3_example:/home/tejas/catkin_ws/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp: /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Lisp code from turtlebot3_example/Turtlebot3Feedback.msg"
+	cd /home/stochlab/perception_stack/build/turtlebot3/turtlebot3_example && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/devel/share/turtlebot3_example/msg/Turtlebot3Feedback.msg -Iturtlebot3_example:/home/stochlab/perception_stack/devel/share/turtlebot3_example/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -p turtlebot3_example -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg
 
 turtlebot3_example_generate_messages_lisp: turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp
-turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp
-turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp
-turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp
-turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp
-turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp
-turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp
-turtlebot3_example_generate_messages_lisp: /home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp
+turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp
+turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp
+turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp
+turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp
+turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp
+turtlebot3_example_generate_messages_lisp: /home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp
 turtlebot3_example_generate_messages_lisp: turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/build.make
 
 .PHONY : turtlebot3_example_generate_messages_lisp
@@ -223,18 +138,10 @@ turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_li
 .PHONY : turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/build
 
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_example && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/turtlebot3/turtlebot3_example && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/clean
 
 turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_example /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_example /home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/turtlebot3/turtlebot3_example && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/cmake_clean.cmake
-.PHONY : turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/clean
-
-turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/turtlebot3/turtlebot3_example /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/turtlebot3/turtlebot3_example /home/tejas/catkin_ws/build/turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/turtlebot3/turtlebot3_example /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/turtlebot3/turtlebot3_example /home/stochlab/perception_stack/build/turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : turtlebot3/turtlebot3_example/CMakeFiles/turtlebot3_example_generate_messages_lisp.dir/depend
 

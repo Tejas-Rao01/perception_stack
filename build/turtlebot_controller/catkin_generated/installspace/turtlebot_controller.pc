@@ -1,4 +1,4 @@
-prefix=/home/tejas/catkin_ws/install
+prefix=/home/stochlab/perception_stack/install
 
 Name: turtlebot_controller
 Description: Description of turtlebot_controller

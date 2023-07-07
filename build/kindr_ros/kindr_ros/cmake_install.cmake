@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-# Install script for directory: /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros
+# Install script for directory: /home/stochlab/perception_stack/src/kindr_ros/kindr_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/stochlab/catkin_ws/install")
-=======
-# Install script for directory: /home/tejas/catkin_ws/src/kindr_ros/kindr_ros
-
-# Set the install prefix
-if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tejas/catkin_ws/install")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/perception_stack/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,38 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/catkin_ws/build/kindr_ros/kindr_ros/catkin_generated/installspace/kindr_ros.pc")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tejas/catkin_ws/build/kindr_ros/kindr_ros/catkin_generated/installspace/kindr_ros.pc")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/perception_stack/build/kindr_ros/kindr_ros/catkin_generated/installspace/kindr_ros.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr_ros/cmake" TYPE FILE FILES
-<<<<<<< HEAD
-    "/home/stochlab/catkin_ws/build/kindr_ros/kindr_ros/catkin_generated/installspace/kindr_rosConfig.cmake"
-    "/home/stochlab/catkin_ws/build/kindr_ros/kindr_ros/catkin_generated/installspace/kindr_rosConfig-version.cmake"
-=======
-    "/home/tejas/catkin_ws/build/kindr_ros/kindr_ros/catkin_generated/installspace/kindr_rosConfig.cmake"
-    "/home/tejas/catkin_ws/build/kindr_ros/kindr_ros/catkin_generated/installspace/kindr_rosConfig-version.cmake"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    "/home/stochlab/perception_stack/build/kindr_ros/kindr_ros/catkin_generated/installspace/kindr_rosConfig.cmake"
+    "/home/stochlab/perception_stack/build/kindr_ros/kindr_ros/catkin_generated/installspace/kindr_rosConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr_ros" TYPE FILE FILES "/home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr_ros" TYPE FILE FILES "/home/stochlab/perception_stack/src/kindr_ros/kindr_ros/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kindr_ros" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/include/kindr_ros/")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr_ros" TYPE FILE FILES "/home/tejas/catkin_ws/src/kindr_ros/kindr_ros/package.xml")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kindr_ros" TYPE DIRECTORY FILES "/home/tejas/catkin_ws/src/kindr_ros/kindr_ros/include/kindr_ros/")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kindr_ros" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/src/kindr_ros/kindr_ros/include/kindr_ros/")
 endif()
 

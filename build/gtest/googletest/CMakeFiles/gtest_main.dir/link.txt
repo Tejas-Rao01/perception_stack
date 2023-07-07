@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/stochlab/catkin_ws/build/gtest/lib ../lib/libgtest.so -lpthread 
-=======
-/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/tejas/catkin_ws/build/gtest/lib ../lib/libgtest.so -lpthread 
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgtest_main.so -o ../lib/libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -Wl,-rpath,/home/stochlab/perception_stack/build/gtest/lib ../lib/libgtest.so -lpthread 

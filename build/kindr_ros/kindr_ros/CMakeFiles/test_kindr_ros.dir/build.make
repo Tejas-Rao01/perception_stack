@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Include any dependencies generated for this target.
 include kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/depend.make
@@ -65,161 +58,82 @@ include kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/progress.make
 include kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
-<<<<<<< HEAD
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o: /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o -c /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp
+kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o: /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/test_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o -c /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/test_main.cpp
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp > CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/test_main.cpp > CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp -o CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/test_main.cpp -o CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o: /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp
+kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o: /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o -c /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o: /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp
+kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o: /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o -c /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o: /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp
+kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o: /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o -c /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o: /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp
+kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o: /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o -c /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o: /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp
+kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o: /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o -c /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp > CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp > CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s
-=======
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o: /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o -c /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp > CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.i
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/test_main.cpp -o CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.s
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o: /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o -c /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.i
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPhysicalQuantitiesTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.s
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o: /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o -c /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.i
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgRotationTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.s
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o: /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o -c /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.i
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosGeometryMsgPoseTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.s
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o: /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o -c /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp > CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.i
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/RosTfPoseTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.s
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/flags.make
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o: /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o -c /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp > CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.i
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/test/TfConventionTest.cpp -o CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.s
 
 # Object files for target test_kindr_ros
 test_kindr_ros_OBJECTS = \
@@ -233,97 +147,50 @@ test_kindr_ros_OBJECTS = \
 # External object files for target test_kindr_ros
 test_kindr_ros_EXTERNAL_OBJECTS =
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: gtest/lib/libgtest.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf2_ros.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libactionlib.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libmessage_filters.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libroscpp.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf2.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librostime.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libcpp_common.so
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_kindr_ros.dir/link.txt --verbose=$(VERBOSE)
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: gtest/lib/libgtest.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf2_ros.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libactionlib.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libmessage_filters.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libroscpp.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf2.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librostime.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libcpp_common.so
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros"
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_kindr_ros.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build: /home/stochlab/catkin_ws/devel/lib/kindr_ros/test_kindr_ros
-=======
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/test_main.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPhysicalQuantitiesTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgRotationTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosGeometryMsgPoseTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/RosTfPoseTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/test/TfConventionTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build.make
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: gtest/lib/libgtest.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf2_ros.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libactionlib.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libmessage_filters.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libroscpp.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libtf2.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/librostime.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /opt/ros/noetic/lib/libcpp_common.so
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros: kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_kindr_ros.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build: /home/tejas/catkin_ws/devel/lib/kindr_ros/test_kindr_ros
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build: /home/stochlab/perception_stack/devel/lib/kindr_ros/test_kindr_ros
 
 .PHONY : kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/build
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros && $(CMAKE_COMMAND) -P CMakeFiles/test_kindr_ros.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_ros && $(CMAKE_COMMAND) -P CMakeFiles/test_kindr_ros.dir/cmake_clean.cmake
 .PHONY : kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/clean
 
 kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/kindr_ros/kindr_ros /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros /home/stochlab/catkin_ws/build/kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_ros && $(CMAKE_COMMAND) -P CMakeFiles/test_kindr_ros.dir/cmake_clean.cmake
-.PHONY : kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/clean
-
-kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/kindr_ros/kindr_ros /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/kindr_ros/kindr_ros /home/tejas/catkin_ws/build/kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/kindr_ros/kindr_ros /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/kindr_ros/kindr_ros /home/stochlab/perception_stack/build/kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kindr_ros/kindr_ros/CMakeFiles/test_kindr_ros.dir/depend
 

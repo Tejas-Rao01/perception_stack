@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for uninstall.
 
@@ -61,11 +54,7 @@ CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
 include kindr/CMakeFiles/uninstall.dir/progress.make
 
 kindr/CMakeFiles/uninstall:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr && /usr/bin/cmake -P /home/stochlab/catkin_ws/build/kindr/cmake_uninstall.cmake
-=======
-	cd /home/tejas/catkin_ws/build/kindr && /usr/bin/cmake -P /home/tejas/catkin_ws/build/kindr/cmake_uninstall.cmake
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build/kindr && /usr/bin/cmake -P /home/stochlab/perception_stack/build/kindr/cmake_uninstall.cmake
 
 uninstall: kindr/CMakeFiles/uninstall
 uninstall: kindr/CMakeFiles/uninstall.dir/build.make
@@ -78,18 +67,10 @@ kindr/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : kindr/CMakeFiles/uninstall.dir/build
 
 kindr/CMakeFiles/uninstall.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/kindr && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : kindr/CMakeFiles/uninstall.dir/clean
 
 kindr/CMakeFiles/uninstall.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/kindr /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/kindr /home/stochlab/catkin_ws/build/kindr/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/kindr && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
-.PHONY : kindr/CMakeFiles/uninstall.dir/clean
-
-kindr/CMakeFiles/uninstall.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/kindr /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/kindr /home/tejas/catkin_ws/build/kindr/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/kindr /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/kindr /home/stochlab/perception_stack/build/kindr/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kindr/CMakeFiles/uninstall.dir/depend
 

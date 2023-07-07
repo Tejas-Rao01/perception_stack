@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/libimage_view.pdb"
-  "/home/stochlab/catkin_ws/devel/lib/libimage_view.so"
-=======
-  "/home/tejas/catkin_ws/devel/lib/libimage_view.pdb"
-  "/home/tejas/catkin_ws/devel/lib/libimage_view.so"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/libimage_view.pdb"
+  "/home/stochlab/perception_stack/devel/lib/libimage_view.so"
   "CMakeFiles/image_view.dir/src/nodelets/disparity_nodelet.cpp.o"
   "CMakeFiles/image_view.dir/src/nodelets/image_nodelet.cpp.o"
   "CMakeFiles/image_view.dir/src/nodelets/window_thread.cpp.o"

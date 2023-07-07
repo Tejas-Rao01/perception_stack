@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-# Install script for directory: /home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_navigation
+# Install script for directory: /home/stochlab/perception_stack/src/turtlebot3/turtlebot3_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/stochlab/catkin_ws/install")
-=======
-# Install script for directory: /home/tejas/catkin_ws/src/turtlebot3/turtlebot3_navigation
-
-# Set the install prefix
-if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tejas/catkin_ws/install")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/perception_stack/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,46 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigation.pc")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigation.pc")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/perception_stack/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation/cmake" TYPE FILE FILES
-<<<<<<< HEAD
-    "/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig.cmake"
-    "/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig-version.cmake"
-=======
-    "/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig.cmake"
-    "/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig-version.cmake"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    "/home/stochlab/perception_stack/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig.cmake"
+    "/home/stochlab/perception_stack/build/turtlebot3/turtlebot3_navigation/catkin_generated/installspace/turtlebot3_navigationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE FILE FILES "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_navigation/package.xml")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE FILE FILES "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_navigation/package.xml")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE FILE FILES "/home/stochlab/perception_stack/src/turtlebot3/turtlebot3_navigation/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot3_navigation" TYPE DIRECTORY FILES
-<<<<<<< HEAD
-    "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_navigation/launch"
-    "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_navigation/maps"
-    "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_navigation/param"
-    "/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_navigation/rviz"
-=======
-    "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_navigation/launch"
-    "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_navigation/maps"
-    "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_navigation/param"
-    "/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_navigation/rviz"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    "/home/stochlab/perception_stack/src/turtlebot3/turtlebot3_navigation/launch"
+    "/home/stochlab/perception_stack/src/turtlebot3/turtlebot3_navigation/maps"
+    "/home/stochlab/perception_stack/src/turtlebot3/turtlebot3_navigation/param"
+    "/home/stochlab/perception_stack/src/turtlebot3/turtlebot3_navigation/rviz"
     )
 endif()
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_filters_plugins.pdb"
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_filters_plugins.so"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_filters_plugins.pdb"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_filters_plugins.so"
   "CMakeFiles/grid_map_filters_plugins.dir/src/plugins.cpp.o"
 )
 

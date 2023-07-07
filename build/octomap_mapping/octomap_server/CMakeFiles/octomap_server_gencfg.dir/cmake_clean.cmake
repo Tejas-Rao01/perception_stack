@@ -1,17 +1,9 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h"
-  "/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py"
-  "/home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox"
-  "/home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.dox"
-  "/home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc"
-=======
-  "/home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h"
-  "/home/tejas/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py"
-  "/home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox"
-  "/home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.dox"
-  "/home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h"
+  "/home/stochlab/perception_stack/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py"
+  "/home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox"
+  "/home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig.dox"
+  "/home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc"
   "CMakeFiles/octomap_server_gencfg"
 )
 

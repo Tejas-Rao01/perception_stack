@@ -48,58 +48,14 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-<<<<<<< HEAD
-=======
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -135,7 +91,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-<<<<<<< HEAD
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -170,8 +125,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-=======
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"dev\""
@@ -184,24 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/octomap_mapping/octomap_server/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/octomap_mapping/octomap_server/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/octomap_mapping/octomap_server/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/clean
 .PHONY : clean
 
 # The main clean target
@@ -211,31 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/rule
 
 # Convenience name for target.
@@ -245,20 +179,12 @@ octomap_color_server_nodelet: octomap_mapping/octomap_server/CMakeFiles/octomap_
 
 # fast build rule for target.
 octomap_color_server_nodelet/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build
 .PHONY : octomap_color_server_nodelet/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-.PHONY : depend
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/rule
 
 # Convenience name for target.
@@ -268,20 +194,12 @@ octomap_server_nodelet: octomap_mapping/octomap_server/CMakeFiles/octomap_server
 
 # fast build rule for target.
 octomap_server_nodelet/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build
 .PHONY : octomap_server_nodelet/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/rule
 
 # Convenience name for target.
@@ -291,13 +209,12 @@ octomap_tracking_server_node: octomap_mapping/octomap_server/CMakeFiles/octomap_
 
 # fast build rule for target.
 octomap_tracking_server_node/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build
 .PHONY : octomap_tracking_server_node/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -307,50 +224,12 @@ octomap_msgs_generate_messages_eus: octomap_mapping/octomap_server/CMakeFiles/oc
 
 # fast build rule for target.
 octomap_msgs_generate_messages_eus/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build
 .PHONY : octomap_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build
-.PHONY : octomap_tracking_server_node/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
-
-# Convenience name for target.
-octomap_saver: octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
-
-.PHONY : octomap_saver
-
-# fast build rule for target.
-octomap_saver/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build
-.PHONY : octomap_saver/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
-
-# Convenience name for target.
-octomap_color_server_node: octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
-
-.PHONY : octomap_color_server_node
-
-# fast build rule for target.
-octomap_color_server_node/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build
-.PHONY : octomap_color_server_node/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule
 
 # Convenience name for target.
@@ -360,13 +239,12 @@ octomap_server_node: octomap_mapping/octomap_server/CMakeFiles/octomap_server_no
 
 # fast build rule for target.
 octomap_server_node/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build
 .PHONY : octomap_server_node/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -376,12 +254,12 @@ octomap_msgs_generate_messages_lisp: octomap_mapping/octomap_server/CMakeFiles/o
 
 # fast build rule for target.
 octomap_msgs_generate_messages_lisp/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build
 .PHONY : octomap_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/rule
 
 # Convenience name for target.
@@ -391,12 +269,12 @@ octomap_server_multilayer: octomap_mapping/octomap_server/CMakeFiles/octomap_ser
 
 # fast build rule for target.
 octomap_server_multilayer/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build
 .PHONY : octomap_server_multilayer/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
 
 # Convenience name for target.
@@ -406,95 +284,12 @@ octomap_server_gencfg: octomap_mapping/octomap_server/CMakeFiles/octomap_server_
 
 # fast build rule for target.
 octomap_server_gencfg/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build
 .PHONY : octomap_server_gencfg/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build
-.PHONY : octomap_server_node/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_eus: octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
-
-.PHONY : topic_tools_generate_messages_eus
-
-# fast build rule for target.
-topic_tools_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_eus.dir/build.make octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_eus.dir/build
-.PHONY : topic_tools_generate_messages_eus/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-pcl_msgs_generate_messages_nodejs: octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : pcl_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-pcl_msgs_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build.make octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/build
-.PHONY : pcl_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/rule
-
-# Convenience name for target.
-octomap_server_static: octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/rule
-
-.PHONY : octomap_server_static
-
-# fast build rule for target.
-octomap_server_static/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build
-.PHONY : octomap_server_static/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_eus: octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_eus
-
-# fast build rule for target.
-octomap_msgs_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build
-.PHONY : octomap_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_py.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_py.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-pcl_msgs_generate_messages_py: octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_py.dir/rule
-
-.PHONY : pcl_msgs_generate_messages_py
-
-# fast build rule for target.
-pcl_msgs_generate_messages_py/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
-.PHONY : pcl_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule
 
 # Convenience name for target.
@@ -504,13 +299,12 @@ octomap_server: octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rul
 
 # fast build rule for target.
 octomap_server/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build
 .PHONY : octomap_server/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/rule
 
 # Convenience name for target.
@@ -520,12 +314,12 @@ octomap_server_color: octomap_mapping/octomap_server/CMakeFiles/octomap_server_c
 
 # fast build rule for target.
 octomap_server_color/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build
 .PHONY : octomap_server_color/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -535,12 +329,12 @@ octomap_msgs_generate_messages_nodejs: octomap_mapping/octomap_server/CMakeFiles
 
 # fast build rule for target.
 octomap_msgs_generate_messages_nodejs/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build
 .PHONY : octomap_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
 
 # Convenience name for target.
@@ -550,12 +344,12 @@ octomap_saver: octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
 
 # fast build rule for target.
 octomap_saver/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build
 .PHONY : octomap_saver/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
 
 # Convenience name for target.
@@ -565,275 +359,12 @@ octomap_color_server_node: octomap_mapping/octomap_server/CMakeFiles/octomap_col
 
 # fast build rule for target.
 octomap_color_server_node/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build
 .PHONY : octomap_color_server_node/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build
-.PHONY : octomap_server/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-pcl_msgs_generate_messages_lisp: octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : pcl_msgs_generate_messages_lisp
-
-# fast build rule for target.
-pcl_msgs_generate_messages_lisp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_lisp.dir/build
-.PHONY : pcl_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-visualization_msgs_generate_messages_eus: octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_eus.dir/rule
-
-.PHONY : visualization_msgs_generate_messages_eus
-
-# fast build rule for target.
-visualization_msgs_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build.make octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_eus.dir/build
-.PHONY : visualization_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_cpp: octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
-
-.PHONY : topic_tools_generate_messages_cpp
-
-# fast build rule for target.
-topic_tools_generate_messages_cpp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_cpp.dir/build
-.PHONY : topic_tools_generate_messages_cpp/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_eus.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-pcl_msgs_generate_messages_eus: octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_eus.dir/rule
-
-.PHONY : pcl_msgs_generate_messages_eus
-
-# fast build rule for target.
-pcl_msgs_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build.make octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_eus.dir/build
-.PHONY : pcl_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/pcl_ros_gencfg.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/pcl_ros_gencfg.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/pcl_ros_gencfg.dir/rule
-
-# Convenience name for target.
-pcl_ros_gencfg: octomap_mapping/octomap_server/CMakeFiles/pcl_ros_gencfg.dir/rule
-
-.PHONY : pcl_ros_gencfg
-
-# fast build rule for target.
-pcl_ros_gencfg/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/pcl_ros_gencfg.dir/build.make octomap_mapping/octomap_server/CMakeFiles/pcl_ros_gencfg.dir/build
-.PHONY : pcl_ros_gencfg/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_cpp: octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : nav_msgs_generate_messages_cpp
-
-# fast build rule for target.
-nav_msgs_generate_messages_cpp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_cpp.dir/build
-.PHONY : nav_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/rule
-
-# Convenience name for target.
-octomap_color_server_nodelet: octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/rule
-
-.PHONY : octomap_color_server_nodelet
-
-# fast build rule for target.
-octomap_color_server_nodelet/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build
-.PHONY : octomap_color_server_nodelet/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-visualization_msgs_generate_messages_py: octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_py.dir/rule
-
-.PHONY : visualization_msgs_generate_messages_py
-
-# fast build rule for target.
-visualization_msgs_generate_messages_py/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_py.dir/build.make octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_py.dir/build
-.PHONY : visualization_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/rule
-
-# Convenience name for target.
-octomap_server_multilayer: octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/rule
-
-.PHONY : octomap_server_multilayer
-
-# fast build rule for target.
-octomap_server_multilayer/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build
-.PHONY : octomap_server_multilayer/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_nodejs: octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
-
-.PHONY : topic_tools_generate_messages_nodejs
-
-# fast build rule for target.
-topic_tools_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build.make octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build
-.PHONY : topic_tools_generate_messages_nodejs/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-visualization_msgs_generate_messages_nodejs: octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : visualization_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-visualization_msgs_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build.make octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/build
-.PHONY : visualization_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_eus: octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/rule
-
-.PHONY : nav_msgs_generate_messages_eus
-
-# fast build rule for target.
-nav_msgs_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_eus.dir/build
-.PHONY : nav_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-pcl_msgs_generate_messages_cpp: octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : pcl_msgs_generate_messages_cpp
-
-# fast build rule for target.
-pcl_msgs_generate_messages_cpp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/pcl_msgs_generate_messages_cpp.dir/build
-.PHONY : pcl_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-visualization_msgs_generate_messages_lisp: octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : visualization_msgs_generate_messages_lisp
-
-# fast build rule for target.
-visualization_msgs_generate_messages_lisp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_lisp.dir/build
-.PHONY : visualization_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-visualization_msgs_generate_messages_cpp: octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : visualization_msgs_generate_messages_cpp
-
-# fast build rule for target.
-visualization_msgs_generate_messages_cpp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/visualization_msgs_generate_messages_cpp.dir/build
-.PHONY : visualization_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_lisp: octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : nav_msgs_generate_messages_lisp
-
-# fast build rule for target.
-nav_msgs_generate_messages_lisp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_lisp.dir/build
-.PHONY : nav_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_lisp: octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
-
-.PHONY : topic_tools_generate_messages_lisp
-
-# fast build rule for target.
-topic_tools_generate_messages_lisp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_lisp.dir/build
-.PHONY : topic_tools_generate_messages_lisp/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -843,20 +374,12 @@ octomap_msgs_generate_messages_cpp: octomap_mapping/octomap_server/CMakeFiles/oc
 
 # fast build rule for target.
 octomap_msgs_generate_messages_cpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
 .PHONY : octomap_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -866,13 +389,12 @@ octomap_msgs_generate_messages_py: octomap_mapping/octomap_server/CMakeFiles/oct
 
 # fast build rule for target.
 octomap_msgs_generate_messages_py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/build
 .PHONY : octomap_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/rule
 
 # Convenience name for target.
@@ -882,117 +404,8 @@ octomap_server_static: octomap_mapping/octomap_server/CMakeFiles/octomap_server_
 
 # fast build rule for target.
 octomap_server_static/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build
 .PHONY : octomap_server_static/fast
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/build
-.PHONY : octomap_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_py.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_py.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_py.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_py: octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_py.dir/rule
-
-.PHONY : topic_tools_generate_messages_py
-
-# fast build rule for target.
-topic_tools_generate_messages_py/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_py.dir/build.make octomap_mapping/octomap_server/CMakeFiles/topic_tools_generate_messages_py.dir/build
-.PHONY : topic_tools_generate_messages_py/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_nodejs: octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : nav_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-nav_msgs_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build.make octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/build
-.PHONY : nav_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_py.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-nav_msgs_generate_messages_py: octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_py.dir/rule
-
-.PHONY : nav_msgs_generate_messages_py
-
-# fast build rule for target.
-nav_msgs_generate_messages_py/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_py.dir/build.make octomap_mapping/octomap_server/CMakeFiles/nav_msgs_generate_messages_py.dir/build
-.PHONY : nav_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_nodejs: octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-octomap_msgs_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build
-.PHONY : octomap_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_lisp: octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_lisp
-
-# fast build rule for target.
-octomap_msgs_generate_messages_lisp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build
-.PHONY : octomap_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
-
-# Convenience name for target.
-octomap_server_gencfg: octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
-
-.PHONY : octomap_server_gencfg
-
-# fast build rule for target.
-octomap_server_gencfg/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build
-.PHONY : octomap_server_gencfg/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/rule
-
-# Convenience name for target.
-octomap_server_color: octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/rule
-
-.PHONY : octomap_server_color
-
-# fast build rule for target.
-octomap_server_color/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build
-.PHONY : octomap_server_color/fast
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 
 src/OctomapServer.o: src/OctomapServer.cpp.o
 
@@ -1000,13 +413,8 @@ src/OctomapServer.o: src/OctomapServer.cpp.o
 
 # target to build an object file
 src/OctomapServer.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.o
 .PHONY : src/OctomapServer.cpp.o
 
 src/OctomapServer.i: src/OctomapServer.cpp.i
@@ -1015,13 +423,8 @@ src/OctomapServer.i: src/OctomapServer.cpp.i
 
 # target to preprocess a source file
 src/OctomapServer.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.i
 .PHONY : src/OctomapServer.cpp.i
 
 src/OctomapServer.s: src/OctomapServer.cpp.s
@@ -1030,13 +433,8 @@ src/OctomapServer.s: src/OctomapServer.cpp.s
 
 # target to generate assembly for a file
 src/OctomapServer.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.s
 .PHONY : src/OctomapServer.cpp.s
 
 src/OctomapServerMultilayer.o: src/OctomapServerMultilayer.cpp.o
@@ -1045,13 +443,8 @@ src/OctomapServerMultilayer.o: src/OctomapServerMultilayer.cpp.o
 
 # target to build an object file
 src/OctomapServerMultilayer.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.o
 .PHONY : src/OctomapServerMultilayer.cpp.o
 
 src/OctomapServerMultilayer.i: src/OctomapServerMultilayer.cpp.i
@@ -1060,13 +453,8 @@ src/OctomapServerMultilayer.i: src/OctomapServerMultilayer.cpp.i
 
 # target to preprocess a source file
 src/OctomapServerMultilayer.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.i
 .PHONY : src/OctomapServerMultilayer.cpp.i
 
 src/OctomapServerMultilayer.s: src/OctomapServerMultilayer.cpp.s
@@ -1075,13 +463,8 @@ src/OctomapServerMultilayer.s: src/OctomapServerMultilayer.cpp.s
 
 # target to generate assembly for a file
 src/OctomapServerMultilayer.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.s
 .PHONY : src/OctomapServerMultilayer.cpp.s
 
 src/TrackingOctomapServer.o: src/TrackingOctomapServer.cpp.o
@@ -1090,13 +473,8 @@ src/TrackingOctomapServer.o: src/TrackingOctomapServer.cpp.o
 
 # target to build an object file
 src/TrackingOctomapServer.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.o
 .PHONY : src/TrackingOctomapServer.cpp.o
 
 src/TrackingOctomapServer.i: src/TrackingOctomapServer.cpp.i
@@ -1105,13 +483,8 @@ src/TrackingOctomapServer.i: src/TrackingOctomapServer.cpp.i
 
 # target to preprocess a source file
 src/TrackingOctomapServer.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.i
 .PHONY : src/TrackingOctomapServer.cpp.i
 
 src/TrackingOctomapServer.s: src/TrackingOctomapServer.cpp.s
@@ -1120,13 +493,8 @@ src/TrackingOctomapServer.s: src/TrackingOctomapServer.cpp.s
 
 # target to generate assembly for a file
 src/TrackingOctomapServer.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.s
 .PHONY : src/TrackingOctomapServer.cpp.s
 
 src/octomap_saver.o: src/octomap_saver.cpp.o
@@ -1135,11 +503,7 @@ src/octomap_saver.o: src/octomap_saver.cpp.o
 
 # target to build an object file
 src/octomap_saver.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o
 .PHONY : src/octomap_saver.cpp.o
 
 src/octomap_saver.i: src/octomap_saver.cpp.i
@@ -1148,11 +512,7 @@ src/octomap_saver.i: src/octomap_saver.cpp.i
 
 # target to preprocess a source file
 src/octomap_saver.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.i
 .PHONY : src/octomap_saver.cpp.i
 
 src/octomap_saver.s: src/octomap_saver.cpp.s
@@ -1161,11 +521,7 @@ src/octomap_saver.s: src/octomap_saver.cpp.s
 
 # target to generate assembly for a file
 src/octomap_saver.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.s
 .PHONY : src/octomap_saver.cpp.s
 
 src/octomap_server_multilayer.o: src/octomap_server_multilayer.cpp.o
@@ -1174,11 +530,7 @@ src/octomap_server_multilayer.o: src/octomap_server_multilayer.cpp.o
 
 # target to build an object file
 src/octomap_server_multilayer.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.o
 .PHONY : src/octomap_server_multilayer.cpp.o
 
 src/octomap_server_multilayer.i: src/octomap_server_multilayer.cpp.i
@@ -1187,11 +539,7 @@ src/octomap_server_multilayer.i: src/octomap_server_multilayer.cpp.i
 
 # target to preprocess a source file
 src/octomap_server_multilayer.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.i
 .PHONY : src/octomap_server_multilayer.cpp.i
 
 src/octomap_server_multilayer.s: src/octomap_server_multilayer.cpp.s
@@ -1200,11 +548,7 @@ src/octomap_server_multilayer.s: src/octomap_server_multilayer.cpp.s
 
 # target to generate assembly for a file
 src/octomap_server_multilayer.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.s
 .PHONY : src/octomap_server_multilayer.cpp.s
 
 src/octomap_server_node.o: src/octomap_server_node.cpp.o
@@ -1213,13 +557,8 @@ src/octomap_server_node.o: src/octomap_server_node.cpp.o
 
 # target to build an object file
 src/octomap_server_node.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/src/octomap_server_node.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/src/octomap_server_node.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/src/octomap_server_node.cpp.o
 .PHONY : src/octomap_server_node.cpp.o
 
 src/octomap_server_node.i: src/octomap_server_node.cpp.i
@@ -1228,13 +567,8 @@ src/octomap_server_node.i: src/octomap_server_node.cpp.i
 
 # target to preprocess a source file
 src/octomap_server_node.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/src/octomap_server_node.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/src/octomap_server_node.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/src/octomap_server_node.cpp.i
 .PHONY : src/octomap_server_node.cpp.i
 
 src/octomap_server_node.s: src/octomap_server_node.cpp.s
@@ -1243,13 +577,8 @@ src/octomap_server_node.s: src/octomap_server_node.cpp.s
 
 # target to generate assembly for a file
 src/octomap_server_node.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/src/octomap_server_node.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/src/octomap_server_node.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/src/octomap_server_node.cpp.s
 .PHONY : src/octomap_server_node.cpp.s
 
 src/octomap_server_nodelet.o: src/octomap_server_nodelet.cpp.o
@@ -1258,13 +587,8 @@ src/octomap_server_nodelet.o: src/octomap_server_nodelet.cpp.o
 
 # target to build an object file
 src/octomap_server_nodelet.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/src/octomap_server_nodelet.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/src/octomap_server_nodelet.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/src/octomap_server_nodelet.cpp.o
 .PHONY : src/octomap_server_nodelet.cpp.o
 
 src/octomap_server_nodelet.i: src/octomap_server_nodelet.cpp.i
@@ -1273,13 +597,8 @@ src/octomap_server_nodelet.i: src/octomap_server_nodelet.cpp.i
 
 # target to preprocess a source file
 src/octomap_server_nodelet.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/src/octomap_server_nodelet.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/src/octomap_server_nodelet.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/src/octomap_server_nodelet.cpp.i
 .PHONY : src/octomap_server_nodelet.cpp.i
 
 src/octomap_server_nodelet.s: src/octomap_server_nodelet.cpp.s
@@ -1288,13 +607,8 @@ src/octomap_server_nodelet.s: src/octomap_server_nodelet.cpp.s
 
 # target to generate assembly for a file
 src/octomap_server_nodelet.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/src/octomap_server_nodelet.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/src/octomap_server_nodelet.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_nodelet.dir/src/octomap_server_nodelet.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_nodelet.dir/src/octomap_server_nodelet.cpp.s
 .PHONY : src/octomap_server_nodelet.cpp.s
 
 src/octomap_server_static.o: src/octomap_server_static.cpp.o
@@ -1303,11 +617,7 @@ src/octomap_server_static.o: src/octomap_server_static.cpp.o
 
 # target to build an object file
 src/octomap_server_static.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o
 .PHONY : src/octomap_server_static.cpp.o
 
 src/octomap_server_static.i: src/octomap_server_static.cpp.i
@@ -1316,11 +626,7 @@ src/octomap_server_static.i: src/octomap_server_static.cpp.i
 
 # target to preprocess a source file
 src/octomap_server_static.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.i
 .PHONY : src/octomap_server_static.cpp.i
 
 src/octomap_server_static.s: src/octomap_server_static.cpp.s
@@ -1329,11 +635,7 @@ src/octomap_server_static.s: src/octomap_server_static.cpp.s
 
 # target to generate assembly for a file
 src/octomap_server_static.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.s
 .PHONY : src/octomap_server_static.cpp.s
 
 src/octomap_tracking_server_node.o: src/octomap_tracking_server_node.cpp.o
@@ -1342,11 +644,7 @@ src/octomap_tracking_server_node.o: src/octomap_tracking_server_node.cpp.o
 
 # target to build an object file
 src/octomap_tracking_server_node.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/src/octomap_tracking_server_node.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/src/octomap_tracking_server_node.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/src/octomap_tracking_server_node.cpp.o
 .PHONY : src/octomap_tracking_server_node.cpp.o
 
 src/octomap_tracking_server_node.i: src/octomap_tracking_server_node.cpp.i
@@ -1355,11 +653,7 @@ src/octomap_tracking_server_node.i: src/octomap_tracking_server_node.cpp.i
 
 # target to preprocess a source file
 src/octomap_tracking_server_node.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/src/octomap_tracking_server_node.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/src/octomap_tracking_server_node.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/src/octomap_tracking_server_node.cpp.i
 .PHONY : src/octomap_tracking_server_node.cpp.i
 
 src/octomap_tracking_server_node.s: src/octomap_tracking_server_node.cpp.s
@@ -1368,11 +662,7 @@ src/octomap_tracking_server_node.s: src/octomap_tracking_server_node.cpp.s
 
 # target to generate assembly for a file
 src/octomap_tracking_server_node.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/src/octomap_tracking_server_node.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/src/octomap_tracking_server_node.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/src/octomap_tracking_server_node.cpp.s
 .PHONY : src/octomap_tracking_server_node.cpp.s
 
 # Help Target
@@ -1381,7 +671,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-<<<<<<< HEAD
 	@echo "... install/local"
 	@echo "... install"
 	@echo "... rebuild_cache"
@@ -1405,52 +694,6 @@ help:
 	@echo "... octomap_msgs_generate_messages_cpp"
 	@echo "... octomap_msgs_generate_messages_py"
 	@echo "... octomap_server_static"
-=======
-	@echo "... install/strip"
-	@echo "... test"
-	@echo "... octomap_server_nodelet"
-	@echo "... octomap_tracking_server_node"
-	@echo "... octomap_saver"
-	@echo "... octomap_color_server_node"
-	@echo "... octomap_server_node"
-	@echo "... edit_cache"
-	@echo "... topic_tools_generate_messages_eus"
-	@echo "... pcl_msgs_generate_messages_nodejs"
-	@echo "... octomap_server_static"
-	@echo "... octomap_msgs_generate_messages_eus"
-	@echo "... pcl_msgs_generate_messages_py"
-	@echo "... octomap_server"
-	@echo "... pcl_msgs_generate_messages_lisp"
-	@echo "... visualization_msgs_generate_messages_eus"
-	@echo "... topic_tools_generate_messages_cpp"
-	@echo "... pcl_msgs_generate_messages_eus"
-	@echo "... install/local"
-	@echo "... pcl_ros_gencfg"
-	@echo "... nav_msgs_generate_messages_cpp"
-	@echo "... install"
-	@echo "... octomap_color_server_nodelet"
-	@echo "... visualization_msgs_generate_messages_py"
-	@echo "... rebuild_cache"
-	@echo "... octomap_server_multilayer"
-	@echo "... topic_tools_generate_messages_nodejs"
-	@echo "... list_install_components"
-	@echo "... visualization_msgs_generate_messages_nodejs"
-	@echo "... nav_msgs_generate_messages_eus"
-	@echo "... pcl_msgs_generate_messages_cpp"
-	@echo "... visualization_msgs_generate_messages_lisp"
-	@echo "... visualization_msgs_generate_messages_cpp"
-	@echo "... nav_msgs_generate_messages_lisp"
-	@echo "... topic_tools_generate_messages_lisp"
-	@echo "... octomap_msgs_generate_messages_cpp"
-	@echo "... octomap_msgs_generate_messages_py"
-	@echo "... topic_tools_generate_messages_py"
-	@echo "... nav_msgs_generate_messages_nodejs"
-	@echo "... nav_msgs_generate_messages_py"
-	@echo "... octomap_msgs_generate_messages_nodejs"
-	@echo "... octomap_msgs_generate_messages_lisp"
-	@echo "... octomap_server_gencfg"
-	@echo "... octomap_server_color"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 	@echo "... src/OctomapServer.o"
 	@echo "... src/OctomapServer.i"
 	@echo "... src/OctomapServer.s"
@@ -1489,10 +732,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

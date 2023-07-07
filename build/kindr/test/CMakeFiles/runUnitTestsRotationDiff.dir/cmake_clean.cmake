@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotationDiff"
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotationDiff.pdb"
-=======
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotationDiff"
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotationDiff.pdb"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotationDiff"
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotationDiff.pdb"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.o"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.o"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.o"

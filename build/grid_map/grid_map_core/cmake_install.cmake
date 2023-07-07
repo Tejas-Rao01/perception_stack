@@ -1,8 +1,8 @@
-# Install script for directory: /home/stochlab/catkin_ws/src/grid_map/grid_map_core
+# Install script for directory: /home/stochlab/perception_stack/src/grid_map/grid_map_core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/stochlab/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/perception_stack/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,22 +38,22 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/catkin_ws/build/grid_map/grid_map_core/catkin_generated/installspace/grid_map_core.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/perception_stack/build/grid_map/grid_map_core/catkin_generated/installspace/grid_map_core.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grid_map_core/cmake" TYPE FILE FILES "/home/stochlab/catkin_ws/src/grid_map/grid_map_core/cmake/grid_map_core-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grid_map_core/cmake" TYPE FILE FILES "/home/stochlab/perception_stack/src/grid_map/grid_map_core/cmake/grid_map_core-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grid_map_core/cmake" TYPE FILE FILES
-    "/home/stochlab/catkin_ws/build/grid_map/grid_map_core/catkin_generated/installspace/grid_map_coreConfig.cmake"
-    "/home/stochlab/catkin_ws/build/grid_map/grid_map_core/catkin_generated/installspace/grid_map_coreConfig-version.cmake"
+    "/home/stochlab/perception_stack/build/grid_map/grid_map_core/catkin_generated/installspace/grid_map_coreConfig.cmake"
+    "/home/stochlab/perception_stack/build/grid_map/grid_map_core/catkin_generated/installspace/grid_map_coreConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grid_map_core" TYPE FILE FILES "/home/stochlab/catkin_ws/src/grid_map/grid_map_core/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grid_map_core" TYPE FILE FILES "/home/stochlab/perception_stack/src/grid_map/grid_map_core/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgrid_map_core.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/catkin_ws/devel/lib/libgrid_map_core.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/perception_stack/devel/lib/libgrid_map_core.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgrid_map_core.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgrid_map_core.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -76,10 +76,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/grid_map_core" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/" FILES_MATCHING REGEX "/[^/]*\\.hpp$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/grid_map_core" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/" FILES_MATCHING REGEX "/[^/]*\\.hpp$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grid_map_core" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/grid_map/grid_map_core/doc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/grid_map_core" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/src/grid_map/grid_map_core/doc")
 endif()
 

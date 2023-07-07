@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for grid_map_rviz_plugin-test_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
 include grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/progress.make
 
 grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target grid_map_rviz_plugin-test"
-	cd /home/stochlab/catkin_ws/build/grid_map/grid_map_rviz_plugin && /usr/bin/cmake -E cmake_autogen /home/stochlab/catkin_ws/build/grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/AutogenInfo.json Release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target grid_map_rviz_plugin-test"
+	cd /home/stochlab/perception_stack/build/grid_map/grid_map_rviz_plugin && /usr/bin/cmake -E cmake_autogen /home/stochlab/perception_stack/build/grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/AutogenInfo.json Release
 
 grid_map_rviz_plugin-test_autogen: grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen
 grid_map_rviz_plugin-test_autogen: grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/build.make
@@ -68,10 +68,10 @@ grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/b
 .PHONY : grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/build
 
 grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/clean:
-	cd /home/stochlab/catkin_ws/build/grid_map/grid_map_rviz_plugin && $(CMAKE_COMMAND) -P CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/grid_map/grid_map_rviz_plugin && $(CMAKE_COMMAND) -P CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/cmake_clean.cmake
 .PHONY : grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/clean
 
 grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/grid_map/grid_map_rviz_plugin /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/grid_map/grid_map_rviz_plugin /home/stochlab/catkin_ws/build/grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/grid_map/grid_map_rviz_plugin /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/grid_map/grid_map_rviz_plugin /home/stochlab/perception_stack/build/grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : grid_map/grid_map_rviz_plugin/CMakeFiles/grid_map_rviz_plugin-test_autogen.dir/depend
 

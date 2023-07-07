@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Include any dependencies generated for this target.
 include kindr/test/CMakeFiles/runUnitTestsRotation.dir/depend.make
@@ -65,239 +58,121 @@ include kindr/test/CMakeFiles/runUnitTestsRotation.dir/progress.make
 include kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-<<<<<<< HEAD
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp
+kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o: /home/stochlab/perception_stack/src/kindr/test/test_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/test_main.cpp
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp > CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/test_main.cpp > CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp -o CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/test_main.cpp -o CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.s
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationMatrixTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationMatrixTest.cpp
+kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o: /home/stochlab/perception_stack/src/kindr/test/rotations/RotationMatrixTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/rotations/RotationMatrixTest.cpp
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationMatrixTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/rotations/RotationMatrixTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationMatrixTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/rotations/RotationMatrixTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.s
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationQuaternionTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationQuaternionTest.cpp
+kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o: /home/stochlab/perception_stack/src/kindr/test/rotations/RotationQuaternionTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/rotations/RotationQuaternionTest.cpp
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationQuaternionTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/rotations/RotationQuaternionTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationQuaternionTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/rotations/RotationQuaternionTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.s
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationVectorTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationVectorTest.cpp
+kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o: /home/stochlab/perception_stack/src/kindr/test/rotations/RotationVectorTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/rotations/RotationVectorTest.cpp
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationVectorTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/rotations/RotationVectorTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationVectorTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/rotations/RotationVectorTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.s
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/rotations/AngleAxisTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/rotations/AngleAxisTest.cpp
+kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o: /home/stochlab/perception_stack/src/kindr/test/rotations/AngleAxisTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/rotations/AngleAxisTest.cpp
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/rotations/AngleAxisTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/rotations/AngleAxisTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/rotations/AngleAxisTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/rotations/AngleAxisTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.s
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/rotations/EulerAnglesZyxTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/rotations/EulerAnglesZyxTest.cpp
+kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o: /home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesZyxTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesZyxTest.cpp
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/rotations/EulerAnglesZyxTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesZyxTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/rotations/EulerAnglesZyxTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesZyxTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.s
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/rotations/EulerAnglesXyzTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/rotations/EulerAnglesXyzTest.cpp
+kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o: /home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesXyzTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesXyzTest.cpp
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/rotations/EulerAnglesXyzTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesXyzTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/rotations/EulerAnglesXyzTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesXyzTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.s
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationTest.cpp
+kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o: /home/stochlab/perception_stack/src/kindr/test/rotations/RotationTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/rotations/RotationTest.cpp
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/rotations/RotationTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/rotations/RotationTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/rotations/RotationTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.s
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/rotations/ConventionTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/rotations/ConventionTest.cpp
+kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o: /home/stochlab/perception_stack/src/kindr/test/rotations/ConventionTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/rotations/ConventionTest.cpp
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/rotations/ConventionTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/rotations/ConventionTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/rotations/ConventionTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.s
-=======
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o: /home/tejas/catkin_ws/src/kindr/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/test_main.cpp
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/test_main.cpp > CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/test_main.cpp -o CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.s
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o: /home/tejas/catkin_ws/src/kindr/test/rotations/RotationMatrixTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/rotations/RotationMatrixTest.cpp
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/rotations/RotationMatrixTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/rotations/RotationMatrixTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.s
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o: /home/tejas/catkin_ws/src/kindr/test/rotations/RotationQuaternionTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/rotations/RotationQuaternionTest.cpp
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/rotations/RotationQuaternionTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/rotations/RotationQuaternionTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.s
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o: /home/tejas/catkin_ws/src/kindr/test/rotations/RotationVectorTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/rotations/RotationVectorTest.cpp
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/rotations/RotationVectorTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/rotations/RotationVectorTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.s
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o: /home/tejas/catkin_ws/src/kindr/test/rotations/AngleAxisTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/rotations/AngleAxisTest.cpp
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/rotations/AngleAxisTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/rotations/AngleAxisTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.s
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o: /home/tejas/catkin_ws/src/kindr/test/rotations/EulerAnglesZyxTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/rotations/EulerAnglesZyxTest.cpp
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/rotations/EulerAnglesZyxTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/rotations/EulerAnglesZyxTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.s
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o: /home/tejas/catkin_ws/src/kindr/test/rotations/EulerAnglesXyzTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/rotations/EulerAnglesXyzTest.cpp
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/rotations/EulerAnglesXyzTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/rotations/EulerAnglesXyzTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.s
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o: /home/tejas/catkin_ws/src/kindr/test/rotations/RotationTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/rotations/RotationTest.cpp
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/rotations/RotationTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/rotations/RotationTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.s
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsRotation.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o: /home/tejas/catkin_ws/src/kindr/test/rotations/ConventionTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/rotations/ConventionTest.cpp
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/rotations/ConventionTest.cpp > CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/rotations/ConventionTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/rotations/ConventionTest.cpp -o CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.s
 
 # Object files for target runUnitTestsRotation
 runUnitTestsRotation_OBJECTS = \
@@ -314,61 +189,32 @@ runUnitTestsRotation_OBJECTS = \
 # External object files for target runUnitTestsRotation
 runUnitTestsRotation_EXTERNAL_OBJECTS =
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: gtest/lib/libgtest_main.so
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: gtest/lib/libgtest.so
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable /home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation"
-	cd /home/stochlab/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runUnitTestsRotation.dir/link.txt --verbose=$(VERBOSE)
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: gtest/lib/libgtest_main.so
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: gtest/lib/libgtest.so
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable /home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation"
+	cd /home/stochlab/perception_stack/build/kindr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runUnitTestsRotation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/build: /home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation
-=======
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: gtest/lib/libgtest_main.so
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: gtest/lib/libgtest.so
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable /home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation"
-	cd /home/tejas/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runUnitTestsRotation.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/build: /home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+kindr/test/CMakeFiles/runUnitTestsRotation.dir/build: /home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation
 
 .PHONY : kindr/test/CMakeFiles/runUnitTestsRotation.dir/build
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/runUnitTestsRotation.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/runUnitTestsRotation.dir/cmake_clean.cmake
 .PHONY : kindr/test/CMakeFiles/runUnitTestsRotation.dir/clean
 
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/kindr/test /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/kindr/test /home/stochlab/catkin_ws/build/kindr/test/CMakeFiles/runUnitTestsRotation.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/runUnitTestsRotation.dir/cmake_clean.cmake
-.PHONY : kindr/test/CMakeFiles/runUnitTestsRotation.dir/clean
-
-kindr/test/CMakeFiles/runUnitTestsRotation.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/kindr/test /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/kindr/test /home/tejas/catkin_ws/build/kindr/test/CMakeFiles/runUnitTestsRotation.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/kindr/test /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/kindr/test /home/stochlab/perception_stack/build/kindr/test/CMakeFiles/runUnitTestsRotation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kindr/test/CMakeFiles/runUnitTestsRotation.dir/depend
 

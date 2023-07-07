@@ -4,15 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/src/image_pipeline/image_view/src/nodelets/disparity_nodelet.cpp" "/home/stochlab/catkin_ws/build/image_pipeline/image_view/CMakeFiles/image_view.dir/src/nodelets/disparity_nodelet.cpp.o"
-  "/home/stochlab/catkin_ws/src/image_pipeline/image_view/src/nodelets/image_nodelet.cpp" "/home/stochlab/catkin_ws/build/image_pipeline/image_view/CMakeFiles/image_view.dir/src/nodelets/image_nodelet.cpp.o"
-  "/home/stochlab/catkin_ws/src/image_pipeline/image_view/src/nodelets/window_thread.cpp" "/home/stochlab/catkin_ws/build/image_pipeline/image_view/CMakeFiles/image_view.dir/src/nodelets/window_thread.cpp.o"
-=======
-  "/home/tejas/catkin_ws/src/image_pipeline/image_view/src/nodelets/disparity_nodelet.cpp" "/home/tejas/catkin_ws/build/image_pipeline/image_view/CMakeFiles/image_view.dir/src/nodelets/disparity_nodelet.cpp.o"
-  "/home/tejas/catkin_ws/src/image_pipeline/image_view/src/nodelets/image_nodelet.cpp" "/home/tejas/catkin_ws/build/image_pipeline/image_view/CMakeFiles/image_view.dir/src/nodelets/image_nodelet.cpp.o"
-  "/home/tejas/catkin_ws/src/image_pipeline/image_view/src/nodelets/window_thread.cpp" "/home/tejas/catkin_ws/build/image_pipeline/image_view/CMakeFiles/image_view.dir/src/nodelets/window_thread.cpp.o"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/src/image_pipeline/image_view/src/nodelets/disparity_nodelet.cpp" "/home/stochlab/perception_stack/build/image_pipeline/image_view/CMakeFiles/image_view.dir/src/nodelets/disparity_nodelet.cpp.o"
+  "/home/stochlab/perception_stack/src/image_pipeline/image_view/src/nodelets/image_nodelet.cpp" "/home/stochlab/perception_stack/build/image_pipeline/image_view/CMakeFiles/image_view.dir/src/nodelets/image_nodelet.cpp.o"
+  "/home/stochlab/perception_stack/src/image_pipeline/image_view/src/nodelets/window_thread.cpp" "/home/stochlab/perception_stack/build/image_pipeline/image_view/CMakeFiles/image_view.dir/src/nodelets/window_thread.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -29,11 +23,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/include"
-=======
-  "/home/tejas/catkin_ws/devel/include"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/opencv4"

@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/BufferRegion.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/BufferRegion.hpp
 grid_map_core/TypeDefs.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/GridMap.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/GridMap.hpp
 grid_map_core/BufferRegion.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/BufferRegion.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/BufferRegion.hpp
 grid_map_core/SubmapGeometry.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/SubmapGeometry.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/SubmapGeometry.hpp
 grid_map_core/TypeDefs.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
 unordered_map
 -
 vector
@@ -26,23 +26,23 @@ Eigen/Core
 Eigen/Geometry
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/SubmapGeometry.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/SubmapGeometry.hpp
 grid_map_core/GridMap.hpp
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_core/include/grid_map_core/TypeDefs.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_core/include/grid_map_core/TypeDefs.hpp
 Eigen/Core
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/include/grid_map_sdf/DistanceDerivatives.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include/grid_map_sdf/DistanceDerivatives.hpp
 grid_map_core/TypeDefs.hpp
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/include/grid_map_sdf/Gridmap3dLookup.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include/grid_map_sdf/Gridmap3dLookup.hpp
 grid_map_core/TypeDefs.hpp
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/include/grid_map_sdf/PixelBorderDistance.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include/grid_map_sdf/PixelBorderDistance.hpp
 algorithm
 -
 cassert
@@ -50,15 +50,15 @@ cassert
 cmath
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/include/grid_map_sdf/SignedDistance2d.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include/grid_map_sdf/SignedDistance2d.hpp
 vector
 -
 grid_map_core/TypeDefs.hpp
 -
 Utils.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/include/grid_map_sdf/Utils.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include/grid_map_sdf/Utils.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/include/grid_map_sdf/SignedDistanceField.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include/grid_map_sdf/SignedDistanceField.hpp
 vector
 -
 Eigen/Dense
@@ -68,25 +68,25 @@ grid_map_core/GridMap.hpp
 grid_map_core/TypeDefs.hpp
 -
 Gridmap3dLookup.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/include/grid_map_sdf/Gridmap3dLookup.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include/grid_map_sdf/Gridmap3dLookup.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/include/grid_map_sdf/Utils.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include/grid_map_sdf/Utils.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/src/SignedDistance2d.cpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/src/SignedDistance2d.cpp
 grid_map_sdf/SignedDistance2d.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/src/grid_map_sdf/SignedDistance2d.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/src/grid_map_sdf/SignedDistance2d.hpp
 grid_map_sdf/PixelBorderDistance.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/src/grid_map_sdf/PixelBorderDistance.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/src/grid_map_sdf/PixelBorderDistance.hpp
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/src/SignedDistanceField.cpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/src/SignedDistanceField.cpp
 grid_map_sdf/SignedDistanceField.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/src/grid_map_sdf/SignedDistanceField.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/src/grid_map_sdf/SignedDistanceField.hpp
 iostream
 -
 grid_map_sdf/DistanceDerivatives.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/src/grid_map_sdf/DistanceDerivatives.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/src/grid_map_sdf/DistanceDerivatives.hpp
 grid_map_sdf/SignedDistance2d.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_sdf/src/grid_map_sdf/SignedDistance2d.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_sdf/src/grid_map_sdf/SignedDistance2d.hpp
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

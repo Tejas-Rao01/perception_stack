@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for _run_tests_image_proc_rostest_test_test_rectify.xml.
 
@@ -61,11 +54,7 @@ CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
 include image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/progress.make
 
 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/image_pipeline/image_proc/test && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/stochlab/catkin_ws/build/test_results/image_proc/rostest-test_test_rectify.xml "/usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/stochlab/catkin_ws/src/image_pipeline/image_proc --package=image_proc --results-filename test_test_rectify.xml --results-base-dir \"/home/stochlab/catkin_ws/build/test_results\" /home/stochlab/catkin_ws/src/image_pipeline/image_proc/test/test_rectify.xml "
-=======
-	cd /home/tejas/catkin_ws/build/image_pipeline/image_proc/test && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/tejas/catkin_ws/build/test_results/image_proc/rostest-test_test_rectify.xml "/usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/tejas/catkin_ws/src/image_pipeline/image_proc --package=image_proc --results-filename test_test_rectify.xml --results-base-dir \"/home/tejas/catkin_ws/build/test_results\" /home/tejas/catkin_ws/src/image_pipeline/image_proc/test/test_rectify.xml "
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build/image_pipeline/image_proc/test && ../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/stochlab/perception_stack/build/test_results/image_proc/rostest-test_test_rectify.xml "/usr/bin/python3 /opt/ros/noetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/stochlab/perception_stack/src/image_pipeline/image_proc --package=image_proc --results-filename test_test_rectify.xml --results-base-dir \"/home/stochlab/perception_stack/build/test_results\" /home/stochlab/perception_stack/src/image_pipeline/image_proc/test/test_rectify.xml "
 
 _run_tests_image_proc_rostest_test_test_rectify.xml: image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml
 _run_tests_image_proc_rostest_test_test_rectify.xml: image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make
@@ -78,18 +67,10 @@ image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_tes
 .PHONY : image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build
 
 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/image_pipeline/image_proc/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/image_pipeline/image_proc/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/cmake_clean.cmake
 .PHONY : image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/clean
 
 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/image_pipeline/image_proc/test /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/image_pipeline/image_proc/test /home/stochlab/catkin_ws/build/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/image_pipeline/image_proc/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/cmake_clean.cmake
-.PHONY : image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/clean
-
-image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/image_pipeline/image_proc/test /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/image_pipeline/image_proc/test /home/tejas/catkin_ws/build/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/image_pipeline/image_proc/test /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/image_pipeline/image_proc/test /home/stochlab/perception_stack/build/image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/depend
 

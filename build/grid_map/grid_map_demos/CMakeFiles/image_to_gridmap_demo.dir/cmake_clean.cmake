@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_demos/image_to_gridmap_demo"
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_demos/image_to_gridmap_demo.pdb"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_demos/image_to_gridmap_demo"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_demos/image_to_gridmap_demo.pdb"
   "CMakeFiles/image_to_gridmap_demo.dir/src/ImageToGridmapDemo.cpp.o"
   "CMakeFiles/image_to_gridmap_demo.dir/src/image_to_gridmap_demo_node.cpp.o"
 )

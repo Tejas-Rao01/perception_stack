@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_cv.pdb"
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_cv.so"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_cv.pdb"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_cv.so"
   "CMakeFiles/grid_map_cv.dir/src/GridMapCvProcessing.cpp.o"
   "CMakeFiles/grid_map_cv.dir/src/InpaintFilter.cpp.o"
 )

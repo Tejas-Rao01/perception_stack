@@ -1,4 +1,4 @@
-prefix=/home/tejas/catkin_ws/devel
+prefix=/home/stochlab/perception_stack/devel
 
 Name: formation_control
 Description: Description of formation_control

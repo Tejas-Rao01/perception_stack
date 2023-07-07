@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/include/grid_map_pcl/helpers.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/include/grid_map_pcl/helpers.hpp
 pcl/common/common.h
 -
 ros/ros.h
@@ -16,7 +16,7 @@ chrono
 string
 -
 
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/pointcloud_publisher_node.cpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/pointcloud_publisher_node.cpp
 pcl_conversions/pcl_conversions.h
 -
 ros/ros.h
@@ -24,7 +24,7 @@ ros/ros.h
 sensor_msgs/PointCloud2.h
 -
 grid_map_pcl/helpers.hpp
-/home/stochlab/catkin_ws/src/grid_map/grid_map_pcl/src/grid_map_pcl/helpers.hpp
+/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/grid_map_pcl/helpers.hpp
 
 /opt/ros/noetic/include/pcl_conversions/pcl_conversions.h
 vector

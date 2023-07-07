@@ -1,6 +1,2 @@
 - setup-file:
-<<<<<<< HEAD
-    local-name: /home/stochlab/catkin_ws/install/setup.sh
-=======
-    local-name: /home/tejas/catkin_ws/install/setup.sh
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    local-name: /home/stochlab/perception_stack/install/setup.sh

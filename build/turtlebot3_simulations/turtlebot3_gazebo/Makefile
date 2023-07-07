@@ -48,22 +48,14 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-<<<<<<< HEAD
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -76,8 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-=======
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -90,32 +80,6 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-<<<<<<< HEAD
-=======
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -127,21 +91,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-<<<<<<< HEAD
-=======
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -153,7 +102,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-<<<<<<< HEAD
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -166,8 +114,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-=======
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"dev\""
@@ -178,7 +124,6 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-<<<<<<< HEAD
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -192,25 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-# The main all target
-all: cmake_check_build_system
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/clean
 .PHONY : clean
 
 # The main clean target
@@ -220,174 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-.PHONY : depend
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/rule
-.PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/rule
-
-# Convenience name for target.
-gazebo_ros_gencfg: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/rule
-
-.PHONY : gazebo_ros_gencfg
-
-# fast build rule for target.
-gazebo_ros_gencfg/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_ros_gencfg.dir/build
-.PHONY : gazebo_ros_gencfg/fast
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
-.PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-gazebo_msgs_generate_messages_cpp: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : gazebo_msgs_generate_messages_cpp
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_cpp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_cpp.dir/build
-.PHONY : gazebo_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-.PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_py: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_py
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_py/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_py.dir/build
-.PHONY : trajectory_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
-.PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-gazebo_msgs_generate_messages_py: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/rule
-
-.PHONY : gazebo_msgs_generate_messages_py
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_py/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_py.dir/build
-.PHONY : gazebo_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-.PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_eus: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_eus
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_eus.dir/build
-.PHONY : trajectory_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
-.PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-gazebo_msgs_generate_messages_eus: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/rule
-
-.PHONY : gazebo_msgs_generate_messages_eus
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_eus.dir/build
-.PHONY : gazebo_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
-.PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-gazebo_msgs_generate_messages_nodejs: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : gazebo_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_nodejs.dir/build
-.PHONY : gazebo_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-.PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_cpp: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_cpp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_cpp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_cpp.dir/build
-.PHONY : trajectory_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-.PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_lisp: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_lisp
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_lisp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_lisp.dir/build
-.PHONY : trajectory_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/rule
 .PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/rule
 
 # Convenience name for target.
@@ -397,56 +179,16 @@ turtlebot3_drive: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3
 
 # fast build rule for target.
 turtlebot3_drive/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build
 .PHONY : turtlebot3_drive/fast
 
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build
-.PHONY : turtlebot3_drive/fast
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
-.PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-gazebo_msgs_generate_messages_lisp: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : gazebo_msgs_generate_messages_lisp
-
-# fast build rule for target.
-gazebo_msgs_generate_messages_lisp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/gazebo_msgs_generate_messages_lisp.dir/build
-.PHONY : gazebo_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-.PHONY : turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-trajectory_msgs_generate_messages_nodejs: turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : trajectory_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-trajectory_msgs_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/trajectory_msgs_generate_messages_nodejs.dir/build
-.PHONY : trajectory_msgs_generate_messages_nodejs/fast
-
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 src/turtlebot3_drive.o: src/turtlebot3_drive.cpp.o
 
 .PHONY : src/turtlebot3_drive.o
 
 # target to build an object file
 src/turtlebot3_drive.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o
 .PHONY : src/turtlebot3_drive.cpp.o
 
 src/turtlebot3_drive.i: src/turtlebot3_drive.cpp.i
@@ -455,11 +197,7 @@ src/turtlebot3_drive.i: src/turtlebot3_drive.cpp.i
 
 # target to preprocess a source file
 src/turtlebot3_drive.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.i
 .PHONY : src/turtlebot3_drive.cpp.i
 
 src/turtlebot3_drive.s: src/turtlebot3_drive.cpp.s
@@ -468,11 +206,7 @@ src/turtlebot3_drive.s: src/turtlebot3_drive.cpp.s
 
 # target to generate assembly for a file
 src/turtlebot3_drive.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/build.make turtlebot3_simulations/turtlebot3_gazebo/CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.s
 .PHONY : src/turtlebot3_drive.cpp.s
 
 # Help Target
@@ -481,7 +215,6 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-<<<<<<< HEAD
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... edit_cache"
@@ -490,27 +223,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... turtlebot3_drive"
-=======
-	@echo "... install/local"
-	@echo "... install"
-	@echo "... gazebo_ros_gencfg"
-	@echo "... gazebo_msgs_generate_messages_cpp"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... trajectory_msgs_generate_messages_py"
-	@echo "... gazebo_msgs_generate_messages_py"
-	@echo "... trajectory_msgs_generate_messages_eus"
-	@echo "... install/strip"
-	@echo "... gazebo_msgs_generate_messages_eus"
-	@echo "... gazebo_msgs_generate_messages_nodejs"
-	@echo "... trajectory_msgs_generate_messages_cpp"
-	@echo "... test"
-	@echo "... trajectory_msgs_generate_messages_lisp"
-	@echo "... list_install_components"
-	@echo "... turtlebot3_drive"
-	@echo "... gazebo_msgs_generate_messages_lisp"
-	@echo "... trajectory_msgs_generate_messages_nodejs"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 	@echo "... src/turtlebot3_drive.o"
 	@echo "... src/turtlebot3_drive.i"
 	@echo "... src/turtlebot3_drive.s"
@@ -525,10 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/realsense_ros_gazebo/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/realsense_ros_gazebo/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/realsense_ros_gazebo/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/rule
 .PHONY : realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/rule
 
 # Convenience name for target.
@@ -212,11 +179,7 @@ realsense_gazebo_plugin: realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin
 
 # fast build rule for target.
 realsense_gazebo_plugin/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build
 .PHONY : realsense_gazebo_plugin/fast
 
 src/RealSensePlugin.o: src/RealSensePlugin.cpp.o
@@ -225,11 +188,7 @@ src/RealSensePlugin.o: src/RealSensePlugin.cpp.o
 
 # target to build an object file
 src/RealSensePlugin.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o
 .PHONY : src/RealSensePlugin.cpp.o
 
 src/RealSensePlugin.i: src/RealSensePlugin.cpp.i
@@ -238,11 +197,7 @@ src/RealSensePlugin.i: src/RealSensePlugin.cpp.i
 
 # target to preprocess a source file
 src/RealSensePlugin.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.i
 .PHONY : src/RealSensePlugin.cpp.i
 
 src/RealSensePlugin.s: src/RealSensePlugin.cpp.s
@@ -251,11 +206,7 @@ src/RealSensePlugin.s: src/RealSensePlugin.cpp.s
 
 # target to generate assembly for a file
 src/RealSensePlugin.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.s
 .PHONY : src/RealSensePlugin.cpp.s
 
 src/gazebo_ros_realsense.o: src/gazebo_ros_realsense.cpp.o
@@ -264,11 +215,7 @@ src/gazebo_ros_realsense.o: src/gazebo_ros_realsense.cpp.o
 
 # target to build an object file
 src/gazebo_ros_realsense.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o
 .PHONY : src/gazebo_ros_realsense.cpp.o
 
 src/gazebo_ros_realsense.i: src/gazebo_ros_realsense.cpp.i
@@ -277,11 +224,7 @@ src/gazebo_ros_realsense.i: src/gazebo_ros_realsense.cpp.i
 
 # target to preprocess a source file
 src/gazebo_ros_realsense.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.i
 .PHONY : src/gazebo_ros_realsense.cpp.i
 
 src/gazebo_ros_realsense.s: src/gazebo_ros_realsense.cpp.s
@@ -290,11 +233,7 @@ src/gazebo_ros_realsense.s: src/gazebo_ros_realsense.cpp.s
 
 # target to generate assembly for a file
 src/gazebo_ros_realsense.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/build.make realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.s
 .PHONY : src/gazebo_ros_realsense.cpp.s
 
 # Help Target
@@ -328,10 +267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for run_tests_grid_map_ros_gtest.
 
@@ -63,10 +63,10 @@ grid_map/grid_map_ros/CMakeFiles/run_tests_grid_map_ros_gtest.dir/build: run_tes
 .PHONY : grid_map/grid_map_ros/CMakeFiles/run_tests_grid_map_ros_gtest.dir/build
 
 grid_map/grid_map_ros/CMakeFiles/run_tests_grid_map_ros_gtest.dir/clean:
-	cd /home/stochlab/catkin_ws/build/grid_map/grid_map_ros && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_grid_map_ros_gtest.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/grid_map/grid_map_ros && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_grid_map_ros_gtest.dir/cmake_clean.cmake
 .PHONY : grid_map/grid_map_ros/CMakeFiles/run_tests_grid_map_ros_gtest.dir/clean
 
 grid_map/grid_map_ros/CMakeFiles/run_tests_grid_map_ros_gtest.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/grid_map/grid_map_ros /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/grid_map/grid_map_ros /home/stochlab/catkin_ws/build/grid_map/grid_map_ros/CMakeFiles/run_tests_grid_map_ros_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/grid_map/grid_map_ros /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/grid_map/grid_map_ros /home/stochlab/perception_stack/build/grid_map/grid_map_ros/CMakeFiles/run_tests_grid_map_ros_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : grid_map/grid_map_ros/CMakeFiles/run_tests_grid_map_ros_gtest.dir/depend
 

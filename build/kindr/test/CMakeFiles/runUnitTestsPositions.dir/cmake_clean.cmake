@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPositions"
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPositions.pdb"
-=======
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPositions"
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPositions.pdb"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPositions"
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPositions.pdb"
   "CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_ros/grid_map_ros-test"
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_ros/grid_map_ros-test.pdb"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_ros/grid_map_ros-test"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_ros/grid_map_ros-test.pdb"
   "CMakeFiles/grid_map_ros-test.dir/test/GridMapRosTest.cpp.o"
   "CMakeFiles/grid_map_ros-test.dir/test/test_grid_map_ros.cpp.o"
 )

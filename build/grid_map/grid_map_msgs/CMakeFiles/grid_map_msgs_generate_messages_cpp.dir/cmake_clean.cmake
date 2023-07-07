@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/include/grid_map_msgs/GetGridMap.h"
-  "/home/stochlab/catkin_ws/devel/include/grid_map_msgs/GetGridMapInfo.h"
-  "/home/stochlab/catkin_ws/devel/include/grid_map_msgs/GridMap.h"
-  "/home/stochlab/catkin_ws/devel/include/grid_map_msgs/GridMapInfo.h"
-  "/home/stochlab/catkin_ws/devel/include/grid_map_msgs/ProcessFile.h"
-  "/home/stochlab/catkin_ws/devel/include/grid_map_msgs/SetGridMap.h"
+  "/home/stochlab/perception_stack/devel/include/grid_map_msgs/GetGridMap.h"
+  "/home/stochlab/perception_stack/devel/include/grid_map_msgs/GetGridMapInfo.h"
+  "/home/stochlab/perception_stack/devel/include/grid_map_msgs/GridMap.h"
+  "/home/stochlab/perception_stack/devel/include/grid_map_msgs/GridMapInfo.h"
+  "/home/stochlab/perception_stack/devel/include/grid_map_msgs/ProcessFile.h"
+  "/home/stochlab/perception_stack/devel/include/grid_map_msgs/SetGridMap.h"
   "CMakeFiles/grid_map_msgs_generate_messages_cpp"
 )
 

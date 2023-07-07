@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-=======
-/home/tejas/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -28,11 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/image_proc/include/image_proc/processor.h
-=======
-/home/tejas/catkin_ws/src/image_pipeline/image_proc/include/image_proc/processor.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/image_proc/include/image_proc/processor.h
 opencv2/core/core.hpp
 -
 image_geometry/pinhole_camera_model.h
@@ -40,11 +32,7 @@ image_geometry/pinhole_camera_model.h
 sensor_msgs/Image.h
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h
-=======
-/home/tejas/catkin_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/processor.h
 image_proc/processor.h
 -
 image_geometry/stereo_camera_model.h
@@ -58,19 +46,11 @@ sensor_msgs/PointCloud.h
 sensor_msgs/PointCloud2.h
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/processor.cpp
+/home/stochlab/perception_stack/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/processor.cpp
 ros/assert.h
 -
 stereo_image_proc/processor.h
-/home/stochlab/catkin_ws/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/stereo_image_proc/processor.h
-=======
-/home/tejas/catkin_ws/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/processor.cpp
-ros/assert.h
--
-stereo_image_proc/processor.h
-/home/tejas/catkin_ws/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/stereo_image_proc/processor.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/stereo_image_proc/src/libstereo_image_proc/stereo_image_proc/processor.h
 sensor_msgs/image_encodings.h
 -
 cmath
@@ -78,11 +58,7 @@ cmath
 limits
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/stereo_image_proc/src/nodelets/disparity.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/stereo_image_proc/src/nodelets/disparity.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/stereo_image_proc/src/nodelets/disparity.cpp
 boost/version.hpp
 -
 boost/thread/lock_guard.hpp
@@ -122,11 +98,7 @@ stereo_image_proc/processor.h
 pluginlib/class_list_macros.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/stereo_image_proc/src/nodelets/point_cloud2.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/stereo_image_proc/src/nodelets/point_cloud2.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/stereo_image_proc/src/nodelets/point_cloud2.cpp
 boost/version.hpp
 -
 boost/thread/lock_guard.hpp

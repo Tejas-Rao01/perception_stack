@@ -4,11 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/src/image_pipeline/image_rotate/src/nodelet/image_rotate_nodelet.cpp" "/home/stochlab/catkin_ws/build/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o"
-=======
-  "/home/tejas/catkin_ws/src/image_pipeline/image_rotate/src/nodelet/image_rotate_nodelet.cpp" "/home/tejas/catkin_ws/build/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/src/image_pipeline/image_rotate/src/nodelet/image_rotate_nodelet.cpp" "/home/stochlab/perception_stack/build/image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,11 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/include"
-=======
-  "/home/tejas/catkin_ws/devel/include"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

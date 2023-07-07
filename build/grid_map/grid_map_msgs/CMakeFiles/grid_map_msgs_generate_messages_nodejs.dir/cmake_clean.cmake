@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/share/gennodejs/ros/grid_map_msgs/msg/GridMap.js"
-  "/home/stochlab/catkin_ws/devel/share/gennodejs/ros/grid_map_msgs/msg/GridMapInfo.js"
-  "/home/stochlab/catkin_ws/devel/share/gennodejs/ros/grid_map_msgs/srv/GetGridMap.js"
-  "/home/stochlab/catkin_ws/devel/share/gennodejs/ros/grid_map_msgs/srv/GetGridMapInfo.js"
-  "/home/stochlab/catkin_ws/devel/share/gennodejs/ros/grid_map_msgs/srv/ProcessFile.js"
-  "/home/stochlab/catkin_ws/devel/share/gennodejs/ros/grid_map_msgs/srv/SetGridMap.js"
+  "/home/stochlab/perception_stack/devel/share/gennodejs/ros/grid_map_msgs/msg/GridMap.js"
+  "/home/stochlab/perception_stack/devel/share/gennodejs/ros/grid_map_msgs/msg/GridMapInfo.js"
+  "/home/stochlab/perception_stack/devel/share/gennodejs/ros/grid_map_msgs/srv/GetGridMap.js"
+  "/home/stochlab/perception_stack/devel/share/gennodejs/ros/grid_map_msgs/srv/GetGridMapInfo.js"
+  "/home/stochlab/perception_stack/devel/share/gennodejs/ros/grid_map_msgs/srv/ProcessFile.js"
+  "/home/stochlab/perception_stack/devel/share/gennodejs/ros/grid_map_msgs/srv/SetGridMap.js"
   "CMakeFiles/grid_map_msgs_generate_messages_nodejs"
 )
 

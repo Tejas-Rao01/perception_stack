@@ -12,26 +12,16 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-<<<<<<< HEAD
-    for workspace in '/home/stochlab/test_ws/devel;/home/stochlab/catkin_ws/devel;/opt/ros/noetic'.split(';'):
-=======
-    for workspace in '/home/tejas/catkin_ws/devel;/opt/ros/noetic'.split(';'):
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    for workspace in '/opt/ros/noetic'.split(';'):
         python_path = os.path.join(workspace, 'lib/python3/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)
             break
     from catkin.environment_cache import generate_environment_script
 
-<<<<<<< HEAD
-code = generate_environment_script('/home/stochlab/catkin_ws/devel/env.sh')
+code = generate_environment_script('/home/stochlab/perception_stack/devel/env.sh')
 
-output_filename = '/home/stochlab/catkin_ws/build/catkin_generated/setup_cached.sh'
-=======
-code = generate_environment_script('/home/tejas/catkin_ws/devel/env.sh')
-
-output_filename = '/home/tejas/catkin_ws/build/catkin_generated/setup_cached.sh'
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+output_filename = '/home/stochlab/perception_stack/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     # print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

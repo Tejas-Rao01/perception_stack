@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-# Install script for directory: /home/stochlab/catkin_ws/src/realsense_ros_gazebo
+# Install script for directory: /home/stochlab/perception_stack/src/realsense_ros_gazebo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/stochlab/catkin_ws/install")
-=======
-# Install script for directory: /home/tejas/catkin_ws/src/realsense_ros_gazebo
-
-# Set the install prefix
-if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tejas/catkin_ws/install")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/perception_stack/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,39 +38,22 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/catkin_ws/build/realsense_ros_gazebo/catkin_generated/installspace/realsense_ros_gazebo.pc")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tejas/catkin_ws/build/realsense_ros_gazebo/catkin_generated/installspace/realsense_ros_gazebo.pc")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/perception_stack/build/realsense_ros_gazebo/catkin_generated/installspace/realsense_ros_gazebo.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_ros_gazebo/cmake" TYPE FILE FILES
-<<<<<<< HEAD
-    "/home/stochlab/catkin_ws/build/realsense_ros_gazebo/catkin_generated/installspace/realsense_ros_gazeboConfig.cmake"
-    "/home/stochlab/catkin_ws/build/realsense_ros_gazebo/catkin_generated/installspace/realsense_ros_gazeboConfig-version.cmake"
-=======
-    "/home/tejas/catkin_ws/build/realsense_ros_gazebo/catkin_generated/installspace/realsense_ros_gazeboConfig.cmake"
-    "/home/tejas/catkin_ws/build/realsense_ros_gazebo/catkin_generated/installspace/realsense_ros_gazeboConfig-version.cmake"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    "/home/stochlab/perception_stack/build/realsense_ros_gazebo/catkin_generated/installspace/realsense_ros_gazeboConfig.cmake"
+    "/home/stochlab/perception_stack/build/realsense_ros_gazebo/catkin_generated/installspace/realsense_ros_gazeboConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_ros_gazebo" TYPE FILE FILES "/home/stochlab/catkin_ws/src/realsense_ros_gazebo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_ros_gazebo" TYPE FILE FILES "/home/stochlab/perception_stack/src/realsense_ros_gazebo/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/realsense_ros_gazebo" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/realsense_ros_gazebo/include/realsense_ros_gazebo/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_ros_gazebo" TYPE FILE FILES "/home/tejas/catkin_ws/src/realsense_ros_gazebo/package.xml")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/realsense_ros_gazebo" TYPE DIRECTORY FILES "/home/tejas/catkin_ws/src/realsense_ros_gazebo/include/realsense_ros_gazebo/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/realsense_ros_gazebo" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/src/realsense_ros_gazebo/include/realsense_ros_gazebo/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -88,11 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librealsense_gazebo_plugin.so"
          RPATH "")
   endif()
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/catkin_ws/devel/lib/librealsense_gazebo_plugin.so")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/tejas/catkin_ws/devel/lib/librealsense_gazebo_plugin.so")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/stochlab/perception_stack/devel/lib/librealsense_gazebo_plugin.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librealsense_gazebo_plugin.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librealsense_gazebo_plugin.so")
     file(RPATH_CHANGE
@@ -109,18 +80,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_ros_gazebo" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/realsense_ros_gazebo/meshes")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_ros_gazebo" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/src/realsense_ros_gazebo/meshes")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_ros_gazebo" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/realsense_ros_gazebo/xacro")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_ros_gazebo" TYPE DIRECTORY FILES "/home/tejas/catkin_ws/src/realsense_ros_gazebo/meshes")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_ros_gazebo" TYPE DIRECTORY FILES "/home/tejas/catkin_ws/src/realsense_ros_gazebo/xacro")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_ros_gazebo" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/src/realsense_ros_gazebo/xacro")
 endif()
 

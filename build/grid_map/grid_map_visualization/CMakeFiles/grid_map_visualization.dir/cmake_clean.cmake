@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_visualization/grid_map_visualization"
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_visualization/grid_map_visualization.pdb"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_visualization/grid_map_visualization"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_visualization/grid_map_visualization.pdb"
   "CMakeFiles/grid_map_visualization.dir/src/GridMapVisualization.cpp.o"
   "CMakeFiles/grid_map_visualization.dir/src/GridMapVisualizationHelpers.cpp.o"
   "CMakeFiles/grid_map_visualization.dir/src/grid_map_visualization_node.cpp.o"

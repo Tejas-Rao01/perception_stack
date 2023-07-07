@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-# Install script for directory: /home/stochlab/catkin_ws/src
+# Install script for directory: /home/stochlab/perception_stack/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/stochlab/catkin_ws/install")
-=======
-# Install script for directory: /home/tejas/catkin_ws/src
-
-# Set the install prefix
-if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tejas/catkin_ws/install")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/perception_stack/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -57,219 +49,132 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-<<<<<<< HEAD
-   "/home/stochlab/catkin_ws/install/_setup_util.py")
-=======
-   "/home/tejas/catkin_ws/install/_setup_util.py")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+   "/home/stochlab/perception_stack/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-<<<<<<< HEAD
-file(INSTALL DESTINATION "/home/stochlab/catkin_ws/install" TYPE PROGRAM FILES "/home/stochlab/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
-=======
-file(INSTALL DESTINATION "/home/tejas/catkin_ws/install" TYPE PROGRAM FILES "/home/tejas/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+file(INSTALL DESTINATION "/home/stochlab/perception_stack/install" TYPE PROGRAM FILES "/home/stochlab/perception_stack/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-<<<<<<< HEAD
-   "/home/stochlab/catkin_ws/install/env.sh")
-=======
-   "/home/tejas/catkin_ws/install/env.sh")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+   "/home/stochlab/perception_stack/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-<<<<<<< HEAD
-file(INSTALL DESTINATION "/home/stochlab/catkin_ws/install" TYPE PROGRAM FILES "/home/stochlab/catkin_ws/build/catkin_generated/installspace/env.sh")
-=======
-file(INSTALL DESTINATION "/home/tejas/catkin_ws/install" TYPE PROGRAM FILES "/home/tejas/catkin_ws/build/catkin_generated/installspace/env.sh")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+file(INSTALL DESTINATION "/home/stochlab/perception_stack/install" TYPE PROGRAM FILES "/home/stochlab/perception_stack/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-<<<<<<< HEAD
-   "/home/stochlab/catkin_ws/install/setup.bash;/home/stochlab/catkin_ws/install/local_setup.bash")
-=======
-   "/home/tejas/catkin_ws/install/setup.bash;/home/tejas/catkin_ws/install/local_setup.bash")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+   "/home/stochlab/perception_stack/install/setup.bash;/home/stochlab/perception_stack/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-<<<<<<< HEAD
-file(INSTALL DESTINATION "/home/stochlab/catkin_ws/install" TYPE FILE FILES
-    "/home/stochlab/catkin_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/stochlab/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
-=======
-file(INSTALL DESTINATION "/home/tejas/catkin_ws/install" TYPE FILE FILES
-    "/home/tejas/catkin_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/tejas/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+file(INSTALL DESTINATION "/home/stochlab/perception_stack/install" TYPE FILE FILES
+    "/home/stochlab/perception_stack/build/catkin_generated/installspace/setup.bash"
+    "/home/stochlab/perception_stack/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-<<<<<<< HEAD
-   "/home/stochlab/catkin_ws/install/setup.sh;/home/stochlab/catkin_ws/install/local_setup.sh")
-=======
-   "/home/tejas/catkin_ws/install/setup.sh;/home/tejas/catkin_ws/install/local_setup.sh")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+   "/home/stochlab/perception_stack/install/setup.sh;/home/stochlab/perception_stack/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-<<<<<<< HEAD
-file(INSTALL DESTINATION "/home/stochlab/catkin_ws/install" TYPE FILE FILES
-    "/home/stochlab/catkin_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/stochlab/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
-=======
-file(INSTALL DESTINATION "/home/tejas/catkin_ws/install" TYPE FILE FILES
-    "/home/tejas/catkin_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/tejas/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+file(INSTALL DESTINATION "/home/stochlab/perception_stack/install" TYPE FILE FILES
+    "/home/stochlab/perception_stack/build/catkin_generated/installspace/setup.sh"
+    "/home/stochlab/perception_stack/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-<<<<<<< HEAD
-   "/home/stochlab/catkin_ws/install/setup.zsh;/home/stochlab/catkin_ws/install/local_setup.zsh")
-=======
-   "/home/tejas/catkin_ws/install/setup.zsh;/home/tejas/catkin_ws/install/local_setup.zsh")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+   "/home/stochlab/perception_stack/install/setup.zsh;/home/stochlab/perception_stack/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-<<<<<<< HEAD
-file(INSTALL DESTINATION "/home/stochlab/catkin_ws/install" TYPE FILE FILES
-    "/home/stochlab/catkin_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/stochlab/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
-=======
-file(INSTALL DESTINATION "/home/tejas/catkin_ws/install" TYPE FILE FILES
-    "/home/tejas/catkin_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/tejas/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+file(INSTALL DESTINATION "/home/stochlab/perception_stack/install" TYPE FILE FILES
+    "/home/stochlab/perception_stack/build/catkin_generated/installspace/setup.zsh"
+    "/home/stochlab/perception_stack/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-<<<<<<< HEAD
-   "/home/stochlab/catkin_ws/install/.rosinstall")
-=======
-   "/home/tejas/catkin_ws/install/.rosinstall")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+   "/home/stochlab/perception_stack/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-<<<<<<< HEAD
-file(INSTALL DESTINATION "/home/stochlab/catkin_ws/install" TYPE FILE FILES "/home/stochlab/catkin_ws/build/catkin_generated/installspace/.rosinstall")
-=======
-file(INSTALL DESTINATION "/home/tejas/catkin_ws/install" TYPE FILE FILES "/home/tejas/catkin_ws/build/catkin_generated/installspace/.rosinstall")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+file(INSTALL DESTINATION "/home/stochlab/perception_stack/install" TYPE FILE FILES "/home/stochlab/perception_stack/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-<<<<<<< HEAD
-  include("/home/stochlab/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_core/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_sdf/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/image_pipeline/image_pipeline/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/kindr/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_octomap/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/octomap_mapping/octomap_mapping/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/kindr_ros/kindr_msgs/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_navigation/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_msgs/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/image_pipeline/camera_calibration/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_cv/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/image_pipeline/image_proc/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/image_pipeline/image_publisher/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/image_pipeline/image_view/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/image_pipeline/stereo_image_proc/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/gazebo_terrain_tutorial/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_ros/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_filters/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_loader/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_visualization/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/kindr_ros/kindr_ros/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_pcl/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/octomap_mapping/octomap_server/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/image_pipeline/image_rotate/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_bringup/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_example/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_slam/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_teleop/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/realsense_ros_gazebo/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_rviz_plugin/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_demos/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/grid_map/grid_map_costmap_2d/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_description/cmake_install.cmake")
-=======
-  include("/home/tejas/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/image_pipeline/image_pipeline/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/kindr/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/octomap_mapping/octomap_mapping/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/kindr_ros/kindr_msgs/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/turtlebot3/turtlebot3/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_navigation/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/formation_control/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/message_logger/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/image_pipeline/camera_calibration/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/image_pipeline/image_proc/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/image_pipeline/image_publisher/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/image_pipeline/image_view/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/image_pipeline/stereo_image_proc/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/image_pipeline/depth_image_proc/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/kindr_ros/kindr_ros/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/octomap_mapping/octomap_server/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/image_pipeline/image_rotate/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/elevation_mapping/elevation_mapping/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_bringup/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_example/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_slam/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_teleop/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/turtlebot_controller/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/realsense_ros_gazebo/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/elevation_mapping/elevation_mapping_demos/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/turtlebot3/turtlebot3_description/cmake_install.cmake")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  include("/home/stochlab/perception_stack/build/gtest/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_core/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_sdf/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/image_pipeline/image_pipeline/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/kindr/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_octomap/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/octomap_mapping/octomap_mapping/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/kindr_ros/kindr_msgs/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/turtlebot3/turtlebot3/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/turtlebot3/turtlebot3_navigation/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/turtlebot3_simulations/turtlebot3_simulations/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/formation_control/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_msgs/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/image_pipeline/camera_calibration/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_cv/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/image_pipeline/image_proc/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/image_pipeline/image_publisher/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/image_pipeline/image_view/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/image_pipeline/stereo_image_proc/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/image_pipeline/depth_image_proc/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/gazebo_terrain_tutorial/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_ros/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_filters/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_loader/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_visualization/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/kindr_ros/kindr_ros/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_pcl/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/octomap_mapping/octomap_server/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/image_pipeline/image_rotate/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/turtlebot3/turtlebot3_bringup/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/turtlebot3/turtlebot3_example/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/turtlebot3_simulations/turtlebot3_fake/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/turtlebot3_simulations/turtlebot3_gazebo/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/turtlebot3/turtlebot3_slam/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/turtlebot3/turtlebot3_teleop/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/turtlebot_controller/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/realsense_ros_gazebo/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_rviz_plugin/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_demos/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/kindr_ros/kindr_rviz_plugins/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/grid_map/grid_map_costmap_2d/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/turtlebot3/turtlebot3_description/cmake_install.cmake")
 
 endif()
 
@@ -281,9 +186,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-<<<<<<< HEAD
-file(WRITE "/home/stochlab/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
-=======
-file(WRITE "/home/tejas/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+file(WRITE "/home/stochlab/perception_stack/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

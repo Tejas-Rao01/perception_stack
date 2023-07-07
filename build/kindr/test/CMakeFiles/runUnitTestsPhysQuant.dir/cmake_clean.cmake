@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant"
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant.pdb"
-=======
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant"
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant.pdb"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant"
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant.pdb"
   "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o"
   "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o"
   "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o"

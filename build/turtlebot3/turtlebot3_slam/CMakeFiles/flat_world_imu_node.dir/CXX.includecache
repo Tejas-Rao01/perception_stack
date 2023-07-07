@@ -6,21 +6,13 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam/include/turtlebot3_slam/flat_world_imu_node.h
-=======
-/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/include/turtlebot3_slam/flat_world_imu_node.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/turtlebot3/turtlebot3_slam/include/turtlebot3_slam/flat_world_imu_node.h
 ros/ros.h
 -
 sensor_msgs/Imu.h
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/turtlebot3/turtlebot3_slam/src/flat_world_imu_node.cpp
-=======
-/home/tejas/catkin_ws/src/turtlebot3/turtlebot3_slam/src/flat_world_imu_node.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/turtlebot3/turtlebot3_slam/src/flat_world_imu_node.cpp
 turtlebot3_slam/flat_world_imu_node.h
 -
 

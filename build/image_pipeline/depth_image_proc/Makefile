@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ depth_image_proc: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.di
 
 # fast build rule for target.
 depth_image_proc/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build
 .PHONY : depth_image_proc/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ actionlib_generate_messages_py: image_pipeline/depth_image_proc/CMakeFiles/actio
 
 # fast build rule for target.
 actionlib_generate_messages_py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_py.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_py.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_py.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -258,20 +209,12 @@ actionlib_generate_messages_nodejs: image_pipeline/depth_image_proc/CMakeFiles/a
 
 # fast build rule for target.
 actionlib_generate_messages_nodejs/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -281,20 +224,12 @@ tf2_msgs_generate_messages_cpp: image_pipeline/depth_image_proc/CMakeFiles/tf2_m
 
 # fast build rule for target.
 tf2_msgs_generate_messages_cpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -304,20 +239,12 @@ tf2_msgs_generate_messages_py: image_pipeline/depth_image_proc/CMakeFiles/tf2_ms
 
 # fast build rule for target.
 tf2_msgs_generate_messages_py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -327,20 +254,12 @@ actionlib_msgs_generate_messages_eus: image_pipeline/depth_image_proc/CMakeFiles
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_eus/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -350,20 +269,12 @@ tf2_msgs_generate_messages_lisp: image_pipeline/depth_image_proc/CMakeFiles/tf2_
 
 # fast build rule for target.
 tf2_msgs_generate_messages_lisp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/build
 .PHONY : tf2_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -373,20 +284,12 @@ tf2_msgs_generate_messages_eus: image_pipeline/depth_image_proc/CMakeFiles/tf2_m
 
 # fast build rule for target.
 tf2_msgs_generate_messages_eus/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_eus.dir/build
 .PHONY : tf2_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -396,20 +299,12 @@ actionlib_generate_messages_cpp: image_pipeline/depth_image_proc/CMakeFiles/acti
 
 # fast build rule for target.
 actionlib_generate_messages_cpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_cpp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_cpp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_cpp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -419,20 +314,12 @@ tf2_msgs_generate_messages_nodejs: image_pipeline/depth_image_proc/CMakeFiles/tf
 
 # fast build rule for target.
 tf2_msgs_generate_messages_nodejs/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/build
 .PHONY : tf2_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -442,20 +329,12 @@ actionlib_msgs_generate_messages_lisp: image_pipeline/depth_image_proc/CMakeFile
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_lisp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -465,20 +344,12 @@ actionlib_msgs_generate_messages_cpp: image_pipeline/depth_image_proc/CMakeFiles
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_cpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -488,20 +359,12 @@ actionlib_msgs_generate_messages_nodejs: image_pipeline/depth_image_proc/CMakeFi
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_nodejs/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
 .PHONY : actionlib_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -511,20 +374,12 @@ actionlib_msgs_generate_messages_py: image_pipeline/depth_image_proc/CMakeFiles/
 
 # fast build rule for target.
 actionlib_msgs_generate_messages_py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
 .PHONY : actionlib_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -534,20 +389,12 @@ actionlib_generate_messages_lisp: image_pipeline/depth_image_proc/CMakeFiles/act
 
 # fast build rule for target.
 actionlib_generate_messages_lisp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_lisp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_lisp.dir/build
 .PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_eus.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -557,11 +404,7 @@ actionlib_generate_messages_eus: image_pipeline/depth_image_proc/CMakeFiles/acti
 
 # fast build rule for target.
 actionlib_generate_messages_eus/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_eus.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_eus.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_eus.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_eus.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_eus.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/actionlib_generate_messages_eus.dir/build
 .PHONY : actionlib_generate_messages_eus/fast
 
 src/nodelets/convert_metric.o: src/nodelets/convert_metric.cpp.o
@@ -570,11 +413,7 @@ src/nodelets/convert_metric.o: src/nodelets/convert_metric.cpp.o
 
 # target to build an object file
 src/nodelets/convert_metric.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o
 .PHONY : src/nodelets/convert_metric.cpp.o
 
 src/nodelets/convert_metric.i: src/nodelets/convert_metric.cpp.i
@@ -583,11 +422,7 @@ src/nodelets/convert_metric.i: src/nodelets/convert_metric.cpp.i
 
 # target to preprocess a source file
 src/nodelets/convert_metric.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.i
 .PHONY : src/nodelets/convert_metric.cpp.i
 
 src/nodelets/convert_metric.s: src/nodelets/convert_metric.cpp.s
@@ -596,11 +431,7 @@ src/nodelets/convert_metric.s: src/nodelets/convert_metric.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/convert_metric.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.s
 .PHONY : src/nodelets/convert_metric.cpp.s
 
 src/nodelets/crop_foremost.o: src/nodelets/crop_foremost.cpp.o
@@ -609,11 +440,7 @@ src/nodelets/crop_foremost.o: src/nodelets/crop_foremost.cpp.o
 
 # target to build an object file
 src/nodelets/crop_foremost.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o
 .PHONY : src/nodelets/crop_foremost.cpp.o
 
 src/nodelets/crop_foremost.i: src/nodelets/crop_foremost.cpp.i
@@ -622,11 +449,7 @@ src/nodelets/crop_foremost.i: src/nodelets/crop_foremost.cpp.i
 
 # target to preprocess a source file
 src/nodelets/crop_foremost.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.i
 .PHONY : src/nodelets/crop_foremost.cpp.i
 
 src/nodelets/crop_foremost.s: src/nodelets/crop_foremost.cpp.s
@@ -635,11 +458,7 @@ src/nodelets/crop_foremost.s: src/nodelets/crop_foremost.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/crop_foremost.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.s
 .PHONY : src/nodelets/crop_foremost.cpp.s
 
 src/nodelets/disparity.o: src/nodelets/disparity.cpp.o
@@ -648,11 +467,7 @@ src/nodelets/disparity.o: src/nodelets/disparity.cpp.o
 
 # target to build an object file
 src/nodelets/disparity.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o
 .PHONY : src/nodelets/disparity.cpp.o
 
 src/nodelets/disparity.i: src/nodelets/disparity.cpp.i
@@ -661,11 +476,7 @@ src/nodelets/disparity.i: src/nodelets/disparity.cpp.i
 
 # target to preprocess a source file
 src/nodelets/disparity.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.i
 .PHONY : src/nodelets/disparity.cpp.i
 
 src/nodelets/disparity.s: src/nodelets/disparity.cpp.s
@@ -674,11 +485,7 @@ src/nodelets/disparity.s: src/nodelets/disparity.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/disparity.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.s
 .PHONY : src/nodelets/disparity.cpp.s
 
 src/nodelets/point_cloud_xyz.o: src/nodelets/point_cloud_xyz.cpp.o
@@ -687,11 +494,7 @@ src/nodelets/point_cloud_xyz.o: src/nodelets/point_cloud_xyz.cpp.o
 
 # target to build an object file
 src/nodelets/point_cloud_xyz.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o
 .PHONY : src/nodelets/point_cloud_xyz.cpp.o
 
 src/nodelets/point_cloud_xyz.i: src/nodelets/point_cloud_xyz.cpp.i
@@ -700,11 +503,7 @@ src/nodelets/point_cloud_xyz.i: src/nodelets/point_cloud_xyz.cpp.i
 
 # target to preprocess a source file
 src/nodelets/point_cloud_xyz.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.i
 .PHONY : src/nodelets/point_cloud_xyz.cpp.i
 
 src/nodelets/point_cloud_xyz.s: src/nodelets/point_cloud_xyz.cpp.s
@@ -713,11 +512,7 @@ src/nodelets/point_cloud_xyz.s: src/nodelets/point_cloud_xyz.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/point_cloud_xyz.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.s
 .PHONY : src/nodelets/point_cloud_xyz.cpp.s
 
 src/nodelets/point_cloud_xyz_radial.o: src/nodelets/point_cloud_xyz_radial.cpp.o
@@ -726,11 +521,7 @@ src/nodelets/point_cloud_xyz_radial.o: src/nodelets/point_cloud_xyz_radial.cpp.o
 
 # target to build an object file
 src/nodelets/point_cloud_xyz_radial.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o
 .PHONY : src/nodelets/point_cloud_xyz_radial.cpp.o
 
 src/nodelets/point_cloud_xyz_radial.i: src/nodelets/point_cloud_xyz_radial.cpp.i
@@ -739,11 +530,7 @@ src/nodelets/point_cloud_xyz_radial.i: src/nodelets/point_cloud_xyz_radial.cpp.i
 
 # target to preprocess a source file
 src/nodelets/point_cloud_xyz_radial.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.i
 .PHONY : src/nodelets/point_cloud_xyz_radial.cpp.i
 
 src/nodelets/point_cloud_xyz_radial.s: src/nodelets/point_cloud_xyz_radial.cpp.s
@@ -752,11 +539,7 @@ src/nodelets/point_cloud_xyz_radial.s: src/nodelets/point_cloud_xyz_radial.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/point_cloud_xyz_radial.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.s
 .PHONY : src/nodelets/point_cloud_xyz_radial.cpp.s
 
 src/nodelets/point_cloud_xyzi.o: src/nodelets/point_cloud_xyzi.cpp.o
@@ -765,11 +548,7 @@ src/nodelets/point_cloud_xyzi.o: src/nodelets/point_cloud_xyzi.cpp.o
 
 # target to build an object file
 src/nodelets/point_cloud_xyzi.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o
 .PHONY : src/nodelets/point_cloud_xyzi.cpp.o
 
 src/nodelets/point_cloud_xyzi.i: src/nodelets/point_cloud_xyzi.cpp.i
@@ -778,11 +557,7 @@ src/nodelets/point_cloud_xyzi.i: src/nodelets/point_cloud_xyzi.cpp.i
 
 # target to preprocess a source file
 src/nodelets/point_cloud_xyzi.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.i
 .PHONY : src/nodelets/point_cloud_xyzi.cpp.i
 
 src/nodelets/point_cloud_xyzi.s: src/nodelets/point_cloud_xyzi.cpp.s
@@ -791,11 +566,7 @@ src/nodelets/point_cloud_xyzi.s: src/nodelets/point_cloud_xyzi.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/point_cloud_xyzi.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.s
 .PHONY : src/nodelets/point_cloud_xyzi.cpp.s
 
 src/nodelets/point_cloud_xyzi_radial.o: src/nodelets/point_cloud_xyzi_radial.cpp.o
@@ -804,11 +575,7 @@ src/nodelets/point_cloud_xyzi_radial.o: src/nodelets/point_cloud_xyzi_radial.cpp
 
 # target to build an object file
 src/nodelets/point_cloud_xyzi_radial.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o
 .PHONY : src/nodelets/point_cloud_xyzi_radial.cpp.o
 
 src/nodelets/point_cloud_xyzi_radial.i: src/nodelets/point_cloud_xyzi_radial.cpp.i
@@ -817,11 +584,7 @@ src/nodelets/point_cloud_xyzi_radial.i: src/nodelets/point_cloud_xyzi_radial.cpp
 
 # target to preprocess a source file
 src/nodelets/point_cloud_xyzi_radial.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.i
 .PHONY : src/nodelets/point_cloud_xyzi_radial.cpp.i
 
 src/nodelets/point_cloud_xyzi_radial.s: src/nodelets/point_cloud_xyzi_radial.cpp.s
@@ -830,11 +593,7 @@ src/nodelets/point_cloud_xyzi_radial.s: src/nodelets/point_cloud_xyzi_radial.cpp
 
 # target to generate assembly for a file
 src/nodelets/point_cloud_xyzi_radial.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.s
 .PHONY : src/nodelets/point_cloud_xyzi_radial.cpp.s
 
 src/nodelets/point_cloud_xyzrgb.o: src/nodelets/point_cloud_xyzrgb.cpp.o
@@ -843,11 +602,7 @@ src/nodelets/point_cloud_xyzrgb.o: src/nodelets/point_cloud_xyzrgb.cpp.o
 
 # target to build an object file
 src/nodelets/point_cloud_xyzrgb.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o
 .PHONY : src/nodelets/point_cloud_xyzrgb.cpp.o
 
 src/nodelets/point_cloud_xyzrgb.i: src/nodelets/point_cloud_xyzrgb.cpp.i
@@ -856,11 +611,7 @@ src/nodelets/point_cloud_xyzrgb.i: src/nodelets/point_cloud_xyzrgb.cpp.i
 
 # target to preprocess a source file
 src/nodelets/point_cloud_xyzrgb.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.i
 .PHONY : src/nodelets/point_cloud_xyzrgb.cpp.i
 
 src/nodelets/point_cloud_xyzrgb.s: src/nodelets/point_cloud_xyzrgb.cpp.s
@@ -869,11 +620,7 @@ src/nodelets/point_cloud_xyzrgb.s: src/nodelets/point_cloud_xyzrgb.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/point_cloud_xyzrgb.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.s
 .PHONY : src/nodelets/point_cloud_xyzrgb.cpp.s
 
 src/nodelets/point_cloud_xyzrgb_radial.o: src/nodelets/point_cloud_xyzrgb_radial.cpp.o
@@ -882,11 +629,7 @@ src/nodelets/point_cloud_xyzrgb_radial.o: src/nodelets/point_cloud_xyzrgb_radial
 
 # target to build an object file
 src/nodelets/point_cloud_xyzrgb_radial.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o
 .PHONY : src/nodelets/point_cloud_xyzrgb_radial.cpp.o
 
 src/nodelets/point_cloud_xyzrgb_radial.i: src/nodelets/point_cloud_xyzrgb_radial.cpp.i
@@ -895,11 +638,7 @@ src/nodelets/point_cloud_xyzrgb_radial.i: src/nodelets/point_cloud_xyzrgb_radial
 
 # target to preprocess a source file
 src/nodelets/point_cloud_xyzrgb_radial.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.i
 .PHONY : src/nodelets/point_cloud_xyzrgb_radial.cpp.i
 
 src/nodelets/point_cloud_xyzrgb_radial.s: src/nodelets/point_cloud_xyzrgb_radial.cpp.s
@@ -908,11 +647,7 @@ src/nodelets/point_cloud_xyzrgb_radial.s: src/nodelets/point_cloud_xyzrgb_radial
 
 # target to generate assembly for a file
 src/nodelets/point_cloud_xyzrgb_radial.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.s
 .PHONY : src/nodelets/point_cloud_xyzrgb_radial.cpp.s
 
 src/nodelets/register.o: src/nodelets/register.cpp.o
@@ -921,11 +656,7 @@ src/nodelets/register.o: src/nodelets/register.cpp.o
 
 # target to build an object file
 src/nodelets/register.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o
 .PHONY : src/nodelets/register.cpp.o
 
 src/nodelets/register.i: src/nodelets/register.cpp.i
@@ -934,11 +665,7 @@ src/nodelets/register.i: src/nodelets/register.cpp.i
 
 # target to preprocess a source file
 src/nodelets/register.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.i
 .PHONY : src/nodelets/register.cpp.i
 
 src/nodelets/register.s: src/nodelets/register.cpp.s
@@ -947,11 +674,7 @@ src/nodelets/register.s: src/nodelets/register.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/register.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.s
 .PHONY : src/nodelets/register.cpp.s
 
 # Help Target
@@ -1024,10 +747,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_filters.pdb"
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_filters.so"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_filters.pdb"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_filters.so"
   "CMakeFiles/grid_map_filters.dir/src/BufferNormalizerFilter.cpp.o"
   "CMakeFiles/grid_map_filters.dir/src/ColorBlendingFilter.cpp.o"
   "CMakeFiles/grid_map_filters.dir/src/ColorFillFilter.cpp.o"

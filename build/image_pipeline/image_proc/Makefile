@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,7 +80,6 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
-<<<<<<< HEAD
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"dev\""
@@ -108,30 +100,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
-=======
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -144,7 +112,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-<<<<<<< HEAD
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -170,46 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/image_pipeline/image_proc/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"dev\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# The main all target
-all: cmake_check_build_system
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/image_pipeline/image_proc/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/image_pipeline/image_proc/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/clean
 .PHONY : clean
 
 # The main clean target
@@ -219,31 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule
 
 # Convenience name for target.
@@ -253,12 +179,12 @@ image_proc_exe: image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule
 
 # fast build rule for target.
 image_proc_exe/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build
 .PHONY : image_proc_exe/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
 
 # Convenience name for target.
@@ -268,12 +194,12 @@ nodelet_topic_tools_gencfg: image_pipeline/image_proc/CMakeFiles/nodelet_topic_t
 
 # fast build rule for target.
 nodelet_topic_tools_gencfg/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/build
 .PHONY : nodelet_topic_tools_gencfg/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -283,12 +209,12 @@ bond_generate_messages_py: image_pipeline/image_proc/CMakeFiles/bond_generate_me
 
 # fast build rule for target.
 bond_generate_messages_py/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/build
 .PHONY : bond_generate_messages_py/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -298,12 +224,12 @@ bond_generate_messages_nodejs: image_pipeline/image_proc/CMakeFiles/bond_generat
 
 # fast build rule for target.
 bond_generate_messages_nodejs/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/build
 .PHONY : bond_generate_messages_nodejs/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -313,12 +239,12 @@ dynamic_reconfigure_generate_messages_eus: image_pipeline/image_proc/CMakeFiles/
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_eus/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -328,95 +254,12 @@ dynamic_reconfigure_generate_messages_py: image_pipeline/image_proc/CMakeFiles/d
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-.PHONY : depend
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_eus: image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/rule
-
-.PHONY : nodelet_generate_messages_eus
-
-# fast build rule for target.
-nodelet_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/build
-.PHONY : nodelet_generate_messages_eus/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_py: image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_py
-
-# fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule
-
-# Convenience name for target.
-image_proc: image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule
-
-.PHONY : image_proc
-
-# fast build rule for target.
-image_proc/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/build
-.PHONY : image_proc/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_py: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_py
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_py/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_py/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_gencfg: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
-
-.PHONY : dynamic_reconfigure_gencfg
-
-# fast build rule for target.
-dynamic_reconfigure_gencfg/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
-.PHONY : dynamic_reconfigure_gencfg/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -426,13 +269,12 @@ nodelet_generate_messages_cpp: image_pipeline/image_proc/CMakeFiles/nodelet_gene
 
 # fast build rule for target.
 nodelet_generate_messages_cpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/build
 .PHONY : nodelet_generate_messages_cpp/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -442,12 +284,12 @@ nodelet_generate_messages_nodejs: image_pipeline/image_proc/CMakeFiles/nodelet_g
 
 # fast build rule for target.
 nodelet_generate_messages_nodejs/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
 .PHONY : nodelet_generate_messages_nodejs/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -457,12 +299,12 @@ dynamic_reconfigure_generate_messages_lisp: image_pipeline/image_proc/CMakeFiles
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
 
 # Convenience name for target.
@@ -472,12 +314,12 @@ dynamic_reconfigure_gencfg: image_pipeline/image_proc/CMakeFiles/dynamic_reconfi
 
 # fast build rule for target.
 dynamic_reconfigure_gencfg/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
 .PHONY : dynamic_reconfigure_gencfg/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -487,12 +329,12 @@ dynamic_reconfigure_generate_messages_nodejs: image_pipeline/image_proc/CMakeFil
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule
 
 # Convenience name for target.
@@ -502,12 +344,12 @@ image_proc: image_pipeline/image_proc/CMakeFiles/image_proc.dir/rule
 
 # fast build rule for target.
 image_proc/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/build
 .PHONY : image_proc/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -517,12 +359,12 @@ dynamic_reconfigure_generate_messages_cpp: image_pipeline/image_proc/CMakeFiles/
 
 # fast build rule for target.
 dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -532,125 +374,12 @@ nodelet_generate_messages_eus: image_pipeline/image_proc/CMakeFiles/nodelet_gene
 
 # fast build rule for target.
 nodelet_generate_messages_eus/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_eus.dir/build
 .PHONY : nodelet_generate_messages_eus/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_cpp.dir/build
-.PHONY : nodelet_generate_messages_cpp/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_eus: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_eus
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_eus/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_lisp: image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
-
-.PHONY : nodelet_generate_messages_lisp
-
-# fast build rule for target.
-nodelet_generate_messages_lisp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/build
-.PHONY : nodelet_generate_messages_lisp/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule
-
-# Convenience name for target.
-image_proc_gencfg: image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule
-
-.PHONY : image_proc_gencfg
-
-# fast build rule for target.
-image_proc_gencfg/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build
-.PHONY : image_proc_gencfg/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_cpp: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_cpp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_cpp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_py: image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/rule
-
-.PHONY : nodelet_generate_messages_py
-
-# fast build rule for target.
-nodelet_generate_messages_py/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/build
-.PHONY : nodelet_generate_messages_py/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -660,13 +389,12 @@ bond_generate_messages_lisp: image_pipeline/image_proc/CMakeFiles/bond_generate_
 
 # fast build rule for target.
 bond_generate_messages_lisp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/build
 .PHONY : bond_generate_messages_lisp/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -676,35 +404,12 @@ nodelet_generate_messages_py: image_pipeline/image_proc/CMakeFiles/nodelet_gener
 
 # fast build rule for target.
 nodelet_generate_messages_py/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_py.dir/build
 .PHONY : nodelet_generate_messages_py/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_lisp.dir/build
-.PHONY : bond_generate_messages_lisp/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_nodejs: image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-.PHONY : sensor_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -714,13 +419,12 @@ bond_generate_messages_cpp: image_pipeline/image_proc/CMakeFiles/bond_generate_m
 
 # fast build rule for target.
 bond_generate_messages_cpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/build
 .PHONY : bond_generate_messages_cpp/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/rule
 
 # Convenience name for target.
@@ -730,12 +434,12 @@ image_proc_gencfg: image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/ru
 
 # fast build rule for target.
 image_proc_gencfg/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build
 .PHONY : image_proc_gencfg/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -745,12 +449,12 @@ nodelet_generate_messages_lisp: image_pipeline/image_proc/CMakeFiles/nodelet_gen
 
 # fast build rule for target.
 nodelet_generate_messages_lisp/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_lisp.dir/build
 .PHONY : nodelet_generate_messages_lisp/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/rule
 .PHONY : image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -760,147 +464,8 @@ bond_generate_messages_eus: image_pipeline/image_proc/CMakeFiles/bond_generate_m
 
 # fast build rule for target.
 bond_generate_messages_eus/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/build
 .PHONY : bond_generate_messages_eus/fast
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_cpp.dir/build
-.PHONY : bond_generate_messages_cpp/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_eus: image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/rule
-
-.PHONY : bond_generate_messages_eus
-
-# fast build rule for target.
-bond_generate_messages_eus/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_eus.dir/build
-.PHONY : bond_generate_messages_eus/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-nodelet_generate_messages_nodejs: image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/rule
-
-.PHONY : nodelet_generate_messages_nodejs
-
-# fast build rule for target.
-nodelet_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_generate_messages_nodejs.dir/build
-.PHONY : nodelet_generate_messages_nodejs/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_nodejs: image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/rule
-
-.PHONY : bond_generate_messages_nodejs
-
-# fast build rule for target.
-bond_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_nodejs.dir/build
-.PHONY : bond_generate_messages_nodejs/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/rule
-
-# Convenience name for target.
-bond_generate_messages_py: image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/rule
-
-.PHONY : bond_generate_messages_py
-
-# fast build rule for target.
-bond_generate_messages_py/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/build.make image_pipeline/image_proc/CMakeFiles/bond_generate_messages_py.dir/build
-.PHONY : bond_generate_messages_py/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_nodejs: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_nodejs
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_nodejs/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_nodejs/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make image_pipeline/image_proc/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
-
-# Convenience name for target.
-nodelet_topic_tools_gencfg: image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/rule
-
-.PHONY : nodelet_topic_tools_gencfg
-
-# fast build rule for target.
-nodelet_topic_tools_gencfg/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/build.make image_pipeline/image_proc/CMakeFiles/nodelet_topic_tools_gencfg.dir/build
-.PHONY : nodelet_topic_tools_gencfg/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_lisp: image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make image_pipeline/image_proc/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
-
-# Convenience name for target.
-image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule
-.PHONY : image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule
-
-# Convenience name for target.
-image_proc_exe: image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/rule
-
-.PHONY : image_proc_exe
-
-# fast build rule for target.
-image_proc_exe/fast:
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build
-.PHONY : image_proc_exe/fast
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 
 src/libimage_proc/advertisement_checker.o: src/libimage_proc/advertisement_checker.cpp.o
 
@@ -908,11 +473,7 @@ src/libimage_proc/advertisement_checker.o: src/libimage_proc/advertisement_check
 
 # target to build an object file
 src/libimage_proc/advertisement_checker.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.o
 .PHONY : src/libimage_proc/advertisement_checker.cpp.o
 
 src/libimage_proc/advertisement_checker.i: src/libimage_proc/advertisement_checker.cpp.i
@@ -921,11 +482,7 @@ src/libimage_proc/advertisement_checker.i: src/libimage_proc/advertisement_check
 
 # target to preprocess a source file
 src/libimage_proc/advertisement_checker.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.i
 .PHONY : src/libimage_proc/advertisement_checker.cpp.i
 
 src/libimage_proc/advertisement_checker.s: src/libimage_proc/advertisement_checker.cpp.s
@@ -934,11 +491,7 @@ src/libimage_proc/advertisement_checker.s: src/libimage_proc/advertisement_check
 
 # target to generate assembly for a file
 src/libimage_proc/advertisement_checker.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/advertisement_checker.cpp.s
 .PHONY : src/libimage_proc/advertisement_checker.cpp.s
 
 src/libimage_proc/processor.o: src/libimage_proc/processor.cpp.o
@@ -947,11 +500,7 @@ src/libimage_proc/processor.o: src/libimage_proc/processor.cpp.o
 
 # target to build an object file
 src/libimage_proc/processor.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.o
 .PHONY : src/libimage_proc/processor.cpp.o
 
 src/libimage_proc/processor.i: src/libimage_proc/processor.cpp.i
@@ -960,11 +509,7 @@ src/libimage_proc/processor.i: src/libimage_proc/processor.cpp.i
 
 # target to preprocess a source file
 src/libimage_proc/processor.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.i
 .PHONY : src/libimage_proc/processor.cpp.i
 
 src/libimage_proc/processor.s: src/libimage_proc/processor.cpp.s
@@ -973,11 +518,7 @@ src/libimage_proc/processor.s: src/libimage_proc/processor.cpp.s
 
 # target to generate assembly for a file
 src/libimage_proc/processor.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/libimage_proc/processor.cpp.s
 .PHONY : src/libimage_proc/processor.cpp.s
 
 src/nodelets/crop_decimate.o: src/nodelets/crop_decimate.cpp.o
@@ -986,11 +527,7 @@ src/nodelets/crop_decimate.o: src/nodelets/crop_decimate.cpp.o
 
 # target to build an object file
 src/nodelets/crop_decimate.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.o
 .PHONY : src/nodelets/crop_decimate.cpp.o
 
 src/nodelets/crop_decimate.i: src/nodelets/crop_decimate.cpp.i
@@ -999,11 +536,7 @@ src/nodelets/crop_decimate.i: src/nodelets/crop_decimate.cpp.i
 
 # target to preprocess a source file
 src/nodelets/crop_decimate.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.i
 .PHONY : src/nodelets/crop_decimate.cpp.i
 
 src/nodelets/crop_decimate.s: src/nodelets/crop_decimate.cpp.s
@@ -1012,11 +545,7 @@ src/nodelets/crop_decimate.s: src/nodelets/crop_decimate.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/crop_decimate.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_decimate.cpp.s
 .PHONY : src/nodelets/crop_decimate.cpp.s
 
 src/nodelets/crop_non_zero.o: src/nodelets/crop_non_zero.cpp.o
@@ -1025,11 +554,7 @@ src/nodelets/crop_non_zero.o: src/nodelets/crop_non_zero.cpp.o
 
 # target to build an object file
 src/nodelets/crop_non_zero.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.o
 .PHONY : src/nodelets/crop_non_zero.cpp.o
 
 src/nodelets/crop_non_zero.i: src/nodelets/crop_non_zero.cpp.i
@@ -1038,11 +563,7 @@ src/nodelets/crop_non_zero.i: src/nodelets/crop_non_zero.cpp.i
 
 # target to preprocess a source file
 src/nodelets/crop_non_zero.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.i
 .PHONY : src/nodelets/crop_non_zero.cpp.i
 
 src/nodelets/crop_non_zero.s: src/nodelets/crop_non_zero.cpp.s
@@ -1051,11 +572,7 @@ src/nodelets/crop_non_zero.s: src/nodelets/crop_non_zero.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/crop_non_zero.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/crop_non_zero.cpp.s
 .PHONY : src/nodelets/crop_non_zero.cpp.s
 
 src/nodelets/debayer.o: src/nodelets/debayer.cpp.o
@@ -1064,11 +581,7 @@ src/nodelets/debayer.o: src/nodelets/debayer.cpp.o
 
 # target to build an object file
 src/nodelets/debayer.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.o
 .PHONY : src/nodelets/debayer.cpp.o
 
 src/nodelets/debayer.i: src/nodelets/debayer.cpp.i
@@ -1077,11 +590,7 @@ src/nodelets/debayer.i: src/nodelets/debayer.cpp.i
 
 # target to preprocess a source file
 src/nodelets/debayer.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.i
 .PHONY : src/nodelets/debayer.cpp.i
 
 src/nodelets/debayer.s: src/nodelets/debayer.cpp.s
@@ -1090,11 +599,7 @@ src/nodelets/debayer.s: src/nodelets/debayer.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/debayer.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/debayer.cpp.s
 .PHONY : src/nodelets/debayer.cpp.s
 
 src/nodelets/edge_aware.o: src/nodelets/edge_aware.cpp.o
@@ -1103,11 +608,7 @@ src/nodelets/edge_aware.o: src/nodelets/edge_aware.cpp.o
 
 # target to build an object file
 src/nodelets/edge_aware.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.o
 .PHONY : src/nodelets/edge_aware.cpp.o
 
 src/nodelets/edge_aware.i: src/nodelets/edge_aware.cpp.i
@@ -1116,11 +617,7 @@ src/nodelets/edge_aware.i: src/nodelets/edge_aware.cpp.i
 
 # target to preprocess a source file
 src/nodelets/edge_aware.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.i
 .PHONY : src/nodelets/edge_aware.cpp.i
 
 src/nodelets/edge_aware.s: src/nodelets/edge_aware.cpp.s
@@ -1129,11 +626,7 @@ src/nodelets/edge_aware.s: src/nodelets/edge_aware.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/edge_aware.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/edge_aware.cpp.s
 .PHONY : src/nodelets/edge_aware.cpp.s
 
 src/nodelets/rectify.o: src/nodelets/rectify.cpp.o
@@ -1142,11 +635,7 @@ src/nodelets/rectify.o: src/nodelets/rectify.cpp.o
 
 # target to build an object file
 src/nodelets/rectify.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.o
 .PHONY : src/nodelets/rectify.cpp.o
 
 src/nodelets/rectify.i: src/nodelets/rectify.cpp.i
@@ -1155,11 +644,7 @@ src/nodelets/rectify.i: src/nodelets/rectify.cpp.i
 
 # target to preprocess a source file
 src/nodelets/rectify.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.i
 .PHONY : src/nodelets/rectify.cpp.i
 
 src/nodelets/rectify.s: src/nodelets/rectify.cpp.s
@@ -1168,11 +653,7 @@ src/nodelets/rectify.s: src/nodelets/rectify.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/rectify.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/rectify.cpp.s
 .PHONY : src/nodelets/rectify.cpp.s
 
 src/nodelets/resize.o: src/nodelets/resize.cpp.o
@@ -1181,11 +662,7 @@ src/nodelets/resize.o: src/nodelets/resize.cpp.o
 
 # target to build an object file
 src/nodelets/resize.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.o
 .PHONY : src/nodelets/resize.cpp.o
 
 src/nodelets/resize.i: src/nodelets/resize.cpp.i
@@ -1194,11 +671,7 @@ src/nodelets/resize.i: src/nodelets/resize.cpp.i
 
 # target to preprocess a source file
 src/nodelets/resize.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.i
 .PHONY : src/nodelets/resize.cpp.i
 
 src/nodelets/resize.s: src/nodelets/resize.cpp.s
@@ -1207,11 +680,7 @@ src/nodelets/resize.s: src/nodelets/resize.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/resize.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc.dir/src/nodelets/resize.cpp.s
 .PHONY : src/nodelets/resize.cpp.s
 
 src/nodes/image_proc.o: src/nodes/image_proc.cpp.o
@@ -1220,11 +689,7 @@ src/nodes/image_proc.o: src/nodes/image_proc.cpp.o
 
 # target to build an object file
 src/nodes/image_proc.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.o
 .PHONY : src/nodes/image_proc.cpp.o
 
 src/nodes/image_proc.i: src/nodes/image_proc.cpp.i
@@ -1233,11 +698,7 @@ src/nodes/image_proc.i: src/nodes/image_proc.cpp.i
 
 # target to preprocess a source file
 src/nodes/image_proc.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.i
 .PHONY : src/nodes/image_proc.cpp.i
 
 src/nodes/image_proc.s: src/nodes/image_proc.cpp.s
@@ -1246,11 +707,7 @@ src/nodes/image_proc.s: src/nodes/image_proc.cpp.s
 
 # target to generate assembly for a file
 src/nodes/image_proc.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/build.make image_pipeline/image_proc/CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.s
 .PHONY : src/nodes/image_proc.cpp.s
 
 # Help Target
@@ -1261,7 +718,6 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
-<<<<<<< HEAD
 	@echo "... image_proc_exe"
 	@echo "... nodelet_topic_tools_gencfg"
 	@echo "... bond_generate_messages_py"
@@ -1287,38 +743,6 @@ help:
 	@echo "... nodelet_generate_messages_lisp"
 	@echo "... install"
 	@echo "... bond_generate_messages_eus"
-=======
-	@echo "... install"
-	@echo "... nodelet_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_py"
-	@echo "... image_proc"
-	@echo "... test"
-	@echo "... dynamic_reconfigure_generate_messages_py"
-	@echo "... dynamic_reconfigure_gencfg"
-	@echo "... nodelet_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_eus"
-	@echo "... sensor_msgs_generate_messages_eus"
-	@echo "... nodelet_generate_messages_lisp"
-	@echo "... image_proc_gencfg"
-	@echo "... dynamic_reconfigure_generate_messages_cpp"
-	@echo "... edit_cache"
-	@echo "... rebuild_cache"
-	@echo "... nodelet_generate_messages_py"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... bond_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_nodejs"
-	@echo "... bond_generate_messages_cpp"
-	@echo "... bond_generate_messages_eus"
-	@echo "... nodelet_generate_messages_nodejs"
-	@echo "... bond_generate_messages_nodejs"
-	@echo "... list_install_components"
-	@echo "... bond_generate_messages_py"
-	@echo "... dynamic_reconfigure_generate_messages_nodejs"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... nodelet_topic_tools_gencfg"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... image_proc_exe"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 	@echo "... src/libimage_proc/advertisement_checker.o"
 	@echo "... src/libimage_proc/advertisement_checker.i"
 	@echo "... src/libimage_proc/advertisement_checker.s"
@@ -1357,10 +781,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

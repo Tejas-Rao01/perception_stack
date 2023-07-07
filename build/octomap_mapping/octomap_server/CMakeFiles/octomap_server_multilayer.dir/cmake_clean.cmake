@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/octomap_server/octomap_server_multilayer"
-  "/home/stochlab/catkin_ws/devel/lib/octomap_server/octomap_server_multilayer.pdb"
-=======
-  "/home/tejas/catkin_ws/devel/lib/octomap_server/octomap_server_multilayer"
-  "/home/tejas/catkin_ws/devel/lib/octomap_server/octomap_server_multilayer.pdb"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/octomap_server/octomap_server_multilayer"
+  "/home/stochlab/perception_stack/devel/lib/octomap_server/octomap_server_multilayer.pdb"
   "CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.o"
 )
 

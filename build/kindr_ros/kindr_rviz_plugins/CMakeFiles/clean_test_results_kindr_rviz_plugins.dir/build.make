@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for clean_test_results_kindr_rviz_plugins.
 
@@ -61,11 +54,7 @@ CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
 include kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/progress.make
 
 kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/stochlab/catkin_ws/build/test_results/kindr_rviz_plugins
-=======
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/tejas/catkin_ws/build/test_results/kindr_rviz_plugins
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_rviz_plugins && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/stochlab/perception_stack/build/test_results/kindr_rviz_plugins
 
 clean_test_results_kindr_rviz_plugins: kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins
 clean_test_results_kindr_rviz_plugins: kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/build.make
@@ -78,18 +67,10 @@ kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.di
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/build
 
 kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_rviz_plugins && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/cmake_clean.cmake
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/clean
 
 kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins /home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/cmake_clean.cmake
-.PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/clean
-
-kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins /home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/kindr_ros/kindr_rviz_plugins /home/stochlab/perception_stack/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/depend
 

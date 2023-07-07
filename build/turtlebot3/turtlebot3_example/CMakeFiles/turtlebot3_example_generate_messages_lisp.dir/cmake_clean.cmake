@@ -1,21 +1,11 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp"
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp"
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp"
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp"
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp"
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp"
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp"
-=======
-  "/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp"
-  "/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp"
-  "/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp"
-  "/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp"
-  "/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp"
-  "/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp"
-  "/home/tejas/catkin_ws/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Action.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionFeedback.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionGoal.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3ActionResult.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Feedback.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Goal.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/turtlebot3_example/msg/Turtlebot3Result.lisp"
   "CMakeFiles/turtlebot3_example_generate_messages_lisp"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_demos/iterator_benchmark"
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_demos/iterator_benchmark.pdb"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_demos/iterator_benchmark"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_demos/iterator_benchmark.pdb"
   "CMakeFiles/iterator_benchmark.dir/src/iterator_benchmark.cpp.o"
 )
 

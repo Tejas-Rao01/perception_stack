@@ -1,4 +1,4 @@
-prefix=/home/stochlab/catkin_ws/install
+prefix=/home/stochlab/perception_stack/install
 
 Name: gazebo_terrain_tutorial
 Description: Description of gazebo_terrain_tutorial

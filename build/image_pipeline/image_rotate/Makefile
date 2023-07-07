@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/image_pipeline/image_rotate/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/image_pipeline/image_rotate/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/image_pipeline/image_rotate/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/rule
 .PHONY : image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ image_rotate_exe: image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/ru
 
 # fast build rule for target.
 image_rotate_exe/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build
 .PHONY : image_rotate_exe/fast
 
 # Convenience name for target.
 image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule
 .PHONY : image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ image_rotate: image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/rule
 
 # fast build rule for target.
 image_rotate/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build
 .PHONY : image_rotate/fast
 
 # Convenience name for target.
 image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/rule
 .PHONY : image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/rule
 
 # Convenience name for target.
@@ -258,11 +209,7 @@ image_rotate_gencfg: image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.
 
 # fast build rule for target.
 image_rotate_gencfg/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_gencfg.dir/build
 .PHONY : image_rotate_gencfg/fast
 
 src/node/image_rotate.o: src/node/image_rotate.cpp.o
@@ -271,11 +218,7 @@ src/node/image_rotate.o: src/node/image_rotate.cpp.o
 
 # target to build an object file
 src/node/image_rotate.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.o
 .PHONY : src/node/image_rotate.cpp.o
 
 src/node/image_rotate.i: src/node/image_rotate.cpp.i
@@ -284,11 +227,7 @@ src/node/image_rotate.i: src/node/image_rotate.cpp.i
 
 # target to preprocess a source file
 src/node/image_rotate.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.i
 .PHONY : src/node/image_rotate.cpp.i
 
 src/node/image_rotate.s: src/node/image_rotate.cpp.s
@@ -297,11 +236,7 @@ src/node/image_rotate.s: src/node/image_rotate.cpp.s
 
 # target to generate assembly for a file
 src/node/image_rotate.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate_exe.dir/src/node/image_rotate.cpp.s
 .PHONY : src/node/image_rotate.cpp.s
 
 src/nodelet/image_rotate_nodelet.o: src/nodelet/image_rotate_nodelet.cpp.o
@@ -310,11 +245,7 @@ src/nodelet/image_rotate_nodelet.o: src/nodelet/image_rotate_nodelet.cpp.o
 
 # target to build an object file
 src/nodelet/image_rotate_nodelet.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.o
 .PHONY : src/nodelet/image_rotate_nodelet.cpp.o
 
 src/nodelet/image_rotate_nodelet.i: src/nodelet/image_rotate_nodelet.cpp.i
@@ -323,11 +254,7 @@ src/nodelet/image_rotate_nodelet.i: src/nodelet/image_rotate_nodelet.cpp.i
 
 # target to preprocess a source file
 src/nodelet/image_rotate_nodelet.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.i
 .PHONY : src/nodelet/image_rotate_nodelet.cpp.i
 
 src/nodelet/image_rotate_nodelet.s: src/nodelet/image_rotate_nodelet.cpp.s
@@ -336,11 +263,7 @@ src/nodelet/image_rotate_nodelet.s: src/nodelet/image_rotate_nodelet.cpp.s
 
 # target to generate assembly for a file
 src/nodelet/image_rotate_nodelet.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/build.make image_pipeline/image_rotate/CMakeFiles/image_rotate.dir/src/nodelet/image_rotate_nodelet.cpp.s
 .PHONY : src/nodelet/image_rotate_nodelet.cpp.s
 
 # Help Target
@@ -376,10 +299,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

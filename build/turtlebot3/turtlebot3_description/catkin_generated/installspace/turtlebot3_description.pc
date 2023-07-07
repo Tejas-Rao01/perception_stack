@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-prefix=/home/stochlab/catkin_ws/install
-=======
-prefix=/home/tejas/catkin_ws/install
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+prefix=/home/stochlab/perception_stack/install
 
 Name: turtlebot3_description
 Description: Description of turtlebot3_description

@@ -4,13 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/src/realsense_ros_gazebo/src/RealSensePlugin.cpp" "/home/stochlab/catkin_ws/build/realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o"
-  "/home/stochlab/catkin_ws/src/realsense_ros_gazebo/src/gazebo_ros_realsense.cpp" "/home/stochlab/catkin_ws/build/realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o"
-=======
-  "/home/tejas/catkin_ws/src/realsense_ros_gazebo/src/RealSensePlugin.cpp" "/home/tejas/catkin_ws/build/realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o"
-  "/home/tejas/catkin_ws/src/realsense_ros_gazebo/src/gazebo_ros_realsense.cpp" "/home/tejas/catkin_ws/build/realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/src/realsense_ros_gazebo/src/RealSensePlugin.cpp" "/home/stochlab/perception_stack/build/realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/RealSensePlugin.cpp.o"
+  "/home/stochlab/perception_stack/src/realsense_ros_gazebo/src/gazebo_ros_realsense.cpp" "/home/stochlab/perception_stack/build/realsense_ros_gazebo/CMakeFiles/realsense_gazebo_plugin.dir/src/gazebo_ros_realsense.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -36,11 +31,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/src/realsense_ros_gazebo/include"
-=======
-  "/home/tejas/catkin_ws/src/realsense_ros_gazebo/include"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/src/realsense_ros_gazebo/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-11"
   "/usr/include/bullet"

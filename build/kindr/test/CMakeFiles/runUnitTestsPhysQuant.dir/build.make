@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Include any dependencies generated for this target.
 include kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/depend.make
@@ -65,109 +58,56 @@ include kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/progress.make
 include kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/flags.make
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/flags.make
-<<<<<<< HEAD
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp
+kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o: /home/stochlab/perception_stack/src/kindr/test/test_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/test_main.cpp
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/test_main.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/test_main.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/test_main.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.s
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/phys_quant/ForceTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/phys_quant/ForceTest.cpp
+kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o: /home/stochlab/perception_stack/src/kindr/test/phys_quant/ForceTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/phys_quant/ForceTest.cpp
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/phys_quant/ForceTest.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/phys_quant/ForceTest.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/phys_quant/ForceTest.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/phys_quant/ForceTest.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.s
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/phys_quant/WrenchTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/phys_quant/WrenchTest.cpp
+kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o: /home/stochlab/perception_stack/src/kindr/test/phys_quant/WrenchTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/phys_quant/WrenchTest.cpp
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/phys_quant/WrenchTest.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/phys_quant/WrenchTest.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/phys_quant/WrenchTest.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/phys_quant/WrenchTest.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.s
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o: /home/stochlab/catkin_ws/src/kindr/test/phys_quant/ScalarTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o -c /home/stochlab/catkin_ws/src/kindr/test/phys_quant/ScalarTest.cpp
+kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o: /home/stochlab/perception_stack/src/kindr/test/phys_quant/ScalarTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o -c /home/stochlab/perception_stack/src/kindr/test/phys_quant/ScalarTest.cpp
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr/test/phys_quant/ScalarTest.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr/test/phys_quant/ScalarTest.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.i
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr/test/phys_quant/ScalarTest.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.s
-=======
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o: /home/tejas/catkin_ws/src/kindr/test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/test_main.cpp
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/test_main.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/test_main.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.s
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o: /home/tejas/catkin_ws/src/kindr/test/phys_quant/ForceTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/phys_quant/ForceTest.cpp
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/phys_quant/ForceTest.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/phys_quant/ForceTest.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.s
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o: /home/tejas/catkin_ws/src/kindr/test/phys_quant/WrenchTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/phys_quant/WrenchTest.cpp
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/phys_quant/WrenchTest.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/phys_quant/WrenchTest.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.s
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/flags.make
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o: /home/tejas/catkin_ws/src/kindr/test/phys_quant/ScalarTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o -c /home/tejas/catkin_ws/src/kindr/test/phys_quant/ScalarTest.cpp
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr/test/phys_quant/ScalarTest.cpp > CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.i
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr/test/phys_quant/ScalarTest.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build/kindr/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr/test/phys_quant/ScalarTest.cpp -o CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.s
 
 # Object files for target runUnitTestsPhysQuant
 runUnitTestsPhysQuant_OBJECTS = \
@@ -179,51 +119,27 @@ runUnitTestsPhysQuant_OBJECTS = \
 # External object files for target runUnitTestsPhysQuant
 runUnitTestsPhysQuant_EXTERNAL_OBJECTS =
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: gtest/lib/libgtest_main.so
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: gtest/lib/libgtest.so
-/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant"
-	cd /home/stochlab/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runUnitTestsPhysQuant.dir/link.txt --verbose=$(VERBOSE)
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant: gtest/lib/libgtest_main.so
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant: gtest/lib/libgtest.so
+/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant"
+	cd /home/stochlab/perception_stack/build/kindr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runUnitTestsPhysQuant.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build: /home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant
-=======
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: gtest/lib/libgtest_main.so
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: gtest/lib/libgtest.so
-/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant"
-	cd /home/tejas/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runUnitTestsPhysQuant.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build: /home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsPhysQuant
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build: /home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant
 
 .PHONY : kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/runUnitTestsPhysQuant.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/runUnitTestsPhysQuant.dir/cmake_clean.cmake
 .PHONY : kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/clean
 
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/kindr/test /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/kindr/test /home/stochlab/catkin_ws/build/kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/kindr/test && $(CMAKE_COMMAND) -P CMakeFiles/runUnitTestsPhysQuant.dir/cmake_clean.cmake
-.PHONY : kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/clean
-
-kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/kindr/test /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/kindr/test /home/tejas/catkin_ws/build/kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/kindr/test /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/kindr/test /home/stochlab/perception_stack/build/kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_core.pdb"
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_core.so"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_core.pdb"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_core.so"
   "CMakeFiles/grid_map_core.dir/src/BufferRegion.cpp.o"
   "CMakeFiles/grid_map_core.dir/src/CubicInterpolation.cpp.o"
   "CMakeFiles/grid_map_core.dir/src/GridMap.cpp.o"

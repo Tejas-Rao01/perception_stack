@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/kindr_ros/kindr_rviz_plugins/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/rule
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ kindr_rviz_plugins: kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.d
 
 # fast build rule for target.
 kindr_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build
 .PHONY : kindr_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins.dir/rule
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ _run_tests_kindr_rviz_plugins: kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_test
 
 # fast build rule for target.
 _run_tests_kindr_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins.dir/build
 .PHONY : _run_tests_kindr_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/rule
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -258,20 +209,12 @@ clean_test_results_kindr_rviz_plugins: kindr_ros/kindr_rviz_plugins/CMakeFiles/c
 
 # fast build rule for target.
 clean_test_results_kindr_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/clean_test_results_kindr_rviz_plugins.dir/build
 .PHONY : clean_test_results_kindr_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/rule
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -281,20 +224,12 @@ test_kindr_rviz_plugins: kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz
 
 # fast build rule for target.
 test_kindr_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build
 .PHONY : test_kindr_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins.dir/rule
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -304,20 +239,12 @@ run_tests_kindr_rviz_plugins: kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_
 
 # fast build rule for target.
 run_tests_kindr_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins.dir/build
 .PHONY : run_tests_kindr_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest.dir/rule
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest.dir/rule
 
 # Convenience name for target.
@@ -327,20 +254,12 @@ run_tests_kindr_rviz_plugins_gtest: kindr_ros/kindr_rviz_plugins/CMakeFiles/run_
 
 # fast build rule for target.
 run_tests_kindr_rviz_plugins_gtest/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest.dir/build
 .PHONY : run_tests_kindr_rviz_plugins_gtest/fast
 
 # Convenience name for target.
 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/rule
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -350,20 +269,12 @@ run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins: kindr_ros/kindr_rviz
 
 # fast build rule for target.
 run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build
 .PHONY : run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest.dir/rule
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest.dir/rule
 
 # Convenience name for target.
@@ -373,20 +284,12 @@ _run_tests_kindr_rviz_plugins_gtest: kindr_ros/kindr_rviz_plugins/CMakeFiles/_ru
 
 # fast build rule for target.
 _run_tests_kindr_rviz_plugins_gtest/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest.dir/build
 .PHONY : _run_tests_kindr_rviz_plugins_gtest/fast
 
 # Convenience name for target.
 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/rule
 .PHONY : kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -396,11 +299,7 @@ _run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins: kindr_ros/kindr_rvi
 
 # fast build rule for target.
 _run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/_run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins.dir/build
 .PHONY : _run_tests_kindr_rviz_plugins_gtest_test_kindr_rviz_plugins/fast
 
 include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.o: include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o
@@ -409,11 +308,7 @@ include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.o: include/kindr_rviz_plu
 
 # target to build an object file
 include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o
 .PHONY : include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o
 
 include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.i: include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.i
@@ -422,11 +317,7 @@ include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.i: include/kindr_rviz_plu
 
 # target to preprocess a source file
 include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.i
 .PHONY : include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.i
 
 include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.s: include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.s
@@ -435,11 +326,7 @@ include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.s: include/kindr_rviz_plu
 
 # target to generate assembly for a file
 include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.s
 .PHONY : include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.s
 
 src/VectorAtPositionDisplay.o: src/VectorAtPositionDisplay.cpp.o
@@ -448,11 +335,7 @@ src/VectorAtPositionDisplay.o: src/VectorAtPositionDisplay.cpp.o
 
 # target to build an object file
 src/VectorAtPositionDisplay.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.o
 .PHONY : src/VectorAtPositionDisplay.cpp.o
 
 src/VectorAtPositionDisplay.i: src/VectorAtPositionDisplay.cpp.i
@@ -461,11 +344,7 @@ src/VectorAtPositionDisplay.i: src/VectorAtPositionDisplay.cpp.i
 
 # target to preprocess a source file
 src/VectorAtPositionDisplay.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.i
 .PHONY : src/VectorAtPositionDisplay.cpp.i
 
 src/VectorAtPositionDisplay.s: src/VectorAtPositionDisplay.cpp.s
@@ -474,11 +353,7 @@ src/VectorAtPositionDisplay.s: src/VectorAtPositionDisplay.cpp.s
 
 # target to generate assembly for a file
 src/VectorAtPositionDisplay.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.s
 .PHONY : src/VectorAtPositionDisplay.cpp.s
 
 src/VectorAtPositionVisual.o: src/VectorAtPositionVisual.cpp.o
@@ -487,11 +362,7 @@ src/VectorAtPositionVisual.o: src/VectorAtPositionVisual.cpp.o
 
 # target to build an object file
 src/VectorAtPositionVisual.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.o
 .PHONY : src/VectorAtPositionVisual.cpp.o
 
 src/VectorAtPositionVisual.i: src/VectorAtPositionVisual.cpp.i
@@ -500,11 +371,7 @@ src/VectorAtPositionVisual.i: src/VectorAtPositionVisual.cpp.i
 
 # target to preprocess a source file
 src/VectorAtPositionVisual.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.i
 .PHONY : src/VectorAtPositionVisual.cpp.i
 
 src/VectorAtPositionVisual.s: src/VectorAtPositionVisual.cpp.s
@@ -513,11 +380,7 @@ src/VectorAtPositionVisual.s: src/VectorAtPositionVisual.cpp.s
 
 # target to generate assembly for a file
 src/VectorAtPositionVisual.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.s
 .PHONY : src/VectorAtPositionVisual.cpp.s
 
 test/EmptyTests.o: test/EmptyTests.cpp.o
@@ -526,11 +389,7 @@ test/EmptyTests.o: test/EmptyTests.cpp.o
 
 # target to build an object file
 test/EmptyTests.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.o
 .PHONY : test/EmptyTests.cpp.o
 
 test/EmptyTests.i: test/EmptyTests.cpp.i
@@ -539,11 +398,7 @@ test/EmptyTests.i: test/EmptyTests.cpp.i
 
 # target to preprocess a source file
 test/EmptyTests.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.i
 .PHONY : test/EmptyTests.cpp.i
 
 test/EmptyTests.s: test/EmptyTests.cpp.s
@@ -552,11 +407,7 @@ test/EmptyTests.s: test/EmptyTests.cpp.s
 
 # target to generate assembly for a file
 test/EmptyTests.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/build.make kindr_ros/kindr_rviz_plugins/CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.s
 .PHONY : test/EmptyTests.cpp.s
 
 # Help Target
@@ -604,10 +455,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

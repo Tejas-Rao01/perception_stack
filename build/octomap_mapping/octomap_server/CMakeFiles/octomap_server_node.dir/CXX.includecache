@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-=======
-/home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -28,11 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/include/octomap_server/OctomapServer.h
-=======
-/home/tejas/catkin_ws/src/octomap_mapping/octomap_server/include/octomap_server/OctomapServer.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/octomap_mapping/octomap_server/include/octomap_server/OctomapServer.h
 ros/ros.h
 -
 visualization_msgs/MarkerArray.h
@@ -92,11 +84,7 @@ octomap/OcTreeKey.h
 octomap/ColorOcTree.h
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/src/octomap_server_node.cpp
-=======
-/home/tejas/catkin_ws/src/octomap_mapping/octomap_server/src/octomap_server_node.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/octomap_mapping/octomap_server/src/octomap_server_node.cpp
 ros/ros.h
 -
 octomap_server/OctomapServer.h

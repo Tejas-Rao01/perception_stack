@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/rule
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ multi_dof_joint_trajectory_rviz_plugins: kindr_ros/multi_dof_joint_trajectory_rv
 
 # fast build rule for target.
 multi_dof_joint_trajectory_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build
 .PHONY : multi_dof_joint_trajectory_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ test_multi_dof_joint_trajectory_rviz_plugins: kindr_ros/multi_dof_joint_trajecto
 
 # fast build rule for target.
 test_multi_dof_joint_trajectory_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build
 .PHONY : test_multi_dof_joint_trajectory_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/clean_test_results_multi_dof_joint_trajectory_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/clean_test_results_multi_dof_joint_trajectory_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/clean_test_results_multi_dof_joint_trajectory_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/clean_test_results_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/clean_test_results_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -258,20 +209,12 @@ clean_test_results_multi_dof_joint_trajectory_rviz_plugins: kindr_ros/multi_dof_
 
 # fast build rule for target.
 clean_test_results_multi_dof_joint_trajectory_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/clean_test_results_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/clean_test_results_multi_dof_joint_trajectory_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/clean_test_results_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/clean_test_results_multi_dof_joint_trajectory_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/clean_test_results_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/clean_test_results_multi_dof_joint_trajectory_rviz_plugins.dir/build
 .PHONY : clean_test_results_multi_dof_joint_trajectory_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -281,20 +224,12 @@ run_tests_multi_dof_joint_trajectory_rviz_plugins: kindr_ros/multi_dof_joint_tra
 
 # fast build rule for target.
 run_tests_multi_dof_joint_trajectory_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build
 .PHONY : run_tests_multi_dof_joint_trajectory_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -304,20 +239,12 @@ _run_tests_multi_dof_joint_trajectory_rviz_plugins: kindr_ros/multi_dof_joint_tr
 
 # fast build rule for target.
 _run_tests_multi_dof_joint_trajectory_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins.dir/build
 .PHONY : _run_tests_multi_dof_joint_trajectory_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -327,20 +254,12 @@ run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_tra
 
 # fast build rule for target.
 run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build
 .PHONY : run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins/fast
 
 # Convenience name for target.
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/rule
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/rule
 
 # Convenience name for target.
@@ -350,20 +269,12 @@ run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest: kindr_ros/multi_dof_joi
 
 # fast build rule for target.
 run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build
 .PHONY : run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest/fast
 
 # Convenience name for target.
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/rule
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/rule
 
 # Convenience name for target.
@@ -373,20 +284,12 @@ _run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest: kindr_ros/multi_dof_jo
 
 # fast build rule for target.
 _run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest.dir/build
 .PHONY : _run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest/fast
 
 # Convenience name for target.
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/rule
 
 # Convenience name for target.
@@ -396,11 +299,7 @@ _run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_tr
 
 # fast build rule for target.
 _run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/_run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins.dir/build
 .PHONY : _run_tests_multi_dof_joint_trajectory_rviz_plugins_gtest_test_multi_dof_joint_trajectory_rviz_plugins/fast
 
 include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.o: include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o
@@ -409,11 +308,7 @@ include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDispl
 
 # target to build an object file
 include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o
 .PHONY : include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o
 
 include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.i: include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i
@@ -422,11 +317,7 @@ include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDispl
 
 # target to preprocess a source file
 include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i
 .PHONY : include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i
 
 include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.s: include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s
@@ -435,11 +326,7 @@ include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDispl
 
 # target to generate assembly for a file
 include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s
 .PHONY : include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s
 
 src/MultiDOFJointTrajectoryDisplay.o: src/MultiDOFJointTrajectoryDisplay.cpp.o
@@ -448,11 +335,7 @@ src/MultiDOFJointTrajectoryDisplay.o: src/MultiDOFJointTrajectoryDisplay.cpp.o
 
 # target to build an object file
 src/MultiDOFJointTrajectoryDisplay.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o
 .PHONY : src/MultiDOFJointTrajectoryDisplay.cpp.o
 
 src/MultiDOFJointTrajectoryDisplay.i: src/MultiDOFJointTrajectoryDisplay.cpp.i
@@ -461,11 +344,7 @@ src/MultiDOFJointTrajectoryDisplay.i: src/MultiDOFJointTrajectoryDisplay.cpp.i
 
 # target to preprocess a source file
 src/MultiDOFJointTrajectoryDisplay.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i
 .PHONY : src/MultiDOFJointTrajectoryDisplay.cpp.i
 
 src/MultiDOFJointTrajectoryDisplay.s: src/MultiDOFJointTrajectoryDisplay.cpp.s
@@ -474,11 +353,7 @@ src/MultiDOFJointTrajectoryDisplay.s: src/MultiDOFJointTrajectoryDisplay.cpp.s
 
 # target to generate assembly for a file
 src/MultiDOFJointTrajectoryDisplay.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s
 .PHONY : src/MultiDOFJointTrajectoryDisplay.cpp.s
 
 src/MultiDOFJointTrajectoryPointConnectionVisual.o: src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o
@@ -487,11 +362,7 @@ src/MultiDOFJointTrajectoryPointConnectionVisual.o: src/MultiDOFJointTrajectoryP
 
 # target to build an object file
 src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o
 .PHONY : src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o
 
 src/MultiDOFJointTrajectoryPointConnectionVisual.i: src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i
@@ -500,11 +371,7 @@ src/MultiDOFJointTrajectoryPointConnectionVisual.i: src/MultiDOFJointTrajectoryP
 
 # target to preprocess a source file
 src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i
 .PHONY : src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i
 
 src/MultiDOFJointTrajectoryPointConnectionVisual.s: src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s
@@ -513,11 +380,7 @@ src/MultiDOFJointTrajectoryPointConnectionVisual.s: src/MultiDOFJointTrajectoryP
 
 # target to generate assembly for a file
 src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s
 .PHONY : src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s
 
 src/MultiDOFJointTrajectoryPointVisual.o: src/MultiDOFJointTrajectoryPointVisual.cpp.o
@@ -526,11 +389,7 @@ src/MultiDOFJointTrajectoryPointVisual.o: src/MultiDOFJointTrajectoryPointVisual
 
 # target to build an object file
 src/MultiDOFJointTrajectoryPointVisual.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o
 .PHONY : src/MultiDOFJointTrajectoryPointVisual.cpp.o
 
 src/MultiDOFJointTrajectoryPointVisual.i: src/MultiDOFJointTrajectoryPointVisual.cpp.i
@@ -539,11 +398,7 @@ src/MultiDOFJointTrajectoryPointVisual.i: src/MultiDOFJointTrajectoryPointVisual
 
 # target to preprocess a source file
 src/MultiDOFJointTrajectoryPointVisual.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i
 .PHONY : src/MultiDOFJointTrajectoryPointVisual.cpp.i
 
 src/MultiDOFJointTrajectoryPointVisual.s: src/MultiDOFJointTrajectoryPointVisual.cpp.s
@@ -552,11 +407,7 @@ src/MultiDOFJointTrajectoryPointVisual.s: src/MultiDOFJointTrajectoryPointVisual
 
 # target to generate assembly for a file
 src/MultiDOFJointTrajectoryPointVisual.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s
 .PHONY : src/MultiDOFJointTrajectoryPointVisual.cpp.s
 
 test/EmptyTests.o: test/EmptyTests.cpp.o
@@ -565,11 +416,7 @@ test/EmptyTests.o: test/EmptyTests.cpp.o
 
 # target to build an object file
 test/EmptyTests.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/test/EmptyTests.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/test/EmptyTests.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/test/EmptyTests.cpp.o
 .PHONY : test/EmptyTests.cpp.o
 
 test/EmptyTests.i: test/EmptyTests.cpp.i
@@ -578,11 +425,7 @@ test/EmptyTests.i: test/EmptyTests.cpp.i
 
 # target to preprocess a source file
 test/EmptyTests.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/test/EmptyTests.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/test/EmptyTests.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/test/EmptyTests.cpp.i
 .PHONY : test/EmptyTests.cpp.i
 
 test/EmptyTests.s: test/EmptyTests.cpp.s
@@ -591,11 +434,7 @@ test/EmptyTests.s: test/EmptyTests.cpp.s
 
 # target to generate assembly for a file
 test/EmptyTests.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/test/EmptyTests.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/test/EmptyTests.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/build.make kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/test_multi_dof_joint_trajectory_rviz_plugins.dir/test/EmptyTests.cpp.s
 .PHONY : test/EmptyTests.cpp.s
 
 # Help Target
@@ -646,10 +485,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

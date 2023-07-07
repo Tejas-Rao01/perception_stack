@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_ros.pdb"
-  "/home/stochlab/catkin_ws/devel/lib/libgrid_map_ros.so"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_ros.pdb"
+  "/home/stochlab/perception_stack/devel/lib/libgrid_map_ros.so"
   "CMakeFiles/grid_map_ros.dir/src/GridMapMsgHelpers.cpp.o"
   "CMakeFiles/grid_map_ros.dir/src/GridMapRosConverter.cpp.o"
   "CMakeFiles/grid_map_ros.dir/src/PolygonRosConverter.cpp.o"

@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/image_pipeline/camera_calibration/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/image_pipeline/camera_calibration/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/image_pipeline/camera_calibration/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ run_tests_camera_calibration: image_pipeline/camera_calibration/CMakeFiles/run_t
 
 # fast build rule for target.
 run_tests_camera_calibration/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration.dir/build
 .PHONY : run_tests_camera_calibration/fast
 
 # Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ _run_tests_camera_calibration_nosetests_test.multiple_boards.py: image_pipeline/
 
 # fast build rule for target.
 _run_tests_camera_calibration_nosetests_test.multiple_boards.py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build
 .PHONY : _run_tests_camera_calibration_nosetests_test.multiple_boards.py/fast
 
 # Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/rule
 
 # Convenience name for target.
@@ -258,20 +209,12 @@ _run_tests_camera_calibration: image_pipeline/camera_calibration/CMakeFiles/_run
 
 # fast build rule for target.
 _run_tests_camera_calibration/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration.dir/build
 .PHONY : _run_tests_camera_calibration/fast
 
 # Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/rule
 
 # Convenience name for target.
@@ -281,20 +224,12 @@ camera_calibration.tar.gz: image_pipeline/camera_calibration/CMakeFiles/camera_c
 
 # fast build rule for target.
 camera_calibration.tar.gz/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build.make image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build.make image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build.make image_pipeline/camera_calibration/CMakeFiles/camera_calibration.tar.gz.dir/build
 .PHONY : camera_calibration.tar.gz/fast
 
 # Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/rule
 
 # Convenience name for target.
@@ -304,20 +239,12 @@ run_tests_camera_calibration_nosetests: image_pipeline/camera_calibration/CMakeF
 
 # fast build rule for target.
 run_tests_camera_calibration_nosetests/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests.dir/build
 .PHONY : run_tests_camera_calibration_nosetests/fast
 
 # Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/rule
 
 # Convenience name for target.
@@ -327,20 +254,12 @@ _run_tests_camera_calibration_nosetests: image_pipeline/camera_calibration/CMake
 
 # fast build rule for target.
 _run_tests_camera_calibration_nosetests/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests.dir/build
 .PHONY : _run_tests_camera_calibration_nosetests/fast
 
 # Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/rule
 
 # Convenience name for target.
@@ -350,20 +269,12 @@ clean_test_results_camera_calibration: image_pipeline/camera_calibration/CMakeFi
 
 # fast build rule for target.
 clean_test_results_camera_calibration/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build.make image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build.make image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build.make image_pipeline/camera_calibration/CMakeFiles/clean_test_results_camera_calibration.dir/build
 .PHONY : clean_test_results_camera_calibration/fast
 
 # Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/rule
 
 # Convenience name for target.
@@ -373,20 +284,12 @@ run_tests_camera_calibration_nosetests_test.multiple_boards.py: image_pipeline/c
 
 # fast build rule for target.
 run_tests_camera_calibration_nosetests_test.multiple_boards.py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build
 .PHONY : run_tests_camera_calibration_nosetests_test.multiple_boards.py/fast
 
 # Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
 
 # Convenience name for target.
@@ -396,20 +299,12 @@ _run_tests_camera_calibration_nosetests_test.directed.py: image_pipeline/camera_
 
 # fast build rule for target.
 _run_tests_camera_calibration_nosetests_test.directed.py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/_run_tests_camera_calibration_nosetests_test.directed.py.dir/build
 .PHONY : _run_tests_camera_calibration_nosetests_test.directed.py/fast
 
 # Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/rule
 
 # Convenience name for target.
@@ -419,20 +314,12 @@ run_tests_camera_calibration_nosetests_test.directed.py: image_pipeline/camera_c
 
 # fast build rule for target.
 run_tests_camera_calibration_nosetests_test.directed.py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/build.make image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.directed.py.dir/build
 .PHONY : run_tests_camera_calibration_nosetests_test.directed.py/fast
 
 # Convenience name for target.
 image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/rule
 
 # Convenience name for target.
@@ -442,11 +329,7 @@ multi_board_calibration.tar.gz: image_pipeline/camera_calibration/CMakeFiles/mul
 
 # fast build rule for target.
 multi_board_calibration.tar.gz/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build.make image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build.make image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build.make image_pipeline/camera_calibration/CMakeFiles/multi_board_calibration.tar.gz.dir/build
 .PHONY : multi_board_calibration.tar.gz/fast
 
 # Help Target
@@ -484,10 +367,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation"
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsRotation.pdb"
-=======
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation"
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsRotation.pdb"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation"
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotation.pdb"
   "CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o"
   "CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o"
   "CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o"

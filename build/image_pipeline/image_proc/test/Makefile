@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/image_pipeline/image_proc/test/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/image_pipeline/image_proc/test/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/image_pipeline/image_proc/test/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/rule
 .PHONY : image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ image_proc_test_rectify: image_pipeline/image_proc/test/CMakeFiles/image_proc_te
 
 # fast build rule for target.
 image_proc_test_rectify/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build
 .PHONY : image_proc_test_rectify/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/rule
 .PHONY : image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ _run_tests_image_proc: image_pipeline/image_proc/test/CMakeFiles/_run_tests_imag
 
 # fast build rule for target.
 _run_tests_image_proc/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/build.make image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/build.make image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/build.make image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc.dir/build
 .PHONY : _run_tests_image_proc/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/rule
 .PHONY : image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/rule
 
 # Convenience name for target.
@@ -258,20 +209,12 @@ run_tests_image_proc: image_pipeline/image_proc/test/CMakeFiles/run_tests_image_
 
 # fast build rule for target.
 run_tests_image_proc/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/build.make image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/build.make image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/build.make image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc.dir/build
 .PHONY : run_tests_image_proc/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/rule
 .PHONY : image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/rule
 
 # Convenience name for target.
@@ -281,20 +224,12 @@ run_tests_image_proc_rostest: image_pipeline/image_proc/test/CMakeFiles/run_test
 
 # fast build rule for target.
 run_tests_image_proc_rostest/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/build.make image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/build.make image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/build.make image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest.dir/build
 .PHONY : run_tests_image_proc_rostest/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/rule
 .PHONY : image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/rule
 
 # Convenience name for target.
@@ -304,20 +239,12 @@ clean_test_results_image_proc: image_pipeline/image_proc/test/CMakeFiles/clean_t
 
 # fast build rule for target.
 clean_test_results_image_proc/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/build.make image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/build.make image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/build.make image_pipeline/image_proc/test/CMakeFiles/clean_test_results_image_proc.dir/build
 .PHONY : clean_test_results_image_proc/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/rule
 .PHONY : image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/rule
 
 # Convenience name for target.
@@ -327,20 +254,12 @@ _run_tests_image_proc_rostest: image_pipeline/image_proc/test/CMakeFiles/_run_te
 
 # fast build rule for target.
 _run_tests_image_proc_rostest/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/build.make image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/build.make image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/build.make image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest.dir/build
 .PHONY : _run_tests_image_proc_rostest/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
 .PHONY : image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
 
 # Convenience name for target.
@@ -350,20 +269,12 @@ _run_tests_image_proc_rostest_test_test_rectify.xml: image_pipeline/image_proc/t
 
 # fast build rule for target.
 _run_tests_image_proc_rostest_test_test_rectify.xml/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make image_pipeline/image_proc/test/CMakeFiles/_run_tests_image_proc_rostest_test_test_rectify.xml.dir/build
 .PHONY : _run_tests_image_proc_rostest_test_test_rectify.xml/fast
 
 # Convenience name for target.
 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
 .PHONY : image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/rule
 
 # Convenience name for target.
@@ -373,11 +284,7 @@ run_tests_image_proc_rostest_test_test_rectify.xml: image_pipeline/image_proc/te
 
 # fast build rule for target.
 run_tests_image_proc_rostest_test_test_rectify.xml/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/build.make image_pipeline/image_proc/test/CMakeFiles/run_tests_image_proc_rostest_test_test_rectify.xml.dir/build
 .PHONY : run_tests_image_proc_rostest_test_test_rectify.xml/fast
 
 test_rectify.o: test_rectify.cpp.o
@@ -386,11 +293,7 @@ test_rectify.o: test_rectify.cpp.o
 
 # target to build an object file
 test_rectify.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.o
 .PHONY : test_rectify.cpp.o
 
 test_rectify.i: test_rectify.cpp.i
@@ -399,11 +302,7 @@ test_rectify.i: test_rectify.cpp.i
 
 # target to preprocess a source file
 test_rectify.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.i
 .PHONY : test_rectify.cpp.i
 
 test_rectify.s: test_rectify.cpp.s
@@ -412,11 +311,7 @@ test_rectify.s: test_rectify.cpp.s
 
 # target to generate assembly for a file
 test_rectify.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/build.make image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.s
 .PHONY : test_rectify.cpp.s
 
 # Help Target
@@ -454,10 +349,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

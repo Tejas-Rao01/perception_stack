@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for kindr_msgs_genpy.
 
@@ -70,18 +63,10 @@ kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/build: kindr_msgs_genpy
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/build
 
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_msgs && $(CMAKE_COMMAND) -P CMakeFiles/kindr_msgs_genpy.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_msgs && $(CMAKE_COMMAND) -P CMakeFiles/kindr_msgs_genpy.dir/cmake_clean.cmake
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/clean
 
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/kindr_ros/kindr_msgs /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/kindr_ros/kindr_msgs /home/stochlab/catkin_ws/build/kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_msgs && $(CMAKE_COMMAND) -P CMakeFiles/kindr_msgs_genpy.dir/cmake_clean.cmake
-.PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/clean
-
-kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/kindr_ros/kindr_msgs /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/kindr_ros/kindr_msgs /home/tejas/catkin_ws/build/kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/kindr_ros/kindr_msgs /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/kindr_ros/kindr_msgs /home/stochlab/perception_stack/build/kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_genpy.dir/depend
 

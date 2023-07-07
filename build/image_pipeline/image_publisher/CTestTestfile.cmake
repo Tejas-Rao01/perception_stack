@@ -1,11 +1,6 @@
 # CMake generated Testfile for 
-<<<<<<< HEAD
-# Source directory: /home/stochlab/catkin_ws/src/image_pipeline/image_publisher
-# Build directory: /home/stochlab/catkin_ws/build/image_pipeline/image_publisher
-=======
-# Source directory: /home/tejas/catkin_ws/src/image_pipeline/image_publisher
-# Build directory: /home/tejas/catkin_ws/build/image_pipeline/image_publisher
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+# Source directory: /home/stochlab/perception_stack/src/image_pipeline/image_publisher
+# Build directory: /home/stochlab/perception_stack/build/image_pipeline/image_publisher
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

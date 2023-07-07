@@ -6,9 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG
 
 CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DOPENCV_TRAITS_ENABLE_DEPRECATED -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"image_proc\"
 
-<<<<<<< HEAD
-CXX_INCLUDES = -I/home/stochlab/catkin_ws/devel/include -I/home/stochlab/catkin_ws/src/image_pipeline/image_proc/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 
-=======
-CXX_INCLUDES = -I/home/tejas/catkin_ws/devel/include -I/home/tejas/catkin_ws/src/image_pipeline/image_proc/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CXX_INCLUDES = -I/home/stochlab/perception_stack/devel/include -I/home/stochlab/perception_stack/src/image_pipeline/image_proc/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/opencv4 
 

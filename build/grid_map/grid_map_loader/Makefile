@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/grid_map/grid_map_loader/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/grid_map/grid_map_loader/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/clean
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/preinstall
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/preinstall
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/rule
 .PHONY : grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ grid_map_loader: grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/rule
 
 # fast build rule for target.
 grid_map_loader/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build
 .PHONY : grid_map_loader/fast
 
 # Convenience name for target.
 grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/rule
 .PHONY : grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ grid_map_loader-test: grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.d
 
 # fast build rule for target.
 grid_map_loader-test/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build
 .PHONY : grid_map_loader-test/fast
 
 # Convenience name for target.
 grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader.dir/rule
 .PHONY : grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ run_tests_grid_map_loader: grid_map/grid_map_loader/CMakeFiles/run_tests_grid_ma
 
 # fast build rule for target.
 run_tests_grid_map_loader/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader.dir/build
 .PHONY : run_tests_grid_map_loader/fast
 
 # Convenience name for target.
 grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest.dir/rule
 .PHONY : grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ _run_tests_grid_map_loader_gtest: grid_map/grid_map_loader/CMakeFiles/_run_tests
 
 # fast build rule for target.
 _run_tests_grid_map_loader_gtest/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest.dir/build.make grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest.dir/build.make grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest.dir/build
 .PHONY : _run_tests_grid_map_loader_gtest/fast
 
 # Convenience name for target.
 grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader.dir/rule
 .PHONY : grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ _run_tests_grid_map_loader: grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_
 
 # fast build rule for target.
 _run_tests_grid_map_loader/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader.dir/build
 .PHONY : _run_tests_grid_map_loader/fast
 
 # Convenience name for target.
 grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/rule
 .PHONY : grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ run_tests_grid_map_loader_gtest_grid_map_loader-test: grid_map/grid_map_loader/C
 
 # fast build rule for target.
 run_tests_grid_map_loader_gtest_grid_map_loader-test/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/build
 .PHONY : run_tests_grid_map_loader_gtest_grid_map_loader-test/fast
 
 # Convenience name for target.
 grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest.dir/rule
 .PHONY : grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ run_tests_grid_map_loader_gtest: grid_map/grid_map_loader/CMakeFiles/run_tests_g
 
 # fast build rule for target.
 run_tests_grid_map_loader_gtest/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest.dir/build.make grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest.dir/build.make grid_map/grid_map_loader/CMakeFiles/run_tests_grid_map_loader_gtest.dir/build
 .PHONY : run_tests_grid_map_loader_gtest/fast
 
 # Convenience name for target.
 grid_map/grid_map_loader/CMakeFiles/clean_test_results_grid_map_loader.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/clean_test_results_grid_map_loader.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/clean_test_results_grid_map_loader.dir/rule
 .PHONY : grid_map/grid_map_loader/CMakeFiles/clean_test_results_grid_map_loader.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ clean_test_results_grid_map_loader: grid_map/grid_map_loader/CMakeFiles/clean_te
 
 # fast build rule for target.
 clean_test_results_grid_map_loader/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/clean_test_results_grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/clean_test_results_grid_map_loader.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/clean_test_results_grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/clean_test_results_grid_map_loader.dir/build
 .PHONY : clean_test_results_grid_map_loader/fast
 
 # Convenience name for target.
 grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/rule:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/rule
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/rule
 .PHONY : grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/rule
 
 # Convenience name for target.
@@ -299,7 +299,7 @@ _run_tests_grid_map_loader_gtest_grid_map_loader-test: grid_map/grid_map_loader/
 
 # fast build rule for target.
 _run_tests_grid_map_loader_gtest_grid_map_loader-test/fast:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/build
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/_run_tests_grid_map_loader_gtest_grid_map_loader-test.dir/build
 .PHONY : _run_tests_grid_map_loader_gtest_grid_map_loader-test/fast
 
 src/GridMapLoader.o: src/GridMapLoader.cpp.o
@@ -308,7 +308,7 @@ src/GridMapLoader.o: src/GridMapLoader.cpp.o
 
 # target to build an object file
 src/GridMapLoader.cpp.o:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/GridMapLoader.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/GridMapLoader.cpp.o
 .PHONY : src/GridMapLoader.cpp.o
 
 src/GridMapLoader.i: src/GridMapLoader.cpp.i
@@ -317,7 +317,7 @@ src/GridMapLoader.i: src/GridMapLoader.cpp.i
 
 # target to preprocess a source file
 src/GridMapLoader.cpp.i:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/GridMapLoader.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/GridMapLoader.cpp.i
 .PHONY : src/GridMapLoader.cpp.i
 
 src/GridMapLoader.s: src/GridMapLoader.cpp.s
@@ -326,7 +326,7 @@ src/GridMapLoader.s: src/GridMapLoader.cpp.s
 
 # target to generate assembly for a file
 src/GridMapLoader.cpp.s:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/GridMapLoader.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/GridMapLoader.cpp.s
 .PHONY : src/GridMapLoader.cpp.s
 
 src/grid_map_loader_node.o: src/grid_map_loader_node.cpp.o
@@ -335,7 +335,7 @@ src/grid_map_loader_node.o: src/grid_map_loader_node.cpp.o
 
 # target to build an object file
 src/grid_map_loader_node.cpp.o:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/grid_map_loader_node.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/grid_map_loader_node.cpp.o
 .PHONY : src/grid_map_loader_node.cpp.o
 
 src/grid_map_loader_node.i: src/grid_map_loader_node.cpp.i
@@ -344,7 +344,7 @@ src/grid_map_loader_node.i: src/grid_map_loader_node.cpp.i
 
 # target to preprocess a source file
 src/grid_map_loader_node.cpp.i:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/grid_map_loader_node.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/grid_map_loader_node.cpp.i
 .PHONY : src/grid_map_loader_node.cpp.i
 
 src/grid_map_loader_node.s: src/grid_map_loader_node.cpp.s
@@ -353,7 +353,7 @@ src/grid_map_loader_node.s: src/grid_map_loader_node.cpp.s
 
 # target to generate assembly for a file
 src/grid_map_loader_node.cpp.s:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/grid_map_loader_node.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader.dir/src/grid_map_loader_node.cpp.s
 .PHONY : src/grid_map_loader_node.cpp.s
 
 test/test_grid_map_loader.o: test/test_grid_map_loader.cpp.o
@@ -362,7 +362,7 @@ test/test_grid_map_loader.o: test/test_grid_map_loader.cpp.o
 
 # target to build an object file
 test/test_grid_map_loader.cpp.o:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.o
 .PHONY : test/test_grid_map_loader.cpp.o
 
 test/test_grid_map_loader.i: test/test_grid_map_loader.cpp.i
@@ -371,7 +371,7 @@ test/test_grid_map_loader.i: test/test_grid_map_loader.cpp.i
 
 # target to preprocess a source file
 test/test_grid_map_loader.cpp.i:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.i
 .PHONY : test/test_grid_map_loader.cpp.i
 
 test/test_grid_map_loader.s: test/test_grid_map_loader.cpp.s
@@ -380,7 +380,7 @@ test/test_grid_map_loader.s: test/test_grid_map_loader.cpp.s
 
 # target to generate assembly for a file
 test/test_grid_map_loader.cpp.s:
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/build.make grid_map/grid_map_loader/CMakeFiles/grid_map_loader-test.dir/test/test_grid_map_loader.cpp.s
 .PHONY : test/test_grid_map_loader.cpp.s
 
 # Help Target
@@ -425,6 +425,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

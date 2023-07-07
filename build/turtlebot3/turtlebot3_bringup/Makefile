@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/turtlebot3/turtlebot3_bringup/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/turtlebot3/turtlebot3_bringup/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/turtlebot3/turtlebot3_bringup/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ diagnostic_msgs_generate_messages_cpp: turtlebot3/turtlebot3_bringup/CMakeFiles/
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_cpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/build
 .PHONY : diagnostic_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ diagnostic_msgs_generate_messages_eus: turtlebot3/turtlebot3_bringup/CMakeFiles/
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_eus/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
 .PHONY : diagnostic_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -258,20 +209,12 @@ diagnostic_msgs_generate_messages_nodejs: turtlebot3/turtlebot3_bringup/CMakeFil
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_nodejs/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
 .PHONY : diagnostic_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/rule
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -281,20 +224,12 @@ turtlebot3_msgs_generate_messages_eus: turtlebot3/turtlebot3_bringup/CMakeFiles/
 
 # fast build rule for target.
 turtlebot3_msgs_generate_messages_eus/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_eus.dir/build
 .PHONY : turtlebot3_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/rule
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -304,20 +239,12 @@ turtlebot3_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles
 
 # fast build rule for target.
 turtlebot3_msgs_generate_messages_lisp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_lisp.dir/build
 .PHONY : turtlebot3_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -327,20 +254,12 @@ diagnostic_msgs_generate_messages_lisp: turtlebot3/turtlebot3_bringup/CMakeFiles
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_lisp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/build
 .PHONY : diagnostic_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -350,20 +269,12 @@ diagnostic_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/d
 
 # fast build rule for target.
 diagnostic_msgs_generate_messages_py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/build
 .PHONY : diagnostic_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/rule
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -373,20 +284,12 @@ turtlebot3_msgs_generate_messages_cpp: turtlebot3/turtlebot3_bringup/CMakeFiles/
 
 # fast build rule for target.
 turtlebot3_msgs_generate_messages_cpp/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_cpp.dir/build
 .PHONY : turtlebot3_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/rule
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -396,20 +299,12 @@ turtlebot3_msgs_generate_messages_nodejs: turtlebot3/turtlebot3_bringup/CMakeFil
 
 # fast build rule for target.
 turtlebot3_msgs_generate_messages_nodejs/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_nodejs.dir/build
 .PHONY : turtlebot3_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/rule
 
 # Convenience name for target.
@@ -419,20 +314,12 @@ turtlebot3_diagnostics: turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diag
 
 # fast build rule for target.
 turtlebot3_diagnostics/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build
 .PHONY : turtlebot3_diagnostics/fast
 
 # Convenience name for target.
 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/rule
 .PHONY : turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -442,11 +329,7 @@ turtlebot3_msgs_generate_messages_py: turtlebot3/turtlebot3_bringup/CMakeFiles/t
 
 # fast build rule for target.
 turtlebot3_msgs_generate_messages_py/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_msgs_generate_messages_py.dir/build
 .PHONY : turtlebot3_msgs_generate_messages_py/fast
 
 src/turtlebot3_diagnostics.o: src/turtlebot3_diagnostics.cpp.o
@@ -455,11 +338,7 @@ src/turtlebot3_diagnostics.o: src/turtlebot3_diagnostics.cpp.o
 
 # target to build an object file
 src/turtlebot3_diagnostics.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.o
 .PHONY : src/turtlebot3_diagnostics.cpp.o
 
 src/turtlebot3_diagnostics.i: src/turtlebot3_diagnostics.cpp.i
@@ -468,11 +347,7 @@ src/turtlebot3_diagnostics.i: src/turtlebot3_diagnostics.cpp.i
 
 # target to preprocess a source file
 src/turtlebot3_diagnostics.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.i
 .PHONY : src/turtlebot3_diagnostics.cpp.i
 
 src/turtlebot3_diagnostics.s: src/turtlebot3_diagnostics.cpp.s
@@ -481,11 +356,7 @@ src/turtlebot3_diagnostics.s: src/turtlebot3_diagnostics.cpp.s
 
 # target to generate assembly for a file
 src/turtlebot3_diagnostics.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/build.make turtlebot3/turtlebot3_bringup/CMakeFiles/turtlebot3_diagnostics.dir/src/turtlebot3_diagnostics.cpp.s
 .PHONY : src/turtlebot3_diagnostics.cpp.s
 
 # Help Target
@@ -526,10 +397,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

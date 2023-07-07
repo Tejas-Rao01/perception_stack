@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/image_proc/image_proc"
-  "/home/stochlab/catkin_ws/devel/lib/image_proc/image_proc.pdb"
-=======
-  "/home/tejas/catkin_ws/devel/lib/image_proc/image_proc"
-  "/home/tejas/catkin_ws/devel/lib/image_proc/image_proc.pdb"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/image_proc/image_proc"
+  "/home/stochlab/perception_stack/devel/lib/image_proc/image_proc.pdb"
   "CMakeFiles/image_proc_exe.dir/src/nodes/image_proc.cpp.o"
 )
 

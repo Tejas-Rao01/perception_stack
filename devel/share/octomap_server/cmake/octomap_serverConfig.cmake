@@ -67,23 +67,14 @@ set(octomap_server_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-<<<<<<< HEAD
-  set(octomap_server_SOURCE_PREFIX /home/stochlab/catkin_ws/src/octomap_mapping/octomap_server)
-  set(octomap_server_DEVEL_PREFIX /home/stochlab/catkin_ws/devel)
-=======
-  set(octomap_server_SOURCE_PREFIX /home/tejas/catkin_ws/src/octomap_mapping/octomap_server)
-  set(octomap_server_DEVEL_PREFIX /home/tejas/catkin_ws/devel)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(octomap_server_SOURCE_PREFIX /home/stochlab/perception_stack/src/octomap_mapping/octomap_server)
+  set(octomap_server_DEVEL_PREFIX /home/stochlab/perception_stack/devel)
   set(octomap_server_INSTALL_PREFIX "")
   set(octomap_server_PREFIX ${octomap_server_DEVEL_PREFIX})
 else()
   set(octomap_server_SOURCE_PREFIX "")
   set(octomap_server_DEVEL_PREFIX "")
-<<<<<<< HEAD
-  set(octomap_server_INSTALL_PREFIX /home/stochlab/catkin_ws/install)
-=======
-  set(octomap_server_INSTALL_PREFIX /home/tejas/catkin_ws/install)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(octomap_server_INSTALL_PREFIX /home/stochlab/perception_stack/install)
   set(octomap_server_PREFIX ${octomap_server_INSTALL_PREFIX})
 endif()
 
@@ -100,15 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(octomap_server_FOUND_CATKIN_PROJECT TRUE)
 
-<<<<<<< HEAD
-if(NOT "/home/stochlab/catkin_ws/devel/include;/home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/include;/opt/ros/noetic/include " STREQUAL " ")
+if(NOT "/home/stochlab/perception_stack/devel/include;/home/stochlab/perception_stack/src/octomap_mapping/octomap_server/include;/opt/ros/noetic/include " STREQUAL " ")
   set(octomap_server_INCLUDE_DIRS "")
-  set(_include_dirs "/home/stochlab/catkin_ws/devel/include;/home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/include;/opt/ros/noetic/include")
-=======
-if(NOT "/home/tejas/catkin_ws/devel/include;/home/tejas/catkin_ws/src/octomap_mapping/octomap_server/include;/opt/ros/noetic/include " STREQUAL " ")
-  set(octomap_server_INCLUDE_DIRS "")
-  set(_include_dirs "/home/tejas/catkin_ws/devel/include;/home/tejas/catkin_ws/src/octomap_mapping/octomap_server/include;/opt/ros/noetic/include")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(_include_dirs "/home/stochlab/perception_stack/devel/include;/home/stochlab/perception_stack/src/octomap_mapping/octomap_server/include;/opt/ros/noetic/include")
   if(NOT "https://github.com/OctoMap/octomap_mapping/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/OctoMap/octomap_mapping/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://www.ros.org/wiki/octomap_server " STREQUAL " ")
@@ -125,11 +110,7 @@ if(NOT "/home/tejas/catkin_ws/devel/include;/home/tejas/catkin_ws/src/octomap_ma
         message(FATAL_ERROR "Project 'octomap_server' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-<<<<<<< HEAD
-      message(FATAL_ERROR "Project 'octomap_server' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/${idir}'.  ${_report}")
-=======
-      message(FATAL_ERROR "Project 'octomap_server' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/tejas/catkin_ws/src/octomap_mapping/octomap_server/${idir}'.  ${_report}")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+      message(FATAL_ERROR "Project 'octomap_server' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/stochlab/perception_stack/src/octomap_mapping/octomap_server/${idir}'.  ${_report}")
     endif()
     _list_append_unique(octomap_server_INCLUDE_DIRS ${include})
   endforeach()
@@ -173,11 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-<<<<<<< HEAD
-    foreach(path /home/stochlab/catkin_ws/devel/lib;/home/stochlab/test_ws/devel/lib;/home/stochlab/catkin_ws/devel/lib;/opt/ros/noetic/lib)
-=======
-    foreach(path /home/tejas/catkin_ws/devel/lib;/home/tejas/catkin_ws/devel/lib;/opt/ros/noetic/lib)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    foreach(path /home/stochlab/perception_stack/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

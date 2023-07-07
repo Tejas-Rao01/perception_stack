@@ -67,23 +67,14 @@ set(stereo_image_proc_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-<<<<<<< HEAD
-  set(stereo_image_proc_SOURCE_PREFIX /home/stochlab/catkin_ws/src/image_pipeline/stereo_image_proc)
-  set(stereo_image_proc_DEVEL_PREFIX /home/stochlab/catkin_ws/devel)
-=======
-  set(stereo_image_proc_SOURCE_PREFIX /home/tejas/catkin_ws/src/image_pipeline/stereo_image_proc)
-  set(stereo_image_proc_DEVEL_PREFIX /home/tejas/catkin_ws/devel)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(stereo_image_proc_SOURCE_PREFIX /home/stochlab/perception_stack/src/image_pipeline/stereo_image_proc)
+  set(stereo_image_proc_DEVEL_PREFIX /home/stochlab/perception_stack/devel)
   set(stereo_image_proc_INSTALL_PREFIX "")
   set(stereo_image_proc_PREFIX ${stereo_image_proc_DEVEL_PREFIX})
 else()
   set(stereo_image_proc_SOURCE_PREFIX "")
   set(stereo_image_proc_DEVEL_PREFIX "")
-<<<<<<< HEAD
-  set(stereo_image_proc_INSTALL_PREFIX /home/stochlab/catkin_ws/install)
-=======
-  set(stereo_image_proc_INSTALL_PREFIX /home/tejas/catkin_ws/install)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(stereo_image_proc_INSTALL_PREFIX /home/stochlab/perception_stack/install)
   set(stereo_image_proc_PREFIX ${stereo_image_proc_INSTALL_PREFIX})
 endif()
 
@@ -163,11 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-<<<<<<< HEAD
-    foreach(path /home/stochlab/catkin_ws/install/lib;/home/stochlab/test_ws/devel/lib;/home/stochlab/catkin_ws/devel/lib;/opt/ros/noetic/lib)
-=======
-    foreach(path /home/tejas/catkin_ws/install/lib;/home/tejas/catkin_ws/devel/lib;/opt/ros/noetic/lib)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    foreach(path /home/stochlab/perception_stack/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

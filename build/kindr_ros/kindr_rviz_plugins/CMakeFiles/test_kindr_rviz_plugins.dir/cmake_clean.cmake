@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/kindr_rviz_plugins/test_kindr_rviz_plugins"
-  "/home/stochlab/catkin_ws/devel/lib/kindr_rviz_plugins/test_kindr_rviz_plugins.pdb"
-=======
-  "/home/tejas/catkin_ws/devel/lib/kindr_rviz_plugins/test_kindr_rviz_plugins"
-  "/home/tejas/catkin_ws/devel/lib/kindr_rviz_plugins/test_kindr_rviz_plugins.pdb"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/kindr_rviz_plugins/test_kindr_rviz_plugins"
+  "/home/stochlab/perception_stack/devel/lib/kindr_rviz_plugins/test_kindr_rviz_plugins.pdb"
   "CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.o"
 )
 

@@ -43,82 +43,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for octomap_server_gencfg.
 
 # Include the progress variables for this target.
 include octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/progress.make
 
-<<<<<<< HEAD
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg: /home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py
+octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg: /home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h
+octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py
 
 
-/home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h: /home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/cfg/OctomapServer.cfg
-/home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/OctomapServer.cfg: /home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py"
-	cd /home/stochlab/catkin_ws/build/octomap_mapping/octomap_server && ../../catkin_generated/env_cached.sh /home/stochlab/catkin_ws/build/octomap_mapping/octomap_server/setup_custom_pythonpath.sh /home/stochlab/catkin_ws/src/octomap_mapping/octomap_server/cfg/OctomapServer.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/catkin_ws/devel/share/octomap_server /home/stochlab/catkin_ws/devel/include/octomap_server /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/octomap_server
+/home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h: /home/stochlab/perception_stack/src/octomap_mapping/octomap_server/cfg/OctomapServer.cfg
+/home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/OctomapServer.cfg: /home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h /home/stochlab/perception_stack/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py"
+	cd /home/stochlab/perception_stack/build/octomap_mapping/octomap_server && ../../catkin_generated/env_cached.sh /home/stochlab/perception_stack/build/octomap_mapping/octomap_server/setup_custom_pythonpath.sh /home/stochlab/perception_stack/src/octomap_mapping/octomap_server/cfg/OctomapServer.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/perception_stack/devel/share/octomap_server /home/stochlab/perception_stack/devel/include/octomap_server /home/stochlab/perception_stack/devel/lib/python3/dist-packages/octomap_server
 
-/home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.dox: /home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.dox
+/home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig.dox: /home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig.dox
 
-/home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox: /home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox
+/home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox: /home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox
 
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py: /home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py: /home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py
 
-/home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc: /home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc
-
-octomap_server_gencfg: octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg
-octomap_server_gencfg: /home/stochlab/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-octomap_server_gencfg: /home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.dox
-octomap_server_gencfg: /home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox
-octomap_server_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py
-octomap_server_gencfg: /home/stochlab/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc
-=======
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg: /home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py
-
-
-/home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h: /home/tejas/catkin_ws/src/octomap_mapping/octomap_server/cfg/OctomapServer.cfg
-/home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/OctomapServer.cfg: /home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h /home/tejas/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py"
-	cd /home/tejas/catkin_ws/build/octomap_mapping/octomap_server && ../../catkin_generated/env_cached.sh /home/tejas/catkin_ws/build/octomap_mapping/octomap_server/setup_custom_pythonpath.sh /home/tejas/catkin_ws/src/octomap_mapping/octomap_server/cfg/OctomapServer.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/tejas/catkin_ws/devel/share/octomap_server /home/tejas/catkin_ws/devel/include/octomap_server /home/tejas/catkin_ws/devel/lib/python3/dist-packages/octomap_server
-
-/home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.dox: /home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.dox
-
-/home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox: /home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox
-
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py: /home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py
-
-/home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc: /home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc
+/home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc: /home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc
 
 octomap_server_gencfg: octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg
-octomap_server_gencfg: /home/tejas/catkin_ws/devel/include/octomap_server/OctomapServerConfig.h
-octomap_server_gencfg: /home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.dox
-octomap_server_gencfg: /home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox
-octomap_server_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py
-octomap_server_gencfg: /home/tejas/catkin_ws/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+octomap_server_gencfg: /home/stochlab/perception_stack/devel/include/octomap_server/OctomapServerConfig.h
+octomap_server_gencfg: /home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig.dox
+octomap_server_gencfg: /home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig-usage.dox
+octomap_server_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/octomap_server/cfg/OctomapServerConfig.py
+octomap_server_gencfg: /home/stochlab/perception_stack/devel/share/octomap_server/docs/OctomapServerConfig.wikidoc
 octomap_server_gencfg: octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build.make
 
 .PHONY : octomap_server_gencfg
@@ -129,18 +91,10 @@ octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build: octom
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build
 
 octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/octomap_mapping/octomap_server && $(CMAKE_COMMAND) -P CMakeFiles/octomap_server_gencfg.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/octomap_mapping/octomap_server && $(CMAKE_COMMAND) -P CMakeFiles/octomap_server_gencfg.dir/cmake_clean.cmake
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/clean
 
 octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/octomap_mapping/octomap_server /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/octomap_mapping/octomap_server /home/stochlab/catkin_ws/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/octomap_mapping/octomap_server && $(CMAKE_COMMAND) -P CMakeFiles/octomap_server_gencfg.dir/cmake_clean.cmake
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/clean
-
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/octomap_mapping/octomap_server /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/octomap_mapping/octomap_server /home/tejas/catkin_ws/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/octomap_mapping/octomap_server /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/octomap_mapping/octomap_server /home/stochlab/perception_stack/build/octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/depend
 

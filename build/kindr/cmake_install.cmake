@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-# Install script for directory: /home/stochlab/catkin_ws/src/kindr
+# Install script for directory: /home/stochlab/perception_stack/src/kindr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/stochlab/catkin_ws/install")
-=======
-# Install script for directory: /home/tejas/catkin_ws/src/kindr
-
-# Set the install prefix
-if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/tejas/catkin_ws/install")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  set(CMAKE_INSTALL_PREFIX "/home/stochlab/perception_stack/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,66 +38,36 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/catkin_ws/build/kindr/catkin_generated/installspace/kindr.pc")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/tejas/catkin_ws/build/kindr/catkin_generated/installspace/kindr.pc")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/stochlab/perception_stack/build/kindr/catkin_generated/installspace/kindr.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr/cmake" TYPE FILE FILES
-<<<<<<< HEAD
-    "/home/stochlab/catkin_ws/build/kindr/catkin_generated/installspace/kindrConfig.cmake"
-    "/home/stochlab/catkin_ws/build/kindr/catkin_generated/installspace/kindrConfig-version.cmake"
-=======
-    "/home/tejas/catkin_ws/build/kindr/catkin_generated/installspace/kindrConfig.cmake"
-    "/home/tejas/catkin_ws/build/kindr/catkin_generated/installspace/kindrConfig-version.cmake"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+    "/home/stochlab/perception_stack/build/kindr/catkin_generated/installspace/kindrConfig.cmake"
+    "/home/stochlab/perception_stack/build/kindr/catkin_generated/installspace/kindrConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr" TYPE FILE FILES "/home/stochlab/catkin_ws/src/kindr/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr" TYPE FILE FILES "/home/stochlab/perception_stack/src/kindr/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/stochlab/catkin_ws/src/kindr/include/kindr")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/stochlab/perception_stack/src/kindr/include/kindr")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr/cmake" TYPE FILE FILES "/home/stochlab/catkin_ws/build/kindr/CMakeFiles/kindrConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr/cmake" TYPE FILE FILES "/home/stochlab/perception_stack/build/kindr/CMakeFiles/kindrConfig.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr" TYPE FILE FILES "/home/stochlab/catkin_ws/src/kindr/package.xml")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr" TYPE FILE FILES "/home/tejas/catkin_ws/src/kindr/package.xml")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/tejas/catkin_ws/src/kindr/include/kindr")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr/cmake" TYPE FILE FILES "/home/tejas/catkin_ws/build/kindr/CMakeFiles/kindrConfig.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr" TYPE FILE FILES "/home/tejas/catkin_ws/src/kindr/package.xml")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kindr" TYPE FILE FILES "/home/stochlab/perception_stack/src/kindr/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-<<<<<<< HEAD
-  include("/home/stochlab/catkin_ws/build/kindr/test/cmake_install.cmake")
-  include("/home/stochlab/catkin_ws/build/kindr/doc/doxygen/cmake_install.cmake")
-=======
-  include("/home/tejas/catkin_ws/build/kindr/test/cmake_install.cmake")
-  include("/home/tejas/catkin_ws/build/kindr/doc/doxygen/cmake_install.cmake")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  include("/home/stochlab/perception_stack/build/kindr/test/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/kindr/doc/doxygen/cmake_install.cmake")
 
 endif()
 

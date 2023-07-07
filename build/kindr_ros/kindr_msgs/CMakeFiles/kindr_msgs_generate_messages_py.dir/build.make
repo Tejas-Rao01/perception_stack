@@ -43,66 +43,36 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for kindr_msgs_generate_messages_py.
 
 # Include the progress variables for this target.
 include kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/progress.make
 
-<<<<<<< HEAD
-kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py
-kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py
+kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py
+kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py
 
 
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /home/stochlab/catkin_ws/src/kindr_ros/kindr_msgs/msg/VectorAtPosition.msg
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG kindr_msgs/VectorAtPosition"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/stochlab/catkin_ws/src/kindr_ros/kindr_msgs/msg/VectorAtPosition.msg -Ikindr_msgs:/home/stochlab/catkin_ws/src/kindr_ros/kindr_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kindr_msgs -o /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /home/stochlab/perception_stack/src/kindr_ros/kindr_msgs/msg/VectorAtPosition.msg
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG kindr_msgs/VectorAtPosition"
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/stochlab/perception_stack/src/kindr_ros/kindr_msgs/msg/VectorAtPosition.msg -Ikindr_msgs:/home/stochlab/perception_stack/src/kindr_ros/kindr_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kindr_msgs -o /home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg
 
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for kindr_msgs"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg --initpy
-
-kindr_msgs_generate_messages_py: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py
-kindr_msgs_generate_messages_py: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py
-kindr_msgs_generate_messages_py: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py
-=======
-kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py
-kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py
-
-
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /home/tejas/catkin_ws/src/kindr_ros/kindr_msgs/msg/VectorAtPosition.msg
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG kindr_msgs/VectorAtPosition"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/tejas/catkin_ws/src/kindr_ros/kindr_msgs/msg/VectorAtPosition.msg -Ikindr_msgs:/home/tejas/catkin_ws/src/kindr_ros/kindr_msgs/msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p kindr_msgs -o /home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg
-
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for kindr_msgs"
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg --initpy
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for kindr_msgs"
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg --initpy
 
 kindr_msgs_generate_messages_py: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py
-kindr_msgs_generate_messages_py: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py
-kindr_msgs_generate_messages_py: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+kindr_msgs_generate_messages_py: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/_VectorAtPosition.py
+kindr_msgs_generate_messages_py: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/kindr_msgs/msg/__init__.py
 kindr_msgs_generate_messages_py: kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/build.make
 
 .PHONY : kindr_msgs_generate_messages_py
@@ -113,18 +83,10 @@ kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/build: kindr
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/build
 
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr_ros/kindr_msgs && $(CMAKE_COMMAND) -P CMakeFiles/kindr_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/kindr_ros/kindr_msgs && $(CMAKE_COMMAND) -P CMakeFiles/kindr_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/clean
 
 kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/kindr_ros/kindr_msgs /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/kindr_ros/kindr_msgs /home/stochlab/catkin_ws/build/kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/kindr_ros/kindr_msgs && $(CMAKE_COMMAND) -P CMakeFiles/kindr_msgs_generate_messages_py.dir/cmake_clean.cmake
-.PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/clean
-
-kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/kindr_ros/kindr_msgs /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/kindr_ros/kindr_msgs /home/tejas/catkin_ws/build/kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/kindr_ros/kindr_msgs /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/kindr_ros/kindr_msgs /home/stochlab/perception_stack/build/kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kindr_ros/kindr_msgs/CMakeFiles/kindr_msgs_generate_messages_py.dir/depend
 

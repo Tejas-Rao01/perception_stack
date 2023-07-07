@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_sdf/grid_map_sdf-test"
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_sdf/grid_map_sdf-test.pdb"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_sdf/grid_map_sdf-test"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_sdf/grid_map_sdf-test.pdb"
   "CMakeFiles/grid_map_sdf-test.dir/test/test3dLookup.cpp.o"
   "CMakeFiles/grid_map_sdf-test.dir/test/testDerivatives.cpp.o"
   "CMakeFiles/grid_map_sdf-test.dir/test/testPixelBorderDistance.cpp.o"

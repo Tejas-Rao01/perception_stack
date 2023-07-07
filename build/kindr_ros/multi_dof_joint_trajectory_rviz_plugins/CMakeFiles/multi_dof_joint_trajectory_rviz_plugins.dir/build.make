@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Include any dependencies generated for this target.
 include kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/depend.make
@@ -64,119 +57,61 @@ include kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_j
 # Include the compile flags for this target's objects.
 include kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
 
-<<<<<<< HEAD
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp: /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/MultiDOFJointTrajectoryDisplay.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins && /usr/lib/qt5/bin/moc @/home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp_parameters
+kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp: /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/MultiDOFJointTrajectoryDisplay.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp"
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins && /usr/lib/qt5/bin/moc @/home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp_parameters
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o: /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o -c /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp
+kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o: /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o -c /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o: /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o -c /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp
+kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o: /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o -c /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o: /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o -c /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp
+kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o: /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o -c /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o -c /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o"
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o -c /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s
-=======
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp: /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/MultiDOFJointTrajectoryDisplay.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins && /usr/lib/qt5/bin/moc @/home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp_parameters
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o: /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o -c /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.i
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryDisplay.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.s
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o: /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o -c /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.i
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.s
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o: /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o -c /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.i
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/src/MultiDOFJointTrajectoryPointVisual.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.s
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/flags.make
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o -c /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp > CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.i
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp -o CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.s
 
 # Object files for target multi_dof_joint_trajectory_rviz_plugins
 multi_dof_joint_trajectory_rviz_plugins_OBJECTS = \
@@ -188,147 +123,75 @@ multi_dof_joint_trajectory_rviz_plugins_OBJECTS = \
 # External object files for target multi_dof_joint_trajectory_rviz_plugins
 multi_dof_joint_trajectory_rviz_plugins_EXTERNAL_OBJECTS =
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librviz.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOgreOverlay.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libGLX.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libimage_transport.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libinteractive_markers.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/liblaser_geometry.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libresource_retriever.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libactionlib.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf2.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/liburdf.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroslib.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librospack.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_bridge.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroscpp.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librostime.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-/home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so"
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/link.txt --verbose=$(VERBOSE)
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librviz.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libGLX.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libGLU.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libimage_transport.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libinteractive_markers.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/liblaser_geometry.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libresource_retriever.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libactionlib.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf2.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/liburdf.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libclass_loader.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroslib.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librospack.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_bridge.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroscpp.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librostime.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
+/home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so"
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build: /home/stochlab/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so
-=======
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryDisplay.cpp.o
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointConnectionVisual.cpp.o
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/src/MultiDOFJointTrajectoryPointVisual.cpp.o
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp.o
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build.make
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librviz.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOgreOverlay.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOgreMain.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libGLX.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libGLU.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libimage_transport.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libinteractive_markers.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/liblaser_geometry.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libresource_retriever.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libactionlib.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libtf2.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/liburdf.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroslib.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librospack.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_bridge.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroscpp.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/librostime.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
-/home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so"
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build: /home/tejas/catkin_ws/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build: /home/stochlab/perception_stack/devel/lib/libmulti_dof_joint_trajectory_rviz_plugins.so
 
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/build
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && $(CMAKE_COMMAND) -P CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && $(CMAKE_COMMAND) -P CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/cmake_clean.cmake
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/clean
 
 kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/depend: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins /home/stochlab/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins && $(CMAKE_COMMAND) -P CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/cmake_clean.cmake
-.PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/clean
-
-kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/depend: kindr_ros/multi_dof_joint_trajectory_rviz_plugins/include/multi_dof_joint_trajectory_rviz_plugins/moc_MultiDOFJointTrajectoryDisplay.cpp
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins /home/tejas/catkin_ws/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/kindr_ros/multi_dof_joint_trajectory_rviz_plugins /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins /home/stochlab/perception_stack/build/kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : kindr_ros/multi_dof_joint_trajectory_rviz_plugins/CMakeFiles/multi_dof_joint_trajectory_rviz_plugins.dir/depend
 

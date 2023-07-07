@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp"
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMapInfo.lisp"
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp"
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp"
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/grid_map_msgs/srv/ProcessFile.lisp"
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMapInfo.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/ProcessFile.lisp"
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp"
   "CMakeFiles/grid_map_msgs_generate_messages_lisp"
 )
 

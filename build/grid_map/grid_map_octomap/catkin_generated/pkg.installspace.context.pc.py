@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/opt/ros/noetic/include".sp
 PROJECT_CATKIN_DEPENDS = "grid_map_core".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lgrid_map_octomap;/opt/ros/noetic/lib/liboctomap.so;/opt/ros/noetic/lib/liboctomath.so".split(';') if "-lgrid_map_octomap;/opt/ros/noetic/lib/liboctomap.so;/opt/ros/noetic/lib/liboctomath.so" != "" else []
 PROJECT_NAME = "grid_map_octomap"
-PROJECT_SPACE_DIR = "/home/stochlab/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/stochlab/perception_stack/install"
 PROJECT_VERSION = "1.7.8"

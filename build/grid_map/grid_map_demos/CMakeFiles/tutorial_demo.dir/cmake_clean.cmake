@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_demos/tutorial_demo"
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_demos/tutorial_demo.pdb"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_demos/tutorial_demo"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_demos/tutorial_demo.pdb"
   "CMakeFiles/tutorial_demo.dir/src/tutorial_demo_node.cpp.o"
 )
 

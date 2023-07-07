@@ -43,82 +43,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for image_publisher_gencfg.
 
 # Include the progress variables for this target.
 include image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/progress.make
 
-<<<<<<< HEAD
-image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg: /home/stochlab/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
+image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg: /home/stochlab/perception_stack/devel/include/image_publisher/ImagePublisherConfig.h
+image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
 
 
-/home/stochlab/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h: /home/stochlab/catkin_ws/src/image_pipeline/image_publisher/cfg/ImagePublisher.cfg
-/home/stochlab/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/stochlab/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/ImagePublisher.cfg: /home/stochlab/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/image_publisher && ../../catkin_generated/env_cached.sh /home/stochlab/catkin_ws/build/image_pipeline/image_publisher/setup_custom_pythonpath.sh /home/stochlab/catkin_ws/src/image_pipeline/image_publisher/cfg/ImagePublisher.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/catkin_ws/devel/share/image_publisher /home/stochlab/catkin_ws/devel/include/image_publisher /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_publisher
+/home/stochlab/perception_stack/devel/include/image_publisher/ImagePublisherConfig.h: /home/stochlab/perception_stack/src/image_pipeline/image_publisher/cfg/ImagePublisher.cfg
+/home/stochlab/perception_stack/devel/include/image_publisher/ImagePublisherConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/stochlab/perception_stack/devel/include/image_publisher/ImagePublisherConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/ImagePublisher.cfg: /home/stochlab/perception_stack/devel/include/image_publisher/ImagePublisherConfig.h /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py"
+	cd /home/stochlab/perception_stack/build/image_pipeline/image_publisher && ../../catkin_generated/env_cached.sh /home/stochlab/perception_stack/build/image_pipeline/image_publisher/setup_custom_pythonpath.sh /home/stochlab/perception_stack/src/image_pipeline/image_publisher/cfg/ImagePublisher.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/perception_stack/devel/share/image_publisher /home/stochlab/perception_stack/devel/include/image_publisher /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_publisher
 
-/home/stochlab/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.dox: /home/stochlab/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.dox
+/home/stochlab/perception_stack/devel/share/image_publisher/docs/ImagePublisherConfig.dox: /home/stochlab/perception_stack/devel/include/image_publisher/ImagePublisherConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_publisher/docs/ImagePublisherConfig.dox
 
-/home/stochlab/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox: /home/stochlab/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox
+/home/stochlab/perception_stack/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox: /home/stochlab/perception_stack/devel/include/image_publisher/ImagePublisherConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox
 
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py: /home/stochlab/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py: /home/stochlab/perception_stack/devel/include/image_publisher/ImagePublisherConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
 
-/home/stochlab/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc: /home/stochlab/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc
-
-image_publisher_gencfg: image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg
-image_publisher_gencfg: /home/stochlab/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-image_publisher_gencfg: /home/stochlab/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.dox
-image_publisher_gencfg: /home/stochlab/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox
-image_publisher_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
-image_publisher_gencfg: /home/stochlab/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc
-=======
-image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg: /home/tejas/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
-
-
-/home/tejas/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h: /home/tejas/catkin_ws/src/image_pipeline/image_publisher/cfg/ImagePublisher.cfg
-/home/tejas/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/tejas/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/ImagePublisher.cfg: /home/tejas/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py"
-	cd /home/tejas/catkin_ws/build/image_pipeline/image_publisher && ../../catkin_generated/env_cached.sh /home/tejas/catkin_ws/build/image_pipeline/image_publisher/setup_custom_pythonpath.sh /home/tejas/catkin_ws/src/image_pipeline/image_publisher/cfg/ImagePublisher.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/tejas/catkin_ws/devel/share/image_publisher /home/tejas/catkin_ws/devel/include/image_publisher /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_publisher
-
-/home/tejas/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.dox: /home/tejas/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.dox
-
-/home/tejas/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox: /home/tejas/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox
-
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py: /home/tejas/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
-
-/home/tejas/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc: /home/tejas/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc
+/home/stochlab/perception_stack/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc: /home/stochlab/perception_stack/devel/include/image_publisher/ImagePublisherConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc
 
 image_publisher_gencfg: image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg
-image_publisher_gencfg: /home/tejas/catkin_ws/devel/include/image_publisher/ImagePublisherConfig.h
-image_publisher_gencfg: /home/tejas/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.dox
-image_publisher_gencfg: /home/tejas/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox
-image_publisher_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
-image_publisher_gencfg: /home/tejas/catkin_ws/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+image_publisher_gencfg: /home/stochlab/perception_stack/devel/include/image_publisher/ImagePublisherConfig.h
+image_publisher_gencfg: /home/stochlab/perception_stack/devel/share/image_publisher/docs/ImagePublisherConfig.dox
+image_publisher_gencfg: /home/stochlab/perception_stack/devel/share/image_publisher/docs/ImagePublisherConfig-usage.dox
+image_publisher_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_publisher/cfg/ImagePublisherConfig.py
+image_publisher_gencfg: /home/stochlab/perception_stack/devel/share/image_publisher/docs/ImagePublisherConfig.wikidoc
 image_publisher_gencfg: image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/build.make
 
 .PHONY : image_publisher_gencfg
@@ -129,18 +91,10 @@ image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/build: imag
 .PHONY : image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/build
 
 image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/image_pipeline/image_publisher && $(CMAKE_COMMAND) -P CMakeFiles/image_publisher_gencfg.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/image_pipeline/image_publisher && $(CMAKE_COMMAND) -P CMakeFiles/image_publisher_gencfg.dir/cmake_clean.cmake
 .PHONY : image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/clean
 
 image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/image_pipeline/image_publisher /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/image_pipeline/image_publisher /home/stochlab/catkin_ws/build/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/image_pipeline/image_publisher && $(CMAKE_COMMAND) -P CMakeFiles/image_publisher_gencfg.dir/cmake_clean.cmake
-.PHONY : image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/clean
-
-image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/image_pipeline/image_publisher /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/image_pipeline/image_publisher /home/tejas/catkin_ws/build/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/image_pipeline/image_publisher /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/image_pipeline/image_publisher /home/stochlab/perception_stack/build/image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/depend
 

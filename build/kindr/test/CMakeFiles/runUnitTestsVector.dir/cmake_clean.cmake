@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsVector"
-  "/home/stochlab/catkin_ws/devel/lib/kindr/runUnitTestsVector.pdb"
-=======
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsVector"
-  "/home/tejas/catkin_ws/devel/lib/kindr/runUnitTestsVector.pdb"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsVector"
+  "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsVector.pdb"
   "CMakeFiles/runUnitTestsVector.dir/test_main.cpp.o"
   "CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.o"
 )

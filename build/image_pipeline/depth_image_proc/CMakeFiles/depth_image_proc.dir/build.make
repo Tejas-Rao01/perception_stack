@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Include any dependencies generated for this target.
 include image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/depend.make
@@ -65,265 +58,134 @@ include image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/progress
 include image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-<<<<<<< HEAD
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o: /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o -c /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o: /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o"
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o -c /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.i"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.i
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.i
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.s"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.s
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.s
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o: /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o -c /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o: /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o"
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o -c /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.i"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.i
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.i
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.s"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.s
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.s
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o: /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o -c /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o: /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o"
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o -c /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.i"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.i
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.i
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.s"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.s
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.s
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o: /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o -c /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o: /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o"
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o -c /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.i"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.i
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.i
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.s"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.s
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.s
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o -c /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o"
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o -c /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.i"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.i
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.i
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.s"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.s
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.s
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o -c /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o"
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o -c /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.i"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.i
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.i
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.s"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.s
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.s
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o: /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o -c /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o: /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o"
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o -c /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.i"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.i
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.i
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.s"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.s
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.s
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o: /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o -c /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o: /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o"
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o -c /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.i"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.i
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.i
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.s"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.s
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.s
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o: /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o -c /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o: /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o"
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o -c /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.i"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.i
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.i
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.s"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.s
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.s
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o: /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o -c /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o: /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o"
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o -c /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.i"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.i
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.i
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.s"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.s
-=======
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o: /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o -c /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.i"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.i
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.s"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/convert_metric.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.s
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o: /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o -c /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.i"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.i
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.s"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/crop_foremost.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.s
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o: /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o -c /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.i"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.i
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.s"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/disparity.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.s
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o: /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o -c /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.i"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.i
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.s"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.s
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o -c /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.i"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.i
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.s"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.s
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o -c /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.i"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.i
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.s"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.s
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o: /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o -c /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.i"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.i
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.s"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyz_radial.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.s
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o: /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o -c /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.i"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.i
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.s"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.s
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o: /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o -c /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.i"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.i
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.s"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzrgb_radial.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.s
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/flags.make
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o: /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o -c /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.i"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp > CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.i
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.s"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp -o CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.s
 
 # Object files for target depth_image_proc
 depth_image_proc_OBJECTS = \
@@ -341,325 +203,164 @@ depth_image_proc_OBJECTS = \
 # External object files for target depth_image_proc
 depth_image_proc_EXTERNAL_OBJECTS =
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libcv_bridge.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libeigen_conversions.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/liborocos-kdl.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libimage_geometry.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libimage_transport.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libnodeletlib.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libbondcpp.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libroslib.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librospack.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libactionlib.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libroscpp.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librosconsole.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libtf2.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librostime.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
-/home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library /home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/depth_image_proc.dir/link.txt --verbose=$(VERBOSE)
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libcv_bridge.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libeigen_conversions.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/liborocos-kdl.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libimage_geometry.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libimage_transport.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libnodeletlib.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libbondcpp.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libclass_loader.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libroslib.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librospack.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libactionlib.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libroscpp.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librosconsole.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libtf2.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librostime.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
+/home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library /home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so"
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/depth_image_proc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build: /home/stochlab/catkin_ws/devel/lib/libdepth_image_proc.so
-=======
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/convert_metric.cpp.o
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/crop_foremost.cpp.o
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/disparity.cpp.o
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz.cpp.o
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyz_radial.cpp.o
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi_radial.cpp.o
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb_radial.cpp.o
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/register.cpp.o
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build.make
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libcv_bridge.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libeigen_conversions.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/liborocos-kdl.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libimage_geometry.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libimage_transport.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libnodeletlib.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libbondcpp.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libroslib.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librospack.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libactionlib.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libroscpp.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librosconsole.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libtf2.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/librostime.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
-/home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so: image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library /home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so"
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/depth_image_proc.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build: /home/tejas/catkin_ws/devel/lib/libdepth_image_proc.so
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build: /home/stochlab/perception_stack/devel/lib/libdepth_image_proc.so
 
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/build
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc && $(CMAKE_COMMAND) -P CMakeFiles/depth_image_proc.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc && $(CMAKE_COMMAND) -P CMakeFiles/depth_image_proc.dir/cmake_clean.cmake
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/clean
 
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/image_pipeline/depth_image_proc /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc /home/stochlab/catkin_ws/build/image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc && $(CMAKE_COMMAND) -P CMakeFiles/depth_image_proc.dir/cmake_clean.cmake
-.PHONY : image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/clean
-
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/image_pipeline/depth_image_proc /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc /home/tejas/catkin_ws/build/image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/image_pipeline/depth_image_proc /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc /home/stochlab/perception_stack/build/image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/depend
 

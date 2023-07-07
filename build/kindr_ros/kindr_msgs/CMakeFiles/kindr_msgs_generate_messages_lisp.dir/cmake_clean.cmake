@@ -1,9 +1,5 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/share/common-lisp/ros/kindr_msgs/msg/VectorAtPosition.lisp"
-=======
-  "/home/tejas/catkin_ws/devel/share/common-lisp/ros/kindr_msgs/msg/VectorAtPosition.lisp"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/share/common-lisp/ros/kindr_msgs/msg/VectorAtPosition.lisp"
   "CMakeFiles/kindr_msgs_generate_messages_lisp"
 )
 

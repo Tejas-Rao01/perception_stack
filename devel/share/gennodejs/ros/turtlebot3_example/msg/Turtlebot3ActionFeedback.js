@@ -12,13 +12,8 @@ const _arrayDeserializer = _deserializer.Array;
 const _finder = _ros_msg_utils.Find;
 const _getByteLength = _ros_msg_utils.getByteLength;
 let Turtlebot3Feedback = require('./Turtlebot3Feedback.js');
-<<<<<<< HEAD
-let actionlib_msgs = _finder('actionlib_msgs');
-let std_msgs = _finder('std_msgs');
-=======
 let std_msgs = _finder('std_msgs');
 let actionlib_msgs = _finder('actionlib_msgs');
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 
 //-----------------------------------------------------------
 

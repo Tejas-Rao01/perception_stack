@@ -1,9 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "turtlebot3_simulations")
-<<<<<<< HEAD
 set(turtlebot3_simulations_VERSION "1.3.2")
-=======
-set(turtlebot3_simulations_VERSION "1.3.1")
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
 set(turtlebot3_simulations_MAINTAINER "Will Son <willson@robotis.com>")
 set(turtlebot3_simulations_PACKAGE_FORMAT "2")
 set(turtlebot3_simulations_BUILD_DEPENDS )

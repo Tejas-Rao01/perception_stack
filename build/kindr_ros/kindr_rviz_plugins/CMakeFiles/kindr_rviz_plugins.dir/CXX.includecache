@@ -6,25 +6,15 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/build/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp
+/home/stochlab/perception_stack/build/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp
 ../../../../../src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
-/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
-=======
-/home/tejas/catkin_ws/build/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp
-../../../../../src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
-/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/devel/include/kindr_msgs/VectorAtPosition.h
-=======
-/home/tejas/catkin_ws/devel/include/kindr_msgs/VectorAtPosition.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/devel/include/kindr_msgs/VectorAtPosition.h
 string
 -
 vector
@@ -46,11 +36,7 @@ geometry_msgs/Vector3.h
 geometry_msgs/Point.h
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
-=======
-/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
 boost/circular_buffer.hpp
 -
 rviz/message_filter_display.h
@@ -60,21 +46,13 @@ kindr_msgs/VectorAtPosition.h
 OGRE/OgreColourValue.h
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionVisual.hpp
-=======
-/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionVisual.hpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins/include/kindr_rviz_plugins/VectorAtPositionVisual.hpp
 rviz/default_plugin/markers/text_view_facing_marker.h
 -
 kindr_msgs/VectorAtPosition.h
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionDisplay.cpp
-=======
-/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionDisplay.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionDisplay.cpp
 OGRE/OgreSceneManager.h
 -
 OGRE/OgreSceneNode.h
@@ -92,23 +70,13 @@ rviz/properties/int_property.h
 rviz/visualization_manager.h
 -
 kindr_rviz_plugins/VectorAtPositionDisplay.hpp
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
+/home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins/src/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
 kindr_rviz_plugins/VectorAtPositionVisual.hpp
-/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/kindr_rviz_plugins/VectorAtPositionVisual.hpp
+/home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins/src/kindr_rviz_plugins/VectorAtPositionVisual.hpp
 pluginlib/class_list_macros.h
 -
 
-/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionVisual.cpp
-=======
-/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/kindr_rviz_plugins/VectorAtPositionDisplay.hpp
-kindr_rviz_plugins/VectorAtPositionVisual.hpp
-/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/kindr_rviz_plugins/VectorAtPositionVisual.hpp
-pluginlib/class_list_macros.h
--
-
-/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionVisual.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins/src/VectorAtPositionVisual.cpp
 OGRE/OgreSceneManager.h
 -
 OGRE/OgreSceneNode.h
@@ -122,11 +90,7 @@ rviz/ogre_helpers/billboard_line.h
 rviz/ogre_helpers/movable_text.h
 -
 kindr_rviz_plugins/VectorAtPositionVisual.hpp
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/kindr_rviz_plugins/VectorAtPositionVisual.hpp
-=======
-/home/tejas/catkin_ws/src/kindr_ros/kindr_rviz_plugins/src/kindr_rviz_plugins/VectorAtPositionVisual.hpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/kindr_ros/kindr_rviz_plugins/src/kindr_rviz_plugins/VectorAtPositionVisual.hpp
 
 /opt/ros/noetic/include/class_loader/class_loader.hpp
 boost/bind.hpp

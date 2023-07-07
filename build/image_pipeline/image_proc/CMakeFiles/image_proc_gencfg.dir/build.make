@@ -43,232 +43,119 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for image_proc_gencfg.
 
 # Include the progress variables for this target.
 include image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/progress.make
 
-<<<<<<< HEAD
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/catkin_ws/devel/include/image_proc/DebayerConfig.h
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/catkin_ws/devel/include/image_proc/RectifyConfig.h
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/catkin_ws/devel/include/image_proc/ResizeConfig.h
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py
+image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/perception_stack/devel/include/image_proc/CropDecimateConfig.h
+image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py
+image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/perception_stack/devel/include/image_proc/DebayerConfig.h
+image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py
+image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/perception_stack/devel/include/image_proc/RectifyConfig.h
+image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py
+image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/perception_stack/devel/include/image_proc/ResizeConfig.h
+image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py
 
 
-/home/stochlab/catkin_ws/devel/include/image_proc/CropDecimateConfig.h: /home/stochlab/catkin_ws/src/image_pipeline/image_proc/cfg/CropDecimate.cfg
-/home/stochlab/catkin_ws/devel/include/image_proc/CropDecimateConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/stochlab/catkin_ws/devel/include/image_proc/CropDecimateConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/CropDecimate.cfg: /home/stochlab/catkin_ws/devel/include/image_proc/CropDecimateConfig.h /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/stochlab/catkin_ws/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/stochlab/catkin_ws/src/image_pipeline/image_proc/cfg/CropDecimate.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/catkin_ws/devel/share/image_proc /home/stochlab/catkin_ws/devel/include/image_proc /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc
+/home/stochlab/perception_stack/devel/include/image_proc/CropDecimateConfig.h: /home/stochlab/perception_stack/src/image_pipeline/image_proc/cfg/CropDecimate.cfg
+/home/stochlab/perception_stack/devel/include/image_proc/CropDecimateConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/stochlab/perception_stack/devel/include/image_proc/CropDecimateConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/CropDecimate.cfg: /home/stochlab/perception_stack/devel/include/image_proc/CropDecimateConfig.h /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py"
+	cd /home/stochlab/perception_stack/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/stochlab/perception_stack/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/stochlab/perception_stack/src/image_pipeline/image_proc/cfg/CropDecimate.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/perception_stack/devel/share/image_proc /home/stochlab/perception_stack/devel/include/image_proc /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.dox: /home/stochlab/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.dox
+/home/stochlab/perception_stack/devel/share/image_proc/docs/CropDecimateConfig.dox: /home/stochlab/perception_stack/devel/include/image_proc/CropDecimateConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/CropDecimateConfig.dox
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig-usage.dox: /home/stochlab/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig-usage.dox
+/home/stochlab/perception_stack/devel/share/image_proc/docs/CropDecimateConfig-usage.dox: /home/stochlab/perception_stack/devel/include/image_proc/CropDecimateConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/CropDecimateConfig-usage.dox
 
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py: /home/stochlab/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py: /home/stochlab/perception_stack/devel/include/image_proc/CropDecimateConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.wikidoc: /home/stochlab/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.wikidoc
+/home/stochlab/perception_stack/devel/share/image_proc/docs/CropDecimateConfig.wikidoc: /home/stochlab/perception_stack/devel/include/image_proc/CropDecimateConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/CropDecimateConfig.wikidoc
 
-/home/stochlab/catkin_ws/devel/include/image_proc/DebayerConfig.h: /home/stochlab/catkin_ws/src/image_pipeline/image_proc/cfg/Debayer.cfg
-/home/stochlab/catkin_ws/devel/include/image_proc/DebayerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/stochlab/catkin_ws/devel/include/image_proc/DebayerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating dynamic reconfigure files from cfg/Debayer.cfg: /home/stochlab/catkin_ws/devel/include/image_proc/DebayerConfig.h /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/stochlab/catkin_ws/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/stochlab/catkin_ws/src/image_pipeline/image_proc/cfg/Debayer.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/catkin_ws/devel/share/image_proc /home/stochlab/catkin_ws/devel/include/image_proc /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc
+/home/stochlab/perception_stack/devel/include/image_proc/DebayerConfig.h: /home/stochlab/perception_stack/src/image_pipeline/image_proc/cfg/Debayer.cfg
+/home/stochlab/perception_stack/devel/include/image_proc/DebayerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/stochlab/perception_stack/devel/include/image_proc/DebayerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating dynamic reconfigure files from cfg/Debayer.cfg: /home/stochlab/perception_stack/devel/include/image_proc/DebayerConfig.h /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py"
+	cd /home/stochlab/perception_stack/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/stochlab/perception_stack/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/stochlab/perception_stack/src/image_pipeline/image_proc/cfg/Debayer.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/perception_stack/devel/share/image_proc /home/stochlab/perception_stack/devel/include/image_proc /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/DebayerConfig.dox: /home/stochlab/catkin_ws/devel/include/image_proc/DebayerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/DebayerConfig.dox
+/home/stochlab/perception_stack/devel/share/image_proc/docs/DebayerConfig.dox: /home/stochlab/perception_stack/devel/include/image_proc/DebayerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/DebayerConfig.dox
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/DebayerConfig-usage.dox: /home/stochlab/catkin_ws/devel/include/image_proc/DebayerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/DebayerConfig-usage.dox
+/home/stochlab/perception_stack/devel/share/image_proc/docs/DebayerConfig-usage.dox: /home/stochlab/perception_stack/devel/include/image_proc/DebayerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/DebayerConfig-usage.dox
 
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py: /home/stochlab/catkin_ws/devel/include/image_proc/DebayerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py: /home/stochlab/perception_stack/devel/include/image_proc/DebayerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/DebayerConfig.wikidoc: /home/stochlab/catkin_ws/devel/include/image_proc/DebayerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/DebayerConfig.wikidoc
+/home/stochlab/perception_stack/devel/share/image_proc/docs/DebayerConfig.wikidoc: /home/stochlab/perception_stack/devel/include/image_proc/DebayerConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/DebayerConfig.wikidoc
 
-/home/stochlab/catkin_ws/devel/include/image_proc/RectifyConfig.h: /home/stochlab/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg
-/home/stochlab/catkin_ws/devel/include/image_proc/RectifyConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/stochlab/catkin_ws/devel/include/image_proc/RectifyConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating dynamic reconfigure files from cfg/Rectify.cfg: /home/stochlab/catkin_ws/devel/include/image_proc/RectifyConfig.h /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/stochlab/catkin_ws/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/stochlab/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/catkin_ws/devel/share/image_proc /home/stochlab/catkin_ws/devel/include/image_proc /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc
+/home/stochlab/perception_stack/devel/include/image_proc/RectifyConfig.h: /home/stochlab/perception_stack/src/image_pipeline/image_proc/cfg/Rectify.cfg
+/home/stochlab/perception_stack/devel/include/image_proc/RectifyConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/stochlab/perception_stack/devel/include/image_proc/RectifyConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating dynamic reconfigure files from cfg/Rectify.cfg: /home/stochlab/perception_stack/devel/include/image_proc/RectifyConfig.h /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py"
+	cd /home/stochlab/perception_stack/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/stochlab/perception_stack/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/stochlab/perception_stack/src/image_pipeline/image_proc/cfg/Rectify.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/perception_stack/devel/share/image_proc /home/stochlab/perception_stack/devel/include/image_proc /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/RectifyConfig.dox: /home/stochlab/catkin_ws/devel/include/image_proc/RectifyConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/RectifyConfig.dox
+/home/stochlab/perception_stack/devel/share/image_proc/docs/RectifyConfig.dox: /home/stochlab/perception_stack/devel/include/image_proc/RectifyConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/RectifyConfig.dox
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/RectifyConfig-usage.dox: /home/stochlab/catkin_ws/devel/include/image_proc/RectifyConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/RectifyConfig-usage.dox
+/home/stochlab/perception_stack/devel/share/image_proc/docs/RectifyConfig-usage.dox: /home/stochlab/perception_stack/devel/include/image_proc/RectifyConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/RectifyConfig-usage.dox
 
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py: /home/stochlab/catkin_ws/devel/include/image_proc/RectifyConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py: /home/stochlab/perception_stack/devel/include/image_proc/RectifyConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/RectifyConfig.wikidoc: /home/stochlab/catkin_ws/devel/include/image_proc/RectifyConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/RectifyConfig.wikidoc
+/home/stochlab/perception_stack/devel/share/image_proc/docs/RectifyConfig.wikidoc: /home/stochlab/perception_stack/devel/include/image_proc/RectifyConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/RectifyConfig.wikidoc
 
-/home/stochlab/catkin_ws/devel/include/image_proc/ResizeConfig.h: /home/stochlab/catkin_ws/src/image_pipeline/image_proc/cfg/Resize.cfg
-/home/stochlab/catkin_ws/devel/include/image_proc/ResizeConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/stochlab/catkin_ws/devel/include/image_proc/ResizeConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating dynamic reconfigure files from cfg/Resize.cfg: /home/stochlab/catkin_ws/devel/include/image_proc/ResizeConfig.h /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/stochlab/catkin_ws/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/stochlab/catkin_ws/src/image_pipeline/image_proc/cfg/Resize.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/catkin_ws/devel/share/image_proc /home/stochlab/catkin_ws/devel/include/image_proc /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc
+/home/stochlab/perception_stack/devel/include/image_proc/ResizeConfig.h: /home/stochlab/perception_stack/src/image_pipeline/image_proc/cfg/Resize.cfg
+/home/stochlab/perception_stack/devel/include/image_proc/ResizeConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/stochlab/perception_stack/devel/include/image_proc/ResizeConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating dynamic reconfigure files from cfg/Resize.cfg: /home/stochlab/perception_stack/devel/include/image_proc/ResizeConfig.h /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py"
+	cd /home/stochlab/perception_stack/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/stochlab/perception_stack/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/stochlab/perception_stack/src/image_pipeline/image_proc/cfg/Resize.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/perception_stack/devel/share/image_proc /home/stochlab/perception_stack/devel/include/image_proc /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/ResizeConfig.dox: /home/stochlab/catkin_ws/devel/include/image_proc/ResizeConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/ResizeConfig.dox
+/home/stochlab/perception_stack/devel/share/image_proc/docs/ResizeConfig.dox: /home/stochlab/perception_stack/devel/include/image_proc/ResizeConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/ResizeConfig.dox
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/ResizeConfig-usage.dox: /home/stochlab/catkin_ws/devel/include/image_proc/ResizeConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/ResizeConfig-usage.dox
+/home/stochlab/perception_stack/devel/share/image_proc/docs/ResizeConfig-usage.dox: /home/stochlab/perception_stack/devel/include/image_proc/ResizeConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/ResizeConfig-usage.dox
 
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py: /home/stochlab/catkin_ws/devel/include/image_proc/ResizeConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py: /home/stochlab/perception_stack/devel/include/image_proc/ResizeConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py
 
-/home/stochlab/catkin_ws/devel/share/image_proc/docs/ResizeConfig.wikidoc: /home/stochlab/catkin_ws/devel/include/image_proc/ResizeConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/image_proc/docs/ResizeConfig.wikidoc
-
-image_proc_gencfg: image_pipeline/image_proc/CMakeFiles/image_proc_gencfg
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.dox
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig-usage.dox
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.wikidoc
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/include/image_proc/DebayerConfig.h
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/DebayerConfig.dox
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/DebayerConfig-usage.dox
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/DebayerConfig.wikidoc
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/include/image_proc/RectifyConfig.h
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/RectifyConfig.dox
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/RectifyConfig-usage.dox
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/RectifyConfig.wikidoc
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/include/image_proc/ResizeConfig.h
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/ResizeConfig.dox
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/ResizeConfig-usage.dox
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py
-image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/image_proc/docs/ResizeConfig.wikidoc
-=======
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/tejas/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/tejas/catkin_ws/devel/include/image_proc/DebayerConfig.h
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/tejas/catkin_ws/devel/include/image_proc/RectifyConfig.h
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/tejas/catkin_ws/devel/include/image_proc/ResizeConfig.h
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py
-
-
-/home/tejas/catkin_ws/devel/include/image_proc/CropDecimateConfig.h: /home/tejas/catkin_ws/src/image_pipeline/image_proc/cfg/CropDecimate.cfg
-/home/tejas/catkin_ws/devel/include/image_proc/CropDecimateConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/tejas/catkin_ws/devel/include/image_proc/CropDecimateConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/CropDecimate.cfg: /home/tejas/catkin_ws/devel/include/image_proc/CropDecimateConfig.h /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py"
-	cd /home/tejas/catkin_ws/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/tejas/catkin_ws/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/tejas/catkin_ws/src/image_pipeline/image_proc/cfg/CropDecimate.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/tejas/catkin_ws/devel/share/image_proc /home/tejas/catkin_ws/devel/include/image_proc /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.dox: /home/tejas/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.dox
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig-usage.dox: /home/tejas/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig-usage.dox
-
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py: /home/tejas/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.wikidoc: /home/tejas/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.wikidoc
-
-/home/tejas/catkin_ws/devel/include/image_proc/DebayerConfig.h: /home/tejas/catkin_ws/src/image_pipeline/image_proc/cfg/Debayer.cfg
-/home/tejas/catkin_ws/devel/include/image_proc/DebayerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/tejas/catkin_ws/devel/include/image_proc/DebayerConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating dynamic reconfigure files from cfg/Debayer.cfg: /home/tejas/catkin_ws/devel/include/image_proc/DebayerConfig.h /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py"
-	cd /home/tejas/catkin_ws/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/tejas/catkin_ws/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/tejas/catkin_ws/src/image_pipeline/image_proc/cfg/Debayer.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/tejas/catkin_ws/devel/share/image_proc /home/tejas/catkin_ws/devel/include/image_proc /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/DebayerConfig.dox: /home/tejas/catkin_ws/devel/include/image_proc/DebayerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/DebayerConfig.dox
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/DebayerConfig-usage.dox: /home/tejas/catkin_ws/devel/include/image_proc/DebayerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/DebayerConfig-usage.dox
-
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py: /home/tejas/catkin_ws/devel/include/image_proc/DebayerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/DebayerConfig.wikidoc: /home/tejas/catkin_ws/devel/include/image_proc/DebayerConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/DebayerConfig.wikidoc
-
-/home/tejas/catkin_ws/devel/include/image_proc/RectifyConfig.h: /home/tejas/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg
-/home/tejas/catkin_ws/devel/include/image_proc/RectifyConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/tejas/catkin_ws/devel/include/image_proc/RectifyConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating dynamic reconfigure files from cfg/Rectify.cfg: /home/tejas/catkin_ws/devel/include/image_proc/RectifyConfig.h /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py"
-	cd /home/tejas/catkin_ws/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/tejas/catkin_ws/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/tejas/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/tejas/catkin_ws/devel/share/image_proc /home/tejas/catkin_ws/devel/include/image_proc /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/RectifyConfig.dox: /home/tejas/catkin_ws/devel/include/image_proc/RectifyConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/RectifyConfig.dox
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/RectifyConfig-usage.dox: /home/tejas/catkin_ws/devel/include/image_proc/RectifyConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/RectifyConfig-usage.dox
-
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py: /home/tejas/catkin_ws/devel/include/image_proc/RectifyConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/RectifyConfig.wikidoc: /home/tejas/catkin_ws/devel/include/image_proc/RectifyConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/RectifyConfig.wikidoc
-
-/home/tejas/catkin_ws/devel/include/image_proc/ResizeConfig.h: /home/tejas/catkin_ws/src/image_pipeline/image_proc/cfg/Resize.cfg
-/home/tejas/catkin_ws/devel/include/image_proc/ResizeConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/tejas/catkin_ws/devel/include/image_proc/ResizeConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating dynamic reconfigure files from cfg/Resize.cfg: /home/tejas/catkin_ws/devel/include/image_proc/ResizeConfig.h /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py"
-	cd /home/tejas/catkin_ws/build/image_pipeline/image_proc && ../../catkin_generated/env_cached.sh /home/tejas/catkin_ws/build/image_pipeline/image_proc/setup_custom_pythonpath.sh /home/tejas/catkin_ws/src/image_pipeline/image_proc/cfg/Resize.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/tejas/catkin_ws/devel/share/image_proc /home/tejas/catkin_ws/devel/include/image_proc /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/ResizeConfig.dox: /home/tejas/catkin_ws/devel/include/image_proc/ResizeConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/ResizeConfig.dox
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/ResizeConfig-usage.dox: /home/tejas/catkin_ws/devel/include/image_proc/ResizeConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/ResizeConfig-usage.dox
-
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py: /home/tejas/catkin_ws/devel/include/image_proc/ResizeConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py
-
-/home/tejas/catkin_ws/devel/share/image_proc/docs/ResizeConfig.wikidoc: /home/tejas/catkin_ws/devel/include/image_proc/ResizeConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/image_proc/docs/ResizeConfig.wikidoc
+/home/stochlab/perception_stack/devel/share/image_proc/docs/ResizeConfig.wikidoc: /home/stochlab/perception_stack/devel/include/image_proc/ResizeConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/image_proc/docs/ResizeConfig.wikidoc
 
 image_proc_gencfg: image_pipeline/image_proc/CMakeFiles/image_proc_gencfg
-image_proc_gencfg: /home/tejas/catkin_ws/devel/include/image_proc/CropDecimateConfig.h
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.dox
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig-usage.dox
-image_proc_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/CropDecimateConfig.wikidoc
-image_proc_gencfg: /home/tejas/catkin_ws/devel/include/image_proc/DebayerConfig.h
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/DebayerConfig.dox
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/DebayerConfig-usage.dox
-image_proc_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/DebayerConfig.wikidoc
-image_proc_gencfg: /home/tejas/catkin_ws/devel/include/image_proc/RectifyConfig.h
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/RectifyConfig.dox
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/RectifyConfig-usage.dox
-image_proc_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/RectifyConfig.wikidoc
-image_proc_gencfg: /home/tejas/catkin_ws/devel/include/image_proc/ResizeConfig.h
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/ResizeConfig.dox
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/ResizeConfig-usage.dox
-image_proc_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py
-image_proc_gencfg: /home/tejas/catkin_ws/devel/share/image_proc/docs/ResizeConfig.wikidoc
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+image_proc_gencfg: /home/stochlab/perception_stack/devel/include/image_proc/CropDecimateConfig.h
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/CropDecimateConfig.dox
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/CropDecimateConfig-usage.dox
+image_proc_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/CropDecimateConfig.py
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/CropDecimateConfig.wikidoc
+image_proc_gencfg: /home/stochlab/perception_stack/devel/include/image_proc/DebayerConfig.h
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/DebayerConfig.dox
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/DebayerConfig-usage.dox
+image_proc_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/DebayerConfig.py
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/DebayerConfig.wikidoc
+image_proc_gencfg: /home/stochlab/perception_stack/devel/include/image_proc/RectifyConfig.h
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/RectifyConfig.dox
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/RectifyConfig-usage.dox
+image_proc_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/RectifyConfig.py
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/RectifyConfig.wikidoc
+image_proc_gencfg: /home/stochlab/perception_stack/devel/include/image_proc/ResizeConfig.h
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/ResizeConfig.dox
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/ResizeConfig-usage.dox
+image_proc_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/image_proc/cfg/ResizeConfig.py
+image_proc_gencfg: /home/stochlab/perception_stack/devel/share/image_proc/docs/ResizeConfig.wikidoc
 image_proc_gencfg: image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build.make
 
 .PHONY : image_proc_gencfg
@@ -279,18 +166,10 @@ image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build: image_proc_gen
 .PHONY : image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/build
 
 image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/image_pipeline/image_proc && $(CMAKE_COMMAND) -P CMakeFiles/image_proc_gencfg.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/image_pipeline/image_proc && $(CMAKE_COMMAND) -P CMakeFiles/image_proc_gencfg.dir/cmake_clean.cmake
 .PHONY : image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/clean
 
 image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/image_pipeline/image_proc /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/image_pipeline/image_proc /home/stochlab/catkin_ws/build/image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/image_pipeline/image_proc && $(CMAKE_COMMAND) -P CMakeFiles/image_proc_gencfg.dir/cmake_clean.cmake
-.PHONY : image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/clean
-
-image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/image_pipeline/image_proc /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/image_pipeline/image_proc /home/tejas/catkin_ws/build/image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/image_pipeline/image_proc /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/image_pipeline/image_proc /home/stochlab/perception_stack/build/image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : image_pipeline/image_proc/CMakeFiles/image_proc_gencfg.dir/depend
 

@@ -43,82 +43,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for stereo_image_proc_gencfg.
 
 # Include the progress variables for this target.
 include image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/progress.make
 
-<<<<<<< HEAD
-image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg: /home/stochlab/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py
+image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg: /home/stochlab/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h
+image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py
 
 
-/home/stochlab/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h: /home/stochlab/catkin_ws/src/image_pipeline/stereo_image_proc/cfg/Disparity.cfg
-/home/stochlab/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/stochlab/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/Disparity.cfg: /home/stochlab/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py"
-	cd /home/stochlab/catkin_ws/build/image_pipeline/stereo_image_proc && ../../catkin_generated/env_cached.sh /home/stochlab/catkin_ws/build/image_pipeline/stereo_image_proc/setup_custom_pythonpath.sh /home/stochlab/catkin_ws/src/image_pipeline/stereo_image_proc/cfg/Disparity.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/catkin_ws/devel/share/stereo_image_proc /home/stochlab/catkin_ws/devel/include/stereo_image_proc /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc
+/home/stochlab/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h: /home/stochlab/perception_stack/src/image_pipeline/stereo_image_proc/cfg/Disparity.cfg
+/home/stochlab/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/stochlab/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/Disparity.cfg: /home/stochlab/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h /home/stochlab/perception_stack/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py"
+	cd /home/stochlab/perception_stack/build/image_pipeline/stereo_image_proc && ../../catkin_generated/env_cached.sh /home/stochlab/perception_stack/build/image_pipeline/stereo_image_proc/setup_custom_pythonpath.sh /home/stochlab/perception_stack/src/image_pipeline/stereo_image_proc/cfg/Disparity.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/stochlab/perception_stack/devel/share/stereo_image_proc /home/stochlab/perception_stack/devel/include/stereo_image_proc /home/stochlab/perception_stack/devel/lib/python3/dist-packages/stereo_image_proc
 
-/home/stochlab/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.dox: /home/stochlab/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.dox
+/home/stochlab/perception_stack/devel/share/stereo_image_proc/docs/DisparityConfig.dox: /home/stochlab/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/stereo_image_proc/docs/DisparityConfig.dox
 
-/home/stochlab/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig-usage.dox: /home/stochlab/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig-usage.dox
+/home/stochlab/perception_stack/devel/share/stereo_image_proc/docs/DisparityConfig-usage.dox: /home/stochlab/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/stereo_image_proc/docs/DisparityConfig-usage.dox
 
-/home/stochlab/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py: /home/stochlab/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py
+/home/stochlab/perception_stack/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py: /home/stochlab/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py
 
-/home/stochlab/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.wikidoc: /home/stochlab/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.wikidoc
-
-stereo_image_proc_gencfg: image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg
-stereo_image_proc_gencfg: /home/stochlab/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-stereo_image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.dox
-stereo_image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig-usage.dox
-stereo_image_proc_gencfg: /home/stochlab/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py
-stereo_image_proc_gencfg: /home/stochlab/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.wikidoc
-=======
-image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg: /home/tejas/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py
-
-
-/home/tejas/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h: /home/tejas/catkin_ws/src/image_pipeline/stereo_image_proc/cfg/Disparity.cfg
-/home/tejas/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/tejas/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tejas/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/Disparity.cfg: /home/tejas/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h /home/tejas/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py"
-	cd /home/tejas/catkin_ws/build/image_pipeline/stereo_image_proc && ../../catkin_generated/env_cached.sh /home/tejas/catkin_ws/build/image_pipeline/stereo_image_proc/setup_custom_pythonpath.sh /home/tejas/catkin_ws/src/image_pipeline/stereo_image_proc/cfg/Disparity.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/tejas/catkin_ws/devel/share/stereo_image_proc /home/tejas/catkin_ws/devel/include/stereo_image_proc /home/tejas/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc
-
-/home/tejas/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.dox: /home/tejas/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.dox
-
-/home/tejas/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig-usage.dox: /home/tejas/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig-usage.dox
-
-/home/tejas/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py: /home/tejas/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py
-
-/home/tejas/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.wikidoc: /home/tejas/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/tejas/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.wikidoc
+/home/stochlab/perception_stack/devel/share/stereo_image_proc/docs/DisparityConfig.wikidoc: /home/stochlab/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/stochlab/perception_stack/devel/share/stereo_image_proc/docs/DisparityConfig.wikidoc
 
 stereo_image_proc_gencfg: image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg
-stereo_image_proc_gencfg: /home/tejas/catkin_ws/devel/include/stereo_image_proc/DisparityConfig.h
-stereo_image_proc_gencfg: /home/tejas/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.dox
-stereo_image_proc_gencfg: /home/tejas/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig-usage.dox
-stereo_image_proc_gencfg: /home/tejas/catkin_ws/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py
-stereo_image_proc_gencfg: /home/tejas/catkin_ws/devel/share/stereo_image_proc/docs/DisparityConfig.wikidoc
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+stereo_image_proc_gencfg: /home/stochlab/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h
+stereo_image_proc_gencfg: /home/stochlab/perception_stack/devel/share/stereo_image_proc/docs/DisparityConfig.dox
+stereo_image_proc_gencfg: /home/stochlab/perception_stack/devel/share/stereo_image_proc/docs/DisparityConfig-usage.dox
+stereo_image_proc_gencfg: /home/stochlab/perception_stack/devel/lib/python3/dist-packages/stereo_image_proc/cfg/DisparityConfig.py
+stereo_image_proc_gencfg: /home/stochlab/perception_stack/devel/share/stereo_image_proc/docs/DisparityConfig.wikidoc
 stereo_image_proc_gencfg: image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/build.make
 
 .PHONY : stereo_image_proc_gencfg
@@ -129,18 +91,10 @@ image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/build: 
 .PHONY : image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/build
 
 image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/image_pipeline/stereo_image_proc && $(CMAKE_COMMAND) -P CMakeFiles/stereo_image_proc_gencfg.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/image_pipeline/stereo_image_proc && $(CMAKE_COMMAND) -P CMakeFiles/stereo_image_proc_gencfg.dir/cmake_clean.cmake
 .PHONY : image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/clean
 
 image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/image_pipeline/stereo_image_proc /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/image_pipeline/stereo_image_proc /home/stochlab/catkin_ws/build/image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/image_pipeline/stereo_image_proc && $(CMAKE_COMMAND) -P CMakeFiles/stereo_image_proc_gencfg.dir/cmake_clean.cmake
-.PHONY : image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/clean
-
-image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/image_pipeline/stereo_image_proc /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/image_pipeline/stereo_image_proc /home/tejas/catkin_ws/build/image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/image_pipeline/stereo_image_proc /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/image_pipeline/stereo_image_proc /home/stochlab/perception_stack/build/image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/depend
 

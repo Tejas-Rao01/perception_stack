@@ -43,17 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 # Utility rule file for run_tests_camera_calibration_nosetests_test.multiple_boards.py.
 
@@ -61,11 +54,7 @@ CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
 include image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/progress.make
 
 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/image_pipeline/camera_calibration && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/stochlab/catkin_ws/build/test_results/camera_calibration/nosetests-test.multiple_boards.py.xml "\"/usr/bin/cmake\" -E make_directory /home/stochlab/catkin_ws/build/test_results/camera_calibration" "/usr/bin/nosetests3 -P --process-timeout=60 /home/stochlab/catkin_ws/src/image_pipeline/camera_calibration/test/multiple_boards.py --with-xunit --xunit-file=/home/stochlab/catkin_ws/build/test_results/camera_calibration/nosetests-test.multiple_boards.py.xml"
-=======
-	cd /home/tejas/catkin_ws/build/image_pipeline/camera_calibration && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/tejas/catkin_ws/build/test_results/camera_calibration/nosetests-test.multiple_boards.py.xml "\"/usr/bin/cmake\" -E make_directory /home/tejas/catkin_ws/build/test_results/camera_calibration" "/usr/bin/nosetests3 -P --process-timeout=60 /home/tejas/catkin_ws/src/image_pipeline/camera_calibration/test/multiple_boards.py --with-xunit --xunit-file=/home/tejas/catkin_ws/build/test_results/camera_calibration/nosetests-test.multiple_boards.py.xml"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build/image_pipeline/camera_calibration && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/stochlab/perception_stack/build/test_results/camera_calibration/nosetests-test.multiple_boards.py.xml "\"/usr/bin/cmake\" -E make_directory /home/stochlab/perception_stack/build/test_results/camera_calibration" "/usr/bin/nosetests3 -P --process-timeout=60 /home/stochlab/perception_stack/src/image_pipeline/camera_calibration/test/multiple_boards.py --with-xunit --xunit-file=/home/stochlab/perception_stack/build/test_results/camera_calibration/nosetests-test.multiple_boards.py.xml"
 
 run_tests_camera_calibration_nosetests_test.multiple_boards.py: image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py
 run_tests_camera_calibration_nosetests_test.multiple_boards.py: image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build.make
@@ -78,18 +67,10 @@ image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosete
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/build
 
 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build/image_pipeline/camera_calibration && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/cmake_clean.cmake
+	cd /home/stochlab/perception_stack/build/image_pipeline/camera_calibration && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/cmake_clean.cmake
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/clean
 
 image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/depend:
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/catkin_ws/src /home/stochlab/catkin_ws/src/image_pipeline/camera_calibration /home/stochlab/catkin_ws/build /home/stochlab/catkin_ws/build/image_pipeline/camera_calibration /home/stochlab/catkin_ws/build/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/tejas/catkin_ws/build/image_pipeline/camera_calibration && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/cmake_clean.cmake
-.PHONY : image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/clean
-
-image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/depend:
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tejas/catkin_ws/src /home/tejas/catkin_ws/src/image_pipeline/camera_calibration /home/tejas/catkin_ws/build /home/tejas/catkin_ws/build/image_pipeline/camera_calibration /home/tejas/catkin_ws/build/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stochlab/perception_stack/src /home/stochlab/perception_stack/src/image_pipeline/camera_calibration /home/stochlab/perception_stack/build /home/stochlab/perception_stack/build/image_pipeline/camera_calibration /home/stochlab/perception_stack/build/image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : image_pipeline/camera_calibration/CMakeFiles/run_tests_camera_calibration_nosetests_test.multiple_boards.py.dir/depend
 

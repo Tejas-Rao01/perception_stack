@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-if(NOT EXISTS "/home/stochlab/catkin_ws/build/kindr/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/stochlab/catkin_ws/build/kindr/install_manifest.txt")
-endif(NOT EXISTS "/home/stochlab/catkin_ws/build/kindr/install_manifest.txt")
+if(NOT EXISTS "/home/stochlab/perception_stack/build/kindr/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: /home/stochlab/perception_stack/build/kindr/install_manifest.txt")
+endif(NOT EXISTS "/home/stochlab/perception_stack/build/kindr/install_manifest.txt")
 
-file(READ "/home/stochlab/catkin_ws/build/kindr/install_manifest.txt" files)
-=======
-if(NOT EXISTS "/home/tejas/catkin_ws/build/kindr/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: /home/tejas/catkin_ws/build/kindr/install_manifest.txt")
-endif(NOT EXISTS "/home/tejas/catkin_ws/build/kindr/install_manifest.txt")
-
-file(READ "/home/tejas/catkin_ws/build/kindr/install_manifest.txt" files)
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+file(READ "/home/stochlab/perception_stack/build/kindr/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

@@ -1,11 +1,6 @@
 file(REMOVE_RECURSE
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/lib/image_view/extract_images"
-  "/home/stochlab/catkin_ws/devel/lib/image_view/extract_images.pdb"
-=======
-  "/home/tejas/catkin_ws/devel/lib/image_view/extract_images"
-  "/home/tejas/catkin_ws/devel/lib/image_view/extract_images.pdb"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/lib/image_view/extract_images"
+  "/home/stochlab/perception_stack/devel/lib/image_view/extract_images.pdb"
   "CMakeFiles/extract_images.dir/src/nodes/extract_images.cpp.o"
 )
 

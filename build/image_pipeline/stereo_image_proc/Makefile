@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/image_pipeline/stereo_image_proc/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/image_pipeline/stereo_image_proc/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/image_pipeline/stereo_image_proc/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/rule
 .PHONY : image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ stereoimageproc_exe: image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc
 
 # fast build rule for target.
 stereoimageproc_exe/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build
 .PHONY : stereoimageproc_exe/fast
 
 # Convenience name for target.
 image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/rule
 .PHONY : image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ stereo_image_proc: image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc
 
 # fast build rule for target.
 stereo_image_proc/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build
 .PHONY : stereo_image_proc/fast
 
 # Convenience name for target.
 image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/rule
 .PHONY : image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/rule
 
 # Convenience name for target.
@@ -258,11 +209,7 @@ stereo_image_proc_gencfg: image_pipeline/stereo_image_proc/CMakeFiles/stereo_ima
 
 # fast build rule for target.
 stereo_image_proc_gencfg/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc_gencfg.dir/build
 .PHONY : stereo_image_proc_gencfg/fast
 
 src/libstereo_image_proc/processor.o: src/libstereo_image_proc/processor.cpp.o
@@ -271,11 +218,7 @@ src/libstereo_image_proc/processor.o: src/libstereo_image_proc/processor.cpp.o
 
 # target to build an object file
 src/libstereo_image_proc/processor.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/libstereo_image_proc/processor.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/libstereo_image_proc/processor.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/libstereo_image_proc/processor.cpp.o
 .PHONY : src/libstereo_image_proc/processor.cpp.o
 
 src/libstereo_image_proc/processor.i: src/libstereo_image_proc/processor.cpp.i
@@ -284,11 +227,7 @@ src/libstereo_image_proc/processor.i: src/libstereo_image_proc/processor.cpp.i
 
 # target to preprocess a source file
 src/libstereo_image_proc/processor.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/libstereo_image_proc/processor.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/libstereo_image_proc/processor.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/libstereo_image_proc/processor.cpp.i
 .PHONY : src/libstereo_image_proc/processor.cpp.i
 
 src/libstereo_image_proc/processor.s: src/libstereo_image_proc/processor.cpp.s
@@ -297,11 +236,7 @@ src/libstereo_image_proc/processor.s: src/libstereo_image_proc/processor.cpp.s
 
 # target to generate assembly for a file
 src/libstereo_image_proc/processor.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/libstereo_image_proc/processor.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/libstereo_image_proc/processor.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/libstereo_image_proc/processor.cpp.s
 .PHONY : src/libstereo_image_proc/processor.cpp.s
 
 src/nodelets/disparity.o: src/nodelets/disparity.cpp.o
@@ -310,11 +245,7 @@ src/nodelets/disparity.o: src/nodelets/disparity.cpp.o
 
 # target to build an object file
 src/nodelets/disparity.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/disparity.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/disparity.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/disparity.cpp.o
 .PHONY : src/nodelets/disparity.cpp.o
 
 src/nodelets/disparity.i: src/nodelets/disparity.cpp.i
@@ -323,11 +254,7 @@ src/nodelets/disparity.i: src/nodelets/disparity.cpp.i
 
 # target to preprocess a source file
 src/nodelets/disparity.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/disparity.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/disparity.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/disparity.cpp.i
 .PHONY : src/nodelets/disparity.cpp.i
 
 src/nodelets/disparity.s: src/nodelets/disparity.cpp.s
@@ -336,11 +263,7 @@ src/nodelets/disparity.s: src/nodelets/disparity.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/disparity.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/disparity.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/disparity.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/disparity.cpp.s
 .PHONY : src/nodelets/disparity.cpp.s
 
 src/nodelets/point_cloud2.o: src/nodelets/point_cloud2.cpp.o
@@ -349,11 +272,7 @@ src/nodelets/point_cloud2.o: src/nodelets/point_cloud2.cpp.o
 
 # target to build an object file
 src/nodelets/point_cloud2.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/point_cloud2.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/point_cloud2.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/point_cloud2.cpp.o
 .PHONY : src/nodelets/point_cloud2.cpp.o
 
 src/nodelets/point_cloud2.i: src/nodelets/point_cloud2.cpp.i
@@ -362,11 +281,7 @@ src/nodelets/point_cloud2.i: src/nodelets/point_cloud2.cpp.i
 
 # target to preprocess a source file
 src/nodelets/point_cloud2.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/point_cloud2.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/point_cloud2.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/point_cloud2.cpp.i
 .PHONY : src/nodelets/point_cloud2.cpp.i
 
 src/nodelets/point_cloud2.s: src/nodelets/point_cloud2.cpp.s
@@ -375,11 +290,7 @@ src/nodelets/point_cloud2.s: src/nodelets/point_cloud2.cpp.s
 
 # target to generate assembly for a file
 src/nodelets/point_cloud2.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/point_cloud2.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/point_cloud2.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereo_image_proc.dir/src/nodelets/point_cloud2.cpp.s
 .PHONY : src/nodelets/point_cloud2.cpp.s
 
 src/nodes/stereo_image_proc.o: src/nodes/stereo_image_proc.cpp.o
@@ -388,11 +299,7 @@ src/nodes/stereo_image_proc.o: src/nodes/stereo_image_proc.cpp.o
 
 # target to build an object file
 src/nodes/stereo_image_proc.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.o
 .PHONY : src/nodes/stereo_image_proc.cpp.o
 
 src/nodes/stereo_image_proc.i: src/nodes/stereo_image_proc.cpp.i
@@ -401,11 +308,7 @@ src/nodes/stereo_image_proc.i: src/nodes/stereo_image_proc.cpp.i
 
 # target to preprocess a source file
 src/nodes/stereo_image_proc.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.i
 .PHONY : src/nodes/stereo_image_proc.cpp.i
 
 src/nodes/stereo_image_proc.s: src/nodes/stereo_image_proc.cpp.s
@@ -414,11 +317,7 @@ src/nodes/stereo_image_proc.s: src/nodes/stereo_image_proc.cpp.s
 
 # target to generate assembly for a file
 src/nodes/stereo_image_proc.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/build.make image_pipeline/stereo_image_proc/CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.s
 .PHONY : src/nodes/stereo_image_proc.cpp.s
 
 # Help Target
@@ -460,10 +359,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

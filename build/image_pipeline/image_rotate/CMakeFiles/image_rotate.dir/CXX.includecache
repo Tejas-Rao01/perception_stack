@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/devel/include/image_rotate/ImageRotateConfig.h
-=======
-/home/tejas/catkin_ws/devel/include/image_rotate/ImageRotateConfig.h
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/devel/include/image_rotate/ImageRotateConfig.h
 dynamic_reconfigure/config_tools.h
 -
 limits
@@ -28,11 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-<<<<<<< HEAD
-/home/stochlab/catkin_ws/src/image_pipeline/image_rotate/src/nodelet/image_rotate_nodelet.cpp
-=======
-/home/tejas/catkin_ws/src/image_pipeline/image_rotate/src/nodelet/image_rotate_nodelet.cpp
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+/home/stochlab/perception_stack/src/image_pipeline/image_rotate/src/nodelet/image_rotate_nodelet.cpp
 ros/ros.h
 -
 nodelet/nodelet.h

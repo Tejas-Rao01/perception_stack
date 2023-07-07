@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/image_pipeline/image_publisher/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/image_pipeline/image_publisher/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/image_pipeline/image_publisher/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/rule
 .PHONY : image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ image_publisher_exe: image_pipeline/image_publisher/CMakeFiles/image_publisher_e
 
 # fast build rule for target.
 image_publisher_exe/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build
 .PHONY : image_publisher_exe/fast
 
 # Convenience name for target.
 image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/rule
 .PHONY : image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ image_publisher: image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/r
 
 # fast build rule for target.
 image_publisher/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build
 .PHONY : image_publisher/fast
 
 # Convenience name for target.
 image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/rule
 .PHONY : image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/rule
 
 # Convenience name for target.
@@ -258,11 +209,7 @@ image_publisher_gencfg: image_pipeline/image_publisher/CMakeFiles/image_publishe
 
 # fast build rule for target.
 image_publisher_gencfg/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_gencfg.dir/build
 .PHONY : image_publisher_gencfg/fast
 
 src/node/image_publisher.o: src/node/image_publisher.cpp.o
@@ -271,11 +218,7 @@ src/node/image_publisher.o: src/node/image_publisher.cpp.o
 
 # target to build an object file
 src/node/image_publisher.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/src/node/image_publisher.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/src/node/image_publisher.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/src/node/image_publisher.cpp.o
 .PHONY : src/node/image_publisher.cpp.o
 
 src/node/image_publisher.i: src/node/image_publisher.cpp.i
@@ -284,11 +227,7 @@ src/node/image_publisher.i: src/node/image_publisher.cpp.i
 
 # target to preprocess a source file
 src/node/image_publisher.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/src/node/image_publisher.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/src/node/image_publisher.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/src/node/image_publisher.cpp.i
 .PHONY : src/node/image_publisher.cpp.i
 
 src/node/image_publisher.s: src/node/image_publisher.cpp.s
@@ -297,11 +236,7 @@ src/node/image_publisher.s: src/node/image_publisher.cpp.s
 
 # target to generate assembly for a file
 src/node/image_publisher.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/src/node/image_publisher.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/src/node/image_publisher.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher_exe.dir/src/node/image_publisher.cpp.s
 .PHONY : src/node/image_publisher.cpp.s
 
 src/nodelet/image_publisher_nodelet.o: src/nodelet/image_publisher_nodelet.cpp.o
@@ -310,11 +245,7 @@ src/nodelet/image_publisher_nodelet.o: src/nodelet/image_publisher_nodelet.cpp.o
 
 # target to build an object file
 src/nodelet/image_publisher_nodelet.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/src/nodelet/image_publisher_nodelet.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/src/nodelet/image_publisher_nodelet.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/src/nodelet/image_publisher_nodelet.cpp.o
 .PHONY : src/nodelet/image_publisher_nodelet.cpp.o
 
 src/nodelet/image_publisher_nodelet.i: src/nodelet/image_publisher_nodelet.cpp.i
@@ -323,11 +254,7 @@ src/nodelet/image_publisher_nodelet.i: src/nodelet/image_publisher_nodelet.cpp.i
 
 # target to preprocess a source file
 src/nodelet/image_publisher_nodelet.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/src/nodelet/image_publisher_nodelet.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/src/nodelet/image_publisher_nodelet.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/src/nodelet/image_publisher_nodelet.cpp.i
 .PHONY : src/nodelet/image_publisher_nodelet.cpp.i
 
 src/nodelet/image_publisher_nodelet.s: src/nodelet/image_publisher_nodelet.cpp.s
@@ -336,11 +263,7 @@ src/nodelet/image_publisher_nodelet.s: src/nodelet/image_publisher_nodelet.cpp.s
 
 # target to generate assembly for a file
 src/nodelet/image_publisher_nodelet.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/src/nodelet/image_publisher_nodelet.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/src/nodelet/image_publisher_nodelet.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/build.make image_pipeline/image_publisher/CMakeFiles/image_publisher.dir/src/nodelet/image_publisher_nodelet.cpp.s
 .PHONY : src/nodelet/image_publisher_nodelet.cpp.s
 
 # Help Target
@@ -376,10 +299,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

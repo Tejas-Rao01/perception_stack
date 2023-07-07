@@ -4,11 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/src/image_pipeline/image_proc/test/test_rectify.cpp" "/home/stochlab/catkin_ws/build/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.o"
-=======
-  "/home/tejas/catkin_ws/src/image_pipeline/image_proc/test/test_rectify.cpp" "/home/tejas/catkin_ws/build/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.o"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/src/image_pipeline/image_proc/test/test_rectify.cpp" "/home/stochlab/perception_stack/build/image_pipeline/image_proc/test/CMakeFiles/image_proc_test_rectify.dir/test_rectify.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -22,13 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/devel/include"
-  "/home/stochlab/catkin_ws/src/image_pipeline/image_proc/include"
-=======
-  "/home/tejas/catkin_ws/devel/include"
-  "/home/tejas/catkin_ws/src/image_pipeline/image_proc/include"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/devel/include"
+  "/home/stochlab/perception_stack/src/image_pipeline/image_proc/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/opencv4"
@@ -38,11 +29,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-<<<<<<< HEAD
-  "/home/stochlab/catkin_ws/build/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-=======
-  "/home/tejas/catkin_ws/build/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+  "/home/stochlab/perception_stack/build/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

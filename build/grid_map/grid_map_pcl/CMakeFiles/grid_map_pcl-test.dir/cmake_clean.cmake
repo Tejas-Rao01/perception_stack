@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_pcl/grid_map_pcl-test"
-  "/home/stochlab/catkin_ws/devel/lib/grid_map_pcl/grid_map_pcl-test.pdb"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_pcl/grid_map_pcl-test"
+  "/home/stochlab/perception_stack/devel/lib/grid_map_pcl/grid_map_pcl-test.pdb"
   "CMakeFiles/grid_map_pcl-test.dir/test/GridMapPclLoaderTest.cpp.o"
   "CMakeFiles/grid_map_pcl-test.dir/test/HelpersTest.cpp.o"
   "CMakeFiles/grid_map_pcl-test.dir/test/PointcloudCreator.cpp.o"

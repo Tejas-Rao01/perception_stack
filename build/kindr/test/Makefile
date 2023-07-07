@@ -48,17 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/stochlab/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/stochlab/perception_stack/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stochlab/catkin_ws/build
-=======
-CMAKE_SOURCE_DIR = /home/tejas/catkin_ws/src
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tejas/catkin_ws/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+CMAKE_BINARY_DIR = /home/stochlab/perception_stack/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -144,24 +137,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles /home/stochlab/catkin_ws/build/kindr/test/CMakeFiles/progress.marks
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/catkin_ws/build/CMakeFiles 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles /home/tejas/catkin_ws/build/kindr/test/CMakeFiles/progress.marks
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tejas/catkin_ws/build/CMakeFiles 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles /home/stochlab/perception_stack/build/kindr/test/CMakeFiles/progress.marks
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stochlab/perception_stack/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/clean
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/clean
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/clean
 .PHONY : clean
 
 # The main clean target
@@ -171,38 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/preinstall
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/preinstall
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule
 
 # Convenience name for target.
@@ -212,20 +179,12 @@ _run_tests_kindr_gtest_runUnitTestsPhysQuant: kindr/test/CMakeFiles/_run_tests_k
 
 # fast build rule for target.
 _run_tests_kindr_gtest_runUnitTestsPhysQuant/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build
 .PHONY : _run_tests_kindr_gtest_runUnitTestsPhysQuant/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/rule
 .PHONY : kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/rule
 
 # Convenience name for target.
@@ -235,20 +194,12 @@ runUnitTestsPhysQuant: kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/rule
 
 # fast build rule for target.
 runUnitTestsPhysQuant/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build
 .PHONY : runUnitTestsPhysQuant/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/runUnitTestsVector.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsVector.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsVector.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsVector.dir/rule
 .PHONY : kindr/test/CMakeFiles/runUnitTestsVector.dir/rule
 
 # Convenience name for target.
@@ -258,20 +209,12 @@ runUnitTestsVector: kindr/test/CMakeFiles/runUnitTestsVector.dir/rule
 
 # fast build rule for target.
 runUnitTestsVector/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/build
 .PHONY : runUnitTestsVector/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule
 
 # Convenience name for target.
@@ -281,20 +224,12 @@ run_tests_kindr_gtest_runUnitTestsLinearAlgebra: kindr/test/CMakeFiles/run_tests
 
 # fast build rule for target.
 run_tests_kindr_gtest_runUnitTestsLinearAlgebra/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build
 .PHONY : run_tests_kindr_gtest_runUnitTestsLinearAlgebra/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/rule
 .PHONY : kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/rule
 
 # Convenience name for target.
@@ -304,20 +239,12 @@ runUnitTestsLinearAlgebra: kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/r
 
 # fast build rule for target.
 runUnitTestsLinearAlgebra/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build
 .PHONY : runUnitTestsLinearAlgebra/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule
 
 # Convenience name for target.
@@ -327,20 +254,12 @@ run_tests_kindr_gtest_runUnitTestsQuaternions: kindr/test/CMakeFiles/run_tests_k
 
 # fast build rule for target.
 run_tests_kindr_gtest_runUnitTestsQuaternions/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build
 .PHONY : run_tests_kindr_gtest_runUnitTestsQuaternions/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/rule
 
 # Convenience name for target.
@@ -350,20 +269,12 @@ run_tests_kindr_gtest: kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/rule
 
 # fast build rule for target.
 run_tests_kindr_gtest/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest.dir/build
 .PHONY : run_tests_kindr_gtest/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule
 
 # Convenience name for target.
@@ -373,20 +284,12 @@ _run_tests_kindr_gtest_runUnitTestsPoseDiff: kindr/test/CMakeFiles/_run_tests_ki
 
 # fast build rule for target.
 _run_tests_kindr_gtest_runUnitTestsPoseDiff/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build
 .PHONY : _run_tests_kindr_gtest_runUnitTestsPoseDiff/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/clean_test_results_kindr.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/clean_test_results_kindr.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/clean_test_results_kindr.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/clean_test_results_kindr.dir/rule
 .PHONY : kindr/test/CMakeFiles/clean_test_results_kindr.dir/rule
 
 # Convenience name for target.
@@ -396,20 +299,12 @@ clean_test_results_kindr: kindr/test/CMakeFiles/clean_test_results_kindr.dir/rul
 
 # fast build rule for target.
 clean_test_results_kindr/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/clean_test_results_kindr.dir/build.make kindr/test/CMakeFiles/clean_test_results_kindr.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/clean_test_results_kindr.dir/build.make kindr/test/CMakeFiles/clean_test_results_kindr.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/clean_test_results_kindr.dir/build.make kindr/test/CMakeFiles/clean_test_results_kindr.dir/build
 .PHONY : clean_test_results_kindr/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/rule
 
 # Convenience name for target.
@@ -419,20 +314,12 @@ _run_tests_kindr_gtest_runUnitTestsCommon: kindr/test/CMakeFiles/_run_tests_kind
 
 # fast build rule for target.
 _run_tests_kindr_gtest_runUnitTestsCommon/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsCommon.dir/build
 .PHONY : _run_tests_kindr_gtest_runUnitTestsCommon/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/rule
 
 # Convenience name for target.
@@ -442,20 +329,12 @@ run_tests_kindr_gtest_runUnitTestsPhysQuant: kindr/test/CMakeFiles/run_tests_kin
 
 # fast build rule for target.
 run_tests_kindr_gtest_runUnitTestsPhysQuant/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPhysQuant.dir/build
 .PHONY : run_tests_kindr_gtest_runUnitTestsPhysQuant/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/rule
 
 # Convenience name for target.
@@ -465,20 +344,12 @@ run_tests_kindr_gtest_runUnitTestsVector: kindr/test/CMakeFiles/run_tests_kindr_
 
 # fast build rule for target.
 run_tests_kindr_gtest_runUnitTestsVector/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsVector.dir/build
 .PHONY : run_tests_kindr_gtest_runUnitTestsVector/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/rule
 
 # Convenience name for target.
@@ -488,20 +359,12 @@ _run_tests_kindr_gtest: kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/rule
 
 # fast build rule for target.
 _run_tests_kindr_gtest/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest.dir/build
 .PHONY : _run_tests_kindr_gtest/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/rule
 
 # Convenience name for target.
@@ -511,20 +374,12 @@ run_tests_kindr_gtest_runUnitTestsPositions: kindr/test/CMakeFiles/run_tests_kin
 
 # fast build rule for target.
 run_tests_kindr_gtest_runUnitTestsPositions/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPositions.dir/build
 .PHONY : run_tests_kindr_gtest_runUnitTestsPositions/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/rule
 
 # Convenience name for target.
@@ -534,20 +389,12 @@ _run_tests_kindr_gtest_runUnitTestsLinearAlgebra: kindr/test/CMakeFiles/_run_tes
 
 # fast build rule for target.
 _run_tests_kindr_gtest_runUnitTestsLinearAlgebra/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsLinearAlgebra.dir/build
 .PHONY : _run_tests_kindr_gtest_runUnitTestsLinearAlgebra/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/rule
 .PHONY : kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/rule
 
 # Convenience name for target.
@@ -557,20 +404,12 @@ runUnitTestsQuaternions: kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/rule
 
 # fast build rule for target.
 runUnitTestsQuaternions/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build
 .PHONY : runUnitTestsQuaternions/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr.dir/rule
 
 # Convenience name for target.
@@ -580,20 +419,12 @@ _run_tests_kindr: kindr/test/CMakeFiles/_run_tests_kindr.dir/rule
 
 # fast build rule for target.
 _run_tests_kindr/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr.dir/build
 .PHONY : _run_tests_kindr/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rule
 .PHONY : kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rule
 
 # Convenience name for target.
@@ -603,20 +434,12 @@ runUnitTestsRotationDiff: kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rul
 
 # fast build rule for target.
 runUnitTestsRotationDiff/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build
 .PHONY : runUnitTestsRotationDiff/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr.dir/rule
 
 # Convenience name for target.
@@ -626,20 +449,12 @@ run_tests_kindr: kindr/test/CMakeFiles/run_tests_kindr.dir/rule
 
 # fast build rule for target.
 run_tests_kindr/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr.dir/build.make kindr/test/CMakeFiles/run_tests_kindr.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr.dir/build.make kindr/test/CMakeFiles/run_tests_kindr.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr.dir/build.make kindr/test/CMakeFiles/run_tests_kindr.dir/build
 .PHONY : run_tests_kindr/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/rule
 .PHONY : kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/rule
 
 # Convenience name for target.
@@ -649,20 +464,12 @@ runUnitTestsPoseDiff: kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/rule
 
 # fast build rule for target.
 runUnitTestsPoseDiff/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build
 .PHONY : runUnitTestsPoseDiff/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/rule
 
 # Convenience name for target.
@@ -672,20 +479,12 @@ run_tests_kindr_gtest_runUnitTestsCommon: kindr/test/CMakeFiles/run_tests_kindr_
 
 # fast build rule for target.
 run_tests_kindr_gtest_runUnitTestsCommon/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsCommon.dir/build
 .PHONY : run_tests_kindr_gtest_runUnitTestsCommon/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/runUnitTestsCommon.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsCommon.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsCommon.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsCommon.dir/rule
 .PHONY : kindr/test/CMakeFiles/runUnitTestsCommon.dir/rule
 
 # Convenience name for target.
@@ -695,20 +494,12 @@ runUnitTestsCommon: kindr/test/CMakeFiles/runUnitTestsCommon.dir/rule
 
 # fast build rule for target.
 runUnitTestsCommon/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/build
 .PHONY : runUnitTestsCommon/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/rule
 
 # Convenience name for target.
@@ -718,20 +509,12 @@ _run_tests_kindr_gtest_runUnitTestsVector: kindr/test/CMakeFiles/_run_tests_kind
 
 # fast build rule for target.
 _run_tests_kindr_gtest_runUnitTestsVector/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsVector.dir/build
 .PHONY : _run_tests_kindr_gtest_runUnitTestsVector/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/rule
 
 # Convenience name for target.
@@ -741,20 +524,12 @@ _run_tests_kindr_gtest_runUnitTestsQuaternions: kindr/test/CMakeFiles/_run_tests
 
 # fast build rule for target.
 _run_tests_kindr_gtest_runUnitTestsQuaternions/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsQuaternions.dir/build
 .PHONY : _run_tests_kindr_gtest_runUnitTestsQuaternions/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsRotation.dir/rule
 .PHONY : kindr/test/CMakeFiles/runUnitTestsRotation.dir/rule
 
 # Convenience name for target.
@@ -764,20 +539,12 @@ runUnitTestsRotation: kindr/test/CMakeFiles/runUnitTestsRotation.dir/rule
 
 # fast build rule for target.
 runUnitTestsRotation/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/build
 .PHONY : runUnitTestsRotation/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/rule
 
 # Convenience name for target.
@@ -787,20 +554,12 @@ run_tests_kindr_gtest_runUnitTestsRotation: kindr/test/CMakeFiles/run_tests_kind
 
 # fast build rule for target.
 run_tests_kindr_gtest_runUnitTestsRotation/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotation.dir/build
 .PHONY : run_tests_kindr_gtest_runUnitTestsRotation/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/rule
 
 # Convenience name for target.
@@ -810,20 +569,12 @@ _run_tests_kindr_gtest_runUnitTestsRotation: kindr/test/CMakeFiles/_run_tests_ki
 
 # fast build rule for target.
 _run_tests_kindr_gtest_runUnitTestsRotation/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotation.dir/build
 .PHONY : _run_tests_kindr_gtest_runUnitTestsRotation/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule
 
 # Convenience name for target.
@@ -833,20 +584,12 @@ run_tests_kindr_gtest_runUnitTestsRotationDiff: kindr/test/CMakeFiles/run_tests_
 
 # fast build rule for target.
 run_tests_kindr_gtest_runUnitTestsRotationDiff/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build
 .PHONY : run_tests_kindr_gtest_runUnitTestsRotationDiff/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/rule
 
 # Convenience name for target.
@@ -856,20 +599,12 @@ _run_tests_kindr_gtest_runUnitTestsRotationDiff: kindr/test/CMakeFiles/_run_test
 
 # fast build rule for target.
 _run_tests_kindr_gtest_runUnitTestsRotationDiff/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsRotationDiff.dir/build
 .PHONY : _run_tests_kindr_gtest_runUnitTestsRotationDiff/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/rule
 
 # Convenience name for target.
@@ -879,20 +614,12 @@ _run_tests_kindr_gtest_runUnitTestsPose: kindr/test/CMakeFiles/_run_tests_kindr_
 
 # fast build rule for target.
 _run_tests_kindr_gtest_runUnitTestsPose/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPose.dir/build
 .PHONY : _run_tests_kindr_gtest_runUnitTestsPose/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/rule
 
 # Convenience name for target.
@@ -902,20 +629,12 @@ run_tests_kindr_gtest_runUnitTestsPoseDiff: kindr/test/CMakeFiles/run_tests_kind
 
 # fast build rule for target.
 run_tests_kindr_gtest_runUnitTestsPoseDiff/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPoseDiff.dir/build
 .PHONY : run_tests_kindr_gtest_runUnitTestsPoseDiff/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/rule
 .PHONY : kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/rule
 
 # Convenience name for target.
@@ -925,20 +644,12 @@ _run_tests_kindr_gtest_runUnitTestsPositions: kindr/test/CMakeFiles/_run_tests_k
 
 # fast build rule for target.
 _run_tests_kindr_gtest_runUnitTestsPositions/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/_run_tests_kindr_gtest_runUnitTestsPositions.dir/build
 .PHONY : _run_tests_kindr_gtest_runUnitTestsPositions/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/runUnitTestsPositions.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPositions.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPositions.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPositions.dir/rule
 .PHONY : kindr/test/CMakeFiles/runUnitTestsPositions.dir/rule
 
 # Convenience name for target.
@@ -948,20 +659,12 @@ runUnitTestsPositions: kindr/test/CMakeFiles/runUnitTestsPositions.dir/rule
 
 # fast build rule for target.
 runUnitTestsPositions/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/build
 .PHONY : runUnitTestsPositions/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/runUnitTestsPose.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPose.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPose.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/runUnitTestsPose.dir/rule
 .PHONY : kindr/test/CMakeFiles/runUnitTestsPose.dir/rule
 
 # Convenience name for target.
@@ -971,20 +674,12 @@ runUnitTestsPose: kindr/test/CMakeFiles/runUnitTestsPose.dir/rule
 
 # fast build rule for target.
 runUnitTestsPose/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/build
 .PHONY : runUnitTestsPose/fast
 
 # Convenience name for target.
 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/rule:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/rule
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/rule
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/rule
 .PHONY : kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/rule
 
 # Convenience name for target.
@@ -994,11 +689,7 @@ run_tests_kindr_gtest_runUnitTestsPose: kindr/test/CMakeFiles/run_tests_kindr_gt
 
 # fast build rule for target.
 run_tests_kindr_gtest_runUnitTestsPose/fast:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/build
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/build
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/run_tests_kindr_gtest_runUnitTestsPose.dir/build
 .PHONY : run_tests_kindr_gtest_runUnitTestsPose/fast
 
 common/CommonTest.o: common/CommonTest.cpp.o
@@ -1007,11 +698,7 @@ common/CommonTest.o: common/CommonTest.cpp.o
 
 # target to build an object file
 common/CommonTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/common/CommonTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/common/CommonTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/common/CommonTest.cpp.o
 .PHONY : common/CommonTest.cpp.o
 
 common/CommonTest.i: common/CommonTest.cpp.i
@@ -1020,11 +707,7 @@ common/CommonTest.i: common/CommonTest.cpp.i
 
 # target to preprocess a source file
 common/CommonTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/common/CommonTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/common/CommonTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/common/CommonTest.cpp.i
 .PHONY : common/CommonTest.cpp.i
 
 common/CommonTest.s: common/CommonTest.cpp.s
@@ -1033,11 +716,7 @@ common/CommonTest.s: common/CommonTest.cpp.s
 
 # target to generate assembly for a file
 common/CommonTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/common/CommonTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/common/CommonTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/common/CommonTest.cpp.s
 .PHONY : common/CommonTest.cpp.s
 
 linear_algebra/PseudoInverseTest.o: linear_algebra/PseudoInverseTest.cpp.o
@@ -1046,11 +725,7 @@ linear_algebra/PseudoInverseTest.o: linear_algebra/PseudoInverseTest.cpp.o
 
 # target to build an object file
 linear_algebra/PseudoInverseTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/PseudoInverseTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/PseudoInverseTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/PseudoInverseTest.cpp.o
 .PHONY : linear_algebra/PseudoInverseTest.cpp.o
 
 linear_algebra/PseudoInverseTest.i: linear_algebra/PseudoInverseTest.cpp.i
@@ -1059,11 +734,7 @@ linear_algebra/PseudoInverseTest.i: linear_algebra/PseudoInverseTest.cpp.i
 
 # target to preprocess a source file
 linear_algebra/PseudoInverseTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/PseudoInverseTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/PseudoInverseTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/PseudoInverseTest.cpp.i
 .PHONY : linear_algebra/PseudoInverseTest.cpp.i
 
 linear_algebra/PseudoInverseTest.s: linear_algebra/PseudoInverseTest.cpp.s
@@ -1072,11 +743,7 @@ linear_algebra/PseudoInverseTest.s: linear_algebra/PseudoInverseTest.cpp.s
 
 # target to generate assembly for a file
 linear_algebra/PseudoInverseTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/PseudoInverseTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/PseudoInverseTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/PseudoInverseTest.cpp.s
 .PHONY : linear_algebra/PseudoInverseTest.cpp.s
 
 linear_algebra/SkewMatrixFromVectorTest.o: linear_algebra/SkewMatrixFromVectorTest.cpp.o
@@ -1085,11 +752,7 @@ linear_algebra/SkewMatrixFromVectorTest.o: linear_algebra/SkewMatrixFromVectorTe
 
 # target to build an object file
 linear_algebra/SkewMatrixFromVectorTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/SkewMatrixFromVectorTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/SkewMatrixFromVectorTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/SkewMatrixFromVectorTest.cpp.o
 .PHONY : linear_algebra/SkewMatrixFromVectorTest.cpp.o
 
 linear_algebra/SkewMatrixFromVectorTest.i: linear_algebra/SkewMatrixFromVectorTest.cpp.i
@@ -1098,11 +761,7 @@ linear_algebra/SkewMatrixFromVectorTest.i: linear_algebra/SkewMatrixFromVectorTe
 
 # target to preprocess a source file
 linear_algebra/SkewMatrixFromVectorTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/SkewMatrixFromVectorTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/SkewMatrixFromVectorTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/SkewMatrixFromVectorTest.cpp.i
 .PHONY : linear_algebra/SkewMatrixFromVectorTest.cpp.i
 
 linear_algebra/SkewMatrixFromVectorTest.s: linear_algebra/SkewMatrixFromVectorTest.cpp.s
@@ -1111,11 +770,7 @@ linear_algebra/SkewMatrixFromVectorTest.s: linear_algebra/SkewMatrixFromVectorTe
 
 # target to generate assembly for a file
 linear_algebra/SkewMatrixFromVectorTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/SkewMatrixFromVectorTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/SkewMatrixFromVectorTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/linear_algebra/SkewMatrixFromVectorTest.cpp.s
 .PHONY : linear_algebra/SkewMatrixFromVectorTest.cpp.s
 
 phys_quant/ForceTest.o: phys_quant/ForceTest.cpp.o
@@ -1124,11 +779,7 @@ phys_quant/ForceTest.o: phys_quant/ForceTest.cpp.o
 
 # target to build an object file
 phys_quant/ForceTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o
 .PHONY : phys_quant/ForceTest.cpp.o
 
 phys_quant/ForceTest.i: phys_quant/ForceTest.cpp.i
@@ -1137,11 +788,7 @@ phys_quant/ForceTest.i: phys_quant/ForceTest.cpp.i
 
 # target to preprocess a source file
 phys_quant/ForceTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.i
 .PHONY : phys_quant/ForceTest.cpp.i
 
 phys_quant/ForceTest.s: phys_quant/ForceTest.cpp.s
@@ -1150,11 +797,7 @@ phys_quant/ForceTest.s: phys_quant/ForceTest.cpp.s
 
 # target to generate assembly for a file
 phys_quant/ForceTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.s
 .PHONY : phys_quant/ForceTest.cpp.s
 
 phys_quant/ScalarTest.o: phys_quant/ScalarTest.cpp.o
@@ -1163,11 +806,7 @@ phys_quant/ScalarTest.o: phys_quant/ScalarTest.cpp.o
 
 # target to build an object file
 phys_quant/ScalarTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o
 .PHONY : phys_quant/ScalarTest.cpp.o
 
 phys_quant/ScalarTest.i: phys_quant/ScalarTest.cpp.i
@@ -1176,11 +815,7 @@ phys_quant/ScalarTest.i: phys_quant/ScalarTest.cpp.i
 
 # target to preprocess a source file
 phys_quant/ScalarTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.i
 .PHONY : phys_quant/ScalarTest.cpp.i
 
 phys_quant/ScalarTest.s: phys_quant/ScalarTest.cpp.s
@@ -1189,11 +824,7 @@ phys_quant/ScalarTest.s: phys_quant/ScalarTest.cpp.s
 
 # target to generate assembly for a file
 phys_quant/ScalarTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.s
 .PHONY : phys_quant/ScalarTest.cpp.s
 
 phys_quant/WrenchTest.o: phys_quant/WrenchTest.cpp.o
@@ -1202,11 +833,7 @@ phys_quant/WrenchTest.o: phys_quant/WrenchTest.cpp.o
 
 # target to build an object file
 phys_quant/WrenchTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o
 .PHONY : phys_quant/WrenchTest.cpp.o
 
 phys_quant/WrenchTest.i: phys_quant/WrenchTest.cpp.i
@@ -1215,11 +842,7 @@ phys_quant/WrenchTest.i: phys_quant/WrenchTest.cpp.i
 
 # target to preprocess a source file
 phys_quant/WrenchTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.i
 .PHONY : phys_quant/WrenchTest.cpp.i
 
 phys_quant/WrenchTest.s: phys_quant/WrenchTest.cpp.s
@@ -1228,11 +851,7 @@ phys_quant/WrenchTest.s: phys_quant/WrenchTest.cpp.s
 
 # target to generate assembly for a file
 phys_quant/WrenchTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.s
 .PHONY : phys_quant/WrenchTest.cpp.s
 
 poses/HomogeneousTransformationTest.o: poses/HomogeneousTransformationTest.cpp.o
@@ -1241,11 +860,7 @@ poses/HomogeneousTransformationTest.o: poses/HomogeneousTransformationTest.cpp.o
 
 # target to build an object file
 poses/HomogeneousTransformationTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.o
 .PHONY : poses/HomogeneousTransformationTest.cpp.o
 
 poses/HomogeneousTransformationTest.i: poses/HomogeneousTransformationTest.cpp.i
@@ -1254,11 +869,7 @@ poses/HomogeneousTransformationTest.i: poses/HomogeneousTransformationTest.cpp.i
 
 # target to preprocess a source file
 poses/HomogeneousTransformationTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.i
 .PHONY : poses/HomogeneousTransformationTest.cpp.i
 
 poses/HomogeneousTransformationTest.s: poses/HomogeneousTransformationTest.cpp.s
@@ -1267,11 +878,7 @@ poses/HomogeneousTransformationTest.s: poses/HomogeneousTransformationTest.cpp.s
 
 # target to generate assembly for a file
 poses/HomogeneousTransformationTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.s
 .PHONY : poses/HomogeneousTransformationTest.cpp.s
 
 poses/PoseDiffTest.o: poses/PoseDiffTest.cpp.o
@@ -1280,11 +887,7 @@ poses/PoseDiffTest.o: poses/PoseDiffTest.cpp.o
 
 # target to build an object file
 poses/PoseDiffTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PoseDiffTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PoseDiffTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PoseDiffTest.cpp.o
 .PHONY : poses/PoseDiffTest.cpp.o
 
 poses/PoseDiffTest.i: poses/PoseDiffTest.cpp.i
@@ -1293,11 +896,7 @@ poses/PoseDiffTest.i: poses/PoseDiffTest.cpp.i
 
 # target to preprocess a source file
 poses/PoseDiffTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PoseDiffTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PoseDiffTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PoseDiffTest.cpp.i
 .PHONY : poses/PoseDiffTest.cpp.i
 
 poses/PoseDiffTest.s: poses/PoseDiffTest.cpp.s
@@ -1306,11 +905,7 @@ poses/PoseDiffTest.s: poses/PoseDiffTest.cpp.s
 
 # target to generate assembly for a file
 poses/PoseDiffTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PoseDiffTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PoseDiffTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PoseDiffTest.cpp.s
 .PHONY : poses/PoseDiffTest.cpp.s
 
 poses/PositionDiffTest.o: poses/PositionDiffTest.cpp.o
@@ -1319,11 +914,7 @@ poses/PositionDiffTest.o: poses/PositionDiffTest.cpp.o
 
 # target to build an object file
 poses/PositionDiffTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PositionDiffTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PositionDiffTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PositionDiffTest.cpp.o
 .PHONY : poses/PositionDiffTest.cpp.o
 
 poses/PositionDiffTest.i: poses/PositionDiffTest.cpp.i
@@ -1332,11 +923,7 @@ poses/PositionDiffTest.i: poses/PositionDiffTest.cpp.i
 
 # target to preprocess a source file
 poses/PositionDiffTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PositionDiffTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PositionDiffTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PositionDiffTest.cpp.i
 .PHONY : poses/PositionDiffTest.cpp.i
 
 poses/PositionDiffTest.s: poses/PositionDiffTest.cpp.s
@@ -1345,11 +932,7 @@ poses/PositionDiffTest.s: poses/PositionDiffTest.cpp.s
 
 # target to generate assembly for a file
 poses/PositionDiffTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PositionDiffTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PositionDiffTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/PositionDiffTest.cpp.s
 .PHONY : poses/PositionDiffTest.cpp.s
 
 poses/PositionTest.o: poses/PositionTest.cpp.o
@@ -1358,11 +941,7 @@ poses/PositionTest.o: poses/PositionTest.cpp.o
 
 # target to build an object file
 poses/PositionTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.o
 .PHONY : poses/PositionTest.cpp.o
 
 poses/PositionTest.i: poses/PositionTest.cpp.i
@@ -1371,11 +950,7 @@ poses/PositionTest.i: poses/PositionTest.cpp.i
 
 # target to preprocess a source file
 poses/PositionTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.i
 .PHONY : poses/PositionTest.cpp.i
 
 poses/PositionTest.s: poses/PositionTest.cpp.s
@@ -1384,11 +959,7 @@ poses/PositionTest.s: poses/PositionTest.cpp.s
 
 # target to generate assembly for a file
 poses/PositionTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.s
 .PHONY : poses/PositionTest.cpp.s
 
 poses/TwistWithAngularVelocityTest.o: poses/TwistWithAngularVelocityTest.cpp.o
@@ -1397,11 +968,7 @@ poses/TwistWithAngularVelocityTest.o: poses/TwistWithAngularVelocityTest.cpp.o
 
 # target to build an object file
 poses/TwistWithAngularVelocityTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/TwistWithAngularVelocityTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/TwistWithAngularVelocityTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/TwistWithAngularVelocityTest.cpp.o
 .PHONY : poses/TwistWithAngularVelocityTest.cpp.o
 
 poses/TwistWithAngularVelocityTest.i: poses/TwistWithAngularVelocityTest.cpp.i
@@ -1410,11 +977,7 @@ poses/TwistWithAngularVelocityTest.i: poses/TwistWithAngularVelocityTest.cpp.i
 
 # target to preprocess a source file
 poses/TwistWithAngularVelocityTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/TwistWithAngularVelocityTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/TwistWithAngularVelocityTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/TwistWithAngularVelocityTest.cpp.i
 .PHONY : poses/TwistWithAngularVelocityTest.cpp.i
 
 poses/TwistWithAngularVelocityTest.s: poses/TwistWithAngularVelocityTest.cpp.s
@@ -1423,11 +986,7 @@ poses/TwistWithAngularVelocityTest.s: poses/TwistWithAngularVelocityTest.cpp.s
 
 # target to generate assembly for a file
 poses/TwistWithAngularVelocityTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/TwistWithAngularVelocityTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/TwistWithAngularVelocityTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/poses/TwistWithAngularVelocityTest.cpp.s
 .PHONY : poses/TwistWithAngularVelocityTest.cpp.s
 
 quaternions/QuaternionTest.o: quaternions/QuaternionTest.cpp.o
@@ -1436,11 +995,7 @@ quaternions/QuaternionTest.o: quaternions/QuaternionTest.cpp.o
 
 # target to build an object file
 quaternions/QuaternionTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/quaternions/QuaternionTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/quaternions/QuaternionTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/quaternions/QuaternionTest.cpp.o
 .PHONY : quaternions/QuaternionTest.cpp.o
 
 quaternions/QuaternionTest.i: quaternions/QuaternionTest.cpp.i
@@ -1449,11 +1004,7 @@ quaternions/QuaternionTest.i: quaternions/QuaternionTest.cpp.i
 
 # target to preprocess a source file
 quaternions/QuaternionTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/quaternions/QuaternionTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/quaternions/QuaternionTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/quaternions/QuaternionTest.cpp.i
 .PHONY : quaternions/QuaternionTest.cpp.i
 
 quaternions/QuaternionTest.s: quaternions/QuaternionTest.cpp.s
@@ -1462,11 +1013,7 @@ quaternions/QuaternionTest.s: quaternions/QuaternionTest.cpp.s
 
 # target to generate assembly for a file
 quaternions/QuaternionTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/quaternions/QuaternionTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/quaternions/QuaternionTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/quaternions/QuaternionTest.cpp.s
 .PHONY : quaternions/QuaternionTest.cpp.s
 
 rotations/AngleAxisTest.o: rotations/AngleAxisTest.cpp.o
@@ -1475,11 +1022,7 @@ rotations/AngleAxisTest.o: rotations/AngleAxisTest.cpp.o
 
 # target to build an object file
 rotations/AngleAxisTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.o
 .PHONY : rotations/AngleAxisTest.cpp.o
 
 rotations/AngleAxisTest.i: rotations/AngleAxisTest.cpp.i
@@ -1488,11 +1031,7 @@ rotations/AngleAxisTest.i: rotations/AngleAxisTest.cpp.i
 
 # target to preprocess a source file
 rotations/AngleAxisTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.i
 .PHONY : rotations/AngleAxisTest.cpp.i
 
 rotations/AngleAxisTest.s: rotations/AngleAxisTest.cpp.s
@@ -1501,11 +1040,7 @@ rotations/AngleAxisTest.s: rotations/AngleAxisTest.cpp.s
 
 # target to generate assembly for a file
 rotations/AngleAxisTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/AngleAxisTest.cpp.s
 .PHONY : rotations/AngleAxisTest.cpp.s
 
 rotations/ConventionTest.o: rotations/ConventionTest.cpp.o
@@ -1514,11 +1049,7 @@ rotations/ConventionTest.o: rotations/ConventionTest.cpp.o
 
 # target to build an object file
 rotations/ConventionTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.o
 .PHONY : rotations/ConventionTest.cpp.o
 
 rotations/ConventionTest.i: rotations/ConventionTest.cpp.i
@@ -1527,11 +1058,7 @@ rotations/ConventionTest.i: rotations/ConventionTest.cpp.i
 
 # target to preprocess a source file
 rotations/ConventionTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.i
 .PHONY : rotations/ConventionTest.cpp.i
 
 rotations/ConventionTest.s: rotations/ConventionTest.cpp.s
@@ -1540,11 +1067,7 @@ rotations/ConventionTest.s: rotations/ConventionTest.cpp.s
 
 # target to generate assembly for a file
 rotations/ConventionTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/ConventionTest.cpp.s
 .PHONY : rotations/ConventionTest.cpp.s
 
 rotations/EulerAnglesXyzDiffTest.o: rotations/EulerAnglesXyzDiffTest.cpp.o
@@ -1553,11 +1076,7 @@ rotations/EulerAnglesXyzDiffTest.o: rotations/EulerAnglesXyzDiffTest.cpp.o
 
 # target to build an object file
 rotations/EulerAnglesXyzDiffTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.o
 .PHONY : rotations/EulerAnglesXyzDiffTest.cpp.o
 
 rotations/EulerAnglesXyzDiffTest.i: rotations/EulerAnglesXyzDiffTest.cpp.i
@@ -1566,11 +1085,7 @@ rotations/EulerAnglesXyzDiffTest.i: rotations/EulerAnglesXyzDiffTest.cpp.i
 
 # target to preprocess a source file
 rotations/EulerAnglesXyzDiffTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.i
 .PHONY : rotations/EulerAnglesXyzDiffTest.cpp.i
 
 rotations/EulerAnglesXyzDiffTest.s: rotations/EulerAnglesXyzDiffTest.cpp.s
@@ -1579,11 +1094,7 @@ rotations/EulerAnglesXyzDiffTest.s: rotations/EulerAnglesXyzDiffTest.cpp.s
 
 # target to generate assembly for a file
 rotations/EulerAnglesXyzDiffTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.s
 .PHONY : rotations/EulerAnglesXyzDiffTest.cpp.s
 
 rotations/EulerAnglesXyzTest.o: rotations/EulerAnglesXyzTest.cpp.o
@@ -1592,11 +1103,7 @@ rotations/EulerAnglesXyzTest.o: rotations/EulerAnglesXyzTest.cpp.o
 
 # target to build an object file
 rotations/EulerAnglesXyzTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.o
 .PHONY : rotations/EulerAnglesXyzTest.cpp.o
 
 rotations/EulerAnglesXyzTest.i: rotations/EulerAnglesXyzTest.cpp.i
@@ -1605,11 +1112,7 @@ rotations/EulerAnglesXyzTest.i: rotations/EulerAnglesXyzTest.cpp.i
 
 # target to preprocess a source file
 rotations/EulerAnglesXyzTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.i
 .PHONY : rotations/EulerAnglesXyzTest.cpp.i
 
 rotations/EulerAnglesXyzTest.s: rotations/EulerAnglesXyzTest.cpp.s
@@ -1618,11 +1121,7 @@ rotations/EulerAnglesXyzTest.s: rotations/EulerAnglesXyzTest.cpp.s
 
 # target to generate assembly for a file
 rotations/EulerAnglesXyzTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesXyzTest.cpp.s
 .PHONY : rotations/EulerAnglesXyzTest.cpp.s
 
 rotations/EulerAnglesZyxDiffTest.o: rotations/EulerAnglesZyxDiffTest.cpp.o
@@ -1631,11 +1130,7 @@ rotations/EulerAnglesZyxDiffTest.o: rotations/EulerAnglesZyxDiffTest.cpp.o
 
 # target to build an object file
 rotations/EulerAnglesZyxDiffTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.o
 .PHONY : rotations/EulerAnglesZyxDiffTest.cpp.o
 
 rotations/EulerAnglesZyxDiffTest.i: rotations/EulerAnglesZyxDiffTest.cpp.i
@@ -1644,11 +1139,7 @@ rotations/EulerAnglesZyxDiffTest.i: rotations/EulerAnglesZyxDiffTest.cpp.i
 
 # target to preprocess a source file
 rotations/EulerAnglesZyxDiffTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.i
 .PHONY : rotations/EulerAnglesZyxDiffTest.cpp.i
 
 rotations/EulerAnglesZyxDiffTest.s: rotations/EulerAnglesZyxDiffTest.cpp.s
@@ -1657,11 +1148,7 @@ rotations/EulerAnglesZyxDiffTest.s: rotations/EulerAnglesZyxDiffTest.cpp.s
 
 # target to generate assembly for a file
 rotations/EulerAnglesZyxDiffTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.s
 .PHONY : rotations/EulerAnglesZyxDiffTest.cpp.s
 
 rotations/EulerAnglesZyxTest.o: rotations/EulerAnglesZyxTest.cpp.o
@@ -1670,11 +1157,7 @@ rotations/EulerAnglesZyxTest.o: rotations/EulerAnglesZyxTest.cpp.o
 
 # target to build an object file
 rotations/EulerAnglesZyxTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.o
 .PHONY : rotations/EulerAnglesZyxTest.cpp.o
 
 rotations/EulerAnglesZyxTest.i: rotations/EulerAnglesZyxTest.cpp.i
@@ -1683,11 +1166,7 @@ rotations/EulerAnglesZyxTest.i: rotations/EulerAnglesZyxTest.cpp.i
 
 # target to preprocess a source file
 rotations/EulerAnglesZyxTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.i
 .PHONY : rotations/EulerAnglesZyxTest.cpp.i
 
 rotations/EulerAnglesZyxTest.s: rotations/EulerAnglesZyxTest.cpp.s
@@ -1696,11 +1175,7 @@ rotations/EulerAnglesZyxTest.s: rotations/EulerAnglesZyxTest.cpp.s
 
 # target to generate assembly for a file
 rotations/EulerAnglesZyxTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/EulerAnglesZyxTest.cpp.s
 .PHONY : rotations/EulerAnglesZyxTest.cpp.s
 
 rotations/GlobalAngularVelocityTest.o: rotations/GlobalAngularVelocityTest.cpp.o
@@ -1709,11 +1184,7 @@ rotations/GlobalAngularVelocityTest.o: rotations/GlobalAngularVelocityTest.cpp.o
 
 # target to build an object file
 rotations/GlobalAngularVelocityTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.o
 .PHONY : rotations/GlobalAngularVelocityTest.cpp.o
 
 rotations/GlobalAngularVelocityTest.i: rotations/GlobalAngularVelocityTest.cpp.i
@@ -1722,11 +1193,7 @@ rotations/GlobalAngularVelocityTest.i: rotations/GlobalAngularVelocityTest.cpp.i
 
 # target to preprocess a source file
 rotations/GlobalAngularVelocityTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.i
 .PHONY : rotations/GlobalAngularVelocityTest.cpp.i
 
 rotations/GlobalAngularVelocityTest.s: rotations/GlobalAngularVelocityTest.cpp.s
@@ -1735,11 +1202,7 @@ rotations/GlobalAngularVelocityTest.s: rotations/GlobalAngularVelocityTest.cpp.s
 
 # target to generate assembly for a file
 rotations/GlobalAngularVelocityTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.s
 .PHONY : rotations/GlobalAngularVelocityTest.cpp.s
 
 rotations/LocalAngularVelocityTest.o: rotations/LocalAngularVelocityTest.cpp.o
@@ -1748,11 +1211,7 @@ rotations/LocalAngularVelocityTest.o: rotations/LocalAngularVelocityTest.cpp.o
 
 # target to build an object file
 rotations/LocalAngularVelocityTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.o
 .PHONY : rotations/LocalAngularVelocityTest.cpp.o
 
 rotations/LocalAngularVelocityTest.i: rotations/LocalAngularVelocityTest.cpp.i
@@ -1761,11 +1220,7 @@ rotations/LocalAngularVelocityTest.i: rotations/LocalAngularVelocityTest.cpp.i
 
 # target to preprocess a source file
 rotations/LocalAngularVelocityTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.i
 .PHONY : rotations/LocalAngularVelocityTest.cpp.i
 
 rotations/LocalAngularVelocityTest.s: rotations/LocalAngularVelocityTest.cpp.s
@@ -1774,11 +1229,7 @@ rotations/LocalAngularVelocityTest.s: rotations/LocalAngularVelocityTest.cpp.s
 
 # target to generate assembly for a file
 rotations/LocalAngularVelocityTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.s
 .PHONY : rotations/LocalAngularVelocityTest.cpp.s
 
 rotations/RotationDiffTest.o: rotations/RotationDiffTest.cpp.o
@@ -1787,11 +1238,7 @@ rotations/RotationDiffTest.o: rotations/RotationDiffTest.cpp.o
 
 # target to build an object file
 rotations/RotationDiffTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.o
 .PHONY : rotations/RotationDiffTest.cpp.o
 
 rotations/RotationDiffTest.i: rotations/RotationDiffTest.cpp.i
@@ -1800,11 +1247,7 @@ rotations/RotationDiffTest.i: rotations/RotationDiffTest.cpp.i
 
 # target to preprocess a source file
 rotations/RotationDiffTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.i
 .PHONY : rotations/RotationDiffTest.cpp.i
 
 rotations/RotationDiffTest.s: rotations/RotationDiffTest.cpp.s
@@ -1813,11 +1256,7 @@ rotations/RotationDiffTest.s: rotations/RotationDiffTest.cpp.s
 
 # target to generate assembly for a file
 rotations/RotationDiffTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.s
 .PHONY : rotations/RotationDiffTest.cpp.s
 
 rotations/RotationMatrixDiffTest.o: rotations/RotationMatrixDiffTest.cpp.o
@@ -1826,11 +1265,7 @@ rotations/RotationMatrixDiffTest.o: rotations/RotationMatrixDiffTest.cpp.o
 
 # target to build an object file
 rotations/RotationMatrixDiffTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.o
 .PHONY : rotations/RotationMatrixDiffTest.cpp.o
 
 rotations/RotationMatrixDiffTest.i: rotations/RotationMatrixDiffTest.cpp.i
@@ -1839,11 +1274,7 @@ rotations/RotationMatrixDiffTest.i: rotations/RotationMatrixDiffTest.cpp.i
 
 # target to preprocess a source file
 rotations/RotationMatrixDiffTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.i
 .PHONY : rotations/RotationMatrixDiffTest.cpp.i
 
 rotations/RotationMatrixDiffTest.s: rotations/RotationMatrixDiffTest.cpp.s
@@ -1852,11 +1283,7 @@ rotations/RotationMatrixDiffTest.s: rotations/RotationMatrixDiffTest.cpp.s
 
 # target to generate assembly for a file
 rotations/RotationMatrixDiffTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.s
 .PHONY : rotations/RotationMatrixDiffTest.cpp.s
 
 rotations/RotationMatrixTest.o: rotations/RotationMatrixTest.cpp.o
@@ -1865,11 +1292,7 @@ rotations/RotationMatrixTest.o: rotations/RotationMatrixTest.cpp.o
 
 # target to build an object file
 rotations/RotationMatrixTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.o
 .PHONY : rotations/RotationMatrixTest.cpp.o
 
 rotations/RotationMatrixTest.i: rotations/RotationMatrixTest.cpp.i
@@ -1878,11 +1301,7 @@ rotations/RotationMatrixTest.i: rotations/RotationMatrixTest.cpp.i
 
 # target to preprocess a source file
 rotations/RotationMatrixTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.i
 .PHONY : rotations/RotationMatrixTest.cpp.i
 
 rotations/RotationMatrixTest.s: rotations/RotationMatrixTest.cpp.s
@@ -1891,11 +1310,7 @@ rotations/RotationMatrixTest.s: rotations/RotationMatrixTest.cpp.s
 
 # target to generate assembly for a file
 rotations/RotationMatrixTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationMatrixTest.cpp.s
 .PHONY : rotations/RotationMatrixTest.cpp.s
 
 rotations/RotationQuaternionDiffTest.o: rotations/RotationQuaternionDiffTest.cpp.o
@@ -1904,11 +1319,7 @@ rotations/RotationQuaternionDiffTest.o: rotations/RotationQuaternionDiffTest.cpp
 
 # target to build an object file
 rotations/RotationQuaternionDiffTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.o
 .PHONY : rotations/RotationQuaternionDiffTest.cpp.o
 
 rotations/RotationQuaternionDiffTest.i: rotations/RotationQuaternionDiffTest.cpp.i
@@ -1917,11 +1328,7 @@ rotations/RotationQuaternionDiffTest.i: rotations/RotationQuaternionDiffTest.cpp
 
 # target to preprocess a source file
 rotations/RotationQuaternionDiffTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.i
 .PHONY : rotations/RotationQuaternionDiffTest.cpp.i
 
 rotations/RotationQuaternionDiffTest.s: rotations/RotationQuaternionDiffTest.cpp.s
@@ -1930,11 +1337,7 @@ rotations/RotationQuaternionDiffTest.s: rotations/RotationQuaternionDiffTest.cpp
 
 # target to generate assembly for a file
 rotations/RotationQuaternionDiffTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.s
 .PHONY : rotations/RotationQuaternionDiffTest.cpp.s
 
 rotations/RotationQuaternionTest.o: rotations/RotationQuaternionTest.cpp.o
@@ -1943,11 +1346,7 @@ rotations/RotationQuaternionTest.o: rotations/RotationQuaternionTest.cpp.o
 
 # target to build an object file
 rotations/RotationQuaternionTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.o
 .PHONY : rotations/RotationQuaternionTest.cpp.o
 
 rotations/RotationQuaternionTest.i: rotations/RotationQuaternionTest.cpp.i
@@ -1956,11 +1355,7 @@ rotations/RotationQuaternionTest.i: rotations/RotationQuaternionTest.cpp.i
 
 # target to preprocess a source file
 rotations/RotationQuaternionTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.i
 .PHONY : rotations/RotationQuaternionTest.cpp.i
 
 rotations/RotationQuaternionTest.s: rotations/RotationQuaternionTest.cpp.s
@@ -1969,11 +1364,7 @@ rotations/RotationQuaternionTest.s: rotations/RotationQuaternionTest.cpp.s
 
 # target to generate assembly for a file
 rotations/RotationQuaternionTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationQuaternionTest.cpp.s
 .PHONY : rotations/RotationQuaternionTest.cpp.s
 
 rotations/RotationTest.o: rotations/RotationTest.cpp.o
@@ -1982,11 +1373,7 @@ rotations/RotationTest.o: rotations/RotationTest.cpp.o
 
 # target to build an object file
 rotations/RotationTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.o
 .PHONY : rotations/RotationTest.cpp.o
 
 rotations/RotationTest.i: rotations/RotationTest.cpp.i
@@ -1995,11 +1382,7 @@ rotations/RotationTest.i: rotations/RotationTest.cpp.i
 
 # target to preprocess a source file
 rotations/RotationTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.i
 .PHONY : rotations/RotationTest.cpp.i
 
 rotations/RotationTest.s: rotations/RotationTest.cpp.s
@@ -2008,11 +1391,7 @@ rotations/RotationTest.s: rotations/RotationTest.cpp.s
 
 # target to generate assembly for a file
 rotations/RotationTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationTest.cpp.s
 .PHONY : rotations/RotationTest.cpp.s
 
 rotations/RotationVectorTest.o: rotations/RotationVectorTest.cpp.o
@@ -2021,11 +1400,7 @@ rotations/RotationVectorTest.o: rotations/RotationVectorTest.cpp.o
 
 # target to build an object file
 rotations/RotationVectorTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.o
 .PHONY : rotations/RotationVectorTest.cpp.o
 
 rotations/RotationVectorTest.i: rotations/RotationVectorTest.cpp.i
@@ -2034,11 +1409,7 @@ rotations/RotationVectorTest.i: rotations/RotationVectorTest.cpp.i
 
 # target to preprocess a source file
 rotations/RotationVectorTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.i
 .PHONY : rotations/RotationVectorTest.cpp.i
 
 rotations/RotationVectorTest.s: rotations/RotationVectorTest.cpp.s
@@ -2047,11 +1418,7 @@ rotations/RotationVectorTest.s: rotations/RotationVectorTest.cpp.s
 
 # target to generate assembly for a file
 rotations/RotationVectorTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/rotations/RotationVectorTest.cpp.s
 .PHONY : rotations/RotationVectorTest.cpp.s
 
 test_main.o: test_main.cpp.o
@@ -2060,29 +1427,16 @@ test_main.o: test_main.cpp.o
 
 # target to build an object file
 test_main.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/test_main.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/test_main.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/test_main.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/test_main.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/test_main.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/test_main.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/test_main.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/test_main.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/test_main.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/test_main.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/test_main.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/test_main.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/test_main.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/test_main.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/test_main.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/test_main.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/test_main.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/test_main.cpp.o
 .PHONY : test_main.cpp.o
 
 test_main.i: test_main.cpp.i
@@ -2091,29 +1445,16 @@ test_main.i: test_main.cpp.i
 
 # target to preprocess a source file
 test_main.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/test_main.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/test_main.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/test_main.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/test_main.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/test_main.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.i
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/test_main.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/test_main.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/test_main.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/test_main.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/test_main.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/test_main.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.i
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/test_main.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.i
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/test_main.cpp.i
 .PHONY : test_main.cpp.i
 
 test_main.s: test_main.cpp.s
@@ -2122,29 +1463,16 @@ test_main.s: test_main.cpp.s
 
 # target to generate assembly for a file
 test_main.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/test_main.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/test_main.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/test_main.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/test_main.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/test_main.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.s
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/test_main.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/test_main.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/test_main.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/test_main.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/test_main.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/test_main.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.s
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/test_main.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/build.make kindr/test/CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/build.make kindr/test/CMakeFiles/runUnitTestsLinearAlgebra.dir/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/build.make kindr/test/CMakeFiles/runUnitTestsQuaternions.dir/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/build.make kindr/test/CMakeFiles/runUnitTestsPoseDiff.dir/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsCommon.dir/build.make kindr/test/CMakeFiles/runUnitTestsCommon.dir/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsRotation.dir/build.make kindr/test/CMakeFiles/runUnitTestsRotation.dir/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPositions.dir/build.make kindr/test/CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.s
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsPose.dir/build.make kindr/test/CMakeFiles/runUnitTestsPose.dir/test_main.cpp.s
 .PHONY : test_main.cpp.s
 
 vectors/VectorsTest.o: vectors/VectorsTest.cpp.o
@@ -2153,11 +1481,7 @@ vectors/VectorsTest.o: vectors/VectorsTest.cpp.o
 
 # target to build an object file
 vectors/VectorsTest.cpp.o:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.o
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.o
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.o
 .PHONY : vectors/VectorsTest.cpp.o
 
 vectors/VectorsTest.i: vectors/VectorsTest.cpp.i
@@ -2166,11 +1490,7 @@ vectors/VectorsTest.i: vectors/VectorsTest.cpp.i
 
 # target to preprocess a source file
 vectors/VectorsTest.cpp.i:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.i
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.i
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.i
 .PHONY : vectors/VectorsTest.cpp.i
 
 vectors/VectorsTest.s: vectors/VectorsTest.cpp.s
@@ -2179,11 +1499,7 @@ vectors/VectorsTest.s: vectors/VectorsTest.cpp.s
 
 # target to generate assembly for a file
 vectors/VectorsTest.cpp.s:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.s
-=======
-	cd /home/tejas/catkin_ws/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.s
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(MAKE) -f kindr/test/CMakeFiles/runUnitTestsVector.dir/build.make kindr/test/CMakeFiles/runUnitTestsVector.dir/vectors/VectorsTest.cpp.s
 .PHONY : vectors/VectorsTest.cpp.s
 
 # Help Target
@@ -2332,10 +1648,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-	cd /home/stochlab/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/tejas/catkin_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> 5dde3504395d94e94f2136ce73dd1610335c4702
+	cd /home/stochlab/perception_stack/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
