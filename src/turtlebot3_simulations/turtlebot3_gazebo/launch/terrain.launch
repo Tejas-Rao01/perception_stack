@@ -63,7 +63,18 @@
         <remap from="depth_registered/points" to="/point_cloud/points"/>
 
     </node>
-    
+	<node pkg="elevation_mapping" type="elevation_mapping" name="elevation_mapping" output="screen">
+   <rosparam command="load" file="$(find elevation_mapping_demos)/config/robots/ground_truth_demo.yaml" />
+    	 <rosparam command="load" file="$(find elevation_mapping_demos)/config/elevation_maps/long_range.yaml" />
+    	 <rosparam command="load" file="$(find elevation_mapping)/config/sensor_processors/perfect.yaml" />
+    	 <rosparam command="load" file="$(find elevation_mapping_demos)/config/postprocessing/postprocessor_pipeline.yaml" />
+    </node>
+  <node pkg="point_cloud_io" type="read" name="read_ply" output="screen">
+		<param name="file_path" value="$(find elevation_mapping_demos)/sample_data/maze.ply" />
+		<param name="topic" value="/point_cloud/points" />
+		<param name="frame" value="base_footprint" />
+		<param name="rate" value="1.0" />
+	</node>
 
-  
+
 </launch>

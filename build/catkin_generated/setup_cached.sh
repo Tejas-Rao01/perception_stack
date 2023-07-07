@@ -7,6 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/stochlab/perception_stack/devel:$CMAKE_PREFIX_PATH"
 export PWD='/home/stochlab/perception_stack/build'
-export ROS_PACKAGE_PATH="/home/stochlab/perception_stack/src:$ROS_PACKAGE_PATH"
