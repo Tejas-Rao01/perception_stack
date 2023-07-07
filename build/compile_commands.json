@@ -540,6 +540,31 @@
   "file": "/home/stochlab/perception_stack/src/grid_map/grid_map_pcl/src/pointcloud_publisher_node.cpp"
 },
 {
+  "directory": "/home/stochlab/perception_stack/build/point_cloud_io",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"point_cloud_io\\\" -I/home/stochlab/perception_stack/src/point_cloud_io/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -Werror=return-type -std=gnu++17 -o CMakeFiles/read.dir/src/read_node.cpp.o -c /home/stochlab/perception_stack/src/point_cloud_io/src/read_node.cpp",
+  "file": "/home/stochlab/perception_stack/src/point_cloud_io/src/read_node.cpp"
+},
+{
+  "directory": "/home/stochlab/perception_stack/build/point_cloud_io",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"point_cloud_io\\\" -I/home/stochlab/perception_stack/src/point_cloud_io/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -Werror=return-type -std=gnu++17 -o CMakeFiles/read.dir/src/Read.cpp.o -c /home/stochlab/perception_stack/src/point_cloud_io/src/Read.cpp",
+  "file": "/home/stochlab/perception_stack/src/point_cloud_io/src/Read.cpp"
+},
+{
+  "directory": "/home/stochlab/perception_stack/build/point_cloud_io",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"point_cloud_io\\\" -I/home/stochlab/perception_stack/src/point_cloud_io/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -Werror=return-type -std=gnu++17 -o CMakeFiles/write.dir/src/write_node.cpp.o -c /home/stochlab/perception_stack/src/point_cloud_io/src/write_node.cpp",
+  "file": "/home/stochlab/perception_stack/src/point_cloud_io/src/write_node.cpp"
+},
+{
+  "directory": "/home/stochlab/perception_stack/build/point_cloud_io",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"point_cloud_io\\\" -I/home/stochlab/perception_stack/src/point_cloud_io/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -Werror=return-type -std=gnu++17 -o CMakeFiles/write.dir/src/Write.cpp.o -c /home/stochlab/perception_stack/src/point_cloud_io/src/Write.cpp",
+  "file": "/home/stochlab/perception_stack/src/point_cloud_io/src/Write.cpp"
+},
+{
+  "directory": "/home/stochlab/perception_stack/build/point_cloud_io",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"point_cloud_io\\\" -I/home/stochlab/perception_stack/src/point_cloud_io/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -Werror=return-type -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/test_point_cloud_io.dir/test/empty_test.cpp.o -c /home/stochlab/perception_stack/src/point_cloud_io/test/empty_test.cpp",
+  "file": "/home/stochlab/perception_stack/src/point_cloud_io/test/empty_test.cpp"
+},
+{
   "directory": "/home/stochlab/perception_stack/build/elevation_mapping/elevation_mapping",
   "command": "/usr/bin/c++  -DEIGEN_DENSEBASE_PLUGIN=\\\"grid_map_core/eigen_plugins/DenseBasePlugin.hpp\\\" -DEIGEN_FUNCTORS_PLUGIN=\\\"grid_map_core/eigen_plugins/FunctorsPlugin.hpp\\\" -DMELO_USE_COUT -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"elevation_mapping\\\" -I/home/stochlab/perception_stack/src/elevation_mapping/elevation_mapping/include -isystem /home/stochlab/perception_stack/devel/include -isystem /home/stochlab/perception_stack/src/grid_map/grid_map_core/include -isystem /home/stochlab/perception_stack/src/grid_map/grid_map_ros/include -isystem /home/stochlab/perception_stack/src/grid_map/grid_map_cv/include -isystem /home/stochlab/perception_stack/src/grid_map/grid_map_sdf/include -isystem /home/stochlab/perception_stack/src/kindr/include -isystem /home/stochlab/perception_stack/src/kindr_ros/kindr_ros/include -isystem /home/stochlab/perception_stack/src/message_logger/include -isystem /opt/ros/noetic/include -isystem /opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -isystem /usr/include/opencv4 -isystem /usr/include/pcl-1.10 -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /home/stochlab/perception_stack/src/grid_map/grid_map_filters/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -DGTEST_HAS_PTHREAD=1 -std=gnu++17 -o CMakeFiles/test_elevation_mapping_postprocessor.dir/test/postprocessing/main.cpp.o -c /home/stochlab/perception_stack/src/elevation_mapping/elevation_mapping/test/postprocessing/main.cpp",
   "file": "/home/stochlab/perception_stack/src/elevation_mapping/elevation_mapping/test/postprocessing/main.cpp"

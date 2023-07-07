@@ -4549,6 +4549,136 @@ octomap_server_static/fast:
 .PHONY : octomap_server_static/fast
 
 #=============================================================================
+# Target rules for targets named read
+
+# Build rule for target.
+read: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 read
+.PHONY : read
+
+# fast build rule for target.
+read/fast:
+	$(MAKE) -f point_cloud_io/CMakeFiles/read.dir/build.make point_cloud_io/CMakeFiles/read.dir/build
+.PHONY : read/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_point_cloud_io_gtest_test_point_cloud_io
+
+# Build rule for target.
+_run_tests_point_cloud_io_gtest_test_point_cloud_io: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_point_cloud_io_gtest_test_point_cloud_io
+.PHONY : _run_tests_point_cloud_io_gtest_test_point_cloud_io
+
+# fast build rule for target.
+_run_tests_point_cloud_io_gtest_test_point_cloud_io/fast:
+	$(MAKE) -f point_cloud_io/CMakeFiles/_run_tests_point_cloud_io_gtest_test_point_cloud_io.dir/build.make point_cloud_io/CMakeFiles/_run_tests_point_cloud_io_gtest_test_point_cloud_io.dir/build
+.PHONY : _run_tests_point_cloud_io_gtest_test_point_cloud_io/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_point_cloud_io
+
+# Build rule for target.
+run_tests_point_cloud_io: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_point_cloud_io
+.PHONY : run_tests_point_cloud_io
+
+# fast build rule for target.
+run_tests_point_cloud_io/fast:
+	$(MAKE) -f point_cloud_io/CMakeFiles/run_tests_point_cloud_io.dir/build.make point_cloud_io/CMakeFiles/run_tests_point_cloud_io.dir/build
+.PHONY : run_tests_point_cloud_io/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_point_cloud_io
+
+# Build rule for target.
+_run_tests_point_cloud_io: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_point_cloud_io
+.PHONY : _run_tests_point_cloud_io
+
+# fast build rule for target.
+_run_tests_point_cloud_io/fast:
+	$(MAKE) -f point_cloud_io/CMakeFiles/_run_tests_point_cloud_io.dir/build.make point_cloud_io/CMakeFiles/_run_tests_point_cloud_io.dir/build
+.PHONY : _run_tests_point_cloud_io/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_point_cloud_io_gtest
+
+# Build rule for target.
+run_tests_point_cloud_io_gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_point_cloud_io_gtest
+.PHONY : run_tests_point_cloud_io_gtest
+
+# fast build rule for target.
+run_tests_point_cloud_io_gtest/fast:
+	$(MAKE) -f point_cloud_io/CMakeFiles/run_tests_point_cloud_io_gtest.dir/build.make point_cloud_io/CMakeFiles/run_tests_point_cloud_io_gtest.dir/build
+.PHONY : run_tests_point_cloud_io_gtest/fast
+
+#=============================================================================
+# Target rules for targets named write
+
+# Build rule for target.
+write: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 write
+.PHONY : write
+
+# fast build rule for target.
+write/fast:
+	$(MAKE) -f point_cloud_io/CMakeFiles/write.dir/build.make point_cloud_io/CMakeFiles/write.dir/build
+.PHONY : write/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_point_cloud_io_gtest
+
+# Build rule for target.
+_run_tests_point_cloud_io_gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_point_cloud_io_gtest
+.PHONY : _run_tests_point_cloud_io_gtest
+
+# fast build rule for target.
+_run_tests_point_cloud_io_gtest/fast:
+	$(MAKE) -f point_cloud_io/CMakeFiles/_run_tests_point_cloud_io_gtest.dir/build.make point_cloud_io/CMakeFiles/_run_tests_point_cloud_io_gtest.dir/build
+.PHONY : _run_tests_point_cloud_io_gtest/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_point_cloud_io_gtest_test_point_cloud_io
+
+# Build rule for target.
+run_tests_point_cloud_io_gtest_test_point_cloud_io: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_point_cloud_io_gtest_test_point_cloud_io
+.PHONY : run_tests_point_cloud_io_gtest_test_point_cloud_io
+
+# fast build rule for target.
+run_tests_point_cloud_io_gtest_test_point_cloud_io/fast:
+	$(MAKE) -f point_cloud_io/CMakeFiles/run_tests_point_cloud_io_gtest_test_point_cloud_io.dir/build.make point_cloud_io/CMakeFiles/run_tests_point_cloud_io_gtest_test_point_cloud_io.dir/build
+.PHONY : run_tests_point_cloud_io_gtest_test_point_cloud_io/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_point_cloud_io
+
+# Build rule for target.
+clean_test_results_point_cloud_io: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_point_cloud_io
+.PHONY : clean_test_results_point_cloud_io
+
+# fast build rule for target.
+clean_test_results_point_cloud_io/fast:
+	$(MAKE) -f point_cloud_io/CMakeFiles/clean_test_results_point_cloud_io.dir/build.make point_cloud_io/CMakeFiles/clean_test_results_point_cloud_io.dir/build
+.PHONY : clean_test_results_point_cloud_io/fast
+
+#=============================================================================
+# Target rules for targets named test_point_cloud_io
+
+# Build rule for target.
+test_point_cloud_io: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_point_cloud_io
+.PHONY : test_point_cloud_io
+
+# fast build rule for target.
+test_point_cloud_io/fast:
+	$(MAKE) -f point_cloud_io/CMakeFiles/test_point_cloud_io.dir/build.make point_cloud_io/CMakeFiles/test_point_cloud_io.dir/build
+.PHONY : test_point_cloud_io/fast
+
+#=============================================================================
 # Target rules for targets named image_rotate_exe
 
 # Build rule for target.
@@ -6796,6 +6926,16 @@ help:
 	@echo "... octomap_msgs_generate_messages_cpp"
 	@echo "... octomap_msgs_generate_messages_py"
 	@echo "... octomap_server_static"
+	@echo "... read"
+	@echo "... _run_tests_point_cloud_io_gtest_test_point_cloud_io"
+	@echo "... run_tests_point_cloud_io"
+	@echo "... _run_tests_point_cloud_io"
+	@echo "... run_tests_point_cloud_io_gtest"
+	@echo "... write"
+	@echo "... _run_tests_point_cloud_io_gtest"
+	@echo "... run_tests_point_cloud_io_gtest_test_point_cloud_io"
+	@echo "... clean_test_results_point_cloud_io"
+	@echo "... test_point_cloud_io"
 	@echo "... image_rotate_exe"
 	@echo "... image_rotate"
 	@echo "... image_rotate_gencfg"
