@@ -18,4 +18,13 @@
 
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model turtlebot3_$(arg model) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" />
 
+    <!-- Publish turtlebot3 tf's. -->
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="waffle_state_publisher"/>
+
+  <!-- Publish tf 'base_footprint' as pose.-->
+  <node pkg="elevation_mapping_demos" type="tf_to_pose_publisher.py" name="waffle_pose_publisher">
+    <param name="from_frame" type="string" value="odom"/>
+    <param name="to_frame" type="string" value="base_footprint"/>
+  </node>
+
 </launch>

@@ -101,13 +101,13 @@
 
 
 
-  <!-- -->
+  <!--
   <gazebo reference="base_scan">
   <sensor name="depth_camera" type="depth">
  
     <update_rate>20</update_rate>
     <camera>
-    <pose> 0 0 1 1.57 1.57 1.570 </pose>
+    <pose> 0 0 1 0 0 0</pose>
       <horizontal_fov>1.047198</horizontal_fov>
       <image>
         <width>640</width>
@@ -145,7 +145,7 @@
     </plugin>
   </sensor>
 </gazebo>
-
+ -->
 <!--
   <gazebo reference="base_scan">
     <material>Gazebo/FlatBlack</material>
