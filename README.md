@@ -5,7 +5,8 @@ This repo contains the workspace for the perception stack of the stoch lab. Curr
 
 1) Git clone the repo: <br>
  `git clone -b master https://github.com/Tejas-Rao01/perception_stack.git`  
-2) Run: `rosdep install --from-paths src --ignore-src -r -y`
+2) Run: <br> `cd ~/perception_stack`
+`rosdep install --from-paths src --ignore-src -r -y`  
 3) Run: `catkin_make`
 
 ### Running Code
