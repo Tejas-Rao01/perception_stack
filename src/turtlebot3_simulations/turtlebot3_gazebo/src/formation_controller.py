@@ -8,15 +8,13 @@ import numpy as np
 from tf.transformations import euler_from_quaternion, quaternion_from_euler
 import matplotlib.pyplot as plt
 
-
-plt.ion()#
-
-fig, ax1 = plt.subplots()
-heading_1, = ax1.plot([0], [0],'g-')
-heading_2, = ax1.plot([0], [0],'g-')
 class Controller():
     def __init__(self):
         rospy.init_node('Controller')
+        self.odom_sub = rospy.Subscriber('/odom', Odometry, self.odom_callback)
+        self.pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
+        self.target_pub = rospy.Publisher('/targetPose', Odometry)
+        
         self.x = 0
         self.y = 0
         self.theta = 0
@@ -34,27 +32,18 @@ class Controller():
         self.thetad_prev = 0
         self.T_sim = 200
         self.t_start = rospy.get_time()
-        self.odom_sub = rospy.Subscriber('/odom', Odometry, self.odom_callback)
-        self.pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
-
-        self.X = []
-        self.Y = []
-
-        self.X_gt = []
-        self.Y_gt = []
 
 
     def run(self):
         rospy.spin()
 
     def publisher(self):
+
         t_curr = rospy.get_time() - self.t_start
         dt = t_curr - self.t_prev
         self.t_prev = t_curr
 
         x_t, y_t = self.get_traj_point(t_curr, self.T_sim)
-        self.X_gt.append(x_t)
-        self.Y_gt.append(y_t)
 
         ex = -self.x + x_t
         ey = -self.y + y_t
@@ -64,20 +53,20 @@ class Controller():
         self.thetad_prev = theta_d
 
         D = np.sqrt(ex ** 2 + ey ** 2)
-        print(f"time: {t_curr}")
-        print(f"x_t, y_t: {x_t}, {y_t}")
-        print(f"robotx, roboty: {self.x} {self.y}")
-        print(f"ex: {ex}, ey: {ey}, etheta: {e_theta}")
         v = self.v_max * np.cos(e_theta) * self.eta_v * D / (self.eta_v * D + 1)
         w = (self.w_max - self.omega_max) * np.tanh(self.eta_w * e_theta) + thetad_dot
 
         pub_msg = Twist()
         pub_msg.linear.x = v
         pub_msg.angular.z = w
-        self.X.append(self.x)
-        self.Y.append(self.y)
+        
         self.pub.publish(pub_msg)
-        print("publishing")
+
+        target = Odometry()
+        target.pose.pose.position.x = x_t
+        target.pose.pose.position.y = y_t
+        self.target_pub.publish(target)
+        print(f"publishing, {t_curr}")
        
 
     def odom_callback(self, data):
@@ -87,15 +76,10 @@ class Controller():
         orientation_list = [orientation_q.x, orientation_q.y, orientation_q.z, orientation_q.w]
         (roll, pitch, yaw) = euler_from_quaternion (orientation_list)
         self.theta = yaw
-        print(f"theta: {self.theta}")
         time = rospy.get_time()
-        print(f"time: {time}")
 
-        heading_1.set_xdata(self.X)
-        heading_1.set_xdata(self.Y)
-       
-        heading_2.set_xdata(self.X_gt)
-        heading_2.set_xdata(self.Y_gt)
+
+
        
 
     def get_traj_point(self,t, T_sim):
