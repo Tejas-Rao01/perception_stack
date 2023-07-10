@@ -1,14 +1,12 @@
 <launch>
 
-
-
-
-  <!-- -->
+  <!-- Spawn Robot -->
   <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
   <arg name="x_pos" default="0.0"/>
   <arg name="y_pos" default="0.0"/>
   <arg name="z_pos" default="0.0"/>
 
+  <!-- Load the world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(find turtlebot3_gazebo)/worlds/terrain.world"/>
     <arg name="paused" value="false"/>
@@ -27,6 +25,9 @@
     <arg name="model" value="$(arg model)"/>
   </include>
 
+
+
+  <!-- Launch Rviz-->
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtlebot3_gazebo)/rviz/turtlebot3_gazebo_model.rviz"/>
 
   <node name="update_frame_id" pkg="depth_image_proc" type="update_frame_id.py" output="screen" />
@@ -53,14 +54,6 @@
 
     </node>
     
-    
-	<node pkg="elevation_mapping" type="elevation_mapping" name="elevation_mapping" output="screen">
-   <rosparam command="load" file="$(find elevation_mapping_demos)/config/robots/ground_truth_demo.yaml" />
-    	 <rosparam command="load" file="$(find elevation_mapping_demos)/config/elevation_maps/long_range.yaml" />
-    	 <rosparam command="load" file="$(find elevation_mapping)/config/sensor_processors/perfect.yaml" />
-    	 <rosparam command="load" file="$(find elevation_mapping_demos)/config/postprocessing/postprocessor_pipeline.yaml" />
-    </node>
-
 
 
   <node pkg="octomap_server" type="octomap_server_node" name="octomap_server">
