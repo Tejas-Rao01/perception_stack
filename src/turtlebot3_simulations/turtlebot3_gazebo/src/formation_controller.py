@@ -30,10 +30,18 @@ class Controller():
         self.eta_w = 5
         self.t_prev = 0
         self.thetad_prev = 0
-        self.T_sim = 200
+        self.T_sim = 100
         self.t_start = rospy.get_time()
 
+        self.robot_xs = []
+        self.robot_ys = []
+        self.target_xs = []
+        self.target_ys= []
+        self.ex = []
+        self.ey = []
+        self.etheta = []
 
+        self.flag = True
     def run(self):
         rospy.spin()
 
@@ -50,6 +58,8 @@ class Controller():
         theta_d = np.arctan2(ey, ex)
         thetad_dot = (theta_d - self.thetad_prev) / dt
         e_theta = -self.theta + theta_d
+        self.etheta_list.append(e_theta)
+        e_theta = np.unwrap(self.etheta_list)[-1]
         self.thetad_prev = theta_d
 
         D = np.sqrt(ex ** 2 + ey ** 2)
@@ -66,6 +76,25 @@ class Controller():
         target.pose.pose.position.x = x_t
         target.pose.pose.position.y = y_t
         self.target_pub.publish(target)
+
+        self.robot_xs.append(self.x)
+        self.robot_ys.append(self.y)
+        self.target_xs.append(x_t)
+        self.target_ys.append(y_t)
+        self.ex.append(ex)
+        self.ey.append(ey)
+        self.etheta.append(e_theta)
+
+        if t_curr >50 and self.flag == True:
+            arr=  np.zeros(shape=(2006, 7))
+            for i in range(len(self.ex)):
+                l = [self.robot_xs[i], self.robot_ys[i], self.target_xs[i], self.target_ys[i], self.ex[i], self.ey[i], self.etheta[i]]
+                arr[i, :] = l 
+            print('saving')
+            np.save("run2.npy", arr)
+            self.flag = False    
+                    
+
         print(f"publishing, {t_curr}")
        
 
@@ -83,8 +112,8 @@ class Controller():
        
 
     def get_traj_point(self,t, T_sim):
-        x_t = 5 * np.cos(2 * np.pi * t / T_sim)
-        y_t = 3 * np.sin(2 * np.pi * t / T_sim)
+        x_t = (5 + np.sin(6 * np.pi * t / T_sim))* np.cos(2 * np.pi * t / T_sim)
+        y_t = (5 + np.sin(6 * np.pi * t / T_sim))* np.sin(2 * np.pi * t / T_sim)
         return x_t, y_t
 
 

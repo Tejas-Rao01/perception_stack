@@ -38,34 +38,11 @@
   </node>
 
 
-  <node name="update_frame_id" pkg="depth_image_proc" type="update_frame_id.py" output="screen" />
-
-  <!-- Nodelet manager for this pipeline -->
-  <node pkg="nodelet" type="nodelet" args="manager" name="standalone_nodelet" output="screen"/>
-
-  <!-- Convert to point cloud -->
-  <node pkg="nodelet" type="nodelet" name="depth_image_proc" args="load depth_image_proc/point_cloud_xyzrgb standalone_nodelet --no-bond">
-   
-        <!--remap from your specific sensors-->         
-
-        <!-- Input: Camera calibration and metadata.  (sensor_msgs/CameraInfo) -->
-        <remap from="rgb/camera_info" to="/d435/color/camera_info"/>
-
-        <!-- Input: Rectified color image. (sensor_msgs/Image) -->
-        <remap from="rgb/image_rect_color" to="/d435/color/image_raw"/>
-
-        <!-- Input: Rectified depth image, registered to the RGB camera. (sensor_msgs/Image) -->
-        <remap from="depth_registered/image_rect" to="/d435/depth/image_raw"/>
-
-        <!-- Output: XYZ point cloud. If using PCL, subscribe as PointCloud<PointXYZ>.  (sensor_msgs/PointCloud2)  -->
-        <remap from="depth_registered/points" to="/point_cloud/points"/>
-
-  </node>
-
+  
  <!-- Run a passthrough filter to down-sample the sensor point cloud.-->
   <node pkg="nodelet" type="nodelet" name="pcl_manager" args="manager" output="screen"/>
   <node pkg="nodelet" type="nodelet" name="voxel_grid" args="load pcl/VoxelGrid pcl_manager" output="screen">
-    <remap from="~input" to="/point_cloud/points"/>
+    <remap from="~input" to="/d435/depth/color/points"/>
     <remap from="~output" to="/camera/depth/points_downsampled"/>
     <rosparam>
       filter_field_name: z
