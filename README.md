@@ -14,10 +14,15 @@ At the base of the workspace, run the bash script to launch a simulation of a tu
 
 `bash turtlebot_simple.sh`
 
+### For mapping
+
+1) To install point cloud to laser package run <br>
+`sudo apt-get install ros-melodic-pointcloud-to-laserscan ros-$distro-rosbridge-server`
+2) To install gmpaaing dependencies run  <br>
+`sudo apt-get install ros-$distro-openslam-gmapping`
 
 
-
-
-
-
+### Additional notes
+1) While running <br> `octomapping.sh` pressing <br>`Ctrl+Z` will save the octomap to the file name in <br> `octomapping.sh`
+2) Viusalise octomap using <br> `octovis filename.bt`
 
