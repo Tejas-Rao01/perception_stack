@@ -18,7 +18,7 @@ At the base of the workspace, run the bash script to launch a simulation of a tu
 
 1) To install point cloud to laser package run <br>
 `sudo apt-get install ros-melodic-pointcloud-to-laserscan ros-$distro-rosbridge-server`
-2) To install gmpaaing dependencies run  <br>
+2) To install gmapping dependencies run  <br>
 `sudo apt-get install ros-$distro-openslam-gmapping`
 
 
