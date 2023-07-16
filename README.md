@@ -23,6 +23,6 @@ At the base of the workspace, run the bash script to launch a simulation of a tu
 
 
 ### Additional notes
-1) While running <br> `octomapping.sh` pressing <br>`Ctrl+Z` will save the octomap to the file name in <br> `octomapping.sh`
-2) Viusalise octomap using <br> `octovis filename.bt`
+1) While running `octomapping.sh` pressing `Ctrl+Z` will save the octomap to the file name in `octomapping.sh`
+2) Viusalise octomap using `octovis filename.bt`
 
