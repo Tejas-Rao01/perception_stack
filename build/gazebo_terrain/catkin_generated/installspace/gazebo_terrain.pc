@@ -1,0 +1,8 @@
+prefix=/home/stochlab/perception_stack/install
+
+Name: gazebo_terrain
+Description: Description of gazebo_terrain
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

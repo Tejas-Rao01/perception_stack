@@ -30,6 +30,9 @@
   <!-- Launch Rviz-->
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtlebot3_gazebo)/rviz/turtlebot3_gazebo_model.rviz"/>
 
+  <node name="update_frame_id" pkg="depth_image_proc" type="update_frame_id.py" output="screen" />
+
+
     
 
 
