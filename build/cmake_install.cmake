@@ -131,6 +131,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/stochlab/perception_stack/build/gtest/cmake_install.cmake")
+  include("/home/stochlab/perception_stack/build/gazebo_terrain/cmake_install.cmake")
   include("/home/stochlab/perception_stack/build/grid_map/grid_map/cmake_install.cmake")
   include("/home/stochlab/perception_stack/build/grid_map/grid_map_core/cmake_install.cmake")
   include("/home/stochlab/perception_stack/build/grid_map/grid_map_sdf/cmake_install.cmake")

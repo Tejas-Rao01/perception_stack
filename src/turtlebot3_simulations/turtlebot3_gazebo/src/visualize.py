@@ -1,7 +1,8 @@
 import numpy as np 
 import matplotlib.pyplot as plt 
 
-file_path = "/home/stochlab/perception_stack/run2.npy"
+file_path = "run2.npy"
+
 data = np.load(file_path)
 
 
