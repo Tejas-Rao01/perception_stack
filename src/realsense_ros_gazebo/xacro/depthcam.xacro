@@ -9,7 +9,7 @@
 
     <xacro:property name="d435_cam_depth_to_left_ir_offset" value="0.0"/>
     <xacro:property name="d435_cam_depth_to_right_ir_offset" value="-0.050"/>
-    <xacro:property name="d435_cam_depth_to_color_offset" value="0.015"/>
+    <xacro:property name="d435_cam_depth_to_color_offset" value="0.0"/>
     <xacro:property name="d435_cam_width" value="0.090"/>
     <xacro:property name="d435_cam_height" value="0.025"/>
     <xacro:property name="d435_cam_depth" value="0.02505"/>
@@ -195,10 +195,10 @@
       </sensor>
       <sensor name="${sensor_name}_depth" type="depth">
         <camera name="${sensor_name}">
-          <horizontal_fov>${85.2*deg_to_rad}</horizontal_fov>
+          <horizontal_fov>${69.4*deg_to_rad}</horizontal_fov>
           <image>
-            <width>1280</width>
-            <height>720</height>
+            <width>640</width>
+            <height>480</height>
           </image>
           <clip>
             <near>0.1</near>

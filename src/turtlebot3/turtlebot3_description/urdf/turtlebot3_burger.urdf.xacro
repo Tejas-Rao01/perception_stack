@@ -3,7 +3,7 @@
   <xacro:include filename="$(find turtlebot3_description)/urdf/common_properties.xacro"/>
   <xacro:include filename="$(find turtlebot3_description)/urdf/turtlebot3_burger.gazebo.xacro"/>
   <xacro:include filename="$(find realsense_ros_gazebo)/xacro/depthcam.xacro"/>
-  <xacro:realsense_d435 sensor_name="d435" parent_link="base_link" rate="10">
+  <xacro:realsense_d435 sensor_name="/tb3_0/d435" parent_link="base_link" rate="10">
   <origin rpy="0 0 0 " xyz="-0.03 0 0.172"/>
   </xacro:realsense_d435>
   <link name="base_footprint"/>
@@ -13,7 +13,11 @@
     <child link="base_link"/>
     <origin xyz="0.0 0.0 0.010" rpy="0 0 0"/>
   </joint>
-
+  <joint name="fill_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="fill_link"/>
+    <origin xyz="0.0 0.0 0.010" rpy="0 0 0"/>
+  </joint>
   <link name="base_link">
     <visual>
       <origin xyz="-0.032 0 0.0" rpy="0 0 0"/>
@@ -39,6 +43,15 @@
     </inertial>
   </link>
 
+    <link name="fill_link">
+    <visual>
+      <origin xyz="-0.032 0 0.05" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.15" radius="0.05"/>
+      </geometry>
+      <material name="light_black"/>
+    </visual>
+  </link>
   <joint name="wheel_left_joint" type="continuous">
     <parent link="base_link"/>
     <child link="wheel_left_link"/>

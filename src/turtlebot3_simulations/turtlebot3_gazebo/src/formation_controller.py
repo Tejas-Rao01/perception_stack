@@ -23,14 +23,14 @@ class Controller():
         # Defining Parameters
         self.tau = 0.1
         self.eps_theta = 0.1
-        self.omega_max = 0.8
-        self.v_max = 0.5
-        self.w_max = 1
-        self.eta_v = 5
+        self.omega_max = 2
+        self.v_max = 0.11
+        self.w_max = 2.7
+        self.eta_v = 10
         self.eta_w = 5
         self.t_prev = 0
         self.thetad_prev = 0
-        self.T_sim = 100
+        self.T_sim = 200
         self.t_start = rospy.get_time()
 
         self.robot_xs = []
@@ -112,8 +112,8 @@ class Controller():
        
 
     def get_traj_point(self,t, T_sim):
-        x_t = (5 + np.sin(6 * np.pi * t / T_sim))* np.cos(2 * np.pi * t / T_sim)
-        y_t = (5 + np.sin(6 * np.pi * t / T_sim))* np.sin(2 * np.pi * t / T_sim)
+        x_t = 3 * np.cos(2 * np.pi * t / T_sim)
+        y_t = 2 * np.sin(2 * np.pi * t / T_sim)
         return x_t, y_t
 
 

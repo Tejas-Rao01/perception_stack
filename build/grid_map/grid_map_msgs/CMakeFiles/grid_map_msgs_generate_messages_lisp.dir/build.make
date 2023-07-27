@@ -64,60 +64,60 @@ grid_map/grid_map_msgs/CMakeFiles/grid_map_msgs_generate_messages_lisp: /home/st
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMapInfo.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMapInfo.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMapInfo.msg
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMapInfo.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMapInfo.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMapInfo.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMapInfo.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMapInfo.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from grid_map_msgs/GridMapInfo.msg"
 	cd /home/stochlab/perception_stack/build/grid_map/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMapInfo.msg -Igrid_map_msgs:/home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg
 
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMap.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Float32MultiArray.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMapInfo.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayLayout.msg
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMapInfo.msg
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Float32MultiArray.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayLayout.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg/GridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from grid_map_msgs/GridMap.msg"
 	cd /home/stochlab/perception_stack/build/grid_map/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMap.msg -Igrid_map_msgs:/home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/msg
 
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/srv/SetGridMap.srv
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Float32MultiArray.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMapInfo.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayLayout.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMap.msg
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMapInfo.msg
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Float32MultiArray.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayLayout.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/SetGridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMap.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Lisp code from grid_map_msgs/SetGridMap.srv"
 	cd /home/stochlab/perception_stack/build/grid_map/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/srv/SetGridMap.srv -Igrid_map_msgs:/home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv
 
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/srv/GetGridMap.srv
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Float32MultiArray.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMapInfo.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayLayout.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMap.msg
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMapInfo.msg
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Float32MultiArray.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayLayout.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/MultiArrayDimension.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMap.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMap.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Lisp code from grid_map_msgs/GetGridMap.srv"
 	cd /home/stochlab/perception_stack/build/grid_map/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/srv/GetGridMap.srv -Igrid_map_msgs:/home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv
 
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/srv/GetGridMapInfo.srv
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMapInfo.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp: /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg/GridMapInfo.msg
 /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv/GetGridMapInfo.lisp: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/stochlab/perception_stack/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Lisp code from grid_map_msgs/GetGridMapInfo.srv"
 	cd /home/stochlab/perception_stack/build/grid_map/grid_map_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/stochlab/perception_stack/src/grid_map/grid_map_msgs/srv/GetGridMapInfo.srv -Igrid_map_msgs:/home/stochlab/perception_stack/src/grid_map/grid_map_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p grid_map_msgs -o /home/stochlab/perception_stack/devel/share/common-lisp/ros/grid_map_msgs/srv
 

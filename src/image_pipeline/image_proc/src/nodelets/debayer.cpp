@@ -140,7 +140,19 @@ void DebayerNodelet::imageCb(const sensor_msgs::ImageConstPtr& raw_msg)
         {
           if (bit_depth == 8)
             gray_msg = cv_bridge::toCvCopy(raw_msg, enc::MONO8)->toImageMsg();
-          else
+          else{
+            sensor_msgs::Image img;
+	          img.header = raw_msg->header;
+            img.height = raw_msg->height;
+            img.width = raw_msg->width;
+            img.is_bigendian = raw_msg->is_bigendian;
+            img.step = raw_msg->step;
+            img.data = raw_msg->data;
+            img.encoding = "mono16"; 
+            gray_msg = cv_bridge::toCvCopy(img, enc::MONO16)->toImageMsg();
+          pub_mono_.publish(gray_msg);
+          }
+          
             gray_msg = cv_bridge::toCvCopy(raw_msg, enc::MONO16)->toImageMsg();
           pub_mono_.publish(gray_msg);
         }
