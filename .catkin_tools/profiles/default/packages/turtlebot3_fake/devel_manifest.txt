@@ -1,0 +1,6 @@
+turtlebot3_simulations/turtlebot3_fake
+/home/kartik/perception_stack/devel/.private/turtlebot3_fake/cmake.lock /home/kartik/perception_stack/devel/./cmake.lock
+/home/kartik/perception_stack/devel/.private/turtlebot3_fake/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig-version.cmake /home/kartik/perception_stack/devel/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig-version.cmake
+/home/kartik/perception_stack/devel/.private/turtlebot3_fake/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig.cmake /home/kartik/perception_stack/devel/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig.cmake
+/home/kartik/perception_stack/devel/.private/turtlebot3_fake/lib/pkgconfig/turtlebot3_fake.pc /home/kartik/perception_stack/devel/lib/pkgconfig/turtlebot3_fake.pc
+/home/kartik/perception_stack/devel/.private/turtlebot3_fake/lib/turtlebot3_fake/turtlebot3_fake_node /home/kartik/perception_stack/devel/lib/turtlebot3_fake/turtlebot3_fake_node

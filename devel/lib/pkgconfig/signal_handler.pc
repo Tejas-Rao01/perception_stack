@@ -1,0 +1,8 @@
+prefix=/home/kartik/perception_stack/devel
+
+Name: signal_handler
+Description: Description of signal_handler
+Version: 0.5.0
+Cflags: -I/home/kartik/perception_stack/src/any_node/signal_handler/include
+Libs: -L${prefix}/lib -lsignal_handler
+Requires: 

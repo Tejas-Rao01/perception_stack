@@ -1,0 +1,8 @@
+prefix=/home/kartik/perception_stack/install
+
+Name: camera_calibration
+Description: Description of camera_calibration
+Version: 1.15.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

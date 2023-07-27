@@ -1,0 +1,8 @@
+prefix=/home/kartik/perception_stack/devel
+
+Name: traversability_msgs
+Description: Description of traversability_msgs
+Version: 0.4.0
+Cflags: -I/home/kartik/perception_stack/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,6 @@
+image_pipeline/depth_image_proc
+/home/kartik/perception_stack/devel/.private/depth_image_proc/cmake.lock /home/kartik/perception_stack/devel/./cmake.lock
+/home/kartik/perception_stack/devel/.private/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig.cmake /home/kartik/perception_stack/devel/share/depth_image_proc/cmake/depth_image_procConfig.cmake
+/home/kartik/perception_stack/devel/.private/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig-version.cmake /home/kartik/perception_stack/devel/share/depth_image_proc/cmake/depth_image_procConfig-version.cmake
+/home/kartik/perception_stack/devel/.private/depth_image_proc/lib/libdepth_image_proc.so /home/kartik/perception_stack/devel/lib/libdepth_image_proc.so
+/home/kartik/perception_stack/devel/.private/depth_image_proc/lib/pkgconfig/depth_image_proc.pc /home/kartik/perception_stack/devel/lib/pkgconfig/depth_image_proc.pc

@@ -1,0 +1,5 @@
+kindr
+/home/kartik/perception_stack/devel/.private/kindr/cmake.lock /home/kartik/perception_stack/devel/./cmake.lock
+/home/kartik/perception_stack/devel/.private/kindr/share/kindr/cmake/kindrConfig.cmake /home/kartik/perception_stack/devel/share/kindr/cmake/kindrConfig.cmake
+/home/kartik/perception_stack/devel/.private/kindr/share/kindr/cmake/kindrConfig-version.cmake /home/kartik/perception_stack/devel/share/kindr/cmake/kindrConfig-version.cmake
+/home/kartik/perception_stack/devel/.private/kindr/lib/pkgconfig/kindr.pc /home/kartik/perception_stack/devel/lib/pkgconfig/kindr.pc

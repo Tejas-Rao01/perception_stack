@@ -1,0 +1,2 @@
+set(traversability_msgs_MESSAGE_FILES "/home/kartik/perception_stack/src/traversability_estimation/traversability_msgs/msg/FootprintPath.msg;/home/kartik/perception_stack/src/traversability_estimation/traversability_msgs/msg/TraversabilityResult.msg")
+set(traversability_msgs_SERVICE_FILES "/home/kartik/perception_stack/src/traversability_estimation/traversability_msgs/srv/CheckFootprintPath.srv;/home/kartik/perception_stack/src/traversability_estimation/traversability_msgs/srv/Overwrite.srv")

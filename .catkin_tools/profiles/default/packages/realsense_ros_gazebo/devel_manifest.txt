@@ -1,0 +1,6 @@
+realsense_ros_gazebo
+/home/kartik/perception_stack/devel/.private/realsense_ros_gazebo/cmake.lock /home/kartik/perception_stack/devel/./cmake.lock
+/home/kartik/perception_stack/devel/.private/realsense_ros_gazebo/share/realsense_ros_gazebo/cmake/realsense_ros_gazeboConfig-version.cmake /home/kartik/perception_stack/devel/share/realsense_ros_gazebo/cmake/realsense_ros_gazeboConfig-version.cmake
+/home/kartik/perception_stack/devel/.private/realsense_ros_gazebo/share/realsense_ros_gazebo/cmake/realsense_ros_gazeboConfig.cmake /home/kartik/perception_stack/devel/share/realsense_ros_gazebo/cmake/realsense_ros_gazeboConfig.cmake
+/home/kartik/perception_stack/devel/.private/realsense_ros_gazebo/lib/librealsense_gazebo_plugin.so /home/kartik/perception_stack/devel/lib/librealsense_gazebo_plugin.so
+/home/kartik/perception_stack/devel/.private/realsense_ros_gazebo/lib/pkgconfig/realsense_ros_gazebo.pc /home/kartik/perception_stack/devel/lib/pkgconfig/realsense_ros_gazebo.pc
