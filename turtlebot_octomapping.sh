@@ -9,7 +9,7 @@ on_interrupt ()
 }
 export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot3_gazebo octomapping.launch & 
-roslaunch grid_map_demos surface_normals.launch
+# roslaunch grid_map_demos surface_normals.launch
 trap "on_interrupt" 20
 
 wait

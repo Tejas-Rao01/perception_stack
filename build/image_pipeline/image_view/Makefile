@@ -68,6 +68,18 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"dev\""
@@ -88,29 +100,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -134,6 +123,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,94 +168,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-image_pipeline/image_view/CMakeFiles/disparity_view.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/disparity_view.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/disparity_view.dir/rule
+image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/rule
+.PHONY : image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/rule
 
 # Convenience name for target.
-disparity_view: image_pipeline/image_view/CMakeFiles/disparity_view.dir/rule
+image_view_gencfg: image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/rule
 
-.PHONY : disparity_view
+.PHONY : image_view_gencfg
 
 # fast build rule for target.
-disparity_view/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/disparity_view.dir/build.make image_pipeline/image_view/CMakeFiles/disparity_view.dir/build
-.PHONY : disparity_view/fast
-
-# Convenience name for target.
-image_pipeline/image_view/CMakeFiles/stereo_view.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/stereo_view.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/stereo_view.dir/rule
-
-# Convenience name for target.
-stereo_view: image_pipeline/image_view/CMakeFiles/stereo_view.dir/rule
-
-.PHONY : stereo_view
-
-# fast build rule for target.
-stereo_view/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/stereo_view.dir/build.make image_pipeline/image_view/CMakeFiles/stereo_view.dir/build
-.PHONY : stereo_view/fast
-
-# Convenience name for target.
-image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_nodejs: image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
-
-.PHONY : std_srvs_generate_messages_nodejs
-
-# fast build rule for target.
-std_srvs_generate_messages_nodejs/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
-.PHONY : std_srvs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-image_pipeline/image_view/CMakeFiles/extract_images.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/extract_images.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/extract_images.dir/rule
-
-# Convenience name for target.
-extract_images: image_pipeline/image_view/CMakeFiles/extract_images.dir/rule
-
-.PHONY : extract_images
-
-# fast build rule for target.
-extract_images/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/extract_images.dir/build.make image_pipeline/image_view/CMakeFiles/extract_images.dir/build
-.PHONY : extract_images/fast
-
-# Convenience name for target.
-image_pipeline/image_view/CMakeFiles/video_recorder.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/video_recorder.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/video_recorder.dir/rule
-
-# Convenience name for target.
-video_recorder: image_pipeline/image_view/CMakeFiles/video_recorder.dir/rule
-
-.PHONY : video_recorder
-
-# fast build rule for target.
-video_recorder/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/video_recorder.dir/build.make image_pipeline/image_view/CMakeFiles/video_recorder.dir/build
-.PHONY : video_recorder/fast
-
-# Convenience name for target.
-image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_py.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_py.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_py: image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_py.dir/rule
-
-.PHONY : std_srvs_generate_messages_py
-
-# fast build rule for target.
-std_srvs_generate_messages_py/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_py.dir/build.make image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_py.dir/build
-.PHONY : std_srvs_generate_messages_py/fast
+image_view_gencfg/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/build.make image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/build
+.PHONY : image_view_gencfg/fast
 
 # Convenience name for target.
 image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_nodejs.dir/rule:
@@ -273,94 +198,19 @@ stereo_msgs_generate_messages_nodejs/fast:
 .PHONY : stereo_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_eus.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+image_pipeline/image_view/CMakeFiles/video_recorder.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/video_recorder.dir/rule
+.PHONY : image_pipeline/image_view/CMakeFiles/video_recorder.dir/rule
 
 # Convenience name for target.
-std_srvs_generate_messages_eus: image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+video_recorder: image_pipeline/image_view/CMakeFiles/video_recorder.dir/rule
 
-.PHONY : std_srvs_generate_messages_eus
+.PHONY : video_recorder
 
 # fast build rule for target.
-std_srvs_generate_messages_eus/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_eus.dir/build
-.PHONY : std_srvs_generate_messages_eus/fast
-
-# Convenience name for target.
-image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-stereo_msgs_generate_messages_lisp: image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : stereo_msgs_generate_messages_lisp
-
-# fast build rule for target.
-stereo_msgs_generate_messages_lisp/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/build.make image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/build
-.PHONY : stereo_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_lisp: image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
-
-.PHONY : std_srvs_generate_messages_lisp
-
-# fast build rule for target.
-std_srvs_generate_messages_lisp/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
-.PHONY : std_srvs_generate_messages_lisp/fast
-
-# Convenience name for target.
-image_pipeline/image_view/CMakeFiles/image_view.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/image_view.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/image_view.dir/rule
-
-# Convenience name for target.
-image_view: image_pipeline/image_view/CMakeFiles/image_view.dir/rule
-
-.PHONY : image_view
-
-# fast build rule for target.
-image_view/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/image_view.dir/build.make image_pipeline/image_view/CMakeFiles/image_view.dir/build
-.PHONY : image_view/fast
-
-# Convenience name for target.
-image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-std_srvs_generate_messages_cpp: image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
-
-.PHONY : std_srvs_generate_messages_cpp
-
-# fast build rule for target.
-std_srvs_generate_messages_cpp/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make image_pipeline/image_view/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
-.PHONY : std_srvs_generate_messages_cpp/fast
-
-# Convenience name for target.
-image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-stereo_msgs_generate_messages_eus: image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/rule
-
-.PHONY : stereo_msgs_generate_messages_eus
-
-# fast build rule for target.
-stereo_msgs_generate_messages_eus/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/build.make image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/build
-.PHONY : stereo_msgs_generate_messages_eus/fast
+video_recorder/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/video_recorder.dir/build.make image_pipeline/image_view/CMakeFiles/video_recorder.dir/build
+.PHONY : video_recorder/fast
 
 # Convenience name for target.
 image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_cpp.dir/rule:
@@ -408,19 +258,79 @@ image_saver/fast:
 .PHONY : image_saver/fast
 
 # Convenience name for target.
-image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/rule
-.PHONY : image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/rule
+image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/rule
+.PHONY : image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-image_view_gencfg: image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/rule
+stereo_msgs_generate_messages_lisp: image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/rule
 
-.PHONY : image_view_gencfg
+.PHONY : stereo_msgs_generate_messages_lisp
 
 # fast build rule for target.
-image_view_gencfg/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/build.make image_pipeline/image_view/CMakeFiles/image_view_gencfg.dir/build
-.PHONY : image_view_gencfg/fast
+stereo_msgs_generate_messages_lisp/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/build.make image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_lisp.dir/build
+.PHONY : stereo_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+image_pipeline/image_view/CMakeFiles/image_view.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/image_view.dir/rule
+.PHONY : image_pipeline/image_view/CMakeFiles/image_view.dir/rule
+
+# Convenience name for target.
+image_view: image_pipeline/image_view/CMakeFiles/image_view.dir/rule
+
+.PHONY : image_view
+
+# fast build rule for target.
+image_view/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/image_view.dir/build.make image_pipeline/image_view/CMakeFiles/image_view.dir/build
+.PHONY : image_view/fast
+
+# Convenience name for target.
+image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/rule
+.PHONY : image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+stereo_msgs_generate_messages_eus: image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/rule
+
+.PHONY : stereo_msgs_generate_messages_eus
+
+# fast build rule for target.
+stereo_msgs_generate_messages_eus/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/build.make image_pipeline/image_view/CMakeFiles/stereo_msgs_generate_messages_eus.dir/build
+.PHONY : stereo_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+image_pipeline/image_view/CMakeFiles/extract_images.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/extract_images.dir/rule
+.PHONY : image_pipeline/image_view/CMakeFiles/extract_images.dir/rule
+
+# Convenience name for target.
+extract_images: image_pipeline/image_view/CMakeFiles/extract_images.dir/rule
+
+.PHONY : extract_images
+
+# fast build rule for target.
+extract_images/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/extract_images.dir/build.make image_pipeline/image_view/CMakeFiles/extract_images.dir/build
+.PHONY : extract_images/fast
+
+# Convenience name for target.
+image_pipeline/image_view/CMakeFiles/stereo_view.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/stereo_view.dir/rule
+.PHONY : image_pipeline/image_view/CMakeFiles/stereo_view.dir/rule
+
+# Convenience name for target.
+stereo_view: image_pipeline/image_view/CMakeFiles/stereo_view.dir/rule
+
+.PHONY : stereo_view
+
+# fast build rule for target.
+stereo_view/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/stereo_view.dir/build.make image_pipeline/image_view/CMakeFiles/stereo_view.dir/build
+.PHONY : stereo_view/fast
 
 # Convenience name for target.
 image_pipeline/image_view/CMakeFiles/image_view_exe.dir/rule:
@@ -436,6 +346,21 @@ image_view_exe: image_pipeline/image_view/CMakeFiles/image_view_exe.dir/rule
 image_view_exe/fast:
 	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/image_view_exe.dir/build.make image_pipeline/image_view/CMakeFiles/image_view_exe.dir/build
 .PHONY : image_view_exe/fast
+
+# Convenience name for target.
+image_pipeline/image_view/CMakeFiles/disparity_view.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 image_pipeline/image_view/CMakeFiles/disparity_view.dir/rule
+.PHONY : image_pipeline/image_view/CMakeFiles/disparity_view.dir/rule
+
+# Convenience name for target.
+disparity_view: image_pipeline/image_view/CMakeFiles/disparity_view.dir/rule
+
+.PHONY : disparity_view
+
+# fast build rule for target.
+disparity_view/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f image_pipeline/image_view/CMakeFiles/disparity_view.dir/build.make image_pipeline/image_view/CMakeFiles/disparity_view.dir/build
+.PHONY : disparity_view/fast
 
 src/nodelets/disparity_nodelet.o: src/nodelets/disparity_nodelet.cpp.o
 
@@ -687,30 +612,25 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/local"
-	@echo "... list_install_components"
-	@echo "... disparity_view"
-	@echo "... stereo_view"
-	@echo "... std_srvs_generate_messages_nodejs"
-	@echo "... extract_images"
-	@echo "... video_recorder"
-	@echo "... std_srvs_generate_messages_py"
-	@echo "... edit_cache"
-	@echo "... stereo_msgs_generate_messages_nodejs"
-	@echo "... test"
-	@echo "... std_srvs_generate_messages_eus"
-	@echo "... stereo_msgs_generate_messages_lisp"
-	@echo "... std_srvs_generate_messages_lisp"
-	@echo "... image_view"
 	@echo "... install"
-	@echo "... std_srvs_generate_messages_cpp"
-	@echo "... stereo_msgs_generate_messages_eus"
+	@echo "... list_install_components"
+	@echo "... image_view_gencfg"
+	@echo "... stereo_msgs_generate_messages_nodejs"
+	@echo "... edit_cache"
+	@echo "... video_recorder"
 	@echo "... stereo_msgs_generate_messages_cpp"
 	@echo "... stereo_msgs_generate_messages_py"
 	@echo "... install/strip"
 	@echo "... image_saver"
-	@echo "... image_view_gencfg"
+	@echo "... stereo_msgs_generate_messages_lisp"
+	@echo "... image_view"
+	@echo "... stereo_msgs_generate_messages_eus"
+	@echo "... extract_images"
+	@echo "... stereo_view"
 	@echo "... rebuild_cache"
 	@echo "... image_view_exe"
+	@echo "... disparity_view"
+	@echo "... test"
 	@echo "... src/nodelets/disparity_nodelet.o"
 	@echo "... src/nodelets/disparity_nodelet.i"
 	@echo "... src/nodelets/disparity_nodelet.s"

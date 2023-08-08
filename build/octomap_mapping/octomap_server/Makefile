@@ -102,17 +102,6 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -134,6 +123,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,124 +168,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
+octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
+.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
 
 # Convenience name for target.
-octomap_msgs_generate_messages_nodejs: octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/rule
+octomap_color_server_node: octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
 
-.PHONY : octomap_msgs_generate_messages_nodejs
+.PHONY : octomap_color_server_node
 
 # fast build rule for target.
-octomap_msgs_generate_messages_nodejs/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/build
-.PHONY : octomap_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
-
-# Convenience name for target.
-octomap_saver: octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
-
-.PHONY : octomap_saver
-
-# fast build rule for target.
-octomap_saver/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build
-.PHONY : octomap_saver/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_lisp: octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_lisp
-
-# fast build rule for target.
-octomap_msgs_generate_messages_lisp/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_lisp.dir/build
-.PHONY : octomap_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_cpp: octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_cpp
-
-# fast build rule for target.
-octomap_msgs_generate_messages_cpp/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_cpp.dir/build
-.PHONY : octomap_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_eus: octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_eus
-
-# fast build rule for target.
-octomap_msgs_generate_messages_eus/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_eus.dir/build
-.PHONY : octomap_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule
-
-# Convenience name for target.
-octomap_server: octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule
-
-.PHONY : octomap_server
-
-# fast build rule for target.
-octomap_server/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build
-.PHONY : octomap_server/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-octomap_msgs_generate_messages_py: octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/rule
-
-.PHONY : octomap_msgs_generate_messages_py
-
-# fast build rule for target.
-octomap_msgs_generate_messages_py/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_msgs_generate_messages_py.dir/build
-.PHONY : octomap_msgs_generate_messages_py/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
-
-# Convenience name for target.
-octomap_server_gencfg: octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
-
-.PHONY : octomap_server_gencfg
-
-# fast build rule for target.
-octomap_server_gencfg/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build
-.PHONY : octomap_server_gencfg/fast
+octomap_color_server_node/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build
+.PHONY : octomap_color_server_node/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/rule:
@@ -303,34 +198,19 @@ octomap_server_color/fast:
 .PHONY : octomap_server_color/fast
 
 # Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
+octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
+.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
 
 # Convenience name for target.
-octomap_color_server_node: octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/rule
+octomap_server_gencfg: octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/rule
 
-.PHONY : octomap_color_server_node
+.PHONY : octomap_server_gencfg
 
 # fast build rule for target.
-octomap_color_server_node/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_color_server_node.dir/build
-.PHONY : octomap_color_server_node/fast
-
-# Convenience name for target.
-octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule
-.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule
-
-# Convenience name for target.
-octomap_server_node: octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule
-
-.PHONY : octomap_server_node
-
-# fast build rule for target.
-octomap_server_node/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build
-.PHONY : octomap_server_node/fast
+octomap_server_gencfg/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_gencfg.dir/build
+.PHONY : octomap_server_gencfg/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_server_static.dir/rule:
@@ -348,6 +228,36 @@ octomap_server_static/fast:
 .PHONY : octomap_server_static/fast
 
 # Convenience name for target.
+octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule
+.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule
+
+# Convenience name for target.
+octomap_server_node: octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/rule
+
+.PHONY : octomap_server_node
+
+# fast build rule for target.
+octomap_server_node/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_node.dir/build
+.PHONY : octomap_server_node/fast
+
+# Convenience name for target.
+octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule
+.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule
+
+# Convenience name for target.
+octomap_server: octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/rule
+
+.PHONY : octomap_server
+
+# fast build rule for target.
+octomap_server/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build
+.PHONY : octomap_server/fast
+
+# Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/rule:
 	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/rule
 .PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/rule
@@ -361,6 +271,21 @@ octomap_server_multilayer: octomap_mapping/octomap_server/CMakeFiles/octomap_ser
 octomap_server_multilayer/fast:
 	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_multilayer.dir/build
 .PHONY : octomap_server_multilayer/fast
+
+# Convenience name for target.
+octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
+.PHONY : octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
+
+# Convenience name for target.
+octomap_saver: octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/rule
+
+.PHONY : octomap_saver
+
+# fast build rule for target.
+octomap_saver/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_saver.dir/build
+.PHONY : octomap_saver/fast
 
 # Convenience name for target.
 octomap_mapping/octomap_server/CMakeFiles/octomap_tracking_server_node.dir/rule:
@@ -413,8 +338,8 @@ src/OctomapServer.o: src/OctomapServer.cpp.o
 
 # target to build an object file
 src/OctomapServer.cpp.o:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.o
 	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.o
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.o
 .PHONY : src/OctomapServer.cpp.o
 
 src/OctomapServer.i: src/OctomapServer.cpp.i
@@ -423,8 +348,8 @@ src/OctomapServer.i: src/OctomapServer.cpp.i
 
 # target to preprocess a source file
 src/OctomapServer.cpp.i:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.i
 	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.i
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.i
 .PHONY : src/OctomapServer.cpp.i
 
 src/OctomapServer.s: src/OctomapServer.cpp.s
@@ -433,8 +358,8 @@ src/OctomapServer.s: src/OctomapServer.cpp.s
 
 # target to generate assembly for a file
 src/OctomapServer.cpp.s:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.s
 	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.s
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServer.cpp.s
 .PHONY : src/OctomapServer.cpp.s
 
 src/OctomapServerMultilayer.o: src/OctomapServerMultilayer.cpp.o
@@ -443,8 +368,8 @@ src/OctomapServerMultilayer.o: src/OctomapServerMultilayer.cpp.o
 
 # target to build an object file
 src/OctomapServerMultilayer.cpp.o:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.o
 	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.o
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.o
 .PHONY : src/OctomapServerMultilayer.cpp.o
 
 src/OctomapServerMultilayer.i: src/OctomapServerMultilayer.cpp.i
@@ -453,8 +378,8 @@ src/OctomapServerMultilayer.i: src/OctomapServerMultilayer.cpp.i
 
 # target to preprocess a source file
 src/OctomapServerMultilayer.cpp.i:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.i
 	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.i
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.i
 .PHONY : src/OctomapServerMultilayer.cpp.i
 
 src/OctomapServerMultilayer.s: src/OctomapServerMultilayer.cpp.s
@@ -463,8 +388,8 @@ src/OctomapServerMultilayer.s: src/OctomapServerMultilayer.cpp.s
 
 # target to generate assembly for a file
 src/OctomapServerMultilayer.cpp.s:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.s
 	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.s
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/OctomapServerMultilayer.cpp.s
 .PHONY : src/OctomapServerMultilayer.cpp.s
 
 src/TrackingOctomapServer.o: src/TrackingOctomapServer.cpp.o
@@ -473,8 +398,8 @@ src/TrackingOctomapServer.o: src/TrackingOctomapServer.cpp.o
 
 # target to build an object file
 src/TrackingOctomapServer.cpp.o:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.o
 	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.o
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.o
 .PHONY : src/TrackingOctomapServer.cpp.o
 
 src/TrackingOctomapServer.i: src/TrackingOctomapServer.cpp.i
@@ -483,8 +408,8 @@ src/TrackingOctomapServer.i: src/TrackingOctomapServer.cpp.i
 
 # target to preprocess a source file
 src/TrackingOctomapServer.cpp.i:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.i
 	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.i
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.i
 .PHONY : src/TrackingOctomapServer.cpp.i
 
 src/TrackingOctomapServer.s: src/TrackingOctomapServer.cpp.s
@@ -493,8 +418,8 @@ src/TrackingOctomapServer.s: src/TrackingOctomapServer.cpp.s
 
 # target to generate assembly for a file
 src/TrackingOctomapServer.cpp.s:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.s
 	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.s
+	cd /home/kartik/perception_stack/build && $(MAKE) -f octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/build.make octomap_mapping/octomap_server/CMakeFiles/octomap_server.dir/src/TrackingOctomapServer.cpp.s
 .PHONY : src/TrackingOctomapServer.cpp.s
 
 src/octomap_saver.o: src/octomap_saver.cpp.o
@@ -673,27 +598,22 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... test"
-	@echo "... octomap_msgs_generate_messages_nodejs"
-	@echo "... octomap_saver"
-	@echo "... octomap_msgs_generate_messages_lisp"
-	@echo "... octomap_msgs_generate_messages_cpp"
-	@echo "... rebuild_cache"
-	@echo "... octomap_msgs_generate_messages_eus"
-	@echo "... octomap_server"
-	@echo "... octomap_msgs_generate_messages_py"
-	@echo "... octomap_server_gencfg"
-	@echo "... octomap_server_color"
 	@echo "... octomap_color_server_node"
-	@echo "... octomap_server_node"
+	@echo "... octomap_server_color"
+	@echo "... octomap_server_gencfg"
 	@echo "... octomap_server_static"
+	@echo "... install"
+	@echo "... octomap_server_node"
+	@echo "... list_install_components"
+	@echo "... octomap_server"
 	@echo "... octomap_server_multilayer"
+	@echo "... octomap_saver"
+	@echo "... rebuild_cache"
 	@echo "... octomap_tracking_server_node"
 	@echo "... edit_cache"
 	@echo "... octomap_server_nodelet"
 	@echo "... octomap_color_server_nodelet"
+	@echo "... test"
 	@echo "... src/OctomapServer.o"
 	@echo "... src/OctomapServer.i"
 	@echo "... src/OctomapServer.s"

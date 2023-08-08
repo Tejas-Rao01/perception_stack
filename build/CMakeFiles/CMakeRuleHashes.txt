@@ -13,6 +13,7 @@ a03eec6f118834f88faf16f8d5e3c5b7 /home/kartik/perception_stack/devel/include/ima
 b346915803a3c01dc970eb569e226c83 /home/kartik/perception_stack/devel/include/image_rotate/ImageRotateConfig.h
 73ab1bc87f4d9e37aeea64c3f02508f7 /home/kartik/perception_stack/devel/include/image_view/ImageViewConfig.h
 c0e776511144671db5901329b8bc3ac8 /home/kartik/perception_stack/devel/include/kindr_msgs/VectorAtPosition.h
+d4f7f42cda1fc873351c7318d93c20da /home/kartik/perception_stack/devel/include/normal_extractor/NEXTServerConfig.h
 e2bec8822eb37edcd9f71c590a69103a /home/kartik/perception_stack/devel/include/octomap_server/OctomapServerConfig.h
 c45401867996373b4d0e7a07d354a14c /home/kartik/perception_stack/devel/include/stereo_image_proc/DisparityConfig.h
 34bdda6f344537d58084964b4da6ca00 /home/kartik/perception_stack/devel/include/traversability_msgs/CheckFootprintPath.h
@@ -109,6 +110,7 @@ ff8e063fdc8fb8047e95b689d63adc43 /home/kartik/perception_stack/devel/share/roseu
 7720ac1cadb4f9a524a6fdbf8623e5a0 /home/kartik/perception_stack/devel/share/roseus/ros/turtlebot3_example/msg/Turtlebot3Goal.l
 20fbd4064a61e4474e6631d3c076ee2e /home/kartik/perception_stack/devel/share/roseus/ros/turtlebot3_example/msg/Turtlebot3Result.l
 3f42c880467ac35ee176c1d0896b8a05 CMakeFiles/clean_test_results
+8ab6197756e2551c608304c74d7e7a48 NormlaExtractor/CMakeFiles/normal_extractor_gencfg
 8d1694b6d187bb8af5e3c5976b224bd1 any_node/any_node/CMakeFiles/_run_tests_any_node_gtest_test_any_node
 c6b9b044a33fed700655abc1ed799b6c any_node/any_node/CMakeFiles/clean_test_results_any_node
 8d1694b6d187bb8af5e3c5976b224bd1 any_node/any_node/CMakeFiles/run_tests_any_node_gtest_test_any_node

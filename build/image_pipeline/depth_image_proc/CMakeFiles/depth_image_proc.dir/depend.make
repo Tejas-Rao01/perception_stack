@@ -600,8 +600,7 @@ image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/poi
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /opt/ros/melodic/include/message_filters/synchronizer.h
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /opt/ros/melodic/include/nodelet/exception.h
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /opt/ros/melodic/include/nodelet/nodelet.h
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /opt/ros/melodic/include/pluginlib/./class_list_macros.hpp
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /opt/ros/melodic/include/pluginlib/class_list_macros.h
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /opt/ros/melodic/include/pluginlib/class_list_macros.hpp
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /opt/ros/melodic/include/ros/advertise_options.h
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /opt/ros/melodic/include/ros/advertise_service_options.h
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzi.cpp.o: /opt/ros/melodic/include/ros/assert.h
@@ -889,8 +888,7 @@ image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/poi
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /opt/ros/melodic/include/message_filters/synchronizer.h
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /opt/ros/melodic/include/nodelet/exception.h
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /opt/ros/melodic/include/nodelet/nodelet.h
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /opt/ros/melodic/include/pluginlib/./class_list_macros.hpp
-image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /opt/ros/melodic/include/pluginlib/class_list_macros.h
+image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /opt/ros/melodic/include/pluginlib/class_list_macros.hpp
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /opt/ros/melodic/include/ros/advertise_options.h
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /opt/ros/melodic/include/ros/advertise_service_options.h
 image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/point_cloud_xyzrgb.cpp.o: /opt/ros/melodic/include/ros/assert.h

@@ -153,7 +153,7 @@ cv_bridge/cv_bridge.h
 -
 opencv2/imgproc/imgproc.hpp
 -
-pluginlib/class_list_macros.h
+pluginlib/class_list_macros.hpp
 -
 
 /home/kartik/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/point_cloud_xyzi_radial.cpp
@@ -219,7 +219,7 @@ cv_bridge/cv_bridge.h
 -
 opencv2/imgproc/imgproc.hpp
 -
-pluginlib/class_list_macros.h
+pluginlib/class_list_macros.hpp
 -
 
 /home/kartik/perception_stack/src/image_pipeline/depth_image_proc/src/nodelets/register.cpp
@@ -853,6 +853,10 @@ class_loader/class_loader.hpp
 /opt/ros/melodic/include/pluginlib/class_list_macros.h
 ./class_list_macros.hpp
 /opt/ros/melodic/include/pluginlib/./class_list_macros.hpp
+
+/opt/ros/melodic/include/pluginlib/class_list_macros.hpp
+class_loader/class_loader.hpp
+-
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h

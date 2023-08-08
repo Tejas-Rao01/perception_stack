@@ -113,23 +113,23 @@
     <remap from="cloud_in" to="/d435/depth/color/points" />
   </node> 
   <!-- surface normal calculator-->
-  <!-- <node pkg="grid_map_demos" type="filters_demo" name="grid_map_filter_demo" output="screen"> -->
+  <node pkg="grid_map_demos" type="filters_demo" name="grid_map_filter_demo" output="screen">
     <!-- Input topic -->
-  	<!-- <param name="input_topic" value="/octomap_to_gridmap_demo/grid_map" /> -->
+  	<param name="input_topic" value="/octomap_to_gridmap_demo/grid_map" />
      	<!-- Output topic -->
-  	<!-- <param name="output_topic" value="filtered_map" /> -->
+  	<param name="output_topic" value="filtered_map" />
   	<!-- Load grid map filter chain configuration -->
-    <!-- <rosparam command="load" file="$(find grid_map_demos)/config/normal_filter.yaml" />
+    <rosparam command="load" file="$(find grid_map_demos)/config/normal_filter.yaml" />
   </node> -->
 
-   <!-- <rosparam command="load" file="$(find grid_map_demos)/config/octomap_to_gridmap_demo.yaml" /> -->
+   <rosparam command="load" file="$(find grid_map_demos)/config/octomap_to_gridmap_demo.yaml" />
   <!-- Launch the octomap conversion node -->
-  <!-- <node pkg="grid_map_demos" type="octomap_to_gridmap_demo" name="octomap_to_gridmap_demo" output="screen" /> -->
+  <node pkg="grid_map_demos" type="octomap_to_gridmap_demo" name="octomap_to_gridmap_demo" output="screen" />
  
   <!-- Launch the grid map visualizer -->
-  <!-- <node pkg="grid_map_visualization" type="grid_map_visualization" name="grid_map_visualization" output="screen" >
+  <node pkg="grid_map_visualization" type="grid_map_visualization" name="grid_map_visualization" output="screen" >
     <rosparam command="load" file="$(find grid_map_demos)/config/normal_filter_vis.yaml" />
- </node> -->
+ </node>
   <!-- Launch Rviz-->
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtlebot3_gazebo)/rviz/turtlebot3_gazebo_model.rviz"/>
 

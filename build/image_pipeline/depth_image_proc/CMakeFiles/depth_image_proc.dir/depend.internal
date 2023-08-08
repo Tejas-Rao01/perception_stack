@@ -601,8 +601,7 @@ image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/poi
  /opt/ros/melodic/include/message_filters/synchronizer.h
  /opt/ros/melodic/include/nodelet/exception.h
  /opt/ros/melodic/include/nodelet/nodelet.h
- /opt/ros/melodic/include/pluginlib/./class_list_macros.hpp
- /opt/ros/melodic/include/pluginlib/class_list_macros.h
+ /opt/ros/melodic/include/pluginlib/class_list_macros.hpp
  /opt/ros/melodic/include/ros/advertise_options.h
  /opt/ros/melodic/include/ros/advertise_service_options.h
  /opt/ros/melodic/include/ros/assert.h
@@ -890,8 +889,7 @@ image_pipeline/depth_image_proc/CMakeFiles/depth_image_proc.dir/src/nodelets/poi
  /opt/ros/melodic/include/message_filters/synchronizer.h
  /opt/ros/melodic/include/nodelet/exception.h
  /opt/ros/melodic/include/nodelet/nodelet.h
- /opt/ros/melodic/include/pluginlib/./class_list_macros.hpp
- /opt/ros/melodic/include/pluginlib/class_list_macros.h
+ /opt/ros/melodic/include/pluginlib/class_list_macros.hpp
  /opt/ros/melodic/include/ros/advertise_options.h
  /opt/ros/melodic/include/ros/advertise_service_options.h
  /opt/ros/melodic/include/ros/assert.h

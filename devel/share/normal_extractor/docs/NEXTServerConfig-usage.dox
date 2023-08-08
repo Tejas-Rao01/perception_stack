@@ -1,0 +1,15 @@
+\subsubsection usage Usage
+\verbatim
+<node name="normal_extractor" pkg="normal_extractor" type="normal_extractor">
+  <param name="frame_id" type="str" value="map" />
+  <param name="filter_z" type="double" value="3.0" />
+  <param name="mode" type="int" value="1" />
+  <param name="resolution_pcl" type="double" value="0.03" />
+  <param name="resolution_tree" type="double" value="0.03" />
+  <param name="tree_depth" type="int" value="14" />
+  <param name="visualize" type="bool" value="True" />
+  <param name="mod" type="int" value="20" />
+  <param name="duration" type="double" value="20.0" />
+</node>
+\endverbatim
+

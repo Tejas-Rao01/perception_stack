@@ -5,7 +5,7 @@ grid_map_filters:
       type: gridMapFilters/NormalVectorsFilter
       params:
         input_layer: elevation
-        algorithm: raster
+        algorithm: area
         output_layers_prefix: normal_
         radius: 0.05
         normal_vector_positive_axis: z

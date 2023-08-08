@@ -1,0 +1,14 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~frame_id" : \b [str] frame name min: , default: map, max: 
+- \b "~filter_z" : \b [double] upper bound of height min: 0.0, default: 3.0, max: 8.0
+- \b "~mode" : \b [int] mode selector min: 0, default: 1, max: 1
+- \b "~resolution_pcl" : \b [double] pcl search radius min: 0.01, default: 0.03, max: 10.0
+- \b "~resolution_tree" : \b [double] octree leaf size min: 0.01, default: 0.03, max: 1.0
+- \b "~tree_depth" : \b [int] the tree depth min: 0, default: 14, max: 15
+- \b "~visualize" : \b [bool] visualize in rviz min: False, default: True, max: True
+- \b "~mod" : \b [int] display density min: 1, default: 20, max: 100
+- \b "~duration" : \b [double] duration min: 0.1, default: 20.0, max: 10000.0
+

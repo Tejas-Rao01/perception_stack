@@ -4,7 +4,7 @@ source devel/setup.bash
 on_interrupt ()
 {
     echo "saving map"
-    rosrun octomap_server octomap_saver -f mapfile5.ot # subsequent ctrl+c will end this and the script
+    rosrun octomap_server octomap_saver -f mapfile6.ot # subsequent ctrl+c will end this and the script
 
 }
 export TURTLEBOT3_MODEL=burger

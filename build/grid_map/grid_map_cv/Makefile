@@ -56,30 +56,6 @@ CMAKE_BINARY_DIR = /home/kartik/perception_stack/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"dev\""
@@ -113,6 +89,17 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -124,16 +111,29 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target test
-test/fast: test
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
-.PHONY : test/fast
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,94 +168,49 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/rule
-.PHONY : grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/rule
+grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/rule
+.PHONY : grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/rule
 
 # Convenience name for target.
-grid_map_cv: grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/rule
+clean_test_results_grid_map_cv: grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/rule
 
-.PHONY : grid_map_cv
+.PHONY : clean_test_results_grid_map_cv
 
 # fast build rule for target.
-grid_map_cv/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/build.make grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/build
-.PHONY : grid_map_cv/fast
+clean_test_results_grid_map_cv/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/build.make grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/build
+.PHONY : clean_test_results_grid_map_cv/fast
 
 # Convenience name for target.
-grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/rule
-.PHONY : grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/rule
+grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
+.PHONY : grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
 
 # Convenience name for target.
-_run_tests_grid_map_cv_gtest: grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/rule
+_run_tests_grid_map_cv_gtest_grid_map_cv-test: grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
 
-.PHONY : _run_tests_grid_map_cv_gtest
+.PHONY : _run_tests_grid_map_cv_gtest_grid_map_cv-test
 
 # fast build rule for target.
-_run_tests_grid_map_cv_gtest/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/build.make grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/build
-.PHONY : _run_tests_grid_map_cv_gtest/fast
+_run_tests_grid_map_cv_gtest_grid_map_cv-test/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/build.make grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/build
+.PHONY : _run_tests_grid_map_cv_gtest_grid_map_cv-test/fast
 
 # Convenience name for target.
-grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
-.PHONY : grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
+.PHONY : grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_nodejs: grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/rule
+run_tests_grid_map_cv_gtest_grid_map_cv-test: grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
 
-.PHONY : sensor_msgs_generate_messages_nodejs
+.PHONY : run_tests_grid_map_cv_gtest_grid_map_cv-test
 
 # fast build rule for target.
-sensor_msgs_generate_messages_nodejs/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
-.PHONY : sensor_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-.PHONY : grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_lisp: grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_lisp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_lisp/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
-.PHONY : sensor_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
+run_tests_grid_map_cv_gtest_grid_map_cv-test/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/build.make grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/build
+.PHONY : run_tests_grid_map_cv_gtest_grid_map_cv-test/fast
 
 # Convenience name for target.
 grid_map/grid_map_cv/CMakeFiles/grid_map_cv-test.dir/rule:
@@ -288,21 +243,6 @@ run_tests_grid_map_cv/fast:
 .PHONY : run_tests_grid_map_cv/fast
 
 # Convenience name for target.
-grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/rule
-.PHONY : grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/rule
-
-# Convenience name for target.
-_run_tests_grid_map_cv: grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/rule
-
-.PHONY : _run_tests_grid_map_cv
-
-# fast build rule for target.
-_run_tests_grid_map_cv/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/build.make grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/build
-.PHONY : _run_tests_grid_map_cv/fast
-
-# Convenience name for target.
 grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest.dir/rule:
 	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest.dir/rule
 .PHONY : grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest.dir/rule
@@ -318,64 +258,49 @@ run_tests_grid_map_cv_gtest/fast:
 .PHONY : run_tests_grid_map_cv_gtest/fast
 
 # Convenience name for target.
-grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
-.PHONY : grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/rule
+.PHONY : grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/rule
 
 # Convenience name for target.
-sensor_msgs_generate_messages_py: grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_py.dir/rule
+grid_map_cv: grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/rule
 
-.PHONY : sensor_msgs_generate_messages_py
+.PHONY : grid_map_cv
 
 # fast build rule for target.
-sensor_msgs_generate_messages_py/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make grid_map/grid_map_cv/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
-.PHONY : sensor_msgs_generate_messages_py/fast
+grid_map_cv/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/build.make grid_map/grid_map_cv/CMakeFiles/grid_map_cv.dir/build
+.PHONY : grid_map_cv/fast
 
 # Convenience name for target.
-grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
-.PHONY : grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
+grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/rule
+.PHONY : grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/rule
 
 # Convenience name for target.
-run_tests_grid_map_cv_gtest_grid_map_cv-test: grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
+_run_tests_grid_map_cv_gtest: grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/rule
 
-.PHONY : run_tests_grid_map_cv_gtest_grid_map_cv-test
+.PHONY : _run_tests_grid_map_cv_gtest
 
 # fast build rule for target.
-run_tests_grid_map_cv_gtest_grid_map_cv-test/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/build.make grid_map/grid_map_cv/CMakeFiles/run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/build
-.PHONY : run_tests_grid_map_cv_gtest_grid_map_cv-test/fast
+_run_tests_grid_map_cv_gtest/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/build.make grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest.dir/build
+.PHONY : _run_tests_grid_map_cv_gtest/fast
 
 # Convenience name for target.
-grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
-.PHONY : grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
+grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/rule:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/rule
+.PHONY : grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/rule
 
 # Convenience name for target.
-_run_tests_grid_map_cv_gtest_grid_map_cv-test: grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/rule
+_run_tests_grid_map_cv: grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/rule
 
-.PHONY : _run_tests_grid_map_cv_gtest_grid_map_cv-test
+.PHONY : _run_tests_grid_map_cv
 
 # fast build rule for target.
-_run_tests_grid_map_cv_gtest_grid_map_cv-test/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/build.make grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv_gtest_grid_map_cv-test.dir/build
-.PHONY : _run_tests_grid_map_cv_gtest_grid_map_cv-test/fast
-
-# Convenience name for target.
-grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/rule:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f CMakeFiles/Makefile2 grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/rule
-.PHONY : grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/rule
-
-# Convenience name for target.
-clean_test_results_grid_map_cv: grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/rule
-
-.PHONY : clean_test_results_grid_map_cv
-
-# fast build rule for target.
-clean_test_results_grid_map_cv/fast:
-	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/build.make grid_map/grid_map_cv/CMakeFiles/clean_test_results_grid_map_cv.dir/build
-.PHONY : clean_test_results_grid_map_cv/fast
+_run_tests_grid_map_cv/fast:
+	cd /home/kartik/perception_stack/build && $(MAKE) -f grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/build.make grid_map/grid_map_cv/CMakeFiles/_run_tests_grid_map_cv.dir/build
+.PHONY : _run_tests_grid_map_cv/fast
 
 src/GridMapCvProcessing.o: src/GridMapCvProcessing.cpp.o
 
@@ -518,27 +443,22 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
-	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... grid_map_cv"
-	@echo "... _run_tests_grid_map_cv_gtest"
-	@echo "... sensor_msgs_generate_messages_nodejs"
 	@echo "... rebuild_cache"
-	@echo "... sensor_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... install/local"
+	@echo "... test"
+	@echo "... clean_test_results_grid_map_cv"
+	@echo "... _run_tests_grid_map_cv_gtest_grid_map_cv-test"
+	@echo "... run_tests_grid_map_cv_gtest_grid_map_cv-test"
 	@echo "... grid_map_cv-test"
 	@echo "... run_tests_grid_map_cv"
-	@echo "... _run_tests_grid_map_cv"
-	@echo "... run_tests_grid_map_cv_gtest"
 	@echo "... edit_cache"
-	@echo "... sensor_msgs_generate_messages_py"
-	@echo "... run_tests_grid_map_cv_gtest_grid_map_cv-test"
-	@echo "... _run_tests_grid_map_cv_gtest_grid_map_cv-test"
-	@echo "... clean_test_results_grid_map_cv"
-	@echo "... test"
+	@echo "... run_tests_grid_map_cv_gtest"
+	@echo "... install/strip"
+	@echo "... grid_map_cv"
+	@echo "... _run_tests_grid_map_cv_gtest"
+	@echo "... install"
+	@echo "... _run_tests_grid_map_cv"
 	@echo "... src/GridMapCvProcessing.o"
 	@echo "... src/GridMapCvProcessing.i"
 	@echo "... src/GridMapCvProcessing.s"
