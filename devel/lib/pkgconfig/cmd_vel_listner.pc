@@ -1,0 +1,8 @@
+prefix=/home/stochlab/perception_stack/devel
+
+Name: cmd_vel_listner
+Description: Description of cmd_vel_listner
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

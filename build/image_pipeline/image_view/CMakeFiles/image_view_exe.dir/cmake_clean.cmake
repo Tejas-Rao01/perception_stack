@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/image_view/image_view"
   "/home/stochlab/perception_stack/devel/lib/image_view/image_view.pdb"
   "CMakeFiles/image_view_exe.dir/src/nodes/image_view.cpp.o"
+  "CMakeFiles/image_view_exe.dir/src/nodes/image_view.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

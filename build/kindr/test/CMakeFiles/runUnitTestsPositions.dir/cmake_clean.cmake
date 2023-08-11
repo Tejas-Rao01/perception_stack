@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPositions"
   "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPositions.pdb"
   "CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o"
+  "CMakeFiles/runUnitTestsPositions.dir/test_main.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

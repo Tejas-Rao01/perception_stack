@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/kindr_rviz_plugins/test_kindr_rviz_plugins"
   "/home/stochlab/perception_stack/devel/lib/kindr_rviz_plugins/test_kindr_rviz_plugins.pdb"
   "CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.o"
+  "CMakeFiles/test_kindr_rviz_plugins.dir/test/EmptyTests.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

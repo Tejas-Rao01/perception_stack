@@ -8,7 +8,7 @@ foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")
   if(IS_SYMLINK "$ENV{DESTDIR}${file}" OR EXISTS "$ENV{DESTDIR}${file}")
     exec_program(
-    "/usr/bin/cmake" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
+    "/home/stochlab/.local/lib/python3.8/site-packages/cmake/data/bin/cmake" ARGS "-E remove \"$ENV{DESTDIR}${file}\""
     OUTPUT_VARIABLE rm_out
     RETURN_VALUE rm_retval
     )

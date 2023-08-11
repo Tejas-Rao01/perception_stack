@@ -2,7 +2,9 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/point_cloud_io/read"
   "/home/stochlab/perception_stack/devel/lib/point_cloud_io/read.pdb"
   "CMakeFiles/read.dir/src/Read.cpp.o"
+  "CMakeFiles/read.dir/src/Read.cpp.o.d"
   "CMakeFiles/read.dir/src/read_node.cpp.o"
+  "CMakeFiles/read.dir/src/read_node.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

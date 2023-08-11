@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(turtlebot3_gazebo_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/stochlab/perception_stack/src/turtlebot3_simulations/turtlebot3_gazebo/include;/usr/include;/usr/include/gazebo-11;/usr/include/bullet;/usr/include/simbody;/usr/include/sdformat-9.8;/usr/include/ignition/math6;/usr/include/OGRE;/usr/include/OGRE/Terrain;/usr/include/OGRE/Paging;/usr/include/ignition/transport8;/usr/include/ignition/msgs5;/usr/include/ignition/common3;/usr/include/ignition/fuel_tools4 " STREQUAL " ")
+if(NOT "/home/stochlab/perception_stack/src/turtlebot3_simulations/turtlebot3_gazebo/include;/usr/include;/usr/include/gazebo-11;/usr/include/bullet;/usr/include/simbody;/usr/include/sdformat-9.8;/usr/include/ignition/math6;/usr/include/OGRE/;/usr/include/OGRE/Terrain/;/usr/include/OGRE/Paging/;/usr/include/ignition/transport8;/usr/include/ignition/msgs5;/usr/include/ignition/common3;/usr/include/ignition/fuel_tools4 " STREQUAL " ")
   set(turtlebot3_gazebo_INCLUDE_DIRS "")
-  set(_include_dirs "/home/stochlab/perception_stack/src/turtlebot3_simulations/turtlebot3_gazebo/include;/usr/include;/usr/include/gazebo-11;/usr/include/bullet;/usr/include/simbody;/usr/include/sdformat-9.8;/usr/include/ignition/math6;/usr/include/OGRE;/usr/include/OGRE/Terrain;/usr/include/OGRE/Paging;/usr/include/ignition/transport8;/usr/include/ignition/msgs5;/usr/include/ignition/common3;/usr/include/ignition/fuel_tools4")
+  set(_include_dirs "/home/stochlab/perception_stack/src/turtlebot3_simulations/turtlebot3_gazebo/include;/usr/include;/usr/include/gazebo-11;/usr/include/bullet;/usr/include/simbody;/usr/include/sdformat-9.8;/usr/include/ignition/math6;/usr/include/OGRE/;/usr/include/OGRE/Terrain/;/usr/include/OGRE/Paging/;/usr/include/ignition/transport8;/usr/include/ignition/msgs5;/usr/include/ignition/common3;/usr/include/ignition/fuel_tools4")
   if(NOT "https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/turtlebot3_gazebo " STREQUAL " ")
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/stochlab/perception_stack/devel/lib;/home/stochlab/perception_stack/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/stochlab/perception_stack/devel/lib;/home/stochlab/ws_stoch3/devel/lib;/home/stochlab/perception_stack/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

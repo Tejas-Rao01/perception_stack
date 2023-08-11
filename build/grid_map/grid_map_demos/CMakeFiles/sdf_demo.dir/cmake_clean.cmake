@@ -2,7 +2,9 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/grid_map_demos/sdf_demo"
   "/home/stochlab/perception_stack/devel/lib/grid_map_demos/sdf_demo.pdb"
   "CMakeFiles/sdf_demo.dir/src/SdfDemo.cpp.o"
+  "CMakeFiles/sdf_demo.dir/src/SdfDemo.cpp.o.d"
   "CMakeFiles/sdf_demo.dir/src/sdf_demo_node.cpp.o"
+  "CMakeFiles/sdf_demo.dir/src/sdf_demo_node.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

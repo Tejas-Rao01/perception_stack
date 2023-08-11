@@ -2,7 +2,9 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/elevation_mapping/test_elevation_mapping_input_sources"
   "/home/stochlab/perception_stack/devel/lib/elevation_mapping/test_elevation_mapping_input_sources.pdb"
   "CMakeFiles/test_elevation_mapping_input_sources.dir/test/input_sources/InputSourcesTest.cpp.o"
+  "CMakeFiles/test_elevation_mapping_input_sources.dir/test/input_sources/InputSourcesTest.cpp.o.d"
   "CMakeFiles/test_elevation_mapping_input_sources.dir/test/input_sources/test_input_sources.cpp.o"
+  "CMakeFiles/test_elevation_mapping_input_sources.dir/test/input_sources/test_input_sources.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

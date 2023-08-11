@@ -2,13 +2,21 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotationDiff"
   "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsRotationDiff.pdb"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.o"
+  "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.o.d"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.o"
+  "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.o.d"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.o"
+  "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.o.d"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.o"
+  "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.o.d"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.o"
+  "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.o.d"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.o"
+  "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.o.d"
   "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.o"
+  "CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.o.d"
   "CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.o"
+  "CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

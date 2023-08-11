@@ -1,0 +1,55 @@
+<launch>
+    <node pkg = "normal_extractor" type = "normal_extractor_node" name = "normal_extractor_node" output="screen">
+        <!-- frame id -->
+        <param name = "frame_id" type = "string" value = "odom" />
+        <!-- max z to extract the normal-->
+        <param name = "filter_z" value = "3" />
+        <!-- mode 1: pcl_estimator mode 2: octree_estimator -->
+        <param name = "mode" value = "1" />
+        
+        <!-- pcl estimator -->
+        <!-- search radius for pcl normal estimator -->
+        <param name = "resolution_pcl" value = "0.03" />
+        
+        <!-- octree estimator -->
+        <!-- leaf resolution -->
+        <param name = "resolution_tree" value = "0.05" />
+        <!-- use the normal of which tree depth -->
+        <param name = "tree_depth" value = "14" />
+
+
+        <!-- visualize -->
+        <param name = "visualize" type = "bool" value = "true" />
+        <!-- display density -->
+        <param name = "mod" value = "20" />
+        <!-- duration for visualize -->
+        <param name = "duration" value = "20" />
+
+
+        <remap from = "~/cloud_in" to = "/octomap_point_cloud_centers" />
+        <remap from = "~/sensor_cloud_in" to = "/d435/depth/color/points" />
+    </node>
+    
+
+    <node pkg="rqt_reconfigure" type="rqt_reconfigure" name="reconfigure" />
+
+    <node pkg="rviz" type="rviz" name="rviz_normal" args="-d $(find normal_extractor)/launch/normal.rviz" />
+
+ 
+  <rosparam command="load" file="$(find grid_map_demos)/config/octomap_to_gridmap_demo.yaml" />
+
+  <!-- Load the octomap -->
+  <!-- <node pkg="octomap_server" type="octomap_server_static" name="octomap_server" args="$(find grid_map_demos)/data/freiburg1_360.bt" output="screen"/> -->
+
+  <!-- Launch the octomap conversion node -->
+  <node pkg="grid_map_demos" type="octomap_to_gridmap_demo" name="octomap_to_gridmap_demo" output="screen" />
+
+  <!-- Launch the grid map visualizer -->
+  <node pkg="grid_map_visualization" type="grid_map_visualization" name="grid_map_visualization" output="screen" />
+
+  <!-- Launch RViz with the demo configuration -->
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find grid_map_demos)/rviz/octomap_to_gridmap_demo.rviz" /> -->
+  <!-- Launch Rviz-->
+  <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtlebot3_gazebo)/rviz/turtlebot3_gazebo_model.rviz"/> -->
+
+</launch>

@@ -2,8 +2,11 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/libkindr_rviz_plugins.pdb"
   "/home/stochlab/perception_stack/devel/lib/libkindr_rviz_plugins.so"
   "CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o"
+  "CMakeFiles/kindr_rviz_plugins.dir/include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp.o.d"
   "CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.o"
+  "CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionDisplay.cpp.o.d"
   "CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.o"
+  "CMakeFiles/kindr_rviz_plugins.dir/src/VectorAtPositionVisual.cpp.o.d"
   "include/kindr_rviz_plugins/moc_VectorAtPositionDisplay.cpp"
 )
 

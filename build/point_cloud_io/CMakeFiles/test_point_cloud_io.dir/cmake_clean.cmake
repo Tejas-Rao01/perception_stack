@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/point_cloud_io/test_point_cloud_io"
   "/home/stochlab/perception_stack/devel/lib/point_cloud_io/test_point_cloud_io.pdb"
   "CMakeFiles/test_point_cloud_io.dir/test/empty_test.cpp.o"
+  "CMakeFiles/test_point_cloud_io.dir/test/empty_test.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

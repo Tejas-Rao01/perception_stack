@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/octomap_server/octomap_server_multilayer"
   "/home/stochlab/perception_stack/devel/lib/octomap_server/octomap_server_multilayer.pdb"
   "CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.o"
+  "CMakeFiles/octomap_server_multilayer.dir/src/octomap_server_multilayer.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

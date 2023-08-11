@@ -2,8 +2,11 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPose"
   "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPose.pdb"
   "CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.o"
+  "CMakeFiles/runUnitTestsPose.dir/poses/HomogeneousTransformationTest.cpp.o.d"
   "CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.o"
+  "CMakeFiles/runUnitTestsPose.dir/poses/PositionTest.cpp.o.d"
   "CMakeFiles/runUnitTestsPose.dir/test_main.cpp.o"
+  "CMakeFiles/runUnitTestsPose.dir/test_main.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

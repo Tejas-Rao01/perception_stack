@@ -2,8 +2,11 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/libimage_view.pdb"
   "/home/stochlab/perception_stack/devel/lib/libimage_view.so"
   "CMakeFiles/image_view.dir/src/nodelets/disparity_nodelet.cpp.o"
+  "CMakeFiles/image_view.dir/src/nodelets/disparity_nodelet.cpp.o.d"
   "CMakeFiles/image_view.dir/src/nodelets/image_nodelet.cpp.o"
+  "CMakeFiles/image_view.dir/src/nodelets/image_nodelet.cpp.o.d"
   "CMakeFiles/image_view.dir/src/nodelets/window_thread.cpp.o"
+  "CMakeFiles/image_view.dir/src/nodelets/window_thread.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

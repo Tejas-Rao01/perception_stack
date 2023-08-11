@@ -1,40 +1,25 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesXyzDiffTest.cpp" "/home/stochlab/perception_stack/build/kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.o"
-  "/home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesZyxDiffTest.cpp" "/home/stochlab/perception_stack/build/kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.o"
-  "/home/stochlab/perception_stack/src/kindr/test/rotations/GlobalAngularVelocityTest.cpp" "/home/stochlab/perception_stack/build/kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.o"
-  "/home/stochlab/perception_stack/src/kindr/test/rotations/LocalAngularVelocityTest.cpp" "/home/stochlab/perception_stack/build/kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.o"
-  "/home/stochlab/perception_stack/src/kindr/test/rotations/RotationDiffTest.cpp" "/home/stochlab/perception_stack/build/kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.o"
-  "/home/stochlab/perception_stack/src/kindr/test/rotations/RotationMatrixDiffTest.cpp" "/home/stochlab/perception_stack/build/kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.o"
-  "/home/stochlab/perception_stack/src/kindr/test/rotations/RotationQuaternionDiffTest.cpp" "/home/stochlab/perception_stack/build/kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.o"
-  "/home/stochlab/perception_stack/src/kindr/test/test_main.cpp" "/home/stochlab/perception_stack/build/kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "ROS_BUILD_SHARED_LIBS=1"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/stochlab/perception_stack/src/kindr/include"
-  "/usr/include/eigen3"
-  "/home/stochlab/perception_stack/src/kindr/test/../include"
-  "/home/stochlab/perception_stack/src/kindr/test/test"
-  "/home/stochlab/perception_stack/src/kindr/test/include"
-  "/usr/src/googletest/googletest/include"
-  "/usr/src/googletest/googletest"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesXyzDiffTest.cpp" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.o" "gcc" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesXyzDiffTest.cpp.o.d"
+  "/home/stochlab/perception_stack/src/kindr/test/rotations/EulerAnglesZyxDiffTest.cpp" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.o" "gcc" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/EulerAnglesZyxDiffTest.cpp.o.d"
+  "/home/stochlab/perception_stack/src/kindr/test/rotations/GlobalAngularVelocityTest.cpp" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.o" "gcc" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/GlobalAngularVelocityTest.cpp.o.d"
+  "/home/stochlab/perception_stack/src/kindr/test/rotations/LocalAngularVelocityTest.cpp" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.o" "gcc" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/LocalAngularVelocityTest.cpp.o.d"
+  "/home/stochlab/perception_stack/src/kindr/test/rotations/RotationDiffTest.cpp" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.o" "gcc" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationDiffTest.cpp.o.d"
+  "/home/stochlab/perception_stack/src/kindr/test/rotations/RotationMatrixDiffTest.cpp" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.o" "gcc" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationMatrixDiffTest.cpp.o.d"
+  "/home/stochlab/perception_stack/src/kindr/test/rotations/RotationQuaternionDiffTest.cpp" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.o" "gcc" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/rotations/RotationQuaternionDiffTest.cpp.o.d"
+  "/home/stochlab/perception_stack/src/kindr/test/test_main.cpp" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.o" "gcc" "kindr/test/CMakeFiles/runUnitTestsRotationDiff.dir/test_main.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/stochlab/perception_stack/build/gtest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/stochlab/perception_stack/build/gtest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

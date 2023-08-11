@@ -2,9 +2,13 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant"
   "/home/stochlab/perception_stack/devel/lib/kindr/runUnitTestsPhysQuant.pdb"
   "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o"
+  "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ForceTest.cpp.o.d"
   "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o"
+  "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/ScalarTest.cpp.o.d"
   "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o"
+  "CMakeFiles/runUnitTestsPhysQuant.dir/phys_quant/WrenchTest.cpp.o.d"
   "CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o"
+  "CMakeFiles/runUnitTestsPhysQuant.dir/test_main.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

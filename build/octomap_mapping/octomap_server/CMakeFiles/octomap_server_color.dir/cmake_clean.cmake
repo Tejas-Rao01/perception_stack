@@ -2,8 +2,11 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/liboctomap_server_color.pdb"
   "/home/stochlab/perception_stack/devel/lib/liboctomap_server_color.so"
   "CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.o"
+  "CMakeFiles/octomap_server_color.dir/src/OctomapServer.cpp.o.d"
   "CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.o"
+  "CMakeFiles/octomap_server_color.dir/src/OctomapServerMultilayer.cpp.o.d"
   "CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.o"
+  "CMakeFiles/octomap_server_color.dir/src/TrackingOctomapServer.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

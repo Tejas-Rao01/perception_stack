@@ -5,8 +5,11 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/grid_map_rviz_plugin/grid_map_rviz_plugin-test"
   "/home/stochlab/perception_stack/devel/lib/grid_map_rviz_plugin/grid_map_rviz_plugin-test.pdb"
   "CMakeFiles/grid_map_rviz_plugin-test.dir/grid_map_rviz_plugin-test_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/grid_map_rviz_plugin-test.dir/grid_map_rviz_plugin-test_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/grid_map_rviz_plugin-test.dir/test/empty_test.cpp.o"
+  "CMakeFiles/grid_map_rviz_plugin-test.dir/test/empty_test.cpp.o.d"
   "CMakeFiles/grid_map_rviz_plugin-test.dir/test/test_grid_map_rviz_plugin.cpp.o"
+  "CMakeFiles/grid_map_rviz_plugin-test.dir/test/test_grid_map_rviz_plugin.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

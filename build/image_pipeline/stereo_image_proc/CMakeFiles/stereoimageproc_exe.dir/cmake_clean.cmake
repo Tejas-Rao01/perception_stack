@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "/home/stochlab/perception_stack/devel/lib/stereo_image_proc/stereo_image_proc"
   "/home/stochlab/perception_stack/devel/lib/stereo_image_proc/stereo_image_proc.pdb"
   "CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.o"
+  "CMakeFiles/stereoimageproc_exe.dir/src/nodes/stereo_image_proc.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.
